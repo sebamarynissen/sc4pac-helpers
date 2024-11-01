@@ -7,7 +7,7 @@ async function generate(input) {
 	url.searchParams.delete('confirm');
 	url.searchParams.delete('t');
 	url.searchParams.delete('csrfKey');
-	let offset = +(url.searchParams.get('offset') || 1);
+	let offset = +(url.searchParams.get('offset') || -1);
 	url.searchParams.delete('offset');
 
 	let next = new URL(url);
@@ -110,7 +110,8 @@ archiveType:
 }
 
 let urls = `
-https://community.simtropolis.com/files/file/30118-nybt-barton-paul/?do=download&r=147472&confirm=1&t=1&csrfKey=c13d4da7be09f234b9fd0ae232f5bca1&offset=-1
+https://community.simtropolis.com/files/file/30167-nybt-2639-and-2641-jerome-avenue/?do=download&r=148489&confirm=1&t=1&csrfKey=c13d4da7be09f234b9fd0ae232f5bca1
+https://community.simtropolis.com/files/file/30118-nybt-barton-paul/?do=download&r=147472&confirm=1&t=1&csrfKey=c13d4da7be09f234b9fd0ae232f5bca1
 `;
 
 for (let url of urls.trim().split('\n')) {
