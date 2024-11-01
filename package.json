@@ -1,0 +1,16 @@
+{
+  "name": "@sebamarynissen/sc4pac-helpers",
+  "version": "1.0.0",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "aaron": "node generate-aaron.js"
+  },
+  "author": "Sebastiaan Marynissen <sebastiaan.marynissen@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "jsdom": "^25.0.1"
+  }
+}
