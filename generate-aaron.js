@@ -3,11 +3,15 @@ import { JSDOM } from 'jsdom';
 
 async function generate(input) {
 
+	// Allow urls to be commented out.
+	if (input.startsWith('#')) return;
+
 	let url = new URL(input);
 	url.searchParams.delete('confirm');
 	url.searchParams.delete('t');
 	url.searchParams.delete('csrfKey');
 	let offset = +(url.searchParams.get('offset') || -1);
+	let version = +(url.searchParams.get('version') || 40);
 	url.searchParams.delete('offset');
 
 	let next = new URL(url);
@@ -51,6 +55,7 @@ async function generate(input) {
 
 	let hasMaxisNight = !!url.searchParams.get('r');
 	let summary = jsdom.window.document.querySelector('title').textContent.split('-')[0].replace('NYBT ', '').trim();
+	let corner = url.searchParams.has('corner');
 
 	let output = `group: aaron-graham
 name: ${id}
@@ -59,9 +64,9 @@ subfolder: 200-residential
 info:
   summary: ${summary}
   description: >
-${summary} is a ... in New York City.
-The building grows as R$$ and R$$ on the New York tile set.
-It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+${summary} is a ... located in New York City.
+The building grows as R$ and R$$ on the New York tile set.
+${corner ? 'It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.' : 'It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.' }
 
   author: Aaron Graham
   website: ${link}
@@ -86,7 +91,7 @@ lastModified: "${modified}"
 url: ${url}
 archiveType:
   format: Clickteam
-  version: "35"
+  version: "${version}"
 `;
 	if (hasMaxisNight) output += `
 ---
@@ -96,7 +101,7 @@ lastModified: "${modified}"
 url: ${next}
 archiveType:
   format: Clickteam
-  version: "35"
+  version: "${version}"
 `;
 
 	let filePath = `sc4pac/src/yaml/aaron-graham/${id}.yaml`;
@@ -110,8 +115,9 @@ archiveType:
 }
 
 let urls = `
-https://community.simtropolis.com/files/file/30167-nybt-2639-and-2641-jerome-avenue/?do=download&r=148489&confirm=1&t=1&csrfKey=c13d4da7be09f234b9fd0ae232f5bca1
-https://community.simtropolis.com/files/file/30118-nybt-barton-paul/?do=download&r=147472&confirm=1&t=1&csrfKey=c13d4da7be09f234b9fd0ae232f5bca1
+# https://community.simtropolis.com/files/file/30167-nybt-2639-and-2641-jerome-avenue/?do=download&r=148489&confirm=1&t=1&csrfKey=c13d4da7be09f234b9fd0ae232f5bca1&version=35
+# https://community.simtropolis.com/files/file/30118-nybt-barton-paul/?do=download&r=147472&confirm=1&t=1&csrfKey=c13d4da7be09f234b9fd0ae232f5bca1&version=40
+# https://community.simtropolis.com/files/file/29835-nybt-25-e-193-street/?do=download&r=140597&confirm=1&t=1&csrfKey=c13d4da7be09f234b9fd0ae232f5bca1
 `;
 
 for (let url of urls.trim().split('\n')) {
