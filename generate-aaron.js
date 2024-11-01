@@ -99,7 +99,13 @@ archiveType:
   version: "35"
 `;
 
-	fs.writeFileSync(`sc4pac/src/yaml/aaron-graham/${id}.yaml`, output);
+	let filePath = `sc4pac/src/yaml/aaron-graham/${id}.yaml`;
+	if (fs.existsSync(filePath)) {
+		console.log(`Skipped ${filePath} because it already exists.`);
+		return;
+	}
+
+	fs.writeFileSync(filePath, output);
 
 }
 
