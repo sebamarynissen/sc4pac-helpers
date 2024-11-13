@@ -12,8 +12,10 @@
   "type": "module",
   "devDependencies": {
     "@whisthub/eslint-config": "^3.1.0",
+    "chai": "^5.1.2",
     "eslint": "^9.14.0",
-    "jsdom": "^25.0.1"
+    "jsdom": "^25.0.1",
+    "mocha": "^10.8.2"
   },
   "dependencies": {
     "chalk": "^5.3.0",
