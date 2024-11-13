@@ -1,1 +1,1 @@
-sc4pac channel build -o dist/aaron-graham sc4pac/src/yaml/aaron-graham
+sc4pac channel build -o dist/channel sc4pac/src
