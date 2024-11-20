@@ -1,5 +1,8 @@
 import chalk from 'chalk';
-import track from '../lib/track.js';
+import DependencyTracker from '../lib/dependency-tracker.js';
 
-const deps = await track(process.argv[2]);
-deps.forEach(dep => console.log(chalk.cyan(dep)));
+const tracker = new DependencyTracker();
+const sources = process.argv.slice(2);
+const result = await tracker.track(sources);
+result.dump();
+// deps.forEach(dep => console.log(chalk.cyan(dep)));
