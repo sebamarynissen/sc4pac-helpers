@@ -6,7 +6,7 @@ import { finished } from 'node:stream/promises';
 import { Glob } from 'glob';
 import { plugins } from '../lib/directories.js';
 import DependencyTracker from '../lib/dependency-tracker.js';
-import { Document } from 'yaml';
+import { Document, stringify as yamlStringify } from 'yaml';
 
 // # getMetaData(tracker, dir)
 // Extracts the basic metadata from the a directory name.
@@ -17,6 +17,7 @@ async function getMetadata(tracker, dir) {
 	let name = summary
 		.toLowerCase()
 		.trim()
+		.replaceAll('&', 'and')
 		.replaceAll(/\([a-z]+\)$/g, '')
 		.trim()
 		.replaceAll(/[\s']/g, '-');
@@ -66,7 +67,7 @@ function stringify(obj) {
 }
 
 // # generator(opts)
-async function* generator({ input, meta }) {
+async function* generator({ input, assets, meta, global }) {
 
 	// Find the folders to crawl first.
 	const collection = path.resolve(plugins, input);
@@ -98,23 +99,46 @@ async function* generator({ input, meta }) {
 		};
 	};
 
+	// Generate the assets as yaml.
+	for (let asset of assets) {
+		yield yamlStringify(asset);
+		yield '\n---\n';
+	}
+
 	// Gather the metadata specific for the package in that folder.
 	const tracker = new DependencyTracker();
-	let i = 0;
+	const packages = [];
 	for (let dir of subfolders) {
 		const props = await getMetadata(tracker, dir);
+		packages.push(`${meta.group}:${props.name}`);
 		const json = doc(props);
 		const yaml = stringify(json);
-		if (i++ > 0) yield '---\n';
 		yield `${yaml}\n`;
+		yield `---\n`;
 	}
+
+	// At last we will still compile a global package.
+	yield yamlStringify({
+		group: global.group || meta.group,
+		name: global.name,
+		version: global.version || meta.version,
+		subfolder: global.subfolder || meta.subfolder,
+		info: {
+			summary: global.info?.summary,
+			description: global.info?.description,
+			author: global.info?.author || meta.info?.author,
+			website: global.info?.website || meta.info?.website,
+			images: global.info?.images,
+		},
+		dependencies: packages,
+	});
 
 }
 
 // # make()
 // The entry function for 
-export default async function make({ input, meta, output }) {
-	let rs = Readable.from(generator({ input, meta }));
+export default async function make({ output, ...rest }) {
+	let rs = Readable.from(generator(rest));
 	let ws = fs.createWriteStream(output);
 	await finished(rs.pipe(ws));
 }
@@ -125,7 +149,7 @@ await make({
 	meta: {
 		group: 'mattb325',
 		subfolder: '300-commercial',
-		version: '1.2',
+		version: '1.1',
 		info: {
 			author: 'mattb325',
 			website: 'https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite',
@@ -141,4 +165,31 @@ await make({
 			},
 		],
 	},
+	global: {
+		name: 'commercial-w2w-pack',
+		version: '1.1',
+		info: {
+			summary: 'Commercial W2W Pack',
+			description: 'A collection of 41 commercial W2W lots',
+			images: [
+				'https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Amestoy_lg.jpg',
+				'https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ImmoderateCur_s.jpg',
+				'https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/PWN_lg.jpg',
+			],
+		},
+	},
+	assets: [
+		{
+			assetId: 'mattb325-commercial-w2w-pack-darknite',
+			version: '1.1',
+			lastModified: '2023-08-20T10:04:31Z',
+			url: 'https://www.sc4evermore.com/index.php/downloads?task=download.send&id=104:sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite&catid=12',
+		},
+		{
+			assetId: 'mattb325-commercial-w2w-pack-maxisnite',
+			version: '1.1',
+			lastModified: '2023-08-20T10:05:00Z',
+			url: 'https://www.sc4evermore.com/index.php/downloads?task=download.send&id=105:sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite&catid=12',
+		},
+	],
 });
