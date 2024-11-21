@@ -25,7 +25,7 @@ variants:
 `;
 
 await make({
-	input: '300-commercial/mattb325.commercial-w2w-pack-darknite.1.1.sc4pac/Commercial W2W',
+	input: '../packs/mattb325.commercial-w2w-pack/Commercial W2W',
 	output: path.resolve(import.meta.dirname, '../sc4pac/src/yaml/mattb325/commercial-w2w-pack.yaml'),
 	meta: {
 		group: 'mattb325',
