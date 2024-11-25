@@ -4,7 +4,7 @@ import { parseAllDocuments } from 'yaml';
 import path from 'node:path';
 import fs from 'node:fs';
 
-const folder = path.resolve(import.meta.dirname, '../zasco/src/jasoncw');
+const folder = path.resolve(import.meta.dirname, '../sc4pac/src/yaml/sm2');
 console.log(folder);
 const glob = new Glob('**/*.yaml', {
 	cwd: folder,
