@@ -1,6 +1,7 @@
 package-lock.json
 node_modules
 dist
+packages
 
 
 sc4pac

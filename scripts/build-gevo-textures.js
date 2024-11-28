@@ -4,7 +4,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import stylize from '../lib/stylize-doc.js';
 
-const root = path.resolve(import.meta.dirname, '../Proppack 3');
+const root = path.resolve(import.meta.dirname, '../packages/Proppack 3');
 for (let i = 1; i <= 5; i++) {
 	const glob = new Glob('*.dat', {
 		cwd: path.join(root, `P${i}`),
