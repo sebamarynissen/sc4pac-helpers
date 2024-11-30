@@ -21,4 +21,5 @@ for (let file of glob) {
 		arr.push(`${json.group}:${json.name}`);
 	}
 }
+arr.sort();
 console.log(JSON.stringify(arr, null, 2));
