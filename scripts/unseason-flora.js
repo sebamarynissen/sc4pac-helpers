@@ -1,7 +1,7 @@
 import path from 'node:path';
 import { Glob } from 'glob';
 import { DBPF, Cohort, ExemplarProperty, FileType } from 'sc4/core';
-import { inspect, randomId } from 'sc4/utils';
+import { randomId } from 'sc4/utils';
 
 const withSnow = [
 	'abies-grandis',
@@ -17,54 +17,6 @@ function hasSnow(pkg) {
 	let name = base.split('.').at(1);
 	return withSnow.some(what => name.includes(what));
 }
-
-// let lot = new DBPF(
-// 	path.join(process.env.HOMEPATH, 'Desktop/PLOP_20x20_CV28x28_K-8SmallSchool_0314_b4d1f2f9.SC4Lot'),
-// );
-// let config = lot.exemplars.find(entry => {
-// 	let exemplar = entry.read();
-// 	return exemplar.singleValue(0x10) === 0x10;
-// }).read();
-// let offset = 0x88EDC900;
-// while (config.get(offset)) {
-// 	offset++;
-// }
-// const scale = 0x00100000;
-// const size = 20;
-// const factor = 0.5;
-// const n = size/factor;
-// for (let i = 0; i < props.length; i++) {
-// 	let x = factor*(i % n);
-// 	let z = factor*Math.floor(i / n);
-// 	let minX = x;
-// 	let minZ = z;
-// 	let maxX = x;
-// 	let maxZ = z;
-// 	config.addProperty(offset+i, [
-// 		0x01,
-// 		0x00,
-// 		0x00,
-// 		x*scale,
-// 		0,
-// 		z*scale,
-// 		minX*scale,
-// 		minZ*scale,
-// 		maxX*scale,
-// 		maxZ*scale,
-// 		0x00,
-// 		0x192+i,
-// 		props[i],
-// 	]);
-// }
-// lot.save(
-// 	path.resolve(process.env.SC4_PLUGINS, path.basename(lot.file)),
-// );
-
-const offsets = {
-	fall: 0x00010000,
-	winter: 0x00010000,
-	season: 0x00010000,
-};
 
 async function handlePackage(dir) {
 	const glob = new Glob('*.dat', {
@@ -112,7 +64,6 @@ async function handleProps(exemplars, dir) {
 	// Just like with the flora, we have to figure out the model TGI's for every season again.
 	const models = {};
 	for (let entry of exemplars) {
-		allProps.push(entry.instance);
 		let exemplar = entry.read();
 		let rkt = exemplar.value(ExemplarProperty.ResourceKeyType4);
 		if (!rkt) continue;
@@ -367,7 +318,6 @@ const glob = new Glob('*/', {
 });
 const packages = await glob.walk();
 
-const allProps = [];
 const defaultOrder = ['fall', 'winter', 'summer'];
 const patches = {
 	spring: new DBPF(),
@@ -387,6 +337,6 @@ const output = path.resolve(process.env.HOMEPATH, 'Documents/SimCity 4/Plugins/8
 for (let season of allSeasons) {
 	let dbpf = patches[season];
 	dbpf.save({
-		file: path.join(output, `${season}.dat`),
+		file: path.join(output, `z_Girafe_semiseasonal_${season.toUpperCase()}.dat`),
 	});
 }
