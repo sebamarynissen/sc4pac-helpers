@@ -1,14 +1,15 @@
 import path from 'node:path';
 import { Glob } from 'glob';
 import { DBPF, Cohort, ExemplarProperty, FileType } from 'sc4/core';
-import { randomId } from 'sc4/utils';
+import { inspect, randomId } from 'sc4/utils';
 
 const withSnow = [
+	'abies-grandis',
 	'common-spruces',
 	'conifers',
 	'grand-firs',
 	'larches',
-	'serbian-spruces.2',
+	'serbian-spruces',
 	'subalpine',
 ];
 function hasSnow(pkg) {
@@ -59,13 +60,23 @@ function hasSnow(pkg) {
 // 	path.resolve(process.env.SC4_PLUGINS, path.basename(lot.file)),
 // );
 
+const offsets = {
+	fall: 0x00010000,
+	winter: 0x00010000,
+	season: 0x00010000,
+};
+
 async function handlePackage(dir) {
 	const glob = new Glob('*.dat', {
 		cwd: dir,
 		absolute: true,
 	});
 	let files = await glob.walk();
+	let models;
 	let exemplars = files.map(file => {
+		if (file.includes('Grfe_props_pack_MM_maples.dat')) {
+			models = file;
+		}
 		return new DBPF(file).exemplars;
 	}).flat();
 
@@ -82,6 +93,14 @@ async function handlePackage(dir) {
 
 	await handleFlora(flora, dir);
 	await handleProps(props, dir);
+
+	// If we need to patch the models as well, do it here.
+	if (models) {
+		let dbpf = new DBPF(models);
+		for (let entry of dbpf) {
+			if (![FileType.S3D, FileType.FSH].includes(entry.type)) continue;
+		}
+	}
 
 }
 
@@ -145,7 +164,6 @@ async function handleProps(exemplars, dir) {
 				let tgi = getModelForSeason(models, variant, season);
 				if (!tgi) continue;
 				let dbpf = patches[season];
-				let clone = exemplar.clone();
 				let rkt = [...rkt4];
 				for (let i = 0; i < rkt.length; i += 8) {
 					rkt[i+5] = tgi[0];
@@ -172,29 +190,33 @@ async function handleFlora(exemplars, dir) {
 		// If an rkt1 property exists, we'll check if this is a *fixed winter* 
 		// tree. This means that the tree contains snow in winter.
 		let name = exemplar.singleValue(ExemplarProperty.ExemplarName);
+		let variant = getFloraVariant(name);
 
 		// Serbian spruces and abis grand firs have to be handled differently as 
 		// they use RKT5.
 		if (
 			dir.includes('serbian-spruces-v1.1') ||
-			dir.includes('abies-grandis.1-1')
+			dir.includes('abies-grandis.1-1') ||
+			dir.includes('maples.1')
 		) {
-			if (exemplar.get(ExemplarProperty.ResourceKeyType5)) continue;
-			let variant = getFloraVariant(name);
-			models[variant] ??= {};
-			let season = name.includes('winter') ? 'snow' : 'summer';
-			let rkt = exemplar.get(ExemplarProperty.ResourceKeyType1);
-			models[variant][season] = [...rkt];
-			if (season === 'summer') {
-				models[variant].winter = rkt;
+
+			// If this is the seasonal variant, then it's here that we'll derive 
+			// the models from.
+			let rkt = exemplar.get(ExemplarProperty.ResourceKeyType5);
+			if (rkt) {
+				let [type, group, instance] = rkt;
+				models[variant] ??= {};
+				models[variant].fall = [type, group, instance];
+				models[variant].winter = [type, group, instance + 0x00010000];
+				models[variant].summer = [type, group, instance + 0x00020000];
 			}
+			continue;
 		}
 
 		// We'll only use the RKT4's for getting the models for the various 
 		// seasons, even for the evergreen ones.
 		let rkt = exemplar.get(ExemplarProperty.ResourceKeyType4);
 		if (!rkt) continue;
-		let variant = getFloraVariant(name);
 		models[variant] ??= {};
 
 		let n = rkt.length / 8;
@@ -214,10 +236,6 @@ async function handleFlora(exemplars, dir) {
 			let [type, group, instance] = rkt.slice(index+5, index+8);
 			models[variant][season] = [type, group, instance];
 		}
-	}
-	if (Object.keys(models).length === 0) {
-		console.log(`Skipping ${path.basename(dir)} for flora`);
-		return;
 	}
 
 	// If this package has a specific non-seasonal winter model, then it means 
@@ -243,7 +261,19 @@ async function handleFlora(exemplars, dir) {
 		// season and add them to the proper patch.
 		let rkt1 = exemplar.get(ExemplarProperty.ResourceKeyType1);
 		let rkt4 = exemplar.get(ExemplarProperty.ResourceKeyType4);
-		if (rkt1) {
+		let rkt5 = exemplar.get(ExemplarProperty.ResourceKeyType5);
+		if (rkt5) {
+			for (let season of allSeasons) {
+				let rkt = [...getModelForSeason(models, variant, season)];
+				let clone = exemplar.clone();
+				let prop = clone.prop(ExemplarProperty.ResourceKeyType5);
+				prop.id = ExemplarProperty.ResourceKeyType1;
+				prop.value = rkt;
+				let dbpf = patches[season];
+				dbpf.add(entry.tgi, clone);
+			}
+		} else if (rkt1) {
+			if (Object.keys(models).length === 0) continue;
 			for (let season of allSeasons) {
 				let dbpf = patches[season];
 				let tgi = getModelForSeason(models, variant, season);
@@ -349,7 +379,6 @@ const patches = {
 const allSeasons = Object.keys(patches);
 
 for (let pkg of packages) {
-	if (!pkg.includes('serbian-spruces-v1')) continue;
 	await handlePackage(pkg);
 }
 
