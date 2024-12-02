@@ -27,11 +27,7 @@ async function handlePackage(dir) {
 		absolute: true,
 	});
 	let files = await glob.walk();
-	let models;
 	let exemplars = files.map(file => {
-		if (file.includes('Grfe_props_pack_MM_maples.dat')) {
-			models = file;
-		}
 		return new DBPF(file).exemplars;
 	}).flat();
 
@@ -48,14 +44,6 @@ async function handlePackage(dir) {
 
 	await handleFlora(flora, dir);
 	await handleProps(props, dir);
-
-	// If we need to patch the models as well, do it here.
-	if (models) {
-		let dbpf = new DBPF(models);
-		for (let entry of dbpf) {
-			if (![FileType.S3D, FileType.FSH].includes(entry.type)) continue;
-		}
-	}
 
 }
 
