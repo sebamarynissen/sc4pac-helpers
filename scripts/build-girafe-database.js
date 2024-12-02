@@ -1,73 +1,7 @@
 // # build-girafe-database.js
 import path from 'node:path';
-import { Document } from 'yaml';
-import { Glob } from 'glob';
-import { DBPF, ExemplarProperty } from 'sc4/core';
-
-// # run()
-// Entry point for building up the Girafe database.
-async function run() {
-	const glob = new Glob('*/', {
-		cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
-		absolute: true,
-	});
-
-	const db = {};
-	for await (let pkg of glob) {
-		await handlePackage(db, pkg);
-	}
-	return db;
-
-}
-
-// # async handlePackage(db, dir)
-async function handlePackage(db, dir) {
-	
-	// Find all files in this package and get the exemplars.
-	const glob = new Glob('*.dat', {
-		cwd: dir,
-		absolute: true,
-	});
-	let files = await glob.walk();
-	let exemplars = files.map(file => new DBPF(file).exemplars).flat();
-
-	// Loop all exemplars and handle props and flora differently.
-	for (let entry of exemplars) {
-		let exemplar = entry.read();
-		let type = exemplar.singleValue(ExemplarProperty.ExemplarType);
-		switch (type) {
-			case 0x0f: await handleFlora(db, entry); break;
-			case 0x1e: await handleProp(db, entry); break;
-		}
-	}
-
-}
-
-// # handleProp(entry)
-// Processes the given prop exemplar and adds it to the database.
-function handleProp(db, entry) {
-	let exemplar = entry.read();
-	let seasons = getPropSeasons(exemplar, entry);
-	let id = getPropId(exemplar, entry);
-	let object = db[id] ??= {
-		type: 'prop',
-		seasons: {},
-	};
-	Object.assign(object.seasons, seasons);
-}
-
-// # handleFora(entry)
-// Processes the given flora exemplar and adds it to the database.
-function handleFlora(db, entry) {
-	let exemplar = entry.read();
-	let seasons = getFloraSeasons(exemplar, entry);
-	let id = getFloraId(exemplar, entry);
-	let object = db[id] ??= {
-		type: 'flora',
-		seasons: {},
-	};
-	Object.assign(object.seasons, seasons);
-}
+import { ExemplarProperty } from 'sc4/core';
+import build from '../lib/build-tree-database.js';
 
 // # getPropTreeId(exemplar, entry)
 // Determines the tree id of the given prop exemplar. A tree id is a way to 
@@ -224,23 +158,14 @@ function hasSnow(pkg) {
 	return withSnow.some(what => name.includes(what));
 }
 
-const db = await run();
-
-const doc = new Document({
-	trees: Object.entries(db).map(([id, tree]) => {
-		return { id, ...tree };
-	}).sort((a, b) => a.id < b.id ? -1 : 1),
+await build('girafe:*', {
+	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
+	prop: {
+		id: getPropId,
+		models: getPropSeasons,
+	},
+	flora: {
+		id: getFloraId,
+		models: getFloraSeasons,
+	},
 });
-
-let trees = doc.get('trees', true);
-for (let tree of trees.items) {
-	let seasons = tree.get('seasons', true);
-	for (let season of seasons.items) {
-		season.value.flow = true;
-		for (let nr of season.value.items) {
-			nr.format = 'HEX';
-		}
-	}
-}
-
-console.log(doc.toString());

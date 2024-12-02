@@ -305,7 +305,7 @@ function getPropSeason(exemplar) {
 // Actual script goes here.
 // 
 const glob = new Glob('*/', {
-	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
+	cwd: path.resolve(import.meta.dirname, '../packages/Girafe/180-flora'),
 	absolute: true,
 });
 const packages = await glob.walk();
