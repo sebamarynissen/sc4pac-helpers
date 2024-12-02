@@ -8,7 +8,9 @@ const withSnow = [
 	'common-spruces',
 	'conifers',
 	'grand-firs',
-	'larches',
+	// Larches don't need to be in this array as they have a different way of 
+	// handling the snow model!
+	// 'larches',
 	'serbian-spruces',
 	'subalpine',
 ];
@@ -136,6 +138,7 @@ async function handleFlora(exemplars, dir) {
 	// season.
 	const models = {};
 	for (let entry of exemplars) {
+
 		let exemplar = entry.read();
 
 		// If an rkt1 property exists, we'll check if this is a *fixed winter* 
@@ -203,6 +206,10 @@ async function handleFlora(exemplars, dir) {
 	// Now loop all exemplars again, and then create clones for the various 
 	// patches.
 	for (let entry of exemplars) {
+
+		// Note: we leave the everwinter flora untouched, so need to create a patch for this!
+		if (entry.dbpf.file.includes('_winter')) continue;
+
 		let exemplar = entry.read();
 		let name = exemplar.singleValue(ExemplarProperty.ExemplarName);
 		let variant = getFloraVariant(name);
@@ -278,6 +285,9 @@ function getModelForSeason(models, variant, season) {
 }
 
 function getFloraVariant(name) {
+	if (name.includes('VIP')) {
+		return name.replace(/(seasonal|summer)_\d{2}$/ig, '');
+	}
 	let variant = name.split('_').at(-1).replaceAll(/\d+/g, '');
 	if (variant.length > 1) return 'root';
 	return variant;
@@ -337,6 +347,6 @@ const output = path.resolve(process.env.HOMEPATH, 'Documents/SimCity 4/Plugins/8
 for (let season of allSeasons) {
 	let dbpf = patches[season];
 	dbpf.save({
-		file: path.join(output, `z_Girafe_semiseasonal_${season.toUpperCase()}.dat`),
+		file: path.join(output, `z_semiseasonal_${season.toUpperCase()}.dat`),
 	});
 }
