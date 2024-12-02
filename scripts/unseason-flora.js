@@ -217,20 +217,13 @@ async function handleFlora(exemplars, dir) {
 		// If this exemplar has an RKT1, then it's a non-changing flora item - 
 		// also called evergreen. We now have to create exemplars for every 
 		// season and add them to the proper patch.
+		// Note: some older flora apparently uses RKT5 for seasonal flora, but 
+		// luckily for us exemplar patching can solve this. That's probably 
+		// because SimCity 4 looks for an RKT1 first. Sweet.
 		let rkt1 = exemplar.get(ExemplarProperty.ResourceKeyType1);
 		let rkt4 = exemplar.get(ExemplarProperty.ResourceKeyType4);
 		let rkt5 = exemplar.get(ExemplarProperty.ResourceKeyType5);
-		if (rkt5) {
-			for (let season of allSeasons) {
-				let rkt = [...getModelForSeason(models, variant, season)];
-				let clone = exemplar.clone();
-				let prop = clone.prop(ExemplarProperty.ResourceKeyType5);
-				prop.id = ExemplarProperty.ResourceKeyType1;
-				prop.value = rkt;
-				let dbpf = patches[season];
-				dbpf.add(entry.tgi, clone);
-			}
-		} else if (rkt1) {
+		if (rkt1 || rkt5) {
 			if (Object.keys(models).length === 0) continue;
 			for (let season of allSeasons) {
 				let dbpf = patches[season];
