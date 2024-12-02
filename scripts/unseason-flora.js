@@ -2,6 +2,7 @@ import path from 'node:path';
 import { Glob } from 'glob';
 import { DBPF, Cohort, ExemplarProperty, FileType } from 'sc4/core';
 import { randomId } from 'sc4/utils';
+import cp from './unseason-cp.js';
 
 const withSnow = [
 	'abies-grandis',
@@ -334,6 +335,9 @@ const allSeasons = Object.keys(patches);
 for (let pkg of packages) {
 	await handlePackage(pkg);
 }
+
+// Perform the cycledogg patch as well.
+await cp(patches);
 
 // Save all the patches.
 const output = path.resolve(process.env.HOMEPATH, 'Documents/SimCity 4/Plugins/849-my-overrides');
