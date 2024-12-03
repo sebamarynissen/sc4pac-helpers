@@ -1,2270 +1,3874 @@
 id: girafe:abies-grandis-v1-1-a-flora
 type: flora
-seasons:
-  fall: [ 0x792662b7, 0x120000 ]
-  winter: [ 0x792662b7, 0x130000 ]
-  summer: [ 0x792662b7, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0010 ]
+    model: [ 0x792662b7, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0010 ]
+    model: [ 0x792662b7, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0010 ]
+    model: [ 0x792662b7, 0x130000 ]
 
 ---
 id: girafe:abies-grandis-v1-1-b-flora
 type: flora
-seasons:
-  fall: [ 0x19294c72, 0x120000 ]
-  winter: [ 0x19294c72, 0x130000 ]
-  summer: [ 0x19294c72, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0011 ]
+    model: [ 0x19294c72, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0011 ]
+    model: [ 0x19294c72, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0011 ]
+    model: [ 0x19294c72, 0x130000 ]
 
 ---
 id: girafe:abies-grandis-v1-1-c-flora
 type: flora
-seasons:
-  fall: [ 0x99284eb1, 0x120000 ]
-  winter: [ 0x99284eb1, 0x130000 ]
-  summer: [ 0x99284eb1, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0012 ]
+    model: [ 0x99284eb1, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0012 ]
+    model: [ 0x99284eb1, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0012 ]
+    model: [ 0x99284eb1, 0x130000 ]
 
 ---
 id: girafe:abies-grandis-v1-1-d-flora
 type: flora
-seasons:
-  fall: [ 0xd928538d, 0x120000 ]
-  winter: [ 0xd928538d, 0x130000 ]
-  summer: [ 0xd928538d, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0013 ]
+    model: [ 0xd928538d, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0013 ]
+    model: [ 0xd928538d, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0013 ]
+    model: [ 0xd928538d, 0x130000 ]
 
 ---
 id: girafe:abies-grandis-v1-1-e-flora
 type: flora
-seasons:
-  fall: [ 0x99291063, 0x120000 ]
-  winter: [ 0x99291063, 0x130000 ]
-  summer: [ 0x99291063, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0014 ]
+    model: [ 0x99291063, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0014 ]
+    model: [ 0x99291063, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0014 ]
+    model: [ 0x99291063, 0x130000 ]
 
 ---
 id: girafe:alder-a-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0x3e0000 ]
-  summer: [ 0xec357b46, 0x350000 ]
-  fall: [ 0xec357b46, 0x430000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xec3eea9d ]
+    model: [ 0xec357b46, 0x3e0000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xcc3ed5f5 ]
+    model: [ 0xec357b46, 0x350000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x8c3f63f9 ]
+    model: [ 0xec357b46, 0x430000 ]
 
 ---
 id: girafe:alder-b-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0x400000 ]
-  summer: [ 0xec357b46, 0x360000 ]
-  fall: [ 0xec357b46, 0x420000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x6c3ef3ca ]
+    model: [ 0xec357b46, 0x400000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xcc3ed5e4 ]
+    model: [ 0xec357b46, 0x360000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0xac3f6443 ]
+    model: [ 0xec357b46, 0x420000 ]
 
 ---
 id: girafe:alder-c-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0x3c0000 ]
-  summer: [ 0xec357b46, 0x370000 ]
-  fall: [ 0xec357b46, 0x440000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x6c3eeac3 ]
+    model: [ 0xec357b46, 0x3c0000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xec3ed5d4 ]
+    model: [ 0xec357b46, 0x370000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0xec3f645a ]
+    model: [ 0xec357b46, 0x440000 ]
 
 ---
 id: girafe:alder-d-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0x3b0000 ]
-  summer: [ 0xec357b46, 0x380000 ]
-  fall: [ 0xec357b46, 0x450000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xc3eead4 ]
+    model: [ 0xec357b46, 0x3b0000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xec3ed5c2 ]
+    model: [ 0xec357b46, 0x380000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x2c3f6471 ]
+    model: [ 0xec357b46, 0x450000 ]
 
 ---
 id: girafe:alder-e-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0x3a0000 ]
-  summer: [ 0xec357b46, 0x390000 ]
-  fall: [ 0xec357b46, 0x460000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x4c3eeae4 ]
+    model: [ 0xec357b46, 0x3a0000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xcc3ed83b ]
+    model: [ 0xec357b46, 0x390000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x6c3f6484 ]
+    model: [ 0xec357b46, 0x460000 ]
 
 ---
 id: girafe:alders-a-flora
 type: flora
-seasons:
-  fall: [ 0xec357b46, 0x2f0000 ]
-  winter: [ 0x8c27964f, 0x30000 ]
-  summer: [ 0x6c2754ff, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447730 ]
+    model: [ 0x6c2754ff, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447730 ]
+    model: [ 0xec357b46, 0x2f0000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447730 ]
+    model: [ 0x8c27964f, 0x30000 ]
 
 ---
 id: girafe:alders-b-flora
 type: flora
-seasons:
-  fall: [ 0xec357b46, 0x2e0000 ]
-  winter: [ 0x8c279769, 0x30000 ]
-  summer: [ 0xc275273, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447731 ]
+    model: [ 0xc275273, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447731 ]
+    model: [ 0xec357b46, 0x2e0000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447731 ]
+    model: [ 0x8c279769, 0x30000 ]
 
 ---
 id: girafe:alders-c-flora
 type: flora
-seasons:
-  fall: [ 0xec357b46, 0x300000 ]
-  winter: [ 0xac27986e, 0x30000 ]
-  summer: [ 0x2c274fac, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447732 ]
+    model: [ 0x2c274fac, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447732 ]
+    model: [ 0xec357b46, 0x300000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447732 ]
+    model: [ 0xac27986e, 0x30000 ]
 
 ---
 id: girafe:alders-d-flora
 type: flora
-seasons:
-  fall: [ 0xec357b46, 0x310000 ]
-  winter: [ 0xec2799a4, 0x30000 ]
-  summer: [ 0xec2744f7, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447733 ]
+    model: [ 0xec2744f7, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447733 ]
+    model: [ 0xec357b46, 0x310000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447733 ]
+    model: [ 0xec2799a4, 0x30000 ]
 
 ---
 id: girafe:alders-e-flora
 type: flora
-seasons:
-  fall: [ 0xec357b46, 0x340000 ]
-  winter: [ 0x6c279d1a, 0x30000 ]
-  summer: [ 0x8c27494e, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447734 ]
+    model: [ 0x8c27494e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447734 ]
+    model: [ 0xec357b46, 0x340000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447734 ]
+    model: [ 0x6c279d1a, 0x30000 ]
 
 ---
 id: girafe:ash-a-prop
 type: prop
-seasons:
-  fall: [ 0xddbab460, 0x30000 ]
-  summer: [ 0xfdb9a26e, 0x30000 ]
-  winter: [ 0x9dbab50e, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xddbe6da2 ]
+    model: [ 0xddbab460, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x1dbe6dc2 ]
+    model: [ 0xfdb9a26e, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0xfdbe6dd0 ]
+    model: [ 0x9dbab50e, 0x30000 ]
 
 ---
 id: girafe:ash-b-prop
 type: prop
-seasons:
-  fall: [ 0x9dbab221, 0x30000 ]
-  summer: [ 0x3db9a60f, 0x30000 ]
-  winter: [ 0xbdbab561, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x9dbe6dde ]
+    model: [ 0x9dbab221, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x5dbe6dfb ]
+    model: [ 0x3db9a60f, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0xfdbe6e0a ]
+    model: [ 0xbdbab561, 0x30000 ]
 
 ---
 id: girafe:ash-c-prop
 type: prop
-seasons:
-  fall: [ 0x1dbaacdf, 0x30000 ]
-  winter: [ 0x7dbab5dc, 0x30000 ]
-  summer: [ 0x5db9aa2c, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x1dbe6e18 ]
+    model: [ 0x1dbaacdf, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x3dbe6e4d ]
+    model: [ 0x7dbab5dc, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x7dbe6e76 ]
+    model: [ 0x5db9aa2c, 0x30000 ]
 
 ---
 id: girafe:ash-d-prop
 type: prop
-seasons:
-  summer: [ 0xfdb9a831, 0x30000 ]
-  fall: [ 0xbdbaa9d0, 0x30000 ]
-  winter: [ 0xddbafef1, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0x3dbe6e3f ]
+    model: [ 0xfdb9a831, 0x30000 ]
+  fall:
+    exemplar: [ 0xf0c4599b, 0xbdbe6e5d ]
+    model: [ 0xbdbaa9d0, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x5dbe6e85 ]
+    model: [ 0xddbafef1, 0x30000 ]
 
 ---
 id: girafe:ash-e-prop
 type: prop
-seasons:
-  fall: [ 0x3dbb0009, 0x30000 ]
-  summer: [ 0xddb9b138, 0x30000 ]
-  winter: [ 0x3dbaff7a, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x3dbe6ea9 ]
+    model: [ 0x3dbb0009, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x5dbe6ecc ]
+    model: [ 0xddb9b138, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0xbdbe6ede ]
+    model: [ 0x3dbaff7a, 0x30000 ]
 
 ---
 id: girafe:ash-f-prop
 type: prop
-seasons:
-  fall: [ 0x7dbaa3d2, 0x30000 ]
-  summer: [ 0x7db9b3cb, 0x30000 ]
-  winter: [ 0xfdbb019f, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xbdbe6ef0 ]
+    model: [ 0x7dbaa3d2, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x3dbe6f0c ]
+    model: [ 0x7db9b3cb, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0xfdbe6f1b ]
+    model: [ 0xfdbb019f, 0x30000 ]
 
 ---
 id: girafe:ash-g-prop
 type: prop
-seasons:
-  fall: [ 0xddba9fae, 0x30000 ]
-  summer: [ 0x9dba8f4a, 0x30000 ]
-  winter: [ 0xfdbb036f, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x3dbe6f2a ]
+    model: [ 0xddba9fae, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0xbdbe6f47 ]
+    model: [ 0x9dba8f4a, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0xddbe6f56 ]
+    model: [ 0xfdbb036f, 0x30000 ]
 
 ---
 id: girafe:ash-h-prop
 type: prop
-seasons:
-  fall: [ 0xbdba9d9e, 0x30000 ]
-  summer: [ 0x5dbb04d1, 0x30000 ]
-  winter: [ 0xddbb03f3, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x3dbe6f67 ]
+    model: [ 0xbdba9d9e, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x3dbe6f86 ]
+    model: [ 0x5dbb04d1, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x3dbe6f94 ]
+    model: [ 0xddbb03f3, 0x30000 ]
 
 ---
 id: girafe:ashes-a-flora
 type: flora
-seasons:
-  fall: [ 0x1d0728de, 0x30000 ]
-  winter: [ 0xddac2d55, 0x30000 ]
-  summer: [ 0x5cdfd2f6, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448220 ]
+    model: [ 0x5cdfd2f6, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448220 ]
+    model: [ 0x1d0728de, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448220 ]
+    model: [ 0xddac2d55, 0x30000 ]
 
 ---
 id: girafe:ashes-b-flora
 type: flora
-seasons:
-  fall: [ 0xfdabe666, 0x30000 ]
-  winter: [ 0x5dabec83, 0x30000 ]
-  summer: [ 0x7cdfcf8e, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448221 ]
+    model: [ 0x7cdfcf8e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448221 ]
+    model: [ 0xfdabe666, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448221 ]
+    model: [ 0x5dabec83, 0x30000 ]
 
 ---
 id: girafe:ashes-c-flora
 type: flora
-seasons:
-  fall: [ 0x3dd0fa28, 0x30000 ]
-  winter: [ 0x3dac2deb, 0x30000 ]
-  summer: [ 0xdd064901, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448222 ]
+    model: [ 0xdd064901, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448222 ]
+    model: [ 0x3dd0fa28, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448222 ]
+    model: [ 0x3dac2deb, 0x30000 ]
 
 ---
 id: girafe:ashes-d-flora
 type: flora
-seasons:
-  fall: [ 0x7dd101da, 0x30000 ]
-  winter: [ 0x3dac2ae2, 0x30000 ]
-  summer: [ 0xfd06549f, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448223 ]
+    model: [ 0xfd06549f, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448223 ]
+    model: [ 0x7dd101da, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448223 ]
+    model: [ 0x3dac2ae2, 0x30000 ]
 
 ---
 id: girafe:ashes-e-flora
 type: flora
-seasons:
-  fall: [ 0x3dd11bf0, 0x30000 ]
-  winter: [ 0x5dabed23, 0x30000 ]
-  summer: [ 0x9d0701bd, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448224 ]
+    model: [ 0x9d0701bd, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448224 ]
+    model: [ 0x3dd11bf0, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448224 ]
+    model: [ 0x5dabed23, 0x30000 ]
 
 ---
 id: girafe:beech-a-prop
 type: prop
-seasons:
-  fall: [ 0x203f61dc, 0x30000 ]
-  summer: [ 0x421d8c44, 0x30000 ]
-  winter: [ 0x1b7f9fd, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x2000cdf7, 0x8044a8ab ]
+    model: [ 0x203f61dc, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7fb49d7b ]
+    model: [ 0x421d8c44, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7f28c687 ]
+    model: [ 0x1b7f9fd, 0x30000 ]
 
 ---
 id: girafe:beech-b-prop
 type: prop
-seasons:
-  fall: [ 0x5fcf6721, 0x30000 ]
-  summer: [ 0xa21d8cda, 0x30000 ]
-  winter: [ 0xc1b7faf6, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x2000cdf7, 0x47606b ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5fb49d8c ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xdf28c6a2 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
 
 ---
 id: girafe:beech-c-prop
 type: prop
-seasons:
-  fall: [ 0x3fcf651c, 0x30000 ]
-  summer: [ 0x821d8d70, 0x30000 ]
-  winter: [ 0x41b7fb51, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x2000cdf7, 0x40476051 ]
+    model: [ 0x3fcf651c, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbfb49d9a ]
+    model: [ 0x821d8d70, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x9f28c6b4 ]
+    model: [ 0x41b7fb51, 0x30000 ]
 
 ---
 id: girafe:beech-d-prop
 type: prop
-seasons:
-  fall: [ 0xffcf5b83, 0x30000 ]
-  summer: [ 0x21d8e4f, 0x30000 ]
-  winter: [ 0x61b7fbec, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x2000cdf7, 0xe04755e1 ]
+    model: [ 0xffcf5b83, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3fb49da7 ]
+    model: [ 0x21d8e4f, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xff28c6c7 ]
+    model: [ 0x61b7fbec, 0x30000 ]
 
 ---
 id: girafe:beech-e-prop
 type: prop
-seasons:
-  fall: [ 0x603f65b8, 0x30000 ]
-  summer: [ 0xc21d9097, 0x30000 ]
-  winter: [ 0x21b7fa57, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x2000cdf7, 0xe04755c9 ]
+    model: [ 0x603f65b8, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x9fb49db6 ]
+    model: [ 0xc21d9097, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xdf28c6d9 ]
+    model: [ 0x21b7fa57, 0x30000 ]
 
 ---
 id: girafe:beeches-a-flora
 type: flora
-seasons:
-  fall: [ 0x403f5e12, 0x30000 ]
-  winter: [ 0x214ea0cb, 0x30000 ]
-  summer: [ 0xa2442dd1, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448620 ]
+    model: [ 0xa2442dd1, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448620 ]
+    model: [ 0x403f5e12, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448620 ]
+    model: [ 0x214ea0cb, 0x30000 ]
 
 ---
 id: girafe:beeches-b-flora
 type: flora
-seasons:
-  fall: [ 0x403dee55, 0x30000 ]
-  winter: [ 0xc14ea122, 0x30000 ]
-  summer: [ 0xc2442c8f, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448621 ]
+    model: [ 0xc2442c8f, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448621 ]
+    model: [ 0x403dee55, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448621 ]
+    model: [ 0xc14ea122, 0x30000 ]
 
 ---
 id: girafe:beeches-c-flora
 type: flora
-seasons:
-  fall: [ 0x203de41a, 0x30000 ]
-  winter: [ 0x414ea185, 0x30000 ]
-  summer: [ 0x22442bc8, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448622 ]
+    model: [ 0x22442bc8, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448622 ]
+    model: [ 0x203de41a, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448622 ]
+    model: [ 0x414ea185, 0x30000 ]
 
 ---
 id: girafe:beeches-d-flora
 type: flora
-seasons:
-  fall: [ 0x3ddd37, 0x30000 ]
-  winter: [ 0xa14ea212, 0x30000 ]
-  summer: [ 0x2244289d, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448623 ]
+    model: [ 0x2244289d, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448623 ]
+    model: [ 0x3ddd37, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448623 ]
+    model: [ 0xa14ea212, 0x30000 ]
 
 ---
 id: girafe:beeches-e-flora
 type: flora
-seasons:
-  fall: [ 0x403dd160, 0x30000 ]
-  winter: [ 0xe14ea334, 0x30000 ]
-  summer: [ 0xe2442587, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448624 ]
+    model: [ 0xe2442587, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448624 ]
+    model: [ 0x403dd160, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448624 ]
+    model: [ 0xe14ea334, 0x30000 ]
 
 ---
 id: girafe:berries-a-flora
 type: flora
-seasons:
-  fall: [ 0xa09cbb17, 0x30000 ]
-  winter: [ 0x609cbe67, 0x30000 ]
-  summer: [ 0x236ea5b, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448370 ]
+    model: [ 0x236ea5b, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448370 ]
+    model: [ 0xa09cbb17, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448370 ]
+    model: [ 0x609cbe67, 0x30000 ]
 
 ---
 id: girafe:berries-a-prop
 type: prop
-seasons:
-  fall: [ 0xe09cdc63, 0x30000 ]
-  summer: [ 0x409cd933, 0x30000 ]
-  winter: [ 0x209cdd3f, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x5e0daea0 ]
+    model: [ 0xe09cdc63, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfe0daeda ]
+    model: [ 0x409cd933, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xbe0daef1 ]
+    model: [ 0x209cdd3f, 0x30000 ]
 
 ---
 id: girafe:berries-b-flora
 type: flora
-seasons:
-  fall: [ 0xa09cb97d, 0x30000 ]
-  winter: [ 0x609cbd0f, 0x30000 ]
-  summer: [ 0x6236e6e8, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448371 ]
+    model: [ 0x6236e6e8, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448371 ]
+    model: [ 0xa09cb97d, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448371 ]
+    model: [ 0x609cbd0f, 0x30000 ]
 
 ---
 id: girafe:berries-b-prop
 type: prop
-seasons:
-  fall: [ 0x209cdf80, 0x30000 ]
-  summer: [ 0x9cdecb, 0x30000 ]
-  winter: [ 0x409ce02f, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3e0daf08 ]
+    model: [ 0x209cdf80, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x1e0daf34 ]
+    model: [ 0x9cdecb, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1e0daf4e ]
+    model: [ 0x409ce02f, 0x30000 ]
 
 ---
 id: girafe:berries-c-flora
 type: flora
-seasons:
-  fall: [ 0xa09cb29f, 0x30000 ]
-  winter: [ 0xa09cbc8d, 0x30000 ]
-  summer: [ 0xc236e4f5, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448372 ]
+    model: [ 0xc236e4f5, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448372 ]
+    model: [ 0xa09cb29f, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448372 ]
+    model: [ 0xa09cbc8d, 0x30000 ]
 
 ---
 id: girafe:berries-c-prop
 type: prop
-seasons:
-  fall: [ 0x809ce2f0, 0x30000 ]
-  summer: [ 0xa09ce1db, 0x30000 ]
-  winter: [ 0xc09ce4a0, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xde0daf62 ]
+    model: [ 0x809ce2f0, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5e0daf93 ]
+    model: [ 0xa09ce1db, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xbe0dafa9 ]
+    model: [ 0xc09ce4a0, 0x30000 ]
 
 ---
 id: girafe:birch-a-prop
 type: prop
-seasons:
-  fall: [ 0xe13a29e8, 0x30000 ]
-  summer: [ 0x613a0f3d, 0x30000 ]
-  winter: [ 0x613a1fab, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x1eaaf811 ]
+    model: [ 0xe13a29e8, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x9eaaf836 ]
+    model: [ 0x613a0f3d, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xfeaaf844 ]
+    model: [ 0x613a1fab, 0x30000 ]
 
 ---
 id: girafe:birch-b-prop
 type: prop
-seasons:
-  fall: [ 0x213a2b35, 0x30000 ]
-  summer: [ 0xa13a105e, 0x30000 ]
-  winter: [ 0x413a1f40, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x9eaaf854 ]
+    model: [ 0x213a2b35, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfeaaf86d ]
+    model: [ 0xa13a105e, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xbeaaf87c ]
+    model: [ 0x413a1f40, 0x30000 ]
 
 ---
 id: girafe:birch-c-prop
 type: prop
-seasons:
-  fall: [ 0xa13a2c40, 0x30000 ]
-  summer: [ 0x613a12cd, 0x30000 ]
-  winter: [ 0x813a1ecd, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x1eaaf88d ]
+    model: [ 0xa13a2c40, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5eaaf8aa ]
+    model: [ 0x613a12cd, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x5eaaf8b7 ]
+    model: [ 0x813a1ecd, 0x30000 ]
 
 ---
 id: girafe:birch-d-prop
 type: prop
-seasons:
-  fall: [ 0x413a2d3f, 0x30000 ]
-  summer: [ 0xa13a139e, 0x30000 ]
-  winter: [ 0xe13a1e33, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x9eaaf8c6 ]
+    model: [ 0x413a2d3f, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfeaaf8e6 ]
+    model: [ 0xa13a139e, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xfeaaf8f8 ]
+    model: [ 0xe13a1e33, 0x30000 ]
 
 ---
 id: girafe:birch-e-prop
 type: prop
-seasons:
-  fall: [ 0x413a2e84, 0x30000 ]
-  summer: [ 0xe13a177b, 0x30000 ]
-  winter: [ 0x413a1d37, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xbeaaf906 ]
+    model: [ 0x413a2e84, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfeaaf922 ]
+    model: [ 0xe13a177b, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1eaaf930 ]
+    model: [ 0x413a1d37, 0x30000 ]
 
 ---
 id: girafe:birch-f-prop
 type: prop
-seasons:
-  fall: [ 0xc13a30b0, 0x30000 ]
-  summer: [ 0x813a1870, 0x30000 ]
-  winter: [ 0xa13a1c89, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xdeaaf93f ]
+    model: [ 0xc13a30b0, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbeaaf95a ]
+    model: [ 0x813a1870, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xbeaaf966 ]
+    model: [ 0xa13a1c89, 0x30000 ]
 
 ---
 id: girafe:birches-a-flora
 type: flora
-seasons:
-  summer: [ 0x3a97c44b, 0x30000 ]
-  winter: [ 0x5b1a616d, 0x30000 ]
-  fall: [ 0x3aca0699, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448080 ]
+    model: [ 0x3a97c44b, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448080 ]
+    model: [ 0x3aca0699, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448080 ]
+    model: [ 0x5b1a616d, 0x30000 ]
 
 ---
 id: girafe:birches-b-flora
 type: flora
-seasons:
-  summer: [ 0x9aca0401, 0x30000 ]
-  winter: [ 0xbb4353ab, 0x30000 ]
-  fall: [ 0xbaca08bc, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448081 ]
+    model: [ 0x9aca0401, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448081 ]
+    model: [ 0xbaca08bc, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448081 ]
+    model: [ 0xbb4353ab, 0x30000 ]
 
 ---
 id: girafe:birches-c-flora
 type: flora
-seasons:
-  summer: [ 0x5a97c7c0, 0x30000 ]
-  winter: [ 0x9b1a63bc, 0x30000 ]
-  fall: [ 0xbb1a5ca8, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448082 ]
+    model: [ 0x5a97c7c0, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448082 ]
+    model: [ 0xbb1a5ca8, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448082 ]
+    model: [ 0x9b1a63bc, 0x30000 ]
 
 ---
 id: girafe:birches-d-flora
 type: flora
-seasons:
-  summer: [ 0x1a9802f2, 0x30000 ]
-  winter: [ 0x3b1a64b8, 0x30000 ]
-  fall: [ 0x5aca0f7c, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448083 ]
+    model: [ 0x1a9802f2, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448083 ]
+    model: [ 0x5aca0f7c, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448083 ]
+    model: [ 0x3b1a64b8, 0x30000 ]
 
 ---
 id: girafe:birches-e-flora
 type: flora
-seasons:
-  summer: [ 0xfa97d5e7, 0x30000 ]
-  winter: [ 0x3b1a6614, 0x30000 ]
-  fall: [ 0x3aca13c5, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448084 ]
+    model: [ 0xfa97d5e7, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448084 ]
+    model: [ 0x3aca13c5, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448084 ]
+    model: [ 0x3b1a6614, 0x30000 ]
 
 ---
 id: girafe:bush-a-prop
 type: prop
-seasons:
-  winter: [ 0x4c63eeed, 0x30000 ]
-  summer: [ 0xec63d5db, 0x30000 ]
-  fall: [ 0x2cb41e59, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xacdd3c3a ]
+    model: [ 0x4c63eeed, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xccdd25cc ]
+    model: [ 0xec63d5db, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x8cdfc123 ]
+    model: [ 0x2cb41e59, 0x30000 ]
 
 ---
 id: girafe:bush-b-prop
 type: prop
-seasons:
-  winter: [ 0xac63ef70, 0x30000 ]
-  summer: [ 0xc63d6b7, 0x30000 ]
-  fall: [ 0xcb4310c, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x4cdd3c4f ]
+    model: [ 0xac63ef70, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x8cdd25e1 ]
+    model: [ 0xc63d6b7, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x4cdfc132 ]
+    model: [ 0xcb4310c, 0x30000 ]
 
 ---
 id: girafe:bush-c-prop
 type: prop
-seasons:
-  winter: [ 0xc63eff4, 0x30000 ]
-  summer: [ 0xec63d797, 0x30000 ]
-  fall: [ 0x2cb43368, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xecdd3c5d ]
+    model: [ 0xc63eff4, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x4cdd25f1 ]
+    model: [ 0xec63d797, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x8cdfc142 ]
+    model: [ 0x2cb43368, 0x30000 ]
 
 ---
 id: girafe:bush-d-prop
 type: prop
-seasons:
-  winter: [ 0xec63f064, 0x30000 ]
-  summer: [ 0xec63d875, 0x30000 ]
-  fall: [ 0xcb434c7, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x4cdd3c6a ]
+    model: [ 0xec63f064, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xecdd2601 ]
+    model: [ 0xec63d875, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x4cdfc151 ]
+    model: [ 0xcb434c7, 0x30000 ]
 
 ---
 id: girafe:bush-e-prop
 type: prop
-seasons:
-  winter: [ 0x8c63f0bc, 0x30000 ]
-  summer: [ 0xc63d92e, 0x30000 ]
-  fall: [ 0xacb4363a, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x2cdd3c76 ]
+    model: [ 0x8c63f0bc, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x6cdd260f ]
+    model: [ 0xc63d92e, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x8cdfc161 ]
+    model: [ 0xacb4363a, 0x30000 ]
 
 ---
 id: girafe:bush-f-prop
 type: prop
-seasons:
-  winter: [ 0xc63f128, 0x30000 ]
-  summer: [ 0x8c63d9d7, 0x30000 ]
-  fall: [ 0x2cb436e4, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x6cdd3c83 ]
+    model: [ 0xc63f128, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x4cdd2627 ]
+    model: [ 0x8c63d9d7, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0xccdfc1ae ]
+    model: [ 0x2cb436e4, 0x30000 ]
 
 ---
 id: girafe:bush-g-prop
 type: prop
-seasons:
-  winter: [ 0xc63f1b6, 0x30000 ]
-  summer: [ 0x6c63da7a, 0x30000 ]
-  fall: [ 0xcb43771, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xecdd3c90 ]
+    model: [ 0xc63f1b6, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xecdd2635 ]
+    model: [ 0x6c63da7a, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x6cdfc1bc ]
+    model: [ 0xcb43771, 0x30000 ]
 
 ---
 id: girafe:bush-h-prop
 type: prop
-seasons:
-  winter: [ 0x6c63f20c, 0x30000 ]
-  summer: [ 0x6c63db0f, 0x30000 ]
-  fall: [ 0xccb437ea, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xecdd3c9e ]
+    model: [ 0x6c63f20c, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xecdd2644 ]
+    model: [ 0x6c63db0f, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0xcdfc1c9 ]
+    model: [ 0xccb437ea, 0x30000 ]
 
 ---
 id: girafe:bushes-a-flora
 type: flora
-seasons:
-  summer: [ 0xdb3d9fcc, 0x30000 ]
-  winter: [ 0x5b5b032c, 0x30000 ]
-  fall: [ 0xfb5bfcd5, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf449145 ]
+    model: [ 0xdb3d9fcc, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf449145 ]
+    model: [ 0xfb5bfcd5, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf449145 ]
+    model: [ 0x5b5b032c, 0x30000 ]
 
 ---
 id: girafe:bushes-b-flora
 type: flora
-seasons:
-  summer: [ 0x3b3d96ac, 0x30000 ]
-  winter: [ 0x1b5b04a0, 0x30000 ]
-  fall: [ 0xba59acfb, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf449146 ]
+    model: [ 0x3b3d96ac, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf449146 ]
+    model: [ 0xba59acfb, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf449146 ]
+    model: [ 0x1b5b04a0, 0x30000 ]
 
 ---
 id: girafe:bushes-c-flora
 type: flora
-seasons:
-  summer: [ 0x9b3d9a2b, 0x30000 ]
-  winter: [ 0x3b5b0682, 0x30000 ]
-  fall: [ 0xbb5bee2c, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf449147 ]
+    model: [ 0x9b3d9a2b, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf449147 ]
+    model: [ 0xbb5bee2c, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf449147 ]
+    model: [ 0x3b5b0682, 0x30000 ]
 
 ---
 id: girafe:cattails-a-flora
 type: flora
-seasons:
-  summer: [ 0xda7e9901, 0x30000 ]
-  winter: [ 0x1b5ad226, 0x30000 ]
-  fall: [ 0x1b5ad226, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf449154 ]
+    model: [ 0xda7e9901, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf449154 ]
+    model: [ 0x1b5ad226, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf449154 ]
+    model: [ 0x1b5ad226, 0x30000 ]
 
 ---
 id: girafe:cattails-a-prop
 type: prop
-seasons:
-  winter: [ 0x6cc2dcec, 0x30000 ]
-  summer: [ 0x6cc2dbe9, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xecc82a0b ]
+    model: [ 0x6cc2dcec, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x8cc829d9 ]
+    model: [ 0x6cc2dbe9, 0x30000 ]
 
 ---
 id: girafe:cattails-b-flora
 type: flora
-seasons:
-  summer: [ 0x9a7e9b1a, 0x30000 ]
-  winter: [ 0xdb5ad2df, 0x30000 ]
-  fall: [ 0xdb5ad2df, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf449155 ]
+    model: [ 0x9a7e9b1a, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf449155 ]
+    model: [ 0xdb5ad2df, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf449155 ]
+    model: [ 0xdb5ad2df, 0x30000 ]
 
 ---
 id: girafe:cattails-b-prop
 type: prop
-seasons:
-  winter: [ 0x6cc2dec5, 0x30000 ]
-  summer: [ 0x4cc2dde2, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xccc82a41 ]
+    model: [ 0x6cc2dec5, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x8cc82a1c ]
+    model: [ 0x4cc2dde2, 0x30000 ]
 
 ---
 id: girafe:cattails-c-flora
 type: flora
-seasons:
-  summer: [ 0xda7e9bb9, 0x30000 ]
-  winter: [ 0x9b5acfd7, 0x30000 ]
-  fall: [ 0x9b5acfd7, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf449156 ]
+    model: [ 0xda7e9bb9, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf449156 ]
+    model: [ 0x9b5acfd7, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf449156 ]
+    model: [ 0x9b5acfd7, 0x30000 ]
 
 ---
 id: girafe:cattails-c-prop
 type: prop
-seasons:
-  winter: [ 0x4cc2e342, 0x30000 ]
-  summer: [ 0xacc2e107, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x6cc82a70 ]
+    model: [ 0x4cc2e342, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x8cc82a4f ]
+    model: [ 0xacc2e107, 0x30000 ]
 
 ---
 id: girafe:chestnut-a-prop
 type: prop
-seasons:
-  fall: [ 0x1f9022e, 0x30000 ]
-  summer: [ 0x61f640cf, 0x30000 ]
-  winter: [ 0x1f6379f, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x9f69cda5 ]
+    model: [ 0x1f9022e, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbf6980a0 ]
+    model: [ 0x61f640cf, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1f69812f ]
+    model: [ 0x1f6379f, 0x30000 ]
 
 ---
 id: girafe:chestnut-b-prop
 type: prop
-seasons:
-  fall: [ 0x41f8de27, 0x30000 ]
-  summer: [ 0x21f63fa5, 0x30000 ]
-  winter: [ 0x61f63813, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xdf69cdb9 ]
+    model: [ 0x41f8de27, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7f6980b4 ]
+    model: [ 0x21f63fa5, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x5f69814b ]
+    model: [ 0x61f63813, 0x30000 ]
 
 ---
 id: girafe:chestnut-c-prop
 type: prop
-seasons:
-  fall: [ 0x41f8d148, 0x30000 ]
-  summer: [ 0x61f63e84, 0x30000 ]
-  winter: [ 0xa1f638a7, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x5f69cdc8 ]
+    model: [ 0x41f8d148, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xff6980c3 ]
+    model: [ 0x61f63e84, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7f698160 ]
+    model: [ 0xa1f638a7, 0x30000 ]
 
 ---
 id: girafe:chestnut-d-prop
 type: prop
-seasons:
-  fall: [ 0x61f8cbc1, 0x30000 ]
-  summer: [ 0xa1f63d21, 0x30000 ]
-  winter: [ 0x41f63934, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3f69cdd8 ]
+    model: [ 0x61f8cbc1, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5f6980d3 ]
+    model: [ 0xa1f63d21, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1f69817d ]
+    model: [ 0x41f63934, 0x30000 ]
 
 ---
 id: girafe:chestnut-e-prop
 type: prop
-seasons:
-  fall: [ 0x81f8fea5, 0x30000 ]
-  summer: [ 0xc1f63b46, 0x30000 ]
-  winter: [ 0x1f63a7d, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3f69cdea ]
+    model: [ 0x81f8fea5, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3f6980e4 ]
+    model: [ 0xc1f63b46, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x5f69818e ]
+    model: [ 0x1f63a7d, 0x30000 ]
 
 ---
 id: girafe:chestnuts-a-flora
 type: flora
-seasons:
-  fall: [ 0x1f9022e, 0x30000 ]
-  winter: [ 0x1f6379f, 0x30000 ]
-  summer: [ 0x61f640cf, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448680 ]
+    model: [ 0x61f640cf, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448680 ]
+    model: [ 0x1f9022e, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448680 ]
+    model: [ 0x1f6379f, 0x30000 ]
 
 ---
 id: girafe:chestnuts-b-flora
 type: flora
-seasons:
-  fall: [ 0x41f8de27, 0x30000 ]
-  winter: [ 0x61f63813, 0x30000 ]
-  summer: [ 0x21f63fa5, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448681 ]
+    model: [ 0x21f63fa5, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448681 ]
+    model: [ 0x41f8de27, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448681 ]
+    model: [ 0x61f63813, 0x30000 ]
 
 ---
 id: girafe:chestnuts-c-flora
 type: flora
-seasons:
-  fall: [ 0x41f8d148, 0x30000 ]
-  winter: [ 0xa1f638a7, 0x30000 ]
-  summer: [ 0x61f63e84, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448682 ]
+    model: [ 0x61f63e84, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448682 ]
+    model: [ 0x41f8d148, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448682 ]
+    model: [ 0xa1f638a7, 0x30000 ]
 
 ---
 id: girafe:chestnuts-d-flora
 type: flora
-seasons:
-  fall: [ 0x61f8cbc1, 0x30000 ]
-  winter: [ 0x41f63934, 0x30000 ]
-  summer: [ 0xa1f63d21, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448683 ]
+    model: [ 0xa1f63d21, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448683 ]
+    model: [ 0x61f8cbc1, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448683 ]
+    model: [ 0x41f63934, 0x30000 ]
 
 ---
 id: girafe:chestnuts-e-flora
 type: flora
-seasons:
-  fall: [ 0x81f8fea5, 0x30000 ]
-  winter: [ 0x1f63a7d, 0x30000 ]
-  summer: [ 0xc1f63b46, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448684 ]
+    model: [ 0xc1f63b46, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448684 ]
+    model: [ 0x81f8fea5, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448684 ]
+    model: [ 0x1f63a7d, 0x30000 ]
 
 ---
 id: girafe:common-spruce-a-prop
 type: prop
-seasons:
-  summer: [ 0xc0bf391d, 0x30000 ]
-  winter: [ 0xa0c569e6, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5e322702 ]
+    model: [ 0xc0bf391d, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xde363b6f ]
+    model: [ 0xa0c569e6, 0x30000 ]
 
 ---
 id: girafe:common-spruce-b-prop
 type: prop
-seasons:
-  summer: [ 0xbf3bc8, 0x30000 ]
-  winter: [ 0x20c56a8d, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3e32274d ]
+    model: [ 0xbf3bc8, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x9e363b90 ]
+    model: [ 0x20c56a8d, 0x30000 ]
 
 ---
 id: girafe:common-spruce-c-prop
 type: prop
-seasons:
-  summer: [ 0x40bf40ea, 0x30000 ]
-  winter: [ 0xc56b6e, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7e3227a6 ]
+    model: [ 0x40bf40ea, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xfe363ba4 ]
+    model: [ 0xc56b6e, 0x30000 ]
 
 ---
 id: girafe:common-spruce-d-prop
 type: prop
-seasons:
-  summer: [ 0x40bf4628, 0x30000 ]
-  winter: [ 0xc0c56c8c, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5e3227f7 ]
+    model: [ 0x40bf4628, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7e363bb7 ]
+    model: [ 0xc0c56c8c, 0x30000 ]
 
 ---
 id: girafe:common-spruce-e-prop
 type: prop
-seasons:
-  summer: [ 0xa0c17823, 0x30000 ]
-  winter: [ 0xe0c56eed, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xde3298c6 ]
+    model: [ 0xa0c17823, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7e363bcb ]
+    model: [ 0xe0c56eed, 0x30000 ]
 
 ---
 id: girafe:common-spruce-f-prop
 type: prop
-seasons:
-  summer: [ 0xc0c02f45, 0x30000 ]
-  winter: [ 0xc0c57121, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7e322897 ]
+    model: [ 0xc0c02f45, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7e363bde ]
+    model: [ 0xc0c57121, 0x30000 ]
 
 ---
 id: girafe:common-spruce-g-prop
 type: prop
-seasons:
-  summer: [ 0x20c067df, 0x30000 ]
-  winter: [ 0x20c57481, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbe3228dd ]
+    model: [ 0x20c067df, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x5e364f40 ]
+    model: [ 0x20c57481, 0x30000 ]
 
 ---
 id: girafe:common-spruces-a-flora
 type: flora
-seasons:
-  fall: [ 0x60bf2f78, 0x30000 ]
-  snow: [ 0xe0c42105, 0x30000 ]
-  summer: [ 0x60bf2f78, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448460 ]
+    model: [ 0x60bf2f78, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448460 ]
+    model: [ 0x60bf2f78, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448460 ]
+    model: [ 0xe0c42105, 0x30000 ]
 
 ---
 id: girafe:common-spruces-b-flora
 type: flora
-seasons:
-  fall: [ 0xbeba96, 0x30000 ]
-  snow: [ 0xc0c418dc, 0x30000 ]
-  summer: [ 0xbeba96, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448461 ]
+    model: [ 0xbeba96, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448461 ]
+    model: [ 0xbeba96, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448461 ]
+    model: [ 0xc0c418dc, 0x30000 ]
 
 ---
 id: girafe:common-spruces-c-flora
 type: flora
-seasons:
-  fall: [ 0xe0bec1de, 0x30000 ]
-  snow: [ 0xa0c4242b, 0x30000 ]
-  summer: [ 0xe0bec1de, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448462 ]
+    model: [ 0xe0bec1de, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448462 ]
+    model: [ 0xe0bec1de, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448462 ]
+    model: [ 0xa0c4242b, 0x30000 ]
 
 ---
 id: girafe:common-spruces-d-flora
 type: flora
-seasons:
-  fall: [ 0xe0becc65, 0x30000 ]
-  snow: [ 0x40c43312, 0x30000 ]
-  summer: [ 0xe0becc65, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448463 ]
+    model: [ 0xe0becc65, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448463 ]
+    model: [ 0xe0becc65, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448463 ]
+    model: [ 0x40c43312, 0x30000 ]
 
 ---
 id: girafe:common-spruces-e-flora
 type: flora
-seasons:
-  fall: [ 0xc0bf16c9, 0x30000 ]
-  snow: [ 0x40c44a60, 0x30000 ]
-  summer: [ 0xc0bf16c9, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448464 ]
+    model: [ 0xc0bf16c9, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448464 ]
+    model: [ 0xc0bf16c9, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448464 ]
+    model: [ 0x40c44a60, 0x30000 ]
 
 ---
 id: girafe:conifer-a-prop
 type: prop
-seasons:
-  summer: [ 0x808d8476, 0x30000 ]
-  winter: [ 0xa08d8a5f, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3dfe50fe ]
+    model: [ 0x808d8476, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x3dfe5224 ]
+    model: [ 0xa08d8a5f, 0x30000 ]
 
 ---
 id: girafe:conifer-b-prop
 type: prop
-seasons:
-  summer: [ 0xe23711ec, 0x30000 ]
-  winter: [ 0xe23712c2, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5dfe3091 ]
+    model: [ 0xe23711ec, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1dfe323d ]
+    model: [ 0xe23712c2, 0x30000 ]
 
 ---
 id: girafe:conifer-c-prop
 type: prop
-seasons:
-  summer: [ 0xe2371558, 0x30000 ]
-  winter: [ 0xe237166a, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xddfe30a4 ]
+    model: [ 0xe2371558, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1dfe3252 ]
+    model: [ 0xe237166a, 0x30000 ]
 
 ---
 id: girafe:conifer-d-prop
 type: prop
-seasons:
-  summer: [ 0xe2371d39, 0x30000 ]
-  winter: [ 0xa08d6fb6, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7dfe30b6 ]
+    model: [ 0xe2371d39, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x3dfe39a5 ]
+    model: [ 0xa08d6fb6, 0x30000 ]
 
 ---
 id: girafe:conifer-e-prop
 type: prop
-seasons:
-  summer: [ 0x82372b65, 0x30000 ]
-  winter: [ 0x42372cb4, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5dfe30c9 ]
+    model: [ 0x82372b65, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x9dfe3270 ]
+    model: [ 0x42372cb4, 0x30000 ]
 
 ---
 id: girafe:conifer-f-prop
 type: prop
-seasons:
-  summer: [ 0xc08e353a, 0x30000 ]
-  winter: [ 0xa08e37b3, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7dff00f5 ]
+    model: [ 0xc08e353a, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7dff00c1 ]
+    model: [ 0xa08e37b3, 0x30000 ]
 
 ---
 id: girafe:conifer-g-prop
 type: prop
-seasons:
-  summer: [ 0xe08d633a, 0x30000 ]
-  winter: [ 0xa08d64ac, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7dfe30ed ]
+    model: [ 0xe08d633a, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7dfe3294 ]
+    model: [ 0xa08d64ac, 0x30000 ]
 
 ---
 id: girafe:conifer-h-prop
 type: prop
-seasons:
-  summer: [ 0x808d69be, 0x30000 ]
-  winter: [ 0x208d6b3d, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbdfe3205 ]
+    model: [ 0x808d69be, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x3dfe3599 ]
+    model: [ 0x208d6b3d, 0x30000 ]
 
 ---
 id: girafe:conifers-a-flora
 type: flora
-seasons:
-  fall: [ 0x1b63fc39, 0x30000 ]
-  snow: [ 0xdb723a0d, 0x30000 ]
-  summer: [ 0x1b63fc39, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448810 ]
+    model: [ 0x1b63fc39, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448810 ]
+    model: [ 0x1b63fc39, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448810 ]
+    model: [ 0xdb723a0d, 0x30000 ]
 
 ---
 id: girafe:conifers-b-flora
 type: flora
-seasons:
-  fall: [ 0x1aa894a8, 0x30000 ]
-  snow: [ 0x5b724045, 0x30000 ]
-  summer: [ 0x1aa894a8, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448811 ]
+    model: [ 0x1aa894a8, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448811 ]
+    model: [ 0x1aa894a8, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448811 ]
+    model: [ 0x5b724045, 0x30000 ]
 
 ---
 id: girafe:conifers-c-flora
 type: flora
-seasons:
-  fall: [ 0x9af94cfe, 0x30000 ]
-  snow: [ 0x1b724c62, 0x30000 ]
-  summer: [ 0x9af94cfe, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448812 ]
+    model: [ 0x9af94cfe, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448812 ]
+    model: [ 0x9af94cfe, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448812 ]
+    model: [ 0x1b724c62, 0x30000 ]
 
 ---
 id: girafe:conifers-d-flora
 type: flora
-seasons:
-  fall: [ 0xfaf95796, 0x30000 ]
-  snow: [ 0x7b9a14cb, 0x30000 ]
-  summer: [ 0xfaf95796, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448813 ]
+    model: [ 0xfaf95796, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448813 ]
+    model: [ 0xfaf95796, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448813 ]
+    model: [ 0x7b9a14cb, 0x30000 ]
 
 ---
 id: girafe:conifers-e-flora
 type: flora
-seasons:
-  fall: [ 0x7b2071af, 0x30000 ]
-  snow: [ 0x3b724fb1, 0x30000 ]
-  summer: [ 0x7b2071af, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448814 ]
+    model: [ 0x7b2071af, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448814 ]
+    model: [ 0x7b2071af, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448814 ]
+    model: [ 0x3b724fb1, 0x30000 ]
 
 ---
 id: girafe:daisy-a-flora
 type: flora
-seasons:
-  fall: [ 0x32db52b, 0x30000 ]
-  winter: [ 0x23305483, 0x30000 ]
-  summer: [ 0x0, 0x0 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448570 ]
+    model: [ 0x0, 0x0 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448570 ]
+    model: [ 0x32db52b, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448570 ]
+    model: [ 0x23305483, 0x30000 ]
 
 ---
 id: girafe:daisy-a-prop
 type: prop
-seasons:
-  summer: [ 0x23305483, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x71b9795b, 0x93b035bb ]
+    model: [ 0x23305483, 0x30000 ]
 
 ---
 id: girafe:daisy-b-flora
 type: flora
-seasons:
-  fall: [ 0x232db58d, 0x30000 ]
-  winter: [ 0x43305503, 0x30000 ]
-  summer: [ 0x0, 0x0 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448571 ]
+    model: [ 0x0, 0x0 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448571 ]
+    model: [ 0x232db58d, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448571 ]
+    model: [ 0x43305503, 0x30000 ]
 
 ---
 id: girafe:daisy-b-prop
 type: prop
-seasons:
-  summer: [ 0x43305503, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x71b9795b, 0x53b03622 ]
+    model: [ 0x43305503, 0x30000 ]
 
 ---
 id: girafe:elm-a-prop
 type: prop
-seasons:
-  fall: [ 0x23da0022, 0x30000 ]
-  summer: [ 0x83d9e04c, 0x30000 ]
-  winter: [ 0x3d9f08e, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0x83ddf665 ]
+    model: [ 0x23da0022, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0xe3ddeb09 ]
+    model: [ 0x83d9e04c, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0x63ddeb9e ]
+    model: [ 0x3d9f08e, 0x30000 ]
 
 ---
 id: girafe:elm-b-prop
 type: prop
-seasons:
-  fall: [ 0x83d9e79f, 0x30000 ]
-  summer: [ 0xe3d9dd4e, 0x30000 ]
-  winter: [ 0xe3d9f0f2, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0xe3ddeb5b ]
+    model: [ 0x83d9e79f, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0x83ddeb1e ]
+    model: [ 0xe3d9dd4e, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0x43ddebb3 ]
+    model: [ 0xe3d9f0f2, 0x30000 ]
 
 ---
 id: girafe:elm-c-prop
 type: prop
-seasons:
-  fall: [ 0x23d9ea42, 0x30000 ]
-  summer: [ 0x83d9db22, 0x30000 ]
-  winter: [ 0xa3d9f16e, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0x63ddeb70 ]
+    model: [ 0x23d9ea42, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0x23ddeb30 ]
+    model: [ 0x83d9db22, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0xc3ddebc4 ]
+    model: [ 0xa3d9f16e, 0x30000 ]
 
 ---
 id: girafe:elm-d-prop
 type: prop
-seasons:
-  fall: [ 0x63d0ed49, 0x30000 ]
-  summer: [ 0x23cfcc93, 0x30000 ]
-  winter: [ 0xa3cfe0a7, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0x83dd1118 ]
+    model: [ 0x63d0ed49, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0xe3dd103a ]
+    model: [ 0x23cfcc93, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0x43dd10b2 ]
+    model: [ 0xa3cfe0a7, 0x30000 ]
 
 ---
 id: girafe:elm-e-prop
 type: prop
-seasons:
-  fall: [ 0xa3d0bce8, 0x30000 ]
-  summer: [ 0xc3cfc753, 0x30000 ]
-  winter: [ 0x23cfe13f, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0x83dd112f ]
+    model: [ 0xa3d0bce8, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0xc3dd1839 ]
+    model: [ 0xc3cfc753, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0x23dd10c1 ]
+    model: [ 0x23cfe13f, 0x30000 ]
 
 ---
 id: girafe:elms-a-flora
 type: flora
-seasons:
-  fall: [ 0x23da0022, 0x30000 ]
-  winter: [ 0x3d9f08e, 0x30000 ]
-  summer: [ 0x83d9e04c, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448750 ]
+    model: [ 0x83d9e04c, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448750 ]
+    model: [ 0x23da0022, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448750 ]
+    model: [ 0x3d9f08e, 0x30000 ]
 
 ---
 id: girafe:elms-b-flora
 type: flora
-seasons:
-  fall: [ 0x83d9e79f, 0x30000 ]
-  winter: [ 0xe3d9f0f2, 0x30000 ]
-  summer: [ 0xe3d9dd4e, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448751 ]
+    model: [ 0xe3d9dd4e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448751 ]
+    model: [ 0x83d9e79f, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448751 ]
+    model: [ 0xe3d9f0f2, 0x30000 ]
 
 ---
 id: girafe:elms-c-flora
 type: flora
-seasons:
-  fall: [ 0x23d9ea42, 0x30000 ]
-  winter: [ 0xa3d9f16e, 0x30000 ]
-  summer: [ 0x83d9db22, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448752 ]
+    model: [ 0x83d9db22, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448752 ]
+    model: [ 0x23d9ea42, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448752 ]
+    model: [ 0xa3d9f16e, 0x30000 ]
 
 ---
 id: girafe:elms-d-flora
 type: flora
-seasons:
-  fall: [ 0x63d0ed49, 0x30000 ]
-  winter: [ 0xa3cfe0a7, 0x30000 ]
-  summer: [ 0x23cfcc93, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448753 ]
+    model: [ 0x23cfcc93, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448753 ]
+    model: [ 0x63d0ed49, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448753 ]
+    model: [ 0xa3cfe0a7, 0x30000 ]
 
 ---
 id: girafe:elms-e-flora
 type: flora
-seasons:
-  fall: [ 0xa3d0bce8, 0x30000 ]
-  winter: [ 0x23cfe13f, 0x30000 ]
-  summer: [ 0xc3cfc753, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448754 ]
+    model: [ 0xc3cfc753, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448754 ]
+    model: [ 0xa3d0bce8, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448754 ]
+    model: [ 0x23cfe13f, 0x30000 ]
 
 ---
 id: girafe:feather-grass-a-flora
 type: flora
-seasons:
-  fall: [ 0x80ff63ac, 0x30000 ]
-  winter: [ 0x80ff63ac, 0x30000 ]
-  summer: [ 0xa0b1d5bf, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448640 ]
+    model: [ 0xa0b1d5bf, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448640 ]
+    model: [ 0x80ff63ac, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448640 ]
+    model: [ 0x80ff63ac, 0x30000 ]
 
 ---
 id: girafe:feather-grass-a-prop
 type: prop
-seasons:
-  summer: [ 0xe0ff6b71, 0x30000 ]
-  fall: [ 0xe0ff6bef, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xdf3350bc ]
+    model: [ 0xe0ff6b71, 0x30000 ]
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xdf3350cc ]
+    model: [ 0xe0ff6bef, 0x30000 ]
 
 ---
 id: girafe:feather-grass-b-flora
 type: flora
-seasons:
-  fall: [ 0xc0ff6413, 0x30000 ]
-  winter: [ 0xc0ff6413, 0x30000 ]
-  summer: [ 0x60b1d6ad, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448641 ]
+    model: [ 0x60b1d6ad, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448641 ]
+    model: [ 0xc0ff6413, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448641 ]
+    model: [ 0xc0ff6413, 0x30000 ]
 
 ---
 id: girafe:grand-fir-a-prop
 type: prop
-seasons:
-  winter: [ 0xccc03b33, 0x30000 ]
-  summer: [ 0xb1e1a7b, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x4cc58c5d ]
+    model: [ 0xccc03b33, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xec5ac6f4 ]
+    model: [ 0xb1e1a7b, 0x30000 ]
 
 ---
 id: girafe:grand-fir-b-prop
 type: prop
-seasons:
-  winter: [ 0x2cc03cf5, 0x30000 ]
-  summer: [ 0x6b1e2af6, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x6cc58cbc ]
+    model: [ 0x2cc03cf5, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xcc5ac712 ]
+    model: [ 0x6b1e2af6, 0x30000 ]
 
 ---
 id: girafe:grand-fir-c-prop
 type: prop
-seasons:
-  winter: [ 0x8cc0417e, 0x30000 ]
-  summer: [ 0x8b1e2e2f, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xcc58cd1 ]
+    model: [ 0x8cc0417e, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x8c5ac72b ]
+    model: [ 0x8b1e2e2f, 0x30000 ]
 
 ---
 id: girafe:grand-fir-d-prop
 type: prop
-seasons:
-  winter: [ 0xecc042e1, 0x30000 ]
-  summer: [ 0xcb1e3464, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xccc58ce5 ]
+    model: [ 0xecc042e1, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x8c5ac773 ]
+    model: [ 0xcb1e3464, 0x30000 ]
 
 ---
 id: girafe:grand-fir-e-prop
 type: prop
-seasons:
-  winter: [ 0x6cc0443d, 0x30000 ]
-  summer: [ 0x4b1e3aec, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xacc58cf7 ]
+    model: [ 0x6cc0443d, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x6c5ac742 ]
+    model: [ 0x4b1e3aec, 0x30000 ]
 
 ---
 id: girafe:grand-firs-a-flora
 type: flora
-seasons:
-  fall: [ 0x2c5458b3, 0x30000 ]
-  snow: [ 0x792662b7, 0x130000 ]
-  summer: [ 0x2c5458b3, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481040 ]
+    model: [ 0x2c5458b3, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481040 ]
+    model: [ 0x2c5458b3, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481040 ]
+    model: [ 0x792662b7, 0x130000 ]
 
 ---
 id: girafe:grand-firs-b-flora
 type: flora
-seasons:
-  fall: [ 0x4c546a20, 0x30000 ]
-  snow: [ 0x19294c72, 0x130000 ]
-  summer: [ 0x4c546a20, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481041 ]
+    model: [ 0x4c546a20, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481041 ]
+    model: [ 0x4c546a20, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481041 ]
+    model: [ 0x19294c72, 0x130000 ]
 
 ---
 id: girafe:grand-firs-c-flora
 type: flora
-seasons:
-  fall: [ 0x8b1d51ad, 0x30000 ]
-  snow: [ 0x99284eb1, 0x130000 ]
-  summer: [ 0x8b1d51ad, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481042 ]
+    model: [ 0x8b1d51ad, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481042 ]
+    model: [ 0x8b1d51ad, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481042 ]
+    model: [ 0x99284eb1, 0x130000 ]
 
 ---
 id: girafe:grand-firs-d-flora
 type: flora
-seasons:
-  fall: [ 0xeb1d5978, 0x30000 ]
-  snow: [ 0xd928538d, 0x130000 ]
-  summer: [ 0xeb1d5978, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481043 ]
+    model: [ 0xeb1d5978, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481043 ]
+    model: [ 0xeb1d5978, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481043 ]
+    model: [ 0xd928538d, 0x130000 ]
 
 ---
 id: girafe:grand-firs-e-flora
 type: flora
-seasons:
-  fall: [ 0xcb1d6697, 0x30000 ]
-  snow: [ 0x99291063, 0x130000 ]
-  summer: [ 0xcb1d6697, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481044 ]
+    model: [ 0xcb1d6697, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481044 ]
+    model: [ 0xcb1d6697, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481044 ]
+    model: [ 0x99291063, 0x130000 ]
 
 ---
 id: girafe:haybale-b-prop
 type: prop
-seasons:
-  fall: [ 0x5c394ae9, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xdcd62e04 ]
+    model: [ 0x5c394ae9, 0x30000 ]
 
 ---
 id: girafe:haybale-empty-a-prop
 type: prop
-seasons:
-  fall: [ 0x3c395412, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xdcd636d2 ]
+    model: [ 0x3c395412, 0x30000 ]
 
 ---
 id: girafe:haybale-empty-b-prop
 type: prop
-seasons:
-  fall: [ 0x5c39543d, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x1cd636e3 ]
+    model: [ 0x5c39543d, 0x30000 ]
 
 ---
 id: girafe:haybale-empty-c-prop
 type: prop
-seasons:
-  summer: [ 0x3c39ba7e, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0x7cd69d2c ]
+    model: [ 0x3c39ba7e, 0x30000 ]
 
 ---
 id: girafe:honey-locust-a-flora
 type: flora
-seasons:
-  fall: [ 0x2209c569, 0x30000 ]
-  winter: [ 0x62060fb3, 0x30000 ]
-  summer: [ 0xe20608a0, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448700 ]
+    model: [ 0xe20608a0, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448700 ]
+    model: [ 0x2209c569, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448700 ]
+    model: [ 0x62060fb3, 0x30000 ]
 
 ---
 id: girafe:honey-locust-a-prop
 type: prop
-seasons:
-  fall: [ 0x2209c569, 0x30000 ]
-  summer: [ 0xe20608a0, 0x30000 ]
-  winter: [ 0x62060fb3, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xbf7ac63f ]
+    model: [ 0x2209c569, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7f798b1f ]
+    model: [ 0xe20608a0, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xff798605 ]
+    model: [ 0x62060fb3, 0x30000 ]
 
 ---
 id: girafe:honey-locust-b-flora
 type: flora
-seasons:
-  fall: [ 0xc209b8a6, 0x30000 ]
-  winter: [ 0x82061000, 0x30000 ]
-  summer: [ 0x22060736, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448701 ]
+    model: [ 0x22060736, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448701 ]
+    model: [ 0xc209b8a6, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448701 ]
+    model: [ 0x82061000, 0x30000 ]
 
 ---
 id: girafe:honey-locust-b-prop
 type: prop
-seasons:
-  fall: [ 0xc209b8a6, 0x30000 ]
-  summer: [ 0x22060736, 0x30000 ]
-  winter: [ 0x82061000, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xbf7ac630 ]
+    model: [ 0xc209b8a6, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5f798b10 ]
+    model: [ 0x22060736, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xff798640 ]
+    model: [ 0x82061000, 0x30000 ]
 
 ---
 id: girafe:honey-locust-c-flora
 type: flora
-seasons:
-  fall: [ 0xa208c7ef, 0x30000 ]
-  winter: [ 0xa2061054, 0x30000 ]
-  summer: [ 0xe20605bc, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448702 ]
+    model: [ 0xe20605bc, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448702 ]
+    model: [ 0xa208c7ef, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448702 ]
+    model: [ 0xa2061054, 0x30000 ]
 
 ---
 id: girafe:honey-locust-c-prop
 type: prop
-seasons:
-  fall: [ 0xa208c7ef, 0x30000 ]
-  summer: [ 0xe20605bc, 0x30000 ]
-  winter: [ 0xa2061054, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3f7ac620 ]
+    model: [ 0xa208c7ef, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x9f798afc ]
+    model: [ 0xe20605bc, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xff798652 ]
+    model: [ 0xa2061054, 0x30000 ]
 
 ---
 id: girafe:honey-locust-d-flora
 type: flora
-seasons:
-  fall: [ 0x6208c27d, 0x30000 ]
-  winter: [ 0xc20610bc, 0x30000 ]
-  summer: [ 0x2060220, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448703 ]
+    model: [ 0x2060220, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448703 ]
+    model: [ 0x6208c27d, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448703 ]
+    model: [ 0xc20610bc, 0x30000 ]
 
 ---
 id: girafe:honey-locust-d-prop
 type: prop
-seasons:
-  fall: [ 0x6208c27d, 0x30000 ]
-  summer: [ 0x2060220, 0x30000 ]
-  winter: [ 0xc20610bc, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xff7ac60f ]
+    model: [ 0x6208c27d, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x9f798aeb ]
+    model: [ 0x2060220, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x9f798660 ]
+    model: [ 0xc20610bc, 0x30000 ]
 
 ---
 id: girafe:honey-locust-e-flora
 type: flora
-seasons:
-  fall: [ 0xc208bb53, 0x30000 ]
-  winter: [ 0xc2060f05, 0x30000 ]
-  summer: [ 0x82060a73, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448704 ]
+    model: [ 0x82060a73, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448704 ]
+    model: [ 0xc208bb53, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448704 ]
+    model: [ 0xc2060f05, 0x30000 ]
 
 ---
 id: girafe:honey-locust-e-prop
 type: prop
-seasons:
-  fall: [ 0xc208bb53, 0x30000 ]
-  summer: [ 0x82060a73, 0x30000 ]
-  winter: [ 0xc2060f05, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xff7ac5ed ]
+    model: [ 0xc208bb53, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3f798ad8 ]
+    model: [ 0x82060a73, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xdf798672 ]
+    model: [ 0xc2060f05, 0x30000 ]
 
 ---
 id: girafe:larches-a-flora
 type: flora
-seasons:
-  fall: [ 0xa09f5275, 0x30000 ]
-  snow: [ 0xa9000f, 0x30000 ]
-  summer: [ 0xbb112acd, 0x30000 ]
-  winter: [ 0xdcaacb1d, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448390 ]
+    model: [ 0xbb112acd, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448390 ]
+    model: [ 0xa09f5275, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf488390 ]
+    model: [ 0xa9000f, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448390 ]
+    model: [ 0xdcaacb1d, 0x30000 ]
 
 ---
 id: girafe:larches-b-flora
 type: flora
-seasons:
-  fall: [ 0x40a2a7ed, 0x30000 ]
-  snow: [ 0xa0a901b2, 0x30000 ]
-  summer: [ 0x7a63c29e, 0x30000 ]
-  winter: [ 0x5caacbf9, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448391 ]
+    model: [ 0x7a63c29e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448391 ]
+    model: [ 0x40a2a7ed, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf488391 ]
+    model: [ 0xa0a901b2, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448391 ]
+    model: [ 0x5caacbf9, 0x30000 ]
 
 ---
 id: girafe:larches-c-flora
 type: flora
-seasons:
-  fall: [ 0xa0a0db60, 0x30000 ]
-  snow: [ 0x80a90404, 0x30000 ]
-  summer: [ 0x9b11c81d, 0x30000 ]
-  winter: [ 0x9caacfce, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448392 ]
+    model: [ 0x9b11c81d, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448392 ]
+    model: [ 0xa0a0db60, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf488392 ]
+    model: [ 0x80a90404, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448392 ]
+    model: [ 0x9caacfce, 0x30000 ]
 
 ---
 id: girafe:larches-d-flora
 type: flora
-seasons:
-  fall: [ 0x9fed34, 0x30000 ]
-  snow: [ 0xcca44d, 0x30000 ]
-  summer: [ 0x9b131411, 0x30000 ]
-  winter: [ 0x7caad2d7, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448393 ]
+    model: [ 0x9b131411, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448393 ]
+    model: [ 0x9fed34, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf488393 ]
+    model: [ 0xcca44d, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448393 ]
+    model: [ 0x7caad2d7, 0x30000 ]
 
 ---
 id: girafe:larches-e-flora
 type: flora
-seasons:
-  fall: [ 0xe09eaeaf, 0x30000 ]
-  snow: [ 0xe0ccaac2, 0x30000 ]
-  summer: [ 0x1bd1c258, 0x30000 ]
-  winter: [ 0x3caad638, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448394 ]
+    model: [ 0x1bd1c258, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448394 ]
+    model: [ 0xe09eaeaf, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf488394 ]
+    model: [ 0xe0ccaac2, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448394 ]
+    model: [ 0x3caad638, 0x30000 ]
 
 ---
 id: girafe:linden-a-prop
 type: prop
-seasons:
-  fall: [ 0x80a66953, 0x30000 ]
-  summer: [ 0x9dd7f9c4, 0x460000 ]
-  winter: [ 0x60a66790, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3defac7c ]
+    model: [ 0x80a66953, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfdef9b93 ]
+    model: [ 0x9dd7f9c4, 0x460000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x3defa133 ]
+    model: [ 0x60a66790, 0x30000 ]
 
 ---
 id: girafe:linden-b-prop
 type: prop
-seasons:
-  fall: [ 0x60a66a15, 0x30000 ]
-  summer: [ 0x9dd7f9c4, 0x470000 ]
-  winter: [ 0x40a6674b, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x7defac95 ]
+    model: [ 0x60a66a15, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5def9baf ]
+    model: [ 0x9dd7f9c4, 0x470000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x5defa15f ]
+    model: [ 0x40a6674b, 0x30000 ]
 
 ---
 id: girafe:linden-c-prop
 type: prop
-seasons:
-  fall: [ 0xa0961d1f, 0x30000 ]
-  summer: [ 0xe0961fc8, 0x30000 ]
-  winter: [ 0x2096263a, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3e06e4ff ]
+    model: [ 0xa0961d1f, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7e06ed75 ]
+    model: [ 0xe0961fc8, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x3e06ed8a ]
+    model: [ 0x2096263a, 0x30000 ]
 
 ---
 id: girafe:linden-d-prop
 type: prop
-seasons:
-  fall: [ 0x80a66d6a, 0x30000 ]
-  summer: [ 0x9dd7f9c4, 0x300000 ]
-  winter: [ 0x80a666a7, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3defacba ]
+    model: [ 0x80a66d6a, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3def9bda ]
+    model: [ 0x9dd7f9c4, 0x300000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xfdefa182 ]
+    model: [ 0x80a666a7, 0x30000 ]
 
 ---
 id: girafe:linden-e-prop
 type: prop
-seasons:
-  fall: [ 0xa66f86, 0x30000 ]
-  summer: [ 0x607ed3dd, 0x30000 ]
-  winter: [ 0x407ed8ec, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xfdefaccc ]
+    model: [ 0xa66f86, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xddef9bee ]
+    model: [ 0x607ed3dd, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xbdefa194 ]
+    model: [ 0x407ed8ec, 0x30000 ]
 
 ---
 id: girafe:linden-f-prop
 type: prop
-seasons:
-  fall: [ 0x40a671c1, 0x30000 ]
-  summer: [ 0xe07ecd9a, 0x30000 ]
-  winter: [ 0xe0a66655, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x1deface2 ]
+    model: [ 0x40a671c1, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5def9c02 ]
+    model: [ 0xe07ecd9a, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xfdefa1a7 ]
+    model: [ 0xe0a66655, 0x30000 ]
 
 ---
 id: girafe:lindens-a-flora
 type: flora
-seasons:
-  fall: [ 0x9dd7f9c4, 0x370000 ]
-  winter: [ 0x9dd7f9c4, 0x250000 ]
-  summer: [ 0x9dd7f9c4, 0x440000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448320 ]
+    model: [ 0x9dd7f9c4, 0x440000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448320 ]
+    model: [ 0x9dd7f9c4, 0x370000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448320 ]
+    model: [ 0x9dd7f9c4, 0x250000 ]
 
 ---
 id: girafe:lindens-b-flora
 type: flora
-seasons:
-  fall: [ 0x9dd7f9c4, 0x380000 ]
-  winter: [ 0x9dd7f9c4, 0x260000 ]
-  summer: [ 0x9dd7f9c4, 0x430000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448321 ]
+    model: [ 0x9dd7f9c4, 0x430000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448321 ]
+    model: [ 0x9dd7f9c4, 0x380000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448321 ]
+    model: [ 0x9dd7f9c4, 0x260000 ]
 
 ---
 id: girafe:lindens-c-flora
 type: flora
-seasons:
-  fall: [ 0x9dd7f9c4, 0x390000 ]
-  winter: [ 0x9dd7f9c4, 0x270000 ]
-  summer: [ 0x9dd7f9c4, 0x420000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448322 ]
+    model: [ 0x9dd7f9c4, 0x420000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448322 ]
+    model: [ 0x9dd7f9c4, 0x390000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448322 ]
+    model: [ 0x9dd7f9c4, 0x270000 ]
 
 ---
 id: girafe:lindens-d-flora
 type: flora
-seasons:
-  fall: [ 0x9dd7f9c4, 0x3a0000 ]
-  winter: [ 0x9dd7f9c4, 0x280000 ]
-  summer: [ 0x9dd7f9c4, 0x400000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448323 ]
+    model: [ 0x9dd7f9c4, 0x400000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448323 ]
+    model: [ 0x9dd7f9c4, 0x3a0000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448323 ]
+    model: [ 0x9dd7f9c4, 0x280000 ]
 
 ---
 id: girafe:lindens-e-flora
 type: flora
-seasons:
-  fall: [ 0x9dd7f9c4, 0x3b0000 ]
-  winter: [ 0x9dd7f9c4, 0x290000 ]
-  summer: [ 0x9dd7f9c4, 0x410000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448324 ]
+    model: [ 0x9dd7f9c4, 0x410000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448324 ]
+    model: [ 0x9dd7f9c4, 0x3b0000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448324 ]
+    model: [ 0x9dd7f9c4, 0x290000 ]
 
 ---
 id: girafe:lupin-a-prop
 type: prop
-seasons:
-  summer: [ 0x8145ca21, 0x30000 ]
-  fall: [ 0x2145d382, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x1df7605a ]
+    model: [ 0x8145ca21, 0x30000 ]
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x1df760fa ]
+    model: [ 0x2145d382, 0x30000 ]
 
 ---
 id: girafe:lupin-b-prop
 type: prop
-seasons:
-  summer: [ 0x4145cc02, 0x30000 ]
-  fall: [ 0xa145d3e7, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5df7608c ]
+    model: [ 0x4145cc02, 0x30000 ]
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xddf7609b ]
+    model: [ 0xa145d3e7, 0x30000 ]
 
 ---
 id: girafe:lupin-c-prop
 type: prop
-seasons:
-  summer: [ 0x4145cccb, 0x30000 ]
-  fall: [ 0x6145d456, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfdf760c7 ]
+    model: [ 0x4145cccb, 0x30000 ]
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x7df760d3 ]
+    model: [ 0x6145d456, 0x30000 ]
 
 ---
 id: girafe:lupins-a-flora
 type: flora
-seasons:
-  fall: [ 0xa145a2e3, 0x30000 ]
-  winter: [ 0x4145aec7, 0x30000 ]
-  summer: [ 0xc145a745, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448350 ]
+    model: [ 0xc145a745, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448350 ]
+    model: [ 0xa145a2e3, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448350 ]
+    model: [ 0x4145aec7, 0x30000 ]
 
 ---
 id: girafe:lupins-b-flora
 type: flora
-seasons:
-  fall: [ 0x8145a26f, 0x30000 ]
-  winter: [ 0x145ae00, 0x30000 ]
-  summer: [ 0x6145a668, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448351 ]
+    model: [ 0x6145a668, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448351 ]
+    model: [ 0x8145a26f, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448351 ]
+    model: [ 0x145ae00, 0x30000 ]
 
 ---
 id: girafe:lupins-c-flora
 type: flora
-seasons:
-  fall: [ 0xe145a346, 0x30000 ]
-  winter: [ 0xa145acf1, 0x30000 ]
-  summer: [ 0xa145a584, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448352 ]
+    model: [ 0xa145a584, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448352 ]
+    model: [ 0xe145a346, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448352 ]
+    model: [ 0xa145acf1, 0x30000 ]
 
 ---
 id: girafe:maple-a-prop
 type: prop
-seasons:
-  fall: [ 0x5cf8bcfb, 0x30000 ]
-  summer: [ 0x1cf87a8d, 0x30000 ]
-  winter: [ 0xfc11fe99, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x3cfc98fc ]
+    model: [ 0x5cf8bcfb, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x1cfb2d33 ]
+    model: [ 0x1cf87a8d, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x3cfcacfa ]
+    model: [ 0xfc11fe99, 0x30000 ]
 
 ---
 id: girafe:maple-b-prop
 type: prop
-seasons:
-  fall: [ 0x9cf8c25d, 0x30000 ]
-  summer: [ 0x5cf87d1b, 0x30000 ]
-  winter: [ 0x1c120f26, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x7cfc991a ]
+    model: [ 0x9cf8c25d, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x1cfb2ea0 ]
+    model: [ 0x5cf87d1b, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x3cfcbab5 ]
+    model: [ 0x1c120f26, 0x30000 ]
 
 ---
 id: girafe:maple-c-prop
 type: prop
-seasons:
-  fall: [ 0xfcf8e825, 0x30000 ]
-  summer: [ 0xdcf87f55, 0x30000 ]
-  winter: [ 0x7c11ff3e, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xfcfc992f ]
+    model: [ 0xfcf8e825, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x1cfb2d4b ]
+    model: [ 0xdcf87f55, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x1cfcad2b ]
+    model: [ 0x7c11ff3e, 0x30000 ]
 
 ---
 id: girafe:maple-d-prop
 type: prop
-seasons:
-  fall: [ 0x5c11f645, 0x30000 ]
-  summer: [ 0x9cf88191, 0x30000 ]
-  winter: [ 0xdc11ffa2, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xfcfca2b1 ]
+    model: [ 0x5c11f645, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0xfcfb2cd0 ]
+    model: [ 0x9cf88191, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x7cfcad43 ]
+    model: [ 0xdc11ffa2, 0x30000 ]
 
 ---
 id: girafe:maple-e-prop
 type: prop
-seasons:
-  fall: [ 0x7c11e47f, 0x30000 ]
-  summer: [ 0x5cf88519, 0x30000 ]
-  winter: [ 0x7c120003, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x9cfc9959 ]
+    model: [ 0x7c11e47f, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x7cfb2ce6 ]
+    model: [ 0x5cf88519, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0xfcfcad59 ]
+    model: [ 0x7c120003, 0x30000 ]
 
 ---
 id: girafe:maple-f-prop
 type: prop
-seasons:
-  fall: [ 0x3c11e251, 0x30000 ]
-  summer: [ 0xfcf8911c, 0x30000 ]
-  winter: [ 0x9c120072, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xfcfc9981 ]
+    model: [ 0x3c11e251, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0xdcfb38b5 ]
+    model: [ 0xfcf8911c, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x5cfcad6e ]
+    model: [ 0x9c120072, 0x30000 ]
 
 ---
 id: girafe:maple-g-prop
 type: prop
-seasons:
-  fall: [ 0xbc11e6fb, 0x30000 ]
-  summer: [ 0xbcf89376, 0x30000 ]
-  winter: [ 0x7c1200ec, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xfcfc9b45 ]
+    model: [ 0xbc11e6fb, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x1cfb3a4f ]
+    model: [ 0xbcf89376, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x1cfcad83 ]
+    model: [ 0x7c1200ec, 0x30000 ]
 
 ---
 id: girafe:maple-h-prop
 type: prop
-seasons:
-  fall: [ 0xbc11e98e, 0x30000 ]
-  summer: [ 0x1cf8a001, 0x30000 ]
-  winter: [ 0x5c12016a, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0x5cfc9b6b ]
+    model: [ 0xbc11e98e, 0x30000 ]
+  summer:
+    exemplar: [ 0xf0c4599b, 0x5cfb485d ]
+    model: [ 0x1cf8a001, 0x30000 ]
+  winter:
+    exemplar: [ 0xf0c4599b, 0x5cfcad97 ]
+    model: [ 0x5c12016a, 0x30000 ]
 
 ---
 id: girafe:maples-v1-a-flora
 type: flora
-seasons:
-  fall: [ 0xd9f00412, 0x110000 ]
-  winter: [ 0xd9f00412, 0x120000 ]
-  summer: [ 0xd9f00412, 0x130000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0015 ]
+    model: [ 0xd9f00412, 0x130000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0015 ]
+    model: [ 0xd9f00412, 0x110000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0015 ]
+    model: [ 0xd9f00412, 0x120000 ]
 
 ---
 id: girafe:maples-v1-b-flora
 type: flora
-seasons:
-  fall: [ 0xb9f008ba, 0x110000 ]
-  winter: [ 0xb9f008ba, 0x120000 ]
-  summer: [ 0xb9f008ba, 0x130000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0016 ]
+    model: [ 0xb9f008ba, 0x130000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0016 ]
+    model: [ 0xb9f008ba, 0x110000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0016 ]
+    model: [ 0xb9f008ba, 0x120000 ]
 
 ---
 id: girafe:maples-v1-c-flora
 type: flora
-seasons:
-  fall: [ 0x19f00eaa, 0x110000 ]
-  winter: [ 0x19f00eaa, 0x120000 ]
-  summer: [ 0x19f00eaa, 0x130000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0017 ]
+    model: [ 0x19f00eaa, 0x130000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0017 ]
+    model: [ 0x19f00eaa, 0x110000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0017 ]
+    model: [ 0x19f00eaa, 0x120000 ]
 
 ---
 id: girafe:maples-v1-d-flora
 type: flora
-seasons:
-  fall: [ 0xf9effc6a, 0x110000 ]
-  winter: [ 0xf9effc6a, 0x120000 ]
-  summer: [ 0xf9effc6a, 0x130000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0018 ]
+    model: [ 0xf9effc6a, 0x130000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0018 ]
+    model: [ 0xf9effc6a, 0x110000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0018 ]
+    model: [ 0xf9effc6a, 0x120000 ]
 
 ---
 id: girafe:maples-v1-e-flora
 type: flora
-seasons:
-  fall: [ 0xf9f01459, 0x110000 ]
-  winter: [ 0xf9f01459, 0x120000 ]
-  summer: [ 0xf9f01459, 0x130000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0019 ]
+    model: [ 0xf9f01459, 0x130000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0019 ]
+    model: [ 0xf9f01459, 0x110000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0019 ]
+    model: [ 0xf9f01459, 0x120000 ]
 
 ---
 id: girafe:maples-v2-v1-a-flora
 type: flora
-seasons:
-  fall: [ 0x5cf7be7e, 0x30000 ]
-  winter: [ 0x7d2ab17f, 0x30000 ]
-  summer: [ 0xdd2a7ba6, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448200 ]
+    model: [ 0xdd2a7ba6, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448200 ]
+    model: [ 0x5cf7be7e, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448200 ]
+    model: [ 0x7d2ab17f, 0x30000 ]
 
 ---
 id: girafe:maples-v2-v1-b-flora
 type: flora
-seasons:
-  fall: [ 0xfcf7bff5, 0x30000 ]
-  winter: [ 0x9d2ab1cf, 0x30000 ]
-  summer: [ 0xfd2a7d13, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448201 ]
+    model: [ 0xfd2a7d13, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448201 ]
+    model: [ 0xfcf7bff5, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448201 ]
+    model: [ 0x9d2ab1cf, 0x30000 ]
 
 ---
 id: girafe:maples-v2-v1-c-flora
 type: flora
-seasons:
-  fall: [ 0xfcf7c295, 0x30000 ]
-  winter: [ 0x9d2ab34c, 0x30000 ]
-  summer: [ 0xfd2a910c, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448202 ]
+    model: [ 0xfd2a910c, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448202 ]
+    model: [ 0xfcf7c295, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448202 ]
+    model: [ 0x9d2ab34c, 0x30000 ]
 
 ---
 id: girafe:maples-v2-v1-d-flora
 type: flora
-seasons:
-  fall: [ 0xbcf86a2e, 0x30000 ]
-  winter: [ 0xbd2ab3f1, 0x30000 ]
-  summer: [ 0x3d2a9870, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448203 ]
+    model: [ 0x3d2a9870, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448203 ]
+    model: [ 0xbcf86a2e, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448203 ]
+    model: [ 0xbd2ab3f1, 0x30000 ]
 
 ---
 id: girafe:maples-v2-v1-e-flora
 type: flora
-seasons:
-  fall: [ 0xbcf7b557, 0x30000 ]
-  winter: [ 0x7d2ab49d, 0x30000 ]
-  summer: [ 0xdd2a9e5e, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448204 ]
+    model: [ 0xdd2a9e5e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448204 ]
+    model: [ 0xbcf7b557, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448204 ]
+    model: [ 0x7d2ab49d, 0x30000 ]
 
 ---
 id: girafe:narcissus-a-flora
 type: flora
-seasons:
-  fall: [ 0xa0c8406d, 0x30000 ]
-  winter: [ 0xc0c8160e, 0x30000 ]
-  summer: [ 0x0, 0x0 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448500 ]
+    model: [ 0x0, 0x0 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448500 ]
+    model: [ 0xa0c8406d, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448500 ]
+    model: [ 0xc0c8160e, 0x30000 ]
 
 ---
 id: girafe:narcissus-a-prop
 type: prop
-seasons:
-  summer: [ 0x40c846d1, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5e390fc7 ]
+    model: [ 0x40c846d1, 0x30000 ]
 
 ---
 id: girafe:narcissus-b-flora
 type: flora
-seasons:
-  fall: [ 0xe0c83f69, 0x30000 ]
-  winter: [ 0x80c80fa9, 0x30000 ]
-  summer: [ 0x0, 0x0 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448501 ]
+    model: [ 0x0, 0x0 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448501 ]
+    model: [ 0xe0c83f69, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448501 ]
+    model: [ 0x80c80fa9, 0x30000 ]
 
 ---
 id: girafe:norway-maple-a-prop
 type: prop
-seasons:
-  fall: [ 0x61da7576, 0x30000 ]
-  summer: [ 0x41da70ab, 0x30000 ]
-  winter: [ 0x21da770a, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xdf4b6830 ]
+    model: [ 0x61da7576, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xdf4b6870 ]
+    model: [ 0x41da70ab, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x5f4b6997 ]
+    model: [ 0x21da770a, 0x30000 ]
 
 ---
 id: girafe:norway-maple-b-prop
 type: prop
-seasons:
-  fall: [ 0xa1da7fd3, 0x30000 ]
-  summer: [ 0x61da7a44, 0x30000 ]
-  winter: [ 0xa1da7d99, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3f4b6887 ]
+    model: [ 0xa1da7fd3, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbf4b68b3 ]
+    model: [ 0x61da7a44, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xff4b68c4 ]
+    model: [ 0xa1da7d99, 0x30000 ]
 
 ---
 id: girafe:norway-maple-c-prop
 type: prop
-seasons:
-  fall: [ 0xa1da8744, 0x30000 ]
-  summer: [ 0x21da82ca, 0x30000 ]
-  winter: [ 0x81da85e2, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3f4b68d8 ]
+    model: [ 0xa1da8744, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x9f4b6900 ]
+    model: [ 0x21da82ca, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1f4b6915 ]
+    model: [ 0x81da85e2, 0x30000 ]
 
 ---
 id: girafe:norway-maple-d-prop
 type: prop
-seasons:
-  fall: [ 0x21da9948, 0x30000 ]
-  summer: [ 0x61da9471, 0x30000 ]
-  winter: [ 0xa1da97ee, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x5f4b693c ]
+    model: [ 0x21da9948, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x1f4b6960 ]
+    model: [ 0x61da9471, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x5f4b6972 ]
+    model: [ 0xa1da97ee, 0x30000 ]
 
 ---
 id: girafe:norway-maples-v2-a-flora
 type: flora
-seasons:
-  fall: [ 0x9c03bdef, 0x30000 ]
-  winter: [ 0xbc03b8a4, 0x30000 ]
-  summer: [ 0xbc05058a, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448040 ]
+    model: [ 0xbc05058a, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448040 ]
+    model: [ 0x9c03bdef, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448040 ]
+    model: [ 0xbc03b8a4, 0x30000 ]
 
 ---
 id: girafe:norway-maples-v2-b-flora
 type: flora
-seasons:
-  fall: [ 0x5c03c08d, 0x30000 ]
-  winter: [ 0xfc03b690, 0x30000 ]
-  summer: [ 0xfc050819, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448041 ]
+    model: [ 0xfc050819, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448041 ]
+    model: [ 0x5c03c08d, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448041 ]
+    model: [ 0xfc03b690, 0x30000 ]
 
 ---
 id: girafe:norway-maples-v2-c-flora
 type: flora
-seasons:
-  fall: [ 0x1c04eb59, 0x30000 ]
-  winter: [ 0x9c03b101, 0x30000 ]
-  summer: [ 0xdc050df1, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448042 ]
+    model: [ 0xdc050df1, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448042 ]
+    model: [ 0x1c04eb59, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448042 ]
+    model: [ 0x9c03b101, 0x30000 ]
 
 ---
 id: girafe:norway-maples-v2-d-flora
 type: flora
-seasons:
-  fall: [ 0xdc04f363, 0x30000 ]
-  winter: [ 0xfc03ae63, 0x30000 ]
-  summer: [ 0xfc051cc8, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448043 ]
+    model: [ 0xfc051cc8, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448043 ]
+    model: [ 0xdc04f363, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448043 ]
+    model: [ 0xfc03ae63, 0x30000 ]
 
 ---
 id: girafe:oak-a-prop
 type: prop
-seasons:
-  winter: [ 0x8cf4e0e3, 0x30000 ]
-  summer: [ 0x8cf3895e, 0x30000 ]
-  fall: [ 0x8f8b0adc, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xccfbb083 ]
+    model: [ 0x8cf4e0e3, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x2cfbb114 ]
+    model: [ 0x8cf3895e, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x8cfc9dcc ]
+    model: [ 0x8f8b0adc, 0x30000 ]
 
 ---
 id: girafe:oak-b-prop
 type: prop
-seasons:
-  winter: [ 0x8fb37de4, 0x30000 ]
-  summer: [ 0x2fb37d27, 0x30000 ]
-  fall: [ 0x2fb2a6cd, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xcfcb7f4 ]
+    model: [ 0x8fb37de4, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x4cfcb7dd ]
+    model: [ 0x2fb37d27, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x6cfc9e65 ]
+    model: [ 0x2fb2a6cd, 0x30000 ]
 
 ---
 id: girafe:oak-c-prop
 type: prop
-seasons:
-  winter: [ 0xecf4e159, 0x30000 ]
-  summer: [ 0xacf38cd9, 0x30000 ]
-  fall: [ 0xcf8b0ff4, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xacfbb0bd ]
+    model: [ 0xecf4e159, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x8cfbb144 ]
+    model: [ 0xacf38cd9, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0x6cfc9e0a ]
+    model: [ 0xcf8b0ff4, 0x30000 ]
 
 ---
 id: girafe:oak-d-prop
 type: prop
-seasons:
-  winter: [ 0xecf51490, 0x30000 ]
-  summer: [ 0xcf38e5d, 0x30000 ]
-  fall: [ 0x8f8b1262, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x6cfbb0cf ]
+    model: [ 0xecf51490, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xecfbb158 ]
+    model: [ 0xcf38e5d, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0xccfc9e22 ]
+    model: [ 0x8f8b1262, 0x30000 ]
 
 ---
 id: girafe:oak-e-prop
 type: prop
-seasons:
-  winter: [ 0x8cf51521, 0x30000 ]
-  summer: [ 0x6cf3900f, 0x30000 ]
-  fall: [ 0x4f8b14be, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x8cfbb0e1 ]
+    model: [ 0x8cf51521, 0x30000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xcfbb16c ]
+    model: [ 0x6cf3900f, 0x30000 ]
+  fall:
+    exemplar: [ 0xec357b46, 0xacfc9e3d ]
+    model: [ 0x4f8b14be, 0x30000 ]
 
 ---
 id: girafe:oaks-a-flora
 type: flora
-seasons:
-  summer: [ 0x7b1b5718, 0x30000 ]
-  winter: [ 0x9a2cc199, 0x30000 ]
-  fall: [ 0xba2ccf8c, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf440260 ]
+    model: [ 0x7b1b5718, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf440260 ]
+    model: [ 0xba2ccf8c, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf440260 ]
+    model: [ 0x9a2cc199, 0x30000 ]
 
 ---
 id: girafe:oaks-b-flora
 type: flora
-seasons:
-  summer: [ 0x7b1b4ffd, 0x30000 ]
-  winter: [ 0x7a2cc011, 0x30000 ]
-  fall: [ 0x9a2ccb8a, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf440261 ]
+    model: [ 0x7b1b4ffd, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf440261 ]
+    model: [ 0x9a2ccb8a, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf440261 ]
+    model: [ 0x7a2cc011, 0x30000 ]
 
 ---
 id: girafe:oaks-c-flora
 type: flora
-seasons:
-  summer: [ 0xdb1b4a6e, 0x30000 ]
-  winter: [ 0x5a2cbe33, 0x30000 ]
-  fall: [ 0x1a2cd4a9, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf440262 ]
+    model: [ 0xdb1b4a6e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf440262 ]
+    model: [ 0x1a2cd4a9, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf440262 ]
+    model: [ 0x5a2cbe33, 0x30000 ]
 
 ---
 id: girafe:oaks-d-flora
 type: flora
-seasons:
-  summer: [ 0x5b1b3a8d, 0x30000 ]
-  winter: [ 0x1a2cbbf5, 0x30000 ]
-  fall: [ 0xfa2cef55, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf440263 ]
+    model: [ 0x5b1b3a8d, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf440263 ]
+    model: [ 0xfa2cef55, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf440263 ]
+    model: [ 0x1a2cbbf5, 0x30000 ]
 
 ---
 id: girafe:oaks-e-flora
 type: flora
-seasons:
-  summer: [ 0xfb1b31a0, 0x30000 ]
-  winter: [ 0xfa2cb908, 0x30000 ]
-  fall: [ 0xba2cf7d3, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf440264 ]
+    model: [ 0xfb1b31a0, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf440264 ]
+    model: [ 0xba2cf7d3, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf440264 ]
+    model: [ 0xfa2cb908, 0x30000 ]
 
 ---
 id: girafe:poplar-a-prop
 type: prop
-seasons:
-  winter: [ 0x47922136, 0x30000 ]
-  summer: [ 0x790ce33, 0x30000 ]
-  fall: [ 0x7937b11, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xb76f7d99, 0xe79c204d ]
+    model: [ 0x47922136, 0x30000 ]
+  summer:
+    exemplar: [ 0xb76f7d99, 0x279c1f0d ]
+    model: [ 0x790ce33, 0x30000 ]
+  fall:
+    exemplar: [ 0xb76f7d99, 0xe79c20b1 ]
+    model: [ 0x7937b11, 0x30000 ]
 
 ---
 id: girafe:poplar-b-prop
 type: prop
-seasons:
-  winter: [ 0xc7922088, 0x30000 ]
-  summer: [ 0x4790d2f4, 0x30000 ]
-  fall: [ 0xe79375a0, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xb76f7d99, 0xa79c2067 ]
+    model: [ 0xc7922088, 0x30000 ]
+  summer:
+    exemplar: [ 0xb76f7d99, 0xe79c1f4c ]
+    model: [ 0x4790d2f4, 0x30000 ]
+  fall:
+    exemplar: [ 0xb76f7d99, 0x479c20e7 ]
+    model: [ 0xe79375a0, 0x30000 ]
 
 ---
 id: girafe:poplar-c-prop
 type: prop
-seasons:
-  winter: [ 0x27921ff2, 0x30000 ]
-  summer: [ 0x6790e227, 0x30000 ]
-  fall: [ 0xc7937189, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xb76f7d99, 0x279c207b ]
+    model: [ 0x27921ff2, 0x30000 ]
+  summer:
+    exemplar: [ 0xb76f7d99, 0x679c1f65 ]
+    model: [ 0x6790e227, 0x30000 ]
+  fall:
+    exemplar: [ 0xb76f7d99, 0xa79c20f9 ]
+    model: [ 0xc7937189, 0x30000 ]
 
 ---
 id: girafe:poplar-d-prop
 type: prop
-seasons:
-  winter: [ 0x27921f43, 0x30000 ]
-  summer: [ 0x8790e69f, 0x30000 ]
-  fall: [ 0x87923f2b, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xb76f7d99, 0xa79c208d ]
+    model: [ 0x27921f43, 0x30000 ]
+  summer:
+    exemplar: [ 0xb76f7d99, 0xc79c1f7b ]
+    model: [ 0x8790e69f, 0x30000 ]
+  fall:
+    exemplar: [ 0xb76f7d99, 0xc79c210f ]
+    model: [ 0x87923f2b, 0x30000 ]
 
 ---
 id: girafe:poplar-e-prop
 type: prop
-seasons:
-  winter: [ 0xa7921e67, 0x30000 ]
-  summer: [ 0x6790e985, 0x30000 ]
-  fall: [ 0x67923de0, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xb76f7d99, 0x279c209e ]
+    model: [ 0xa7921e67, 0x30000 ]
+  summer:
+    exemplar: [ 0xb76f7d99, 0x279c1f8e ]
+    model: [ 0x6790e985, 0x30000 ]
+  fall:
+    exemplar: [ 0xb76f7d99, 0xa79c2120 ]
+    model: [ 0x67923de0, 0x30000 ]
 
 ---
 id: girafe:poplars-a-flora
 type: flora
-seasons:
-  fall: [ 0x7937b11, 0x30000 ]
-  winter: [ 0x47922136, 0x30000 ]
-  summer: [ 0x790ce33, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447710 ]
+    model: [ 0x790ce33, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447710 ]
+    model: [ 0x7937b11, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447710 ]
+    model: [ 0x47922136, 0x30000 ]
 
 ---
 id: girafe:poplars-b-flora
 type: flora
-seasons:
-  fall: [ 0xe79375a0, 0x30000 ]
-  winter: [ 0xc7922088, 0x30000 ]
-  summer: [ 0x4790d2f4, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447711 ]
+    model: [ 0x4790d2f4, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447711 ]
+    model: [ 0xe79375a0, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447711 ]
+    model: [ 0xc7922088, 0x30000 ]
 
 ---
 id: girafe:poplars-c-flora
 type: flora
-seasons:
-  fall: [ 0xc7937189, 0x30000 ]
-  winter: [ 0x27921ff2, 0x30000 ]
-  summer: [ 0x6790e227, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447712 ]
+    model: [ 0x6790e227, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447712 ]
+    model: [ 0xc7937189, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447712 ]
+    model: [ 0x27921ff2, 0x30000 ]
 
 ---
 id: girafe:poplars-d-flora
 type: flora
-seasons:
-  fall: [ 0x87923f2b, 0x30000 ]
-  winter: [ 0x27921f43, 0x30000 ]
-  summer: [ 0x8790e69f, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447713 ]
+    model: [ 0x8790e69f, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447713 ]
+    model: [ 0x87923f2b, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447713 ]
+    model: [ 0x27921f43, 0x30000 ]
 
 ---
 id: girafe:poplars-e-flora
 type: flora
-seasons:
-  fall: [ 0x67923de0, 0x30000 ]
-  winter: [ 0xa7921e67, 0x30000 ]
-  summer: [ 0x6790e985, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf447714 ]
+    model: [ 0x6790e985, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf447714 ]
+    model: [ 0x67923de0, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf447714 ]
+    model: [ 0xa7921e67, 0x30000 ]
 
 ---
 id: girafe:poppies-a-flora
 type: flora
-seasons:
-  fall: [ 0xc0c5c193, 0x30000 ]
-  winter: [ 0xa0c5aaa7, 0x30000 ]
-  summer: [ 0x0, 0x0 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448480 ]
+    model: [ 0x0, 0x0 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448480 ]
+    model: [ 0xc0c5c193, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448480 ]
+    model: [ 0xa0c5aaa7, 0x30000 ]
 
 ---
 id: girafe:poppies-b-flora
 type: flora
-seasons:
-  fall: [ 0x80c5c1e3, 0x30000 ]
-  winter: [ 0x20c5ac19, 0x30000 ]
-  summer: [ 0x0, 0x0 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448481 ]
+    model: [ 0x0, 0x0 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448481 ]
+    model: [ 0x80c5c1e3, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448481 ]
+    model: [ 0x20c5ac19, 0x30000 ]
 
 ---
 id: girafe:poppy-a-prop
 type: prop
-seasons:
-  summer: [ 0x40c5c523, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7e368c52 ]
+    model: [ 0x40c5c523, 0x30000 ]
 
 ---
 id: girafe:poppy-b-prop
 type: prop
-seasons:
-  summer: [ 0x1cc12877, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0xdcc3cd31 ]
+    model: [ 0x1cc12877, 0x30000 ]
 
 ---
 id: girafe:poppy-empty-prop
 type: prop
-seasons:
-  summer: [ 0x7cc1347e, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0x9cc3d7ad ]
+    model: [ 0x7cc1347e, 0x30000 ]
 
 ---
 id: girafe:poppy-prop
 type: prop
-seasons:
-  summer: [ 0x1cc127fc, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0x9cc3cd1a ]
+    model: [ 0x1cc127fc, 0x30000 ]
 
 ---
 id: girafe:rowan-tree-a-prop
 type: prop
-seasons:
-  fall: [ 0x2fa2949, 0x30000 ]
-  summer: [ 0x22806260, 0x30000 ]
-  winter: [ 0x42807c21, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0x34eac81 ]
+    model: [ 0x2fa2949, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0x634eac67 ]
+    model: [ 0x22806260, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0xa34eac98 ]
+    model: [ 0x42807c21, 0x30000 ]
 
 ---
 id: girafe:rowan-tree-b-prop
 type: prop
-seasons:
-  fall: [ 0xe2fa2552, 0x30000 ]
-  summer: [ 0xe27fccf8, 0x30000 ]
-  winter: [ 0x42807bb1, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0xe34eacf9 ]
+    model: [ 0xe2fa2552, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0xa34eacce ]
+    model: [ 0xe27fccf8, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0xa34ead0f ]
+    model: [ 0x42807bb1, 0x30000 ]
 
 ---
 id: girafe:rowan-tree-c-prop
 type: prop
-seasons:
-  fall: [ 0xa2d1425f, 0x30000 ]
-  summer: [ 0x828063cd, 0x30000 ]
-  winter: [ 0xe2807af6, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0x234ead51 ]
+    model: [ 0xa2d1425f, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0x634ead3c ]
+    model: [ 0x828063cd, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0x34ead65 ]
+    model: [ 0xe2807af6, 0x30000 ]
 
 ---
 id: girafe:rowan-tree-d-prop
 type: prop
-seasons:
-  fall: [ 0xa2d14c26, 0x30000 ]
-  summer: [ 0x628068ff, 0x30000 ]
-  winter: [ 0xa2807a5a, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0x234eadb0 ]
+    model: [ 0xa2d14c26, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0xa34ead9d ]
+    model: [ 0x628068ff, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0x34eadc5 ]
+    model: [ 0xa2807a5a, 0x30000 ]
 
 ---
 id: girafe:rowan-tree-e-prop
 type: prop
-seasons:
-  fall: [ 0xc280e9f7, 0x30000 ]
-  summer: [ 0x22806eb2, 0x30000 ]
-  winter: [ 0x2807938, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x71b9795b, 0xa34eae4d ]
+    model: [ 0xc280e9f7, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0xa34eae23 ]
+    model: [ 0x22806eb2, 0x30000 ]
+  winter:
+    exemplar: [ 0x71b9795b, 0xc34eae63 ]
+    model: [ 0x2807938, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-a-flora
 type: flora
-seasons:
-  fall: [ 0x2fa2949, 0x30000 ]
-  winter: [ 0x42807c21, 0x30000 ]
-  summer: [ 0x22806260, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448710 ]
+    model: [ 0x22806260, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448710 ]
+    model: [ 0x2fa2949, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448710 ]
+    model: [ 0x42807c21, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-b-flora
 type: flora
-seasons:
-  fall: [ 0xe2fa2552, 0x30000 ]
-  winter: [ 0x42807bb1, 0x30000 ]
-  summer: [ 0xe27fccf8, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448711 ]
+    model: [ 0xe27fccf8, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448711 ]
+    model: [ 0xe2fa2552, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448711 ]
+    model: [ 0x42807bb1, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-c-flora
 type: flora
-seasons:
-  fall: [ 0xa2d1425f, 0x30000 ]
-  winter: [ 0xe2807af6, 0x30000 ]
-  summer: [ 0x828063cd, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448712 ]
+    model: [ 0x828063cd, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448712 ]
+    model: [ 0xa2d1425f, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448712 ]
+    model: [ 0xe2807af6, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-d-flora
 type: flora
-seasons:
-  fall: [ 0xa2d14c26, 0x30000 ]
-  winter: [ 0xa2807a5a, 0x30000 ]
-  summer: [ 0x628068ff, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448713 ]
+    model: [ 0x628068ff, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448713 ]
+    model: [ 0xa2d14c26, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448713 ]
+    model: [ 0xa2807a5a, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-e-flora
 type: flora
-seasons:
-  fall: [ 0xc280e9f7, 0x30000 ]
-  winter: [ 0x2807938, 0x30000 ]
-  summer: [ 0x22806eb2, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448714 ]
+    model: [ 0x22806eb2, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448714 ]
+    model: [ 0xc280e9f7, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448714 ]
+    model: [ 0x2807938, 0x30000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-a-flora
 type: flora
-seasons:
-  fall: [ 0x5a0e874f, 0x120000 ]
-  winter: [ 0x5a0e874f, 0x130000 ]
-  summer: [ 0x5a0e874f, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa001f ]
+    model: [ 0x5a0e874f, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa001f ]
+    model: [ 0x5a0e874f, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa001f ]
+    model: [ 0x5a0e874f, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-b-flora
 type: flora
-seasons:
-  fall: [ 0xba0e8ba5, 0x120000 ]
-  winter: [ 0xba0e8ba5, 0x130000 ]
-  summer: [ 0xba0e8ba5, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0020 ]
+    model: [ 0xba0e8ba5, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0020 ]
+    model: [ 0xba0e8ba5, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0020 ]
+    model: [ 0xba0e8ba5, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-c-flora
 type: flora
-seasons:
-  fall: [ 0x9a0e9076, 0x120000 ]
-  winter: [ 0x9a0e9076, 0x130000 ]
-  summer: [ 0x9a0e9076, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0021 ]
+    model: [ 0x9a0e9076, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0021 ]
+    model: [ 0x9a0e9076, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0021 ]
+    model: [ 0x9a0e9076, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-d-flora
 type: flora
-seasons:
-  fall: [ 0xfa0e9663, 0x120000 ]
-  winter: [ 0xfa0e9663, 0x130000 ]
-  summer: [ 0xfa0e9663, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0022 ]
+    model: [ 0xfa0e9663, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0022 ]
+    model: [ 0xfa0e9663, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0022 ]
+    model: [ 0xfa0e9663, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-e-flora
 type: flora
-seasons:
-  fall: [ 0x5a0e9e08, 0x120000 ]
-  winter: [ 0x5a0e9e08, 0x130000 ]
-  summer: [ 0x5a0e9e08, 0x140000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x33aa0023 ]
+    model: [ 0x5a0e9e08, 0x140000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x33aa0023 ]
+    model: [ 0x5a0e9e08, 0x120000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x33aa0023 ]
+    model: [ 0x5a0e9e08, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-a-flora
 type: flora
-seasons:
-  fall: [ 0xab1cd8ca, 0x30000 ]
-  snow: [ 0x5a0e874f, 0x130000 ]
-  summer: [ 0xab1cd8ca, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481020 ]
+    model: [ 0xab1cd8ca, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481020 ]
+    model: [ 0xab1cd8ca, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481020 ]
+    model: [ 0x5a0e874f, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-b-flora
 type: flora
-seasons:
-  fall: [ 0xeb458812, 0x30000 ]
-  snow: [ 0xba0e8ba5, 0x130000 ]
-  summer: [ 0xeb458812, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481021 ]
+    model: [ 0xeb458812, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481021 ]
+    model: [ 0xeb458812, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481021 ]
+    model: [ 0xba0e8ba5, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-c-flora
 type: flora
-seasons:
-  fall: [ 0xeb4590b1, 0x30000 ]
-  snow: [ 0x9a0e9076, 0x130000 ]
-  summer: [ 0xeb4590b1, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481022 ]
+    model: [ 0xeb4590b1, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481022 ]
+    model: [ 0xeb4590b1, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481022 ]
+    model: [ 0x9a0e9076, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-d-flora
 type: flora
-seasons:
-  fall: [ 0x6b459800, 0x30000 ]
-  snow: [ 0xfa0e9663, 0x130000 ]
-  summer: [ 0x6b459800, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481023 ]
+    model: [ 0x6b459800, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481023 ]
+    model: [ 0x6b459800, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481023 ]
+    model: [ 0xfa0e9663, 0x130000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-e-flora
 type: flora
-seasons:
-  fall: [ 0x4b45a458, 0x30000 ]
-  snow: [ 0x5a0e9e08, 0x130000 ]
-  summer: [ 0x4b45a458, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf481024 ]
+    model: [ 0x4b45a458, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf481024 ]
+    model: [ 0x4b45a458, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf481024 ]
+    model: [ 0x5a0e9e08, 0x130000 ]
 
 ---
 id: girafe:serbien-spruce-a-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0x100000 ]
-  summer: [ 0xec357b46, 0x70000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x2c3727fc ]
+    model: [ 0xec357b46, 0x100000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x2c35c699 ]
+    model: [ 0xec357b46, 0x70000 ]
 
 ---
 id: girafe:serbien-spruce-b-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0xd0000 ]
-  summer: [ 0xec357b46, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x2c372823 ]
+    model: [ 0xec357b46, 0xd0000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x4c359801 ]
+    model: [ 0xec357b46, 0x30000 ]
 
 ---
 id: girafe:serbien-spruce-c-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0xe0000 ]
-  summer: [ 0xec357b46, 0x40000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xcc372814 ]
+    model: [ 0xec357b46, 0xe0000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x4c3597db ]
+    model: [ 0xec357b46, 0x40000 ]
 
 ---
 id: girafe:serbien-spruce-d-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0xf0000 ]
-  summer: [ 0xec357b46, 0x50000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0xc372808 ]
+    model: [ 0xec357b46, 0xf0000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0x8c3597ca ]
+    model: [ 0xec357b46, 0x50000 ]
 
 ---
 id: girafe:serbien-spruce-e-prop
 type: prop
-seasons:
-  winter: [ 0xec357b46, 0x110000 ]
-  summer: [ 0xec357b46, 0x60000 ]
+models:
+  winter:
+    exemplar: [ 0xec357b46, 0x6c3727ef ]
+    model: [ 0xec357b46, 0x110000 ]
+  summer:
+    exemplar: [ 0xec357b46, 0xcc3597ac ]
+    model: [ 0xec357b46, 0x60000 ]
 
 ---
 id: girafe:sparaxis-a-flora
 type: flora
-seasons:
-  fall: [ 0x20fcea95, 0x30000 ]
-  winter: [ 0x40fce789, 0x30000 ]
-  summer: [ 0x0, 0x0 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448520 ]
+    model: [ 0x0, 0x0 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448520 ]
+    model: [ 0x20fcea95, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448520 ]
+    model: [ 0x40fce789, 0x30000 ]
 
 ---
 id: girafe:sparaxis-b-flora
 type: flora
-seasons:
-  fall: [ 0x20fcea10, 0x30000 ]
-  winter: [ 0x80fce825, 0x30000 ]
-  summer: [ 0x0, 0x0 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448521 ]
+    model: [ 0x0, 0x0 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448521 ]
+    model: [ 0x20fcea10, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448521 ]
+    model: [ 0x80fce825, 0x30000 ]
 
 ---
 id: girafe:sparaxis-orange-prop
 type: prop
-seasons:
-  summer: [ 0xfd1aea, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbee1e6cb ]
+    model: [ 0xfd1aea, 0x30000 ]
 
 ---
 id: girafe:sparaxis-pink-prop
 type: prop
-seasons:
-  summer: [ 0x80fd1b1d, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x1ee1e6a8 ]
+    model: [ 0x80fd1b1d, 0x30000 ]
 
 ---
 id: girafe:sparaxis-prop
 type: prop
-seasons:
-  summer: [ 0xa0fd1ba0, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x9ee1e68a ]
+    model: [ 0xa0fd1ba0, 0x30000 ]
 
 ---
 id: girafe:sparaxis-red-prop
 type: prop
-seasons:
-  summer: [ 0x20fd1aab, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3ee1e69b ]
+    model: [ 0x20fd1aab, 0x30000 ]
 
 ---
 id: girafe:sparaxis-white-prop
 type: prop
-seasons:
-  summer: [ 0xe0fd1b5a, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5ee1e678 ]
+    model: [ 0xe0fd1b5a, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-a-flora
 type: flora
-seasons:
-  fall: [ 0x1c52cfd3, 0x30000 ]
-  snow: [ 0x7c540ebd, 0x30000 ]
-  summer: [ 0x1c52cfd3, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448110 ]
+    model: [ 0x1c52cfd3, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448110 ]
+    model: [ 0x1c52cfd3, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448110 ]
+    model: [ 0x7c540ebd, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-b-flora
 type: flora
-seasons:
-  fall: [ 0x7c52dc22, 0x30000 ]
-  snow: [ 0xdc542077, 0x30000 ]
-  summer: [ 0x7c52dc22, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448111 ]
+    model: [ 0x7c52dc22, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448111 ]
+    model: [ 0x7c52dc22, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448111 ]
+    model: [ 0xdc542077, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-c-flora
 type: flora
-seasons:
-  fall: [ 0xbc52b624, 0x30000 ]
-  snow: [ 0x5c54cb3a, 0x30000 ]
-  summer: [ 0xbc52b624, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448112 ]
+    model: [ 0xbc52b624, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448112 ]
+    model: [ 0xbc52b624, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448112 ]
+    model: [ 0x5c54cb3a, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-d-flora
 type: flora
-seasons:
-  fall: [ 0xfc539f52, 0x30000 ]
-  snow: [ 0x7c559f4b, 0x30000 ]
-  summer: [ 0xfc539f52, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448113 ]
+    model: [ 0xfc539f52, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448113 ]
+    model: [ 0xfc539f52, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448113 ]
+    model: [ 0x7c559f4b, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-e-flora
 type: flora
-seasons:
-  fall: [ 0xdc5bfab5, 0x30000 ]
-  snow: [ 0x5c83de35, 0x30000 ]
-  summer: [ 0xdc5bfab5, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448114 ]
+    model: [ 0xdc5bfab5, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448114 ]
+    model: [ 0xdc5bfab5, 0x30000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf448114 ]
+    model: [ 0x5c83de35, 0x30000 ]
 
 ---
 id: girafe:subalpinefir-a-prop
 type: prop
-seasons:
-  summer: [ 0x2094bd91, 0x30000 ]
-  winter: [ 0x94bea6, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3e058791 ]
+    model: [ 0x2094bd91, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xde0587a7 ]
+    model: [ 0x94bea6, 0x30000 ]
 
 ---
 id: girafe:subalpinefir-b-prop
 type: prop
-seasons:
-  summer: [ 0xc095454e, 0x30000 ]
-  winter: [ 0xa09546dd, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbe060e9a ]
+    model: [ 0xc095454e, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7e061040 ]
+    model: [ 0xa09546dd, 0x30000 ]
 
 ---
 id: girafe:subalpinefir-c-prop
 type: prop
-seasons:
-  summer: [ 0xc094e685, 0x30000 ]
-  winter: [ 0x94e912, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xde05d0a6 ]
+    model: [ 0xc094e685, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1e05d0ba ]
+    model: [ 0x94e912, 0x30000 ]
 
 ---
 id: girafe:subalpinefir-d-prop
 type: prop
-seasons:
-  summer: [ 0xc094ef23, 0x30000 ]
-  winter: [ 0xe094f191, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbe05d0e2 ]
+    model: [ 0xc094ef23, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xde05d0f8 ]
+    model: [ 0xe094f191, 0x30000 ]
 
 ---
 id: girafe:subalpinefir-e-prop
 type: prop
-seasons:
-  summer: [ 0x2094f895, 0x30000 ]
-  winter: [ 0x2094fd6a, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3e05d121 ]
+    model: [ 0x2094f895, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x1e05d13a ]
+    model: [ 0x2094fd6a, 0x30000 ]
 
 ---
 id: girafe:subalpinefir-f-prop
 type: prop
-seasons:
-  summer: [ 0xc094afc9, 0x30000 ]
-  winter: [ 0x94b19d, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x1e05782f ]
+    model: [ 0xc094afc9, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x9e057cff ]
+    model: [ 0x94b19d, 0x30000 ]
 
 ---
 id: girafe:subalpinefir-g-prop
 type: prop
-seasons:
-  summer: [ 0x809509c2, 0x30000 ]
-  winter: [ 0xc0950e81, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xde05d3ab ]
+    model: [ 0x809509c2, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xbe05de3f ]
+    model: [ 0xc0950e81, 0x30000 ]
 
 ---
 id: girafe:swath-b-prop
 type: prop
-seasons:
-  fall: [ 0xbc394384, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xdcd62688 ]
+    model: [ 0xbc394384, 0x30000 ]
 
 ---
 id: girafe:swath-prop
 type: prop
-seasons:
-  fall: [ 0xfcbfc8de, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0xf0c4599b, 0xfcc26c91 ]
+    model: [ 0xfcbfc8de, 0x30000 ]
 
 ---
 id: girafe:vines-a-flora
 type: flora
-seasons:
-  fall: [ 0x0, 0x0 ]
-  winter: [ 0x40cea2fc, 0x30000 ]
-  summer: [ 0x611f7f10, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448567 ]
+    model: [ 0x611f7f10, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448568 ]
+    model: [ 0x0, 0x0 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448567 ]
+    model: [ 0x40cea2fc, 0x30000 ]
 
 ---
 id: girafe:vines-a-prop
 type: prop
-seasons:
-  fall: [ 0xa1480bcf, 0x30000 ]
-  summer: [ 0x611f7f10, 0x30000 ]
-  winter: [ 0x40cea2fc, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x5e437d74 ]
+    model: [ 0xa1480bcf, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfe428305 ]
+    model: [ 0x611f7f10, 0x30000 ]
+  winter:
+    exemplar: [ 0x348527d8, 0x7e408808 ]
+    model: [ 0x40cea2fc, 0x30000 ]
 
 ---
 id: girafe:vines-b-prop
 type: prop
-seasons:
-  fall: [ 0xa1480a2b, 0x30000 ]
-  summer: [ 0x11f8059, 0x30000 ]
-  winter: [ 0xe11f3d6c, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xfe437d66 ]
+    model: [ 0xa1480a2b, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3e428327 ]
+    model: [ 0x11f8059, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0xbe4240be ]
+    model: [ 0xe11f3d6c, 0x30000 ]
 
 ---
 id: girafe:vines-c-prop
 type: prop
-seasons:
-  fall: [ 0x8148095e, 0x30000 ]
-  summer: [ 0x811f815b, 0x30000 ]
-  winter: [ 0x611f3d9c, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x3e437d4a ]
+    model: [ 0x8148095e, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xde4282f3 ]
+    model: [ 0x811f815b, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x9e4240ae ]
+    model: [ 0x611f3d9c, 0x30000 ]
 
 ---
 id: girafe:vines-d-prop
 type: prop
-seasons:
-  fall: [ 0xc14808bd, 0x30000 ]
-  summer: [ 0x211f82d6, 0x30000 ]
-  winter: [ 0x411f3dd4, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0xbe437d38 ]
+    model: [ 0xc14808bd, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3e4282e3 ]
+    model: [ 0x211f82d6, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7e42409f ]
+    model: [ 0x411f3dd4, 0x30000 ]
 
 ---
 id: girafe:vines-e-prop
 type: prop
-seasons:
-  fall: [ 0x41480843, 0x30000 ]
-  summer: [ 0xa147e4fb, 0x30000 ]
-  winter: [ 0x811f3e05, 0x30000 ]
+models:
+  fall:
+    exemplar: [ 0x9dd7f9c4, 0x7e437d1b ]
+    model: [ 0x41480843, 0x30000 ]
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbe435637 ]
+    model: [ 0xa147e4fb, 0x30000 ]
+  winter:
+    exemplar: [ 0x9dd7f9c4, 0x7e42408f ]
+    model: [ 0x811f3e05, 0x30000 ]
 
 ---
 id: girafe:walnut-tree-a-prop
 type: prop
-seasons:
-  winter: [ 0xa4dca7b7, 0x30000 ]
-  summer: [ 0xa4f6cb32, 0x30000 ]
-  fall: [ 0xa55746c7, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0x71b9795b, 0x6562eadf ]
+    model: [ 0xa4dca7b7, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0xc562e985 ]
+    model: [ 0xa4f6cb32, 0x30000 ]
+  fall:
+    exemplar: [ 0x71b9795b, 0x4562f1e3 ]
+    model: [ 0xa55746c7, 0x30000 ]
 
 ---
 id: girafe:walnut-tree-b-prop
 type: prop
-seasons:
-  winter: [ 0xe4dca85e, 0x30000 ]
-  summer: [ 0xc4f6c694, 0x30000 ]
-  fall: [ 0x5574842, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0x71b9795b, 0x6562eaf9 ]
+    model: [ 0xe4dca85e, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0x8562e999 ]
+    model: [ 0xc4f6c694, 0x30000 ]
+  fall:
+    exemplar: [ 0x71b9795b, 0x8562f1f4 ]
+    model: [ 0x5574842, 0x30000 ]
 
 ---
 id: girafe:walnut-tree-c-prop
 type: prop
-seasons:
-  winter: [ 0x4dca8fc, 0x30000 ]
-  summer: [ 0xa4f6bc41, 0x30000 ]
-  fall: [ 0x455c212d, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0x71b9795b, 0x562eb0c ]
+    model: [ 0x4dca8fc, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0x2562e9aa ]
+    model: [ 0xa4f6bc41, 0x30000 ]
+  fall:
+    exemplar: [ 0x71b9795b, 0xc562eb9c ]
+    model: [ 0x455c212d, 0x30000 ]
 
 ---
 id: girafe:walnut-tree-d-prop
 type: prop
-seasons:
-  winter: [ 0x4dca9aa, 0x30000 ]
-  summer: [ 0x44f6ba6f, 0x30000 ]
-  fall: [ 0x655c22a2, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0x71b9795b, 0x562eb1d ]
+    model: [ 0x4dca9aa, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0x4562e9be ]
+    model: [ 0x44f6ba6f, 0x30000 ]
+  fall:
+    exemplar: [ 0x71b9795b, 0xa562ebad ]
+    model: [ 0x655c22a2, 0x30000 ]
 
 ---
 id: girafe:walnut-tree-e-prop
 type: prop
-seasons:
-  winter: [ 0x4dcaa46, 0x30000 ]
-  summer: [ 0x24f6b39f, 0x30000 ]
-  fall: [ 0x255c28b2, 0x30000 ]
+models:
+  winter:
+    exemplar: [ 0x71b9795b, 0x2562eb2d ]
+    model: [ 0x4dcaa46, 0x30000 ]
+  summer:
+    exemplar: [ 0x71b9795b, 0xc562e9d2 ]
+    model: [ 0x24f6b39f, 0x30000 ]
+  fall:
+    exemplar: [ 0x71b9795b, 0x8562ebc1 ]
+    model: [ 0x255c28b2, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-a-flora
 type: flora
-seasons:
-  fall: [ 0xa55746c7, 0x30000 ]
-  winter: [ 0xa4dca7b7, 0x30000 ]
-  summer: [ 0xa4f6cb32, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448860 ]
+    model: [ 0xa4f6cb32, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448860 ]
+    model: [ 0xa55746c7, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448860 ]
+    model: [ 0xa4dca7b7, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-b-flora
 type: flora
-seasons:
-  fall: [ 0x5574842, 0x30000 ]
-  winter: [ 0xe4dca85e, 0x30000 ]
-  summer: [ 0xc4f6c694, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448861 ]
+    model: [ 0xc4f6c694, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448861 ]
+    model: [ 0x5574842, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448861 ]
+    model: [ 0xe4dca85e, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-c-flora
 type: flora
-seasons:
-  fall: [ 0x455c212d, 0x30000 ]
-  winter: [ 0x4dca8fc, 0x30000 ]
-  summer: [ 0xa4f6bc41, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448862 ]
+    model: [ 0xa4f6bc41, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448862 ]
+    model: [ 0x455c212d, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448862 ]
+    model: [ 0x4dca8fc, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-d-flora
 type: flora
-seasons:
-  fall: [ 0x655c22a2, 0x30000 ]
-  winter: [ 0x4dca9aa, 0x30000 ]
-  summer: [ 0x44f6ba6f, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448863 ]
+    model: [ 0x44f6ba6f, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448863 ]
+    model: [ 0x655c22a2, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448863 ]
+    model: [ 0x4dca9aa, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-e-flora
 type: flora
-seasons:
-  fall: [ 0x255c28b2, 0x30000 ]
-  winter: [ 0x4dcaa46, 0x30000 ]
-  summer: [ 0x24f6b39f, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448864 ]
+    model: [ 0x24f6b39f, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448864 ]
+    model: [ 0x255c28b2, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448864 ]
+    model: [ 0x4dcaa46, 0x30000 ]
 
 ---
 id: girafe:wheat-b-prop
 type: prop
-seasons:
-  summer: [ 0xfcbf03d2, 0x30000 ]
-  fall: [ 0xfcbf10ee, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0xbcc1a9f8 ]
+    model: [ 0xfcbf03d2, 0x30000 ]
+  fall:
+    exemplar: [ 0xf0c4599b, 0x1cc1b41d ]
+    model: [ 0xfcbf10ee, 0x30000 ]
 
 ---
 id: girafe:wheat-blade-b-prop
 type: prop
-seasons:
-  summer: [ 0x3cc141a3, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0x1cc3e820 ]
+    model: [ 0x3cc141a3, 0x30000 ]
 
 ---
 id: girafe:wheat-blade-prop
 type: prop
-seasons:
-  summer: [ 0xdcc14157, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0xdcc3e80f ]
+    model: [ 0xdcc14157, 0x30000 ]
 
 ---
 id: girafe:wheat-c-prop
 type: prop
-seasons:
-  summer: [ 0x7cc1447c, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0x9cc3eab1 ]
+    model: [ 0x7cc1447c, 0x30000 ]
 
 ---
 id: girafe:wheat-d-prop
 type: prop
-seasons:
-  summer: [ 0x3cc14c30, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0xdcc3f2b8 ]
+    model: [ 0x3cc14c30, 0x30000 ]
 
 ---
 id: girafe:wheat-flora
 type: flora
-seasons:
-  summer: [ 0x1cbb1181, 0x30000 ]
-  winter: [ 0xbcbb0913, 0x30000 ]
-  fall: [ 0xdcbafe39, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xaf448050 ]
+    model: [ 0x1cbb1181, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xaf448050 ]
+    model: [ 0xdcbafe39, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448050 ]
+    model: [ 0xbcbb0913, 0x30000 ]
 
 ---
 id: girafe:wheat-prop
 type: prop
-seasons:
-  summer: [ 0xbcbec973, 0x30000 ]
-  fall: [ 0x7cbec506, 0x30000 ]
+models:
+  summer:
+    exemplar: [ 0xf0c4599b, 0x3cc170ec ]
+    model: [ 0xbcbec973, 0x30000 ]
+  fall:
+    exemplar: [ 0xf0c4599b, 0xbcc16a3c ]
+    model: [ 0x7cbec506, 0x30000 ]
