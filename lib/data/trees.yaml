@@ -4376,3 +4376,190 @@ models:
   fall:
     exemplar: [ 0xf0c4599b, 0xbcc16a3c ]
     model: [ 0x7cbec506, 0x30000 ]
+
+---
+id: orange:aesculus-00-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2003 ]
+    model: [ 0x7bd15486, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2003 ]
+    model: [ 0x1bd15475, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2003 ]
+    model: [ 0xdbd15499, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da2009 ]
+    model: [ 0x7bd15486, 0x30000 ]
+
+---
+id: orange:aesculus-01-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2004 ]
+    model: [ 0xdbd15dd3, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2004 ]
+    model: [ 0xfbd15db8, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2004 ]
+    model: [ 0x1bd15dc5, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da200a ]
+    model: [ 0xdbd15dd3, 0x30000 ]
+
+---
+id: orange:aesculus-02-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2005 ]
+    model: [ 0xfbd1643f, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2005 ]
+    model: [ 0x9bd16428, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2005 ]
+    model: [ 0x3bd16728, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da200b ]
+    model: [ 0xfbd1643f, 0x30000 ]
+
+---
+id: orange:aesculus-03-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2006 ]
+    model: [ 0xfbd07936, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2006 ]
+    model: [ 0x1bd07928, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2006 ]
+    model: [ 0xdbd0791a, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da200c ]
+    model: [ 0xfbd07936, 0x30000 ]
+
+---
+id: orange:aesculus-04-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2007 ]
+    model: [ 0xbbd0f803, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2007 ]
+    model: [ 0x3bd0f810, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2007 ]
+    model: [ 0x3bd0f85f, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da200d ]
+    model: [ 0xbbd0f803, 0x30000 ]
+
+---
+id: orange:aesculus-05-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2008 ]
+    model: [ 0xbbd11d02, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2008 ]
+    model: [ 0x9bd11cf2, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2008 ]
+    model: [ 0xbbd11d0f, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da200e ]
+    model: [ 0xbbd11d02, 0x30000 ]
+
+---
+id: orange:fagus-01-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2010 ]
+    model: [ 0x5bd95aea, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2010 ]
+    model: [ 0xfbd95afe, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2010 ]
+    model: [ 0xdbd95ae0, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da2015 ]
+    model: [ 0x5bd95aea, 0x30000 ]
+
+---
+id: orange:fagus-02-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2011 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2011 ]
+    model: [ 0x7bd95210, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2011 ]
+    model: [ 0xdbd95229, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da2016 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+
+---
+id: orange:fagus-03-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2012 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2012 ]
+    model: [ 0xbbd91268, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2012 ]
+    model: [ 0xdbd91284, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da2017 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+
+---
+id: orange:fagus-04-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2013 ]
+    model: [ 0x1bd8643a, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2013 ]
+    model: [ 0xdbd86446, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2013 ]
+    model: [ 0x7bd8642b, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da2018 ]
+    model: [ 0x1bd8643a, 0x30000 ]
+
+---
+id: orange:fagus-05-flora
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0x78da2014 ]
+    model: [ 0x7bd85213, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0x78da2014 ]
+    model: [ 0xfbd85222, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0x78da2014 ]
+    model: [ 0x7bd85205, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0x78da2019 ]
+    model: [ 0x7bd85213, 0x30000 ]

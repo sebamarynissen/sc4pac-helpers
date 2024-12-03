@@ -3,6 +3,24 @@ import path from 'node:path';
 import { ExemplarProperty } from 'sc4/core';
 import build from '../lib/build-tree-database.js';
 
+// # getId(exemplar, entry)
+// Exports the function to get the tree id from an exemplar. This is used when 
+// creating patches as well.
+export function getId(exemplar, entry) {
+	switch (exemplar.get(ExemplarProperty.ExemplarType)) {
+		case 0x0f: return getFloraId(exemplar, entry);
+		case 0x1e: return getPropId(exemplar, entry);
+	}
+}
+
+// # getModels()
+function getModels(exemplar, entry) {
+	switch (exemplar.get(ExemplarProperty.ExemplarType)) {
+		case 0x0f: return getFloraModels(exemplar, entry);
+		case 0x1e: return getPropModels(exemplar, entry);
+	}
+}
+
 // # getPropTreeId(exemplar, entry)
 // Determines the tree id of the given prop exemplar. A tree id is a way to 
 // uniquely identify a tree regardless of the various seasons it has models for. 
@@ -161,18 +179,8 @@ function hasSnow(pkg) {
 	return withSnow.some(what => name.includes(what));
 }
 
-await build('girafe:*', {
+await build('{girafe,orange}:*', {
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
-	id(exemplar, entry) {
-		switch (exemplar.get(ExemplarProperty.ExemplarType)) {
-			case 0x0f: return getFloraId(exemplar, entry);
-			case 0x1e: return getPropId(exemplar, entry);
-		}
-	},
-	models(exemplar, entry) {
-		switch (exemplar.get(ExemplarProperty.ExemplarType)) {
-			case 0x0f: return getFloraModels(exemplar, entry);
-			case 0x1e: return getPropModels(exemplar, entry);
-		}
-	},
+	id: getId,
+	models: getModels,
 });
