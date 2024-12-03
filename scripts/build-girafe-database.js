@@ -22,7 +22,7 @@ function getPropId(exemplar, entry) {
 // # getPropSeasons(exemplar, entry)
 // Returns all model TGIs that we can find in this prop exemplar. Note that 
 // Girafe's prop exemplars typically don't contain multiple seasons.
-function getPropSeasons(exemplar, entry) {
+function getPropModels(exemplar, entry) {
 
 	// If the prop only has an RKT1, then it typically is a summer prop because 
 	// it is always visible.
@@ -87,7 +87,7 @@ function getFloraId(exemplar, entry) {
 
 // # getFloraSeasons(exemplar, entry)
 // Extracts the models for every season from the flora exemplar.
-function getFloraSeasons(exemplar, entry) {
+function getFloraModels(exemplar, entry) {
 
 	// RKT5 flora is older flora where the models for the various seasons are 
 	// determined by an offset.
@@ -163,12 +163,16 @@ function hasSnow(pkg) {
 
 await build('girafe:*', {
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
-	prop: {
-		id: getPropId,
-		models: getPropSeasons,
+	id(exemplar, entry) {
+		switch (exemplar.get(ExemplarProperty.ExemplarType)) {
+			case 0x0f: return getFloraId(exemplar, entry);
+			case 0x1e: return getPropId(exemplar, entry);
+		}
 	},
-	flora: {
-		id: getFloraId,
-		models: getFloraSeasons,
+	models(exemplar, entry) {
+		switch (exemplar.get(ExemplarProperty.ExemplarType)) {
+			case 0x0f: return getFloraModels(exemplar, entry);
+			case 0x1e: return getPropModels(exemplar, entry);
+		}
 	},
 });
