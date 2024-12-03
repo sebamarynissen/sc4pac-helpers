@@ -1355,6 +1355,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448460 ]
     model: [ 0x60bf2f78, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448460 ]
+    model: [ 0xe0c42105, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448460 ]
     model: [ 0xe0c42105, 0x30000 ]
@@ -1372,6 +1375,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448461 ]
     model: [ 0xbeba96, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448461 ]
+    model: [ 0xc0c418dc, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448461 ]
     model: [ 0xc0c418dc, 0x30000 ]
@@ -1389,6 +1395,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448462 ]
     model: [ 0xe0bec1de, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448462 ]
+    model: [ 0xa0c4242b, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448462 ]
     model: [ 0xa0c4242b, 0x30000 ]
@@ -1406,6 +1415,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448463 ]
     model: [ 0xe0becc65, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448463 ]
+    model: [ 0x40c43312, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448463 ]
     model: [ 0x40c43312, 0x30000 ]
@@ -1423,6 +1435,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448464 ]
     model: [ 0xc0bf16c9, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448464 ]
+    model: [ 0x40c44a60, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448464 ]
     model: [ 0x40c44a60, 0x30000 ]
@@ -1528,6 +1543,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448810 ]
     model: [ 0x1b63fc39, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448810 ]
+    model: [ 0xdb723a0d, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448810 ]
     model: [ 0xdb723a0d, 0x30000 ]
@@ -1545,6 +1563,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448811 ]
     model: [ 0x1aa894a8, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448811 ]
+    model: [ 0x5b724045, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448811 ]
     model: [ 0x5b724045, 0x30000 ]
@@ -1562,6 +1583,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448812 ]
     model: [ 0x9af94cfe, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448812 ]
+    model: [ 0x1b724c62, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448812 ]
     model: [ 0x1b724c62, 0x30000 ]
@@ -1579,6 +1603,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448813 ]
     model: [ 0xfaf95796, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448813 ]
+    model: [ 0x7b9a14cb, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448813 ]
     model: [ 0x7b9a14cb, 0x30000 ]
@@ -1596,6 +1623,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448814 ]
     model: [ 0x7b2071af, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448814 ]
+    model: [ 0x3b724fb1, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448814 ]
     model: [ 0x3b724fb1, 0x30000 ]
@@ -1918,6 +1948,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481040 ]
     model: [ 0x2c5458b3, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481040 ]
+    model: [ 0x792662b7, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481040 ]
     model: [ 0x792662b7, 0x130000 ]
@@ -1935,6 +1968,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481041 ]
     model: [ 0x4c546a20, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481041 ]
+    model: [ 0x19294c72, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481041 ]
     model: [ 0x19294c72, 0x130000 ]
@@ -1952,6 +1988,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481042 ]
     model: [ 0x8b1d51ad, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481042 ]
+    model: [ 0x99284eb1, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481042 ]
     model: [ 0x99284eb1, 0x130000 ]
@@ -1969,6 +2008,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481043 ]
     model: [ 0xeb1d5978, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481043 ]
+    model: [ 0xd928538d, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481043 ]
     model: [ 0xd928538d, 0x130000 ]
@@ -1986,6 +2028,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481044 ]
     model: [ 0xcb1d6697, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481044 ]
+    model: [ 0x99291063, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481044 ]
     model: [ 0x99291063, 0x130000 ]
@@ -3607,6 +3652,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481020 ]
     model: [ 0xab1cd8ca, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481020 ]
+    model: [ 0x5a0e874f, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481020 ]
     model: [ 0x5a0e874f, 0x130000 ]
@@ -3624,6 +3672,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481021 ]
     model: [ 0xeb458812, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481021 ]
+    model: [ 0xba0e8ba5, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481021 ]
     model: [ 0xba0e8ba5, 0x130000 ]
@@ -3641,6 +3692,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481022 ]
     model: [ 0xeb4590b1, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481022 ]
+    model: [ 0x9a0e9076, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481022 ]
     model: [ 0x9a0e9076, 0x130000 ]
@@ -3658,6 +3712,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481023 ]
     model: [ 0x6b459800, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481023 ]
+    model: [ 0xfa0e9663, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481023 ]
     model: [ 0xfa0e9663, 0x130000 ]
@@ -3675,6 +3732,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf481024 ]
     model: [ 0x4b45a458, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf481024 ]
+    model: [ 0x5a0e9e08, 0x130000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf481024 ]
     model: [ 0x5a0e9e08, 0x130000 ]
@@ -3821,6 +3881,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448110 ]
     model: [ 0x1c52cfd3, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448110 ]
+    model: [ 0x7c540ebd, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448110 ]
     model: [ 0x7c540ebd, 0x30000 ]
@@ -3838,6 +3901,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448111 ]
     model: [ 0x7c52dc22, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448111 ]
+    model: [ 0xdc542077, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448111 ]
     model: [ 0xdc542077, 0x30000 ]
@@ -3855,6 +3921,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448112 ]
     model: [ 0xbc52b624, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448112 ]
+    model: [ 0x5c54cb3a, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448112 ]
     model: [ 0x5c54cb3a, 0x30000 ]
@@ -3872,6 +3941,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448113 ]
     model: [ 0xfc539f52, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448113 ]
+    model: [ 0x7c559f4b, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448113 ]
     model: [ 0x7c559f4b, 0x30000 ]
@@ -3889,6 +3961,9 @@ models:
   fall:
     exemplar: [ 0xe83e0437, 0xaf448114 ]
     model: [ 0xdc5bfab5, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xaf448114 ]
+    model: [ 0x5c83de35, 0x30000 ]
   snow:
     exemplar: [ 0xe83e0437, 0xaf448114 ]
     model: [ 0x5c83de35, 0x30000 ]

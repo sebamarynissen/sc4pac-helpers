@@ -110,26 +110,20 @@ function getFloraSeasons(exemplar, entry) {
 		for (let i = 0; i < n; i++) {
 			let index = 8*i;
 			let season = ['fall', 'winter', 'summer'][rkt4[index]];
-
-			// Some trees are snow-covered in winter. However, we want them to 
-			// have their normal summer appearance in winter - these are 
-			// coniferous trees - so we rename the season to "snow" in that case/
-			if (season === 'winter') {
-				let pkg = path.basename(path.dirname(entry.dbpf.file));
-
-				// Larches come in two variants: snow and leafless winter. Hence 
-				// we have to find the proper model.
-				if (pkg.includes('larches')) {
-					if (entry.dbpf.file.match(/_S\.dat$/)) {
-						season = 'snow';
-					}
-				} else if (hasSnow(pkg)) {
-					season = 'snow';
-				}
-			}
 			let model = rkt4.slice(index+6, index+8);
 			seasons[season] = model;
+		}
 
+		// If this package is labeled as where the winter tree has a snow model 
+		// - which is the case for all coniferous models - then we've found the 
+		// snow model too.
+		let { file } = entry.dbpf;
+		let pkg = path.basename(path.dirname(file));
+		if (pkg.includes('larches') && file.match(/_S\.dat$/) || hasSnow(pkg)) {
+			let { winter } = seasons;
+			if (winter) {
+				seasons.snow = [...winter];
+			}
 		}
 		return seasons;
 
