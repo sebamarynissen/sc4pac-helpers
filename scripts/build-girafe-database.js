@@ -136,8 +136,17 @@ function getFloraSeasons(exemplar, entry) {
 	}
 
 	// If the model is using an RKT1, then it's an evergreen model or everwinter 
-	// model. We don't use those because we already read the models here from 
-	// the seasonal ones.
+	// model. Everwinter models are always snow-capped trees in the case of 
+	// Girafe's flora. 
+	let rkt1 = exemplar.get(ExemplarProperty.ResourceKeyType1);
+	if (rkt1) {
+		let gi = rkt1.slice(1);
+		let { file } = entry.dbpf;
+		let season = file.match(/winter/i) ? 'snow' : 'evergreen';
+		return { [season]: gi };
+	}
+
+	// By default we return nothing.
 	return null;
 
 }

@@ -10,6 +10,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0010 ]
     model: [ 0x792662b7, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf442000 ]
+    model: [ 0x792662b7, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf441000 ]
+    model: [ 0x792662b7, 0x120000 ]
 
 ---
 id: girafe:abies-grandis-v1-1-b-flora
@@ -24,6 +30,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0011 ]
     model: [ 0x19294c72, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf442001 ]
+    model: [ 0x19294c72, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf441001 ]
+    model: [ 0x19294c72, 0x120000 ]
 
 ---
 id: girafe:abies-grandis-v1-1-c-flora
@@ -38,6 +50,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0012 ]
     model: [ 0x99284eb1, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf442002 ]
+    model: [ 0x99284eb1, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf441002 ]
+    model: [ 0x99284eb1, 0x120000 ]
 
 ---
 id: girafe:abies-grandis-v1-1-d-flora
@@ -52,6 +70,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0013 ]
     model: [ 0xd928538d, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf442003 ]
+    model: [ 0xd928538d, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf441003 ]
+    model: [ 0xd928538d, 0x120000 ]
 
 ---
 id: girafe:abies-grandis-v1-1-e-flora
@@ -66,6 +90,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0014 ]
     model: [ 0x99291063, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf442004 ]
+    model: [ 0x99291063, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf441004 ]
+    model: [ 0x99291063, 0x120000 ]
 
 ---
 id: girafe:alder-a-prop
@@ -150,6 +180,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447730 ]
     model: [ 0x8c27964f, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447720 ]
+    model: [ 0x6c2754ff, 0x30000 ]
 
 ---
 id: girafe:alders-b-flora
@@ -164,6 +197,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447731 ]
     model: [ 0x8c279769, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447721 ]
+    model: [ 0xc275273, 0x30000 ]
 
 ---
 id: girafe:alders-c-flora
@@ -178,6 +214,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447732 ]
     model: [ 0xac27986e, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447722 ]
+    model: [ 0x2c274fac, 0x30000 ]
 
 ---
 id: girafe:alders-d-flora
@@ -192,6 +231,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447733 ]
     model: [ 0xec2799a4, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447723 ]
+    model: [ 0xec2744f7, 0x30000 ]
 
 ---
 id: girafe:alders-e-flora
@@ -206,6 +248,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447734 ]
     model: [ 0x6c279d1a, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447724 ]
+    model: [ 0x8c27494e, 0x30000 ]
 
 ---
 id: girafe:ash-a-prop
@@ -332,6 +377,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448220 ]
     model: [ 0xddac2d55, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448210 ]
+    model: [ 0x5cdfd2f6, 0x30000 ]
 
 ---
 id: girafe:ashes-b-flora
@@ -346,6 +394,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448221 ]
     model: [ 0x5dabec83, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448211 ]
+    model: [ 0x7cdfcf8e, 0x30000 ]
 
 ---
 id: girafe:ashes-c-flora
@@ -360,6 +411,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448222 ]
     model: [ 0x3dac2deb, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448212 ]
+    model: [ 0xdd064901, 0x30000 ]
 
 ---
 id: girafe:ashes-d-flora
@@ -374,6 +428,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448223 ]
     model: [ 0x3dac2ae2, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448213 ]
+    model: [ 0xfd06549f, 0x30000 ]
 
 ---
 id: girafe:ashes-e-flora
@@ -388,6 +445,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448224 ]
     model: [ 0x5dabed23, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448214 ]
+    model: [ 0x9d0701bd, 0x30000 ]
 
 ---
 id: girafe:beech-a-prop
@@ -472,6 +532,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448620 ]
     model: [ 0x214ea0cb, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448610 ]
+    model: [ 0xa2442dd1, 0x30000 ]
 
 ---
 id: girafe:beeches-b-flora
@@ -486,6 +549,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448621 ]
     model: [ 0xc14ea122, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448611 ]
+    model: [ 0xc2442c8f, 0x30000 ]
 
 ---
 id: girafe:beeches-c-flora
@@ -500,6 +566,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448622 ]
     model: [ 0x414ea185, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448612 ]
+    model: [ 0x22442bc8, 0x30000 ]
 
 ---
 id: girafe:beeches-d-flora
@@ -514,6 +583,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448623 ]
     model: [ 0xa14ea212, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448613 ]
+    model: [ 0x2244289d, 0x30000 ]
 
 ---
 id: girafe:beeches-e-flora
@@ -528,6 +600,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448624 ]
     model: [ 0xe14ea334, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448614 ]
+    model: [ 0xe2442587, 0x30000 ]
 
 ---
 id: girafe:berries-a-flora
@@ -542,6 +617,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448370 ]
     model: [ 0x609cbe67, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448360 ]
+    model: [ 0x236ea5b, 0x30000 ]
 
 ---
 id: girafe:berries-a-prop
@@ -570,6 +648,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448371 ]
     model: [ 0x609cbd0f, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448361 ]
+    model: [ 0x6236e6e8, 0x30000 ]
 
 ---
 id: girafe:berries-b-prop
@@ -598,6 +679,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448372 ]
     model: [ 0xa09cbc8d, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448362 ]
+    model: [ 0xc236e4f5, 0x30000 ]
 
 ---
 id: girafe:berries-c-prop
@@ -710,6 +794,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448080 ]
     model: [ 0x5b1a616d, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448000 ]
+    model: [ 0x3a97c44b, 0x30000 ]
 
 ---
 id: girafe:birches-b-flora
@@ -724,6 +811,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448081 ]
     model: [ 0xbb4353ab, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448001 ]
+    model: [ 0x9aca0401, 0x30000 ]
 
 ---
 id: girafe:birches-c-flora
@@ -738,6 +828,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448082 ]
     model: [ 0x9b1a63bc, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448002 ]
+    model: [ 0x5a97c7c0, 0x30000 ]
 
 ---
 id: girafe:birches-d-flora
@@ -752,6 +845,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448083 ]
     model: [ 0x3b1a64b8, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448003 ]
+    model: [ 0x1a9802f2, 0x30000 ]
 
 ---
 id: girafe:birches-e-flora
@@ -766,6 +862,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448084 ]
     model: [ 0x3b1a6614, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448004 ]
+    model: [ 0xfa97d5e7, 0x30000 ]
 
 ---
 id: girafe:bush-a-prop
@@ -892,6 +991,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf449145 ]
     model: [ 0x5b5b032c, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf449140 ]
+    model: [ 0xdb3d9fcc, 0x30000 ]
 
 ---
 id: girafe:bushes-b-flora
@@ -906,6 +1008,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf449146 ]
     model: [ 0x1b5b04a0, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf449141 ]
+    model: [ 0x3b3d96ac, 0x30000 ]
 
 ---
 id: girafe:bushes-c-flora
@@ -920,6 +1025,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf449147 ]
     model: [ 0x3b5b0682, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf449142 ]
+    model: [ 0x9b3d9a2b, 0x30000 ]
 
 ---
 id: girafe:cattails-a-flora
@@ -934,6 +1042,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf449154 ]
     model: [ 0x1b5ad226, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf449110 ]
+    model: [ 0xda7e9901, 0x30000 ]
 
 ---
 id: girafe:cattails-a-prop
@@ -959,6 +1070,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf449155 ]
     model: [ 0xdb5ad2df, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf449111 ]
+    model: [ 0x9a7e9b1a, 0x30000 ]
 
 ---
 id: girafe:cattails-b-prop
@@ -984,6 +1098,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf449156 ]
     model: [ 0x9b5acfd7, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf449112 ]
+    model: [ 0xda7e9bb9, 0x30000 ]
 
 ---
 id: girafe:cattails-c-prop
@@ -1079,6 +1196,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448680 ]
     model: [ 0x1f6379f, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448670 ]
+    model: [ 0x61f640cf, 0x30000 ]
 
 ---
 id: girafe:chestnuts-b-flora
@@ -1093,6 +1213,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448681 ]
     model: [ 0x61f63813, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448671 ]
+    model: [ 0x21f63fa5, 0x30000 ]
 
 ---
 id: girafe:chestnuts-c-flora
@@ -1107,6 +1230,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448682 ]
     model: [ 0xa1f638a7, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448672 ]
+    model: [ 0x61f63e84, 0x30000 ]
 
 ---
 id: girafe:chestnuts-d-flora
@@ -1121,6 +1247,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448683 ]
     model: [ 0x41f63934, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448673 ]
+    model: [ 0xa1f63d21, 0x30000 ]
 
 ---
 id: girafe:chestnuts-e-flora
@@ -1135,6 +1264,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448684 ]
     model: [ 0x1f63a7d, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448674 ]
+    model: [ 0xc1f63b46, 0x30000 ]
 
 ---
 id: girafe:common-spruce-a-prop
@@ -1226,6 +1358,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448460 ]
     model: [ 0xe0c42105, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448440 ]
+    model: [ 0x60bf2f78, 0x30000 ]
 
 ---
 id: girafe:common-spruces-b-flora
@@ -1240,6 +1375,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448461 ]
     model: [ 0xc0c418dc, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448441 ]
+    model: [ 0xbeba96, 0x30000 ]
 
 ---
 id: girafe:common-spruces-c-flora
@@ -1254,6 +1392,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448462 ]
     model: [ 0xa0c4242b, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448442 ]
+    model: [ 0xe0bec1de, 0x30000 ]
 
 ---
 id: girafe:common-spruces-d-flora
@@ -1268,6 +1409,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448463 ]
     model: [ 0x40c43312, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448443 ]
+    model: [ 0xe0becc65, 0x30000 ]
 
 ---
 id: girafe:common-spruces-e-flora
@@ -1282,6 +1426,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448464 ]
     model: [ 0x40c44a60, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448444 ]
+    model: [ 0xc0bf16c9, 0x30000 ]
 
 ---
 id: girafe:conifer-a-prop
@@ -1384,6 +1531,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448810 ]
     model: [ 0xdb723a0d, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448840 ]
+    model: [ 0x1b63fc39, 0x30000 ]
 
 ---
 id: girafe:conifers-b-flora
@@ -1398,6 +1548,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448811 ]
     model: [ 0x5b724045, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448841 ]
+    model: [ 0x1aa894a8, 0x30000 ]
 
 ---
 id: girafe:conifers-c-flora
@@ -1412,6 +1565,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448812 ]
     model: [ 0x1b724c62, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448842 ]
+    model: [ 0x9af94cfe, 0x30000 ]
 
 ---
 id: girafe:conifers-d-flora
@@ -1426,6 +1582,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448813 ]
     model: [ 0x7b9a14cb, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448843 ]
+    model: [ 0xfaf95796, 0x30000 ]
 
 ---
 id: girafe:conifers-e-flora
@@ -1440,6 +1599,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448814 ]
     model: [ 0x3b724fb1, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448844 ]
+    model: [ 0x7b2071af, 0x30000 ]
 
 ---
 id: girafe:daisy-a-flora
@@ -1453,6 +1615,9 @@ models:
     model: [ 0x32db52b, 0x30000 ]
   winter:
     exemplar: [ 0xe83e0437, 0xaf448570 ]
+    model: [ 0x23305483, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448580 ]
     model: [ 0x23305483, 0x30000 ]
 
 ---
@@ -1475,6 +1640,9 @@ models:
     model: [ 0x232db58d, 0x30000 ]
   winter:
     exemplar: [ 0xe83e0437, 0xaf448571 ]
+    model: [ 0x43305503, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448581 ]
     model: [ 0x43305503, 0x30000 ]
 
 ---
@@ -1568,6 +1736,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448750 ]
     model: [ 0x3d9f08e, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448740 ]
+    model: [ 0x83d9e04c, 0x30000 ]
 
 ---
 id: girafe:elms-b-flora
@@ -1582,6 +1753,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448751 ]
     model: [ 0xe3d9f0f2, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448741 ]
+    model: [ 0xe3d9dd4e, 0x30000 ]
 
 ---
 id: girafe:elms-c-flora
@@ -1596,6 +1770,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448752 ]
     model: [ 0xa3d9f16e, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448742 ]
+    model: [ 0x83d9db22, 0x30000 ]
 
 ---
 id: girafe:elms-d-flora
@@ -1610,6 +1787,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448753 ]
     model: [ 0xa3cfe0a7, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448743 ]
+    model: [ 0x23cfcc93, 0x30000 ]
 
 ---
 id: girafe:elms-e-flora
@@ -1624,6 +1804,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448754 ]
     model: [ 0x23cfe13f, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448744 ]
+    model: [ 0xc3cfc753, 0x30000 ]
 
 ---
 id: girafe:feather-grass-a-flora
@@ -1638,6 +1821,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448640 ]
     model: [ 0x80ff63ac, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448630 ]
+    model: [ 0xa0b1d5bf, 0x30000 ]
 
 ---
 id: girafe:feather-grass-a-prop
@@ -1663,6 +1849,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448641 ]
     model: [ 0xc0ff6413, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448631 ]
+    model: [ 0x60b1d6ad, 0x30000 ]
 
 ---
 id: girafe:grand-fir-a-prop
@@ -1732,6 +1921,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481040 ]
     model: [ 0x792662b7, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481030 ]
+    model: [ 0x2c5458b3, 0x30000 ]
 
 ---
 id: girafe:grand-firs-b-flora
@@ -1746,6 +1938,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481041 ]
     model: [ 0x19294c72, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481031 ]
+    model: [ 0x4c546a20, 0x30000 ]
 
 ---
 id: girafe:grand-firs-c-flora
@@ -1760,6 +1955,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481042 ]
     model: [ 0x99284eb1, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481032 ]
+    model: [ 0x8b1d51ad, 0x30000 ]
 
 ---
 id: girafe:grand-firs-d-flora
@@ -1774,6 +1972,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481043 ]
     model: [ 0xd928538d, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481033 ]
+    model: [ 0xeb1d5978, 0x30000 ]
 
 ---
 id: girafe:grand-firs-e-flora
@@ -1788,6 +1989,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481044 ]
     model: [ 0x99291063, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481034 ]
+    model: [ 0xcb1d6697, 0x30000 ]
 
 ---
 id: girafe:haybale-b-prop
@@ -1834,6 +2038,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448700 ]
     model: [ 0x62060fb3, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448690 ]
+    model: [ 0xe20608a0, 0x30000 ]
 
 ---
 id: girafe:honey-locust-a-prop
@@ -1862,6 +2069,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448701 ]
     model: [ 0x82061000, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448691 ]
+    model: [ 0x22060736, 0x30000 ]
 
 ---
 id: girafe:honey-locust-b-prop
@@ -1890,6 +2100,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448702 ]
     model: [ 0xa2061054, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448692 ]
+    model: [ 0xe20605bc, 0x30000 ]
 
 ---
 id: girafe:honey-locust-c-prop
@@ -1918,6 +2131,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448703 ]
     model: [ 0xc20610bc, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448693 ]
+    model: [ 0x2060220, 0x30000 ]
 
 ---
 id: girafe:honey-locust-d-prop
@@ -1946,6 +2162,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448704 ]
     model: [ 0xc2060f05, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448694 ]
+    model: [ 0x82060a73, 0x30000 ]
 
 ---
 id: girafe:honey-locust-e-prop
@@ -1977,6 +2196,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf488390 ]
     model: [ 0xa9000f, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448380 ]
+    model: [ 0xbb112acd, 0x30000 ]
 
 ---
 id: girafe:larches-b-flora
@@ -1994,6 +2216,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf488391 ]
     model: [ 0xa0a901b2, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448381 ]
+    model: [ 0x7a63c29e, 0x30000 ]
 
 ---
 id: girafe:larches-c-flora
@@ -2011,6 +2236,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf488392 ]
     model: [ 0x80a90404, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448382 ]
+    model: [ 0x9b11c81d, 0x30000 ]
 
 ---
 id: girafe:larches-d-flora
@@ -2028,6 +2256,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf488393 ]
     model: [ 0xcca44d, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448383 ]
+    model: [ 0x9b131411, 0x30000 ]
 
 ---
 id: girafe:larches-e-flora
@@ -2045,6 +2276,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf488394 ]
     model: [ 0xe0ccaac2, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448384 ]
+    model: [ 0x1bd1c258, 0x30000 ]
 
 ---
 id: girafe:linden-a-prop
@@ -2143,6 +2377,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448320 ]
     model: [ 0x9dd7f9c4, 0x250000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448300 ]
+    model: [ 0x9dd7f9c4, 0x440000 ]
 
 ---
 id: girafe:lindens-b-flora
@@ -2157,6 +2394,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448321 ]
     model: [ 0x9dd7f9c4, 0x260000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448301 ]
+    model: [ 0x9dd7f9c4, 0x430000 ]
 
 ---
 id: girafe:lindens-c-flora
@@ -2171,6 +2411,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448322 ]
     model: [ 0x9dd7f9c4, 0x270000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448302 ]
+    model: [ 0x9dd7f9c4, 0x420000 ]
 
 ---
 id: girafe:lindens-d-flora
@@ -2185,6 +2428,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448323 ]
     model: [ 0x9dd7f9c4, 0x280000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448303 ]
+    model: [ 0x9dd7f9c4, 0x400000 ]
 
 ---
 id: girafe:lindens-e-flora
@@ -2199,6 +2445,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448324 ]
     model: [ 0x9dd7f9c4, 0x290000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448304 ]
+    model: [ 0x9dd7f9c4, 0x410000 ]
 
 ---
 id: girafe:lupin-a-prop
@@ -2246,6 +2495,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448350 ]
     model: [ 0x4145aec7, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448340 ]
+    model: [ 0x4145aec7, 0x30000 ]
 
 ---
 id: girafe:lupins-b-flora
@@ -2260,6 +2512,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448351 ]
     model: [ 0x145ae00, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448341 ]
+    model: [ 0x145ae00, 0x30000 ]
 
 ---
 id: girafe:lupins-c-flora
@@ -2273,6 +2528,9 @@ models:
     model: [ 0xe145a346, 0x30000 ]
   winter:
     exemplar: [ 0xe83e0437, 0xaf448352 ]
+    model: [ 0xa145acf1, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448342 ]
     model: [ 0xa145acf1, 0x30000 ]
 
 ---
@@ -2400,6 +2658,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0015 ]
     model: [ 0xd9f00412, 0x120000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf451000 ]
+    model: [ 0xd9f00412, 0x130000 ]
 
 ---
 id: girafe:maples-v1-b-flora
@@ -2414,6 +2675,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0016 ]
     model: [ 0xb9f008ba, 0x120000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf451001 ]
+    model: [ 0xb9f008ba, 0x130000 ]
 
 ---
 id: girafe:maples-v1-c-flora
@@ -2428,6 +2692,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0017 ]
     model: [ 0x19f00eaa, 0x120000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf451002 ]
+    model: [ 0x19f00eaa, 0x130000 ]
 
 ---
 id: girafe:maples-v1-d-flora
@@ -2442,6 +2709,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0018 ]
     model: [ 0xf9effc6a, 0x120000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf451003 ]
+    model: [ 0xf9effc6a, 0x130000 ]
 
 ---
 id: girafe:maples-v1-e-flora
@@ -2456,6 +2726,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0019 ]
     model: [ 0xf9f01459, 0x120000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf451004 ]
+    model: [ 0xf9f01459, 0x130000 ]
 
 ---
 id: girafe:maples-v2-v1-a-flora
@@ -2540,6 +2813,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448500 ]
     model: [ 0xc0c8160e, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448490 ]
+    model: [ 0xc0c8160e, 0x30000 ]
 
 ---
 id: girafe:narcissus-a-prop
@@ -2561,6 +2837,9 @@ models:
     model: [ 0xe0c83f69, 0x30000 ]
   winter:
     exemplar: [ 0xe83e0437, 0xaf448501 ]
+    model: [ 0x80c80fa9, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448491 ]
     model: [ 0x80c80fa9, 0x30000 ]
 
 ---
@@ -2632,6 +2911,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448040 ]
     model: [ 0xbc03b8a4, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448030 ]
+    model: [ 0xbc05058a, 0x30000 ]
 
 ---
 id: girafe:norway-maples-v2-b-flora
@@ -2646,6 +2928,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448041 ]
     model: [ 0xfc03b690, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448031 ]
+    model: [ 0xfc050819, 0x30000 ]
 
 ---
 id: girafe:norway-maples-v2-c-flora
@@ -2660,6 +2945,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448042 ]
     model: [ 0x9c03b101, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448032 ]
+    model: [ 0xdc050df1, 0x30000 ]
 
 ---
 id: girafe:norway-maples-v2-d-flora
@@ -2674,6 +2962,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448043 ]
     model: [ 0xfc03ae63, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448033 ]
+    model: [ 0xfc051cc8, 0x30000 ]
 
 ---
 id: girafe:oak-a-prop
@@ -2758,6 +3049,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf440260 ]
     model: [ 0x9a2cc199, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf440250 ]
+    model: [ 0x7b1b5718, 0x30000 ]
 
 ---
 id: girafe:oaks-b-flora
@@ -2772,6 +3066,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf440261 ]
     model: [ 0x7a2cc011, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf440251 ]
+    model: [ 0x7b1b4ffd, 0x30000 ]
 
 ---
 id: girafe:oaks-c-flora
@@ -2786,6 +3083,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf440262 ]
     model: [ 0x5a2cbe33, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf440252 ]
+    model: [ 0xdb1b4a6e, 0x30000 ]
 
 ---
 id: girafe:oaks-d-flora
@@ -2800,6 +3100,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf440263 ]
     model: [ 0x1a2cbbf5, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf440253 ]
+    model: [ 0x5b1b3a8d, 0x30000 ]
 
 ---
 id: girafe:oaks-e-flora
@@ -2814,6 +3117,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf440264 ]
     model: [ 0xfa2cb908, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf440254 ]
+    model: [ 0xfb1b31a0, 0x30000 ]
 
 ---
 id: girafe:poplar-a-prop
@@ -2898,6 +3204,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447710 ]
     model: [ 0x47922136, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447700 ]
+    model: [ 0x790ce33, 0x30000 ]
 
 ---
 id: girafe:poplars-b-flora
@@ -2912,6 +3221,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447711 ]
     model: [ 0xc7922088, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447701 ]
+    model: [ 0x4790d2f4, 0x30000 ]
 
 ---
 id: girafe:poplars-c-flora
@@ -2926,6 +3238,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447712 ]
     model: [ 0x27921ff2, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447702 ]
+    model: [ 0x6790e227, 0x30000 ]
 
 ---
 id: girafe:poplars-d-flora
@@ -2940,6 +3255,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447713 ]
     model: [ 0x27921f43, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447703 ]
+    model: [ 0x8790e69f, 0x30000 ]
 
 ---
 id: girafe:poplars-e-flora
@@ -2954,6 +3272,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf447714 ]
     model: [ 0xa7921e67, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf447704 ]
+    model: [ 0x6790e985, 0x30000 ]
 
 ---
 id: girafe:poppies-a-flora
@@ -2968,6 +3289,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448480 ]
     model: [ 0xa0c5aaa7, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448470 ]
+    model: [ 0xa0c5aaa7, 0x30000 ]
 
 ---
 id: girafe:poppies-b-flora
@@ -2981,6 +3305,9 @@ models:
     model: [ 0x80c5c1e3, 0x30000 ]
   winter:
     exemplar: [ 0xe83e0437, 0xaf448481 ]
+    model: [ 0x20c5ac19, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448471 ]
     model: [ 0x20c5ac19, 0x30000 ]
 
 ---
@@ -3098,6 +3425,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448710 ]
     model: [ 0x42807c21, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448720 ]
+    model: [ 0x22806260, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-b-flora
@@ -3112,6 +3442,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448711 ]
     model: [ 0x42807bb1, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448721 ]
+    model: [ 0xe27fccf8, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-c-flora
@@ -3126,6 +3459,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448712 ]
     model: [ 0xe2807af6, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448722 ]
+    model: [ 0x828063cd, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-d-flora
@@ -3140,6 +3476,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448713 ]
     model: [ 0xa2807a5a, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448723 ]
+    model: [ 0x628068ff, 0x30000 ]
 
 ---
 id: girafe:rowan-trees-e-flora
@@ -3154,6 +3493,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448714 ]
     model: [ 0x2807938, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448724 ]
+    model: [ 0x22806eb2, 0x30000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-a-flora
@@ -3168,6 +3510,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa001f ]
     model: [ 0x5a0e874f, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf471000 ]
+    model: [ 0x5a0e874f, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481000 ]
+    model: [ 0x5a0e874f, 0x120000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-b-flora
@@ -3182,6 +3530,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0020 ]
     model: [ 0xba0e8ba5, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf471001 ]
+    model: [ 0xba0e8ba5, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481001 ]
+    model: [ 0xba0e8ba5, 0x120000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-c-flora
@@ -3196,6 +3550,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0021 ]
     model: [ 0x9a0e9076, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf471002 ]
+    model: [ 0x9a0e9076, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481002 ]
+    model: [ 0x9a0e9076, 0x120000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-d-flora
@@ -3210,6 +3570,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0022 ]
     model: [ 0xfa0e9663, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf471003 ]
+    model: [ 0xfa0e9663, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481003 ]
+    model: [ 0xfa0e9663, 0x120000 ]
 
 ---
 id: girafe:serbian-spruces-v1-v1-e-flora
@@ -3224,6 +3590,12 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0x33aa0023 ]
     model: [ 0x5a0e9e08, 0x130000 ]
+  snow:
+    exemplar: [ 0xe83e0437, 0xaf471004 ]
+    model: [ 0x5a0e9e08, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481004 ]
+    model: [ 0x5a0e9e08, 0x120000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-a-flora
@@ -3238,6 +3610,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481020 ]
     model: [ 0x5a0e874f, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481010 ]
+    model: [ 0xab1cd8ca, 0x30000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-b-flora
@@ -3252,6 +3627,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481021 ]
     model: [ 0xba0e8ba5, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481011 ]
+    model: [ 0xeb458812, 0x30000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-c-flora
@@ -3266,6 +3644,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481022 ]
     model: [ 0x9a0e9076, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481012 ]
+    model: [ 0xeb4590b1, 0x30000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-d-flora
@@ -3280,6 +3661,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481023 ]
     model: [ 0xfa0e9663, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481013 ]
+    model: [ 0x6b459800, 0x30000 ]
 
 ---
 id: girafe:serbian-spruces-v2-1-e-flora
@@ -3294,6 +3678,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf481024 ]
     model: [ 0x5a0e9e08, 0x130000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf481014 ]
+    model: [ 0x4b45a458, 0x30000 ]
 
 ---
 id: girafe:serbien-spruce-a-prop
@@ -3363,6 +3750,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448520 ]
     model: [ 0x40fce789, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448510 ]
+    model: [ 0x40fce789, 0x30000 ]
 
 ---
 id: girafe:sparaxis-b-flora
@@ -3376,6 +3766,9 @@ models:
     model: [ 0x20fcea10, 0x30000 ]
   winter:
     exemplar: [ 0xe83e0437, 0xaf448521 ]
+    model: [ 0x80fce825, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448511 ]
     model: [ 0x80fce825, 0x30000 ]
 
 ---
@@ -3431,6 +3824,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448110 ]
     model: [ 0x7c540ebd, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448085 ]
+    model: [ 0x1c52cfd3, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-b-flora
@@ -3445,6 +3841,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448111 ]
     model: [ 0xdc542077, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448086 ]
+    model: [ 0x7c52dc22, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-c-flora
@@ -3459,6 +3858,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448112 ]
     model: [ 0x5c54cb3a, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448087 ]
+    model: [ 0xbc52b624, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-d-flora
@@ -3473,6 +3875,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448113 ]
     model: [ 0x7c559f4b, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448088 ]
+    model: [ 0xfc539f52, 0x30000 ]
 
 ---
 id: girafe:subalpine-firs-e-flora
@@ -3487,6 +3892,9 @@ models:
   snow:
     exemplar: [ 0xe83e0437, 0xaf448114 ]
     model: [ 0x5c83de35, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448089 ]
+    model: [ 0xdc5bfab5, 0x30000 ]
 
 ---
 id: girafe:subalpinefir-a-prop
@@ -3594,6 +4002,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448567 ]
     model: [ 0x40cea2fc, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448558 ]
+    model: [ 0x0, 0x0 ]
 
 ---
 id: girafe:vines-a-prop
@@ -3748,6 +4159,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448860 ]
     model: [ 0xa4dca7b7, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448850 ]
+    model: [ 0xa4f6cb32, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-b-flora
@@ -3762,6 +4176,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448861 ]
     model: [ 0xe4dca85e, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448851 ]
+    model: [ 0xc4f6c694, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-c-flora
@@ -3776,6 +4193,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448862 ]
     model: [ 0x4dca8fc, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448852 ]
+    model: [ 0xa4f6bc41, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-d-flora
@@ -3790,6 +4210,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448863 ]
     model: [ 0x4dca9aa, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448853 ]
+    model: [ 0x44f6ba6f, 0x30000 ]
 
 ---
 id: girafe:walnut-trees-e-flora
@@ -3804,6 +4227,9 @@ models:
   winter:
     exemplar: [ 0xe83e0437, 0xaf448864 ]
     model: [ 0x4dcaa46, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448854 ]
+    model: [ 0x24f6b39f, 0x30000 ]
 
 ---
 id: girafe:wheat-b-prop
@@ -3860,6 +4286,9 @@ models:
     model: [ 0xdcbafe39, 0x30000 ]
   winter:
     exemplar: [ 0xe83e0437, 0xaf448050 ]
+    model: [ 0xbcbb0913, 0x30000 ]
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448060 ]
     model: [ 0xbcbb0913, 0x30000 ]
 
 ---
