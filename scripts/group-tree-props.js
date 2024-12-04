@@ -1,5 +1,7 @@
 // # group-props.js
+import path from 'node:path';
 import TreeDatabase from '#lib/tree-database.js';
+import { DBPF, FileType, LotObject } from 'sc4/core';
 
 const db = new TreeDatabase();
 await db.load();
@@ -13,6 +15,38 @@ const props = [];
 for (let tree of girafe) {
 	props.push(...findUniqueProps(tree));
 }
+
+const sourceLot = path.resolve(process.env.SC4_PLUGINS, 'Girafe_park.SC4Lot');
+const lot = new DBPF(sourceLot);
+let config = lot.find({
+	type: FileType.Exemplar,
+	group: 0xa8fbd372,
+}).read();
+
+const size = 20;
+const factor = 1;
+const n = size/factor;
+for (let i = 0; i < props.length; i++) {
+	let x = factor*(i % n);
+	let z = factor*Math.floor(i / n);
+	for (let prop of props[i]) {
+		let object = new LotObject({
+			type: LotObject.Prop,
+			x,
+			z,
+			minxX: x,
+			minZ: z,
+			maxX: x,
+			maxZ: z,
+			OID: 0x912 + config.lotObjects.length,
+			IID: prop,
+		});
+		config.lotObjects.push(object);
+	}
+}
+lot.save(
+	path.resolve(process.env.SC4_PLUGINS, 'z_Girafe_park.SC4Lot'),
+);
 
 // # findUniqueProps(tree)
 // Returns the unique props for the given tree. This means that we group the 
