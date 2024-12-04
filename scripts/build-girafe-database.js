@@ -42,11 +42,11 @@ function getPropId(exemplar, entry) {
 // Girafe's prop exemplars typically don't contain multiple seasons.
 function getPropModels(exemplar, entry) {
 
-	// If the prop only has an RKT1, then it typically is a summer prop because 
-	// it is always visible.
+	// If the prop only has an RKT1, then it typically is an evergreen prop 
+	// because it is always visible.
 	let rkt1 = exemplar.get(ExemplarProperty.ResourceKeyType1);
 	if (rkt1) {
-		return { summer: rkt1.slice(1) };
+		return { evergreen: rkt1.slice(1) };
 	}
 
 	// If the prop has an RKT4 of 8 reps - always the case for Girafe - then 
