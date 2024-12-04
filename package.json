@@ -2,6 +2,9 @@
   "name": "@sebamarynissen/sc4pac-helpers",
   "version": "1.0.0",
   "main": "generate.js",
+  "imports": {
+    "#lib/*": "./lib/*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli": "node ./lib/cli.js",
