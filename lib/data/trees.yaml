@@ -113,9 +113,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x8c3f63f9 ]
     model: [ 0xec357b46, 0x430000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xec3eea9d ]
     model: [ 0xec357b46, 0x3e0000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:alder-b-prop
@@ -128,9 +132,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0xac3f6443 ]
     model: [ 0xec357b46, 0x420000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x6c3ef3ca ]
     model: [ 0xec357b46, 0x400000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:alder-c-prop
@@ -143,9 +151,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0xec3f645a ]
     model: [ 0xec357b46, 0x440000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x6c3eeac3 ]
     model: [ 0xec357b46, 0x3c0000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:alder-d-prop
@@ -158,9 +170,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x2c3f6471 ]
     model: [ 0xec357b46, 0x450000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xc3eead4 ]
     model: [ 0xec357b46, 0x3b0000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:alder-e-prop
@@ -173,9 +189,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x6c3f6484 ]
     model: [ 0xec357b46, 0x460000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x4c3eeae4 ]
     model: [ 0xec357b46, 0x3a0000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:alders-a-flora
@@ -275,12 +295,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x1dbe6dc2 ]
     model: [ 0xfdb9a26e, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0xddbe6da2 ]
     model: [ 0xddbab460, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0xfdbe6dd0 ]
     model: [ 0x9dbab50e, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:ash-b-prop
@@ -290,12 +316,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x5dbe6dfb ]
     model: [ 0x3db9a60f, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x9dbe6dde ]
     model: [ 0x9dbab221, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0xfdbe6e0a ]
     model: [ 0xbdbab561, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:ash-c-prop
@@ -305,12 +337,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x7dbe6e76 ]
     model: [ 0x5db9aa2c, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x1dbe6e18 ]
     model: [ 0x1dbaacdf, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x3dbe6e4d ]
     model: [ 0x7dbab5dc, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:ash-d-prop
@@ -320,12 +358,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x3dbe6e3f ]
     model: [ 0xfdb9a831, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0xbdbe6e5d ]
     model: [ 0xbdbaa9d0, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x5dbe6e85 ]
     model: [ 0xddbafef1, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:ash-e-prop
@@ -335,12 +379,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x5dbe6ecc ]
     model: [ 0xddb9b138, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x3dbe6ea9 ]
     model: [ 0x3dbb0009, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0xbdbe6ede ]
     model: [ 0x3dbaff7a, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:ash-f-prop
@@ -350,12 +400,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x3dbe6f0c ]
     model: [ 0x7db9b3cb, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0xbdbe6ef0 ]
     model: [ 0x7dbaa3d2, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0xfdbe6f1b ]
     model: [ 0xfdbb019f, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:ash-g-prop
@@ -365,12 +421,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0xbdbe6f47 ]
     model: [ 0x9dba8f4a, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x3dbe6f2a ]
     model: [ 0xddba9fae, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0xddbe6f56 ]
     model: [ 0xfdbb036f, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:ash-h-prop
@@ -380,12 +442,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x3dbe6f86 ]
     model: [ 0x5dbb04d1, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x3dbe6f67 ]
     model: [ 0xbdba9d9e, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x3dbe6f94 ]
     model: [ 0xddbb03f3, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:ashes-a-flora
@@ -485,12 +553,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7fb49d7b ]
     model: [ 0x421d8c44, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x2000cdf7, 0x8044a8ab ]
     model: [ 0x203f61dc, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7f28c687 ]
     model: [ 0x1b7f9fd, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:beech-b-prop
@@ -500,12 +574,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5fb49d8c ]
     model: [ 0xa21d8cda, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x2000cdf7, 0x47606b ]
     model: [ 0x5fcf6721, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xdf28c6a2 ]
     model: [ 0xc1b7faf6, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:beech-c-prop
@@ -515,12 +595,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbfb49d9a ]
     model: [ 0x821d8d70, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x2000cdf7, 0x40476051 ]
     model: [ 0x3fcf651c, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x9f28c6b4 ]
     model: [ 0x41b7fb51, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:beech-d-prop
@@ -530,12 +616,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3fb49da7 ]
     model: [ 0x21d8e4f, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x2000cdf7, 0xe04755e1 ]
     model: [ 0xffcf5b83, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xff28c6c7 ]
     model: [ 0x61b7fbec, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:beech-e-prop
@@ -545,12 +637,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x9fb49db6 ]
     model: [ 0xc21d9097, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x2000cdf7, 0xe04755c9 ]
     model: [ 0x603f65b8, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xdf28c6d9 ]
     model: [ 0x21b7fa57, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:beeches-a-flora
@@ -668,12 +766,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xfe0daeda ]
     model: [ 0x409cd933, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x5e0daea0 ]
     model: [ 0xe09cdc63, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xbe0daef1 ]
     model: [ 0x209cdd3f, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:berries-b-flora
@@ -701,12 +805,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x1e0daf34 ]
     model: [ 0x9cdecb, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3e0daf08 ]
     model: [ 0x209cdf80, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1e0daf4e ]
     model: [ 0x409ce02f, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:berries-c-flora
@@ -734,12 +844,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5e0daf93 ]
     model: [ 0xa09ce1db, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xde0daf62 ]
     model: [ 0x809ce2f0, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xbe0dafa9 ]
     model: [ 0xc09ce4a0, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:birch-a-prop
@@ -749,12 +865,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x9eaaf836 ]
     model: [ 0x613a0f3d, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x1eaaf811 ]
     model: [ 0xe13a29e8, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xfeaaf844 ]
     model: [ 0x613a1fab, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:birch-b-prop
@@ -764,12 +886,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xfeaaf86d ]
     model: [ 0xa13a105e, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x9eaaf854 ]
     model: [ 0x213a2b35, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xbeaaf87c ]
     model: [ 0x413a1f40, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:birch-c-prop
@@ -779,12 +907,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5eaaf8aa ]
     model: [ 0x613a12cd, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x1eaaf88d ]
     model: [ 0xa13a2c40, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x5eaaf8b7 ]
     model: [ 0x813a1ecd, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:birch-d-prop
@@ -794,12 +928,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xfeaaf8e6 ]
     model: [ 0xa13a139e, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x9eaaf8c6 ]
     model: [ 0x413a2d3f, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xfeaaf8f8 ]
     model: [ 0xe13a1e33, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:birch-e-prop
@@ -809,12 +949,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xfeaaf922 ]
     model: [ 0xe13a177b, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xbeaaf906 ]
     model: [ 0x413a2e84, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1eaaf930 ]
     model: [ 0x413a1d37, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:birch-f-prop
@@ -824,12 +970,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbeaaf95a ]
     model: [ 0x813a1870, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xdeaaf93f ]
     model: [ 0xc13a30b0, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xbeaaf966 ]
     model: [ 0xa13a1c89, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:birches-a-flora
@@ -932,9 +1084,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x8cdfc123 ]
     model: [ 0x2cb41e59, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xacdd3c3a ]
     model: [ 0x4c63eeed, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:bush-b-prop
@@ -947,9 +1103,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x4cdfc132 ]
     model: [ 0xcb4310c, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x4cdd3c4f ]
     model: [ 0xac63ef70, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:bush-c-prop
@@ -962,9 +1122,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x8cdfc142 ]
     model: [ 0x2cb43368, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xecdd3c5d ]
     model: [ 0xc63eff4, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:bush-d-prop
@@ -977,9 +1141,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x4cdfc151 ]
     model: [ 0xcb434c7, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x4cdd3c6a ]
     model: [ 0xec63f064, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:bush-e-prop
@@ -992,9 +1160,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x8cdfc161 ]
     model: [ 0xacb4363a, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x2cdd3c76 ]
     model: [ 0x8c63f0bc, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:bush-f-prop
@@ -1007,9 +1179,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0xccdfc1ae ]
     model: [ 0x2cb436e4, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x6cdd3c83 ]
     model: [ 0xc63f128, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:bush-g-prop
@@ -1022,9 +1198,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x6cdfc1bc ]
     model: [ 0xcb43771, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xecdd3c90 ]
     model: [ 0xc63f1b6, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:bush-h-prop
@@ -1037,9 +1217,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0xcdfc1c9 ]
     model: [ 0xccb437ea, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xecdd3c9e ]
     model: [ 0x6c63f20c, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:bushes-a-flora
@@ -1259,6 +1443,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0xecc82a0b ]
     model: [ 0x6cc2dcec, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:cattails-b-flora
@@ -1289,6 +1475,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0xccc82a41 ]
     model: [ 0x6cc2dec5, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:cattails-c-flora
@@ -1319,6 +1507,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0x6cc82a70 ]
     model: [ 0x4cc2e342, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:chestnut-a-prop
@@ -1328,12 +1518,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbf6980a0 ]
     model: [ 0x61f640cf, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x9f69cda5 ]
     model: [ 0x1f9022e, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1f69812f ]
     model: [ 0x1f6379f, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:chestnut-b-prop
@@ -1343,12 +1539,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7f6980b4 ]
     model: [ 0x21f63fa5, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xdf69cdb9 ]
     model: [ 0x41f8de27, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x5f69814b ]
     model: [ 0x61f63813, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:chestnut-c-prop
@@ -1358,12 +1560,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xff6980c3 ]
     model: [ 0x61f63e84, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x5f69cdc8 ]
     model: [ 0x41f8d148, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7f698160 ]
     model: [ 0xa1f638a7, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:chestnut-d-prop
@@ -1373,12 +1581,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5f6980d3 ]
     model: [ 0xa1f63d21, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3f69cdd8 ]
     model: [ 0x61f8cbc1, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1f69817d ]
     model: [ 0x41f63934, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:chestnut-e-prop
@@ -1388,12 +1602,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3f6980e4 ]
     model: [ 0xc1f63b46, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3f69cdea ]
     model: [ 0x81f8fea5, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x5f69818e ]
     model: [ 0x1f63a7d, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:chestnuts-a-flora
@@ -1493,9 +1713,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5e322702 ]
     model: [ 0xc0bf391d, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xde363b6f ]
     model: [ 0xa0c569e6, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:common-spruce-b-prop
@@ -1505,9 +1729,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3e32274d ]
     model: [ 0xbf3bc8, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x9e363b90 ]
     model: [ 0x20c56a8d, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:common-spruce-c-prop
@@ -1517,9 +1745,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7e3227a6 ]
     model: [ 0x40bf40ea, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xfe363ba4 ]
     model: [ 0xc56b6e, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:common-spruce-d-prop
@@ -1529,9 +1761,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5e3227f7 ]
     model: [ 0x40bf4628, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7e363bb7 ]
     model: [ 0xc0c56c8c, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:common-spruce-e-prop
@@ -1541,9 +1777,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xde3298c6 ]
     model: [ 0xa0c17823, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7e363bcb ]
     model: [ 0xe0c56eed, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:common-spruce-f-prop
@@ -1553,9 +1793,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7e322897 ]
     model: [ 0xc0c02f45, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7e363bde ]
     model: [ 0xc0c57121, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:common-spruce-g-prop
@@ -1565,9 +1809,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbe3228dd ]
     model: [ 0x20c067df, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x5e364f40 ]
     model: [ 0x20c57481, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:common-spruces-a-flora
@@ -1682,9 +1930,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3dfe50fe ]
     model: [ 0x808d8476, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x3dfe5224 ]
     model: [ 0xa08d8a5f, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:conifer-b-prop
@@ -1694,9 +1946,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5dfe3091 ]
     model: [ 0xe23711ec, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1dfe323d ]
     model: [ 0xe23712c2, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:conifer-c-prop
@@ -1706,9 +1962,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xddfe30a4 ]
     model: [ 0xe2371558, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1dfe3252 ]
     model: [ 0xe237166a, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:conifer-d-prop
@@ -1718,9 +1978,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7dfe30b6 ]
     model: [ 0xe2371d39, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x3dfe39a5 ]
     model: [ 0xa08d6fb6, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:conifer-e-prop
@@ -1730,9 +1994,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5dfe30c9 ]
     model: [ 0x82372b65, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x9dfe3270 ]
     model: [ 0x42372cb4, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:conifer-f-prop
@@ -1742,9 +2010,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7dff00f5 ]
     model: [ 0xc08e353a, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7dff00c1 ]
     model: [ 0xa08e37b3, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:conifer-g-prop
@@ -1754,9 +2026,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7dfe30ed ]
     model: [ 0xe08d633a, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7dfe3294 ]
     model: [ 0xa08d64ac, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:conifer-h-prop
@@ -1766,9 +2042,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbdfe3205 ]
     model: [ 0x808d69be, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x3dfe3599 ]
     model: [ 0x208d6b3d, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:conifers-a-flora
@@ -1991,6 +2271,8 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0x93b035bb ]
     model: [ 0x23305483, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:daisy-b-flora
@@ -2018,6 +2300,8 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0x53b03622 ]
     model: [ 0x43305503, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:elm-a-prop
@@ -2027,12 +2311,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0xe3ddeb09 ]
     model: [ 0x83d9e04c, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0x83ddf665 ]
     model: [ 0x23da0022, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x63ddeb9e ]
     model: [ 0x3d9f08e, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:elm-b-prop
@@ -2042,12 +2332,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0x83ddeb1e ]
     model: [ 0xe3d9dd4e, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0xe3ddeb5b ]
     model: [ 0x83d9e79f, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x43ddebb3 ]
     model: [ 0xe3d9f0f2, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:elm-c-prop
@@ -2057,12 +2353,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0x23ddeb30 ]
     model: [ 0x83d9db22, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0x63ddeb70 ]
     model: [ 0x23d9ea42, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0xc3ddebc4 ]
     model: [ 0xa3d9f16e, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:elm-d-prop
@@ -2072,12 +2374,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0xe3dd103a ]
     model: [ 0x23cfcc93, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0x83dd1118 ]
     model: [ 0x63d0ed49, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x43dd10b2 ]
     model: [ 0xa3cfe0a7, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:elm-e-prop
@@ -2087,12 +2395,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0xc3dd1839 ]
     model: [ 0xc3cfc753, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0x83dd112f ]
     model: [ 0xa3d0bce8, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x23dd10c1 ]
     model: [ 0x23cfe13f, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:elms-a-flora
@@ -2210,9 +2524,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xdf3350bc ]
     model: [ 0xe0ff6b71, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xdf3350cc ]
     model: [ 0xe0ff6bef, 0x30000 ]
+    start: 09-01
+    duration: P181D
 
 ---
 id: girafe:feather-grass-b-flora
@@ -2243,6 +2561,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0x4cc58c5d ]
     model: [ 0xccc03b33, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:grand-fir-b-prop
@@ -2255,6 +2575,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0x6cc58cbc ]
     model: [ 0x2cc03cf5, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:grand-fir-c-prop
@@ -2267,6 +2589,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0xcc58cd1 ]
     model: [ 0x8cc0417e, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:grand-fir-d-prop
@@ -2279,6 +2603,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0xccc58ce5 ]
     model: [ 0xecc042e1, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:grand-fir-e-prop
@@ -2291,6 +2617,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0xacc58cf7 ]
     model: [ 0x6cc0443d, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:grand-firs-a-flora
@@ -2405,6 +2733,8 @@ models:
   fall:
     exemplar: [ 0xf0c4599b, 0xdcd62e04 ]
     model: [ 0x5c394ae9, 0x30000 ]
+    start: 09-15
+    duration: P15D
 
 ---
 id: girafe:haybale-empty-a-prop
@@ -2414,6 +2744,8 @@ models:
   fall:
     exemplar: [ 0xf0c4599b, 0xdcd636d2 ]
     model: [ 0x3c395412, 0x30000 ]
+    start: 09-15
+    duration: P15D
 
 ---
 id: girafe:haybale-empty-b-prop
@@ -2423,6 +2755,8 @@ models:
   fall:
     exemplar: [ 0xf0c4599b, 0x1cd636e3 ]
     model: [ 0x5c39543d, 0x30000 ]
+    start: 09-15
+    duration: P15D
 
 ---
 id: girafe:haybale-empty-c-prop
@@ -2432,6 +2766,8 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x7cd69d2c ]
     model: [ 0x3c39ba7e, 0x30000 ]
+    start: 09-15
+    duration: P15D
 
 ---
 id: girafe:honey-locust-a-flora
@@ -2459,12 +2795,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7f798b1f ]
     model: [ 0xe20608a0, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xbf7ac63f ]
     model: [ 0x2209c569, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xff798605 ]
     model: [ 0x62060fb3, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:honey-locust-b-flora
@@ -2492,12 +2834,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5f798b10 ]
     model: [ 0x22060736, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xbf7ac630 ]
     model: [ 0xc209b8a6, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xff798640 ]
     model: [ 0x82061000, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:honey-locust-c-flora
@@ -2525,12 +2873,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x9f798afc ]
     model: [ 0xe20605bc, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3f7ac620 ]
     model: [ 0xa208c7ef, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xff798652 ]
     model: [ 0xa2061054, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:honey-locust-d-flora
@@ -2558,12 +2912,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x9f798aeb ]
     model: [ 0x2060220, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xff7ac60f ]
     model: [ 0x6208c27d, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x9f798660 ]
     model: [ 0xc20610bc, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:honey-locust-e-flora
@@ -2591,12 +2951,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3f798ad8 ]
     model: [ 0x82060a73, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xff7ac5ed ]
     model: [ 0xc208bb53, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xdf798672 ]
     model: [ 0xc2060f05, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:larches-a-flora
@@ -2711,12 +3077,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xfdef9b93 ]
     model: [ 0x9dd7f9c4, 0x460000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3defac7c ]
     model: [ 0x80a66953, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x3defa133 ]
     model: [ 0x60a66790, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:linden-b-prop
@@ -2726,12 +3098,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5def9baf ]
     model: [ 0x9dd7f9c4, 0x470000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x7defac95 ]
     model: [ 0x60a66a15, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x5defa15f ]
     model: [ 0x40a6674b, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:linden-c-prop
@@ -2741,12 +3119,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7e06ed75 ]
     model: [ 0xe0961fc8, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3e06e4ff ]
     model: [ 0xa0961d1f, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x3e06ed8a ]
     model: [ 0x2096263a, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:linden-d-prop
@@ -2756,12 +3140,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3def9bda ]
     model: [ 0x9dd7f9c4, 0x300000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3defacba ]
     model: [ 0x80a66d6a, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xfdefa182 ]
     model: [ 0x80a666a7, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:linden-e-prop
@@ -2771,12 +3161,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xddef9bee ]
     model: [ 0x607ed3dd, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xfdefaccc ]
     model: [ 0xa66f86, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xbdefa194 ]
     model: [ 0x407ed8ec, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:linden-f-prop
@@ -2786,12 +3182,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5def9c02 ]
     model: [ 0xe07ecd9a, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x1deface2 ]
     model: [ 0x40a671c1, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xfdefa1a7 ]
     model: [ 0xe0a66655, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:lindens-a-flora
@@ -2891,9 +3293,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x1df7605a ]
     model: [ 0x8145ca21, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x1df760fa ]
     model: [ 0x2145d382, 0x30000 ]
+    start: 09-01
+    duration: P181D
 
 ---
 id: girafe:lupin-b-prop
@@ -2903,9 +3309,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5df7608c ]
     model: [ 0x4145cc02, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xddf7609b ]
     model: [ 0xa145d3e7, 0x30000 ]
+    start: 09-01
+    duration: P181D
 
 ---
 id: girafe:lupin-c-prop
@@ -2915,9 +3325,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xfdf760c7 ]
     model: [ 0x4145cccb, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x7df760d3 ]
     model: [ 0x6145d456, 0x30000 ]
+    start: 09-01
+    duration: P181D
 
 ---
 id: girafe:lupins-a-flora
@@ -2981,12 +3395,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x1cfb2d33 ]
     model: [ 0x1cf87a8d, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x3cfc98fc ]
     model: [ 0x5cf8bcfb, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x3cfcacfa ]
     model: [ 0xfc11fe99, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:maple-b-prop
@@ -2996,12 +3416,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x1cfb2ea0 ]
     model: [ 0x5cf87d1b, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x7cfc991a ]
     model: [ 0x9cf8c25d, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x3cfcbab5 ]
     model: [ 0x1c120f26, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:maple-c-prop
@@ -3011,12 +3437,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x1cfb2d4b ]
     model: [ 0xdcf87f55, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0xfcfc992f ]
     model: [ 0xfcf8e825, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x1cfcad2b ]
     model: [ 0x7c11ff3e, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:maple-d-prop
@@ -3026,12 +3458,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0xfcfb2cd0 ]
     model: [ 0x9cf88191, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0xfcfca2b1 ]
     model: [ 0x5c11f645, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x7cfcad43 ]
     model: [ 0xdc11ffa2, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:maple-e-prop
@@ -3041,12 +3479,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x7cfb2ce6 ]
     model: [ 0x5cf88519, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x9cfc9959 ]
     model: [ 0x7c11e47f, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0xfcfcad59 ]
     model: [ 0x7c120003, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:maple-f-prop
@@ -3056,12 +3500,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0xdcfb38b5 ]
     model: [ 0xfcf8911c, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0xfcfc9981 ]
     model: [ 0x3c11e251, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x5cfcad6e ]
     model: [ 0x9c120072, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:maple-g-prop
@@ -3071,12 +3521,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x1cfb3a4f ]
     model: [ 0xbcf89376, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0xfcfc9b45 ]
     model: [ 0xbc11e6fb, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x1cfcad83 ]
     model: [ 0x7c1200ec, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:maple-h-prop
@@ -3086,12 +3542,18 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x5cfb485d ]
     model: [ 0x1cf8a001, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0xf0c4599b, 0x5cfc9b6b ]
     model: [ 0xbc11e98e, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xf0c4599b, 0x5cfcad97 ]
     model: [ 0x5c12016a, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:maples-v1-a-flora
@@ -3284,6 +3746,8 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5e390fc7 ]
     model: [ 0x40c846d1, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:narcissus-b-flora
@@ -3311,12 +3775,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xdf4b6870 ]
     model: [ 0x41da70ab, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xdf4b6830 ]
     model: [ 0x61da7576, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x5f4b6997 ]
     model: [ 0x21da770a, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:norway-maple-b-prop
@@ -3326,12 +3796,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbf4b68b3 ]
     model: [ 0x61da7a44, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3f4b6887 ]
     model: [ 0xa1da7fd3, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xff4b68c4 ]
     model: [ 0xa1da7d99, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:norway-maple-c-prop
@@ -3341,12 +3817,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x9f4b6900 ]
     model: [ 0x21da82ca, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3f4b68d8 ]
     model: [ 0xa1da8744, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1f4b6915 ]
     model: [ 0x81da85e2, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:norway-maple-d-prop
@@ -3356,12 +3838,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x1f4b6960 ]
     model: [ 0x61da9471, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x5f4b693c ]
     model: [ 0x21da9948, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x5f4b6972 ]
     model: [ 0xa1da97ee, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:norway-maples-v2-a-flora
@@ -3446,9 +3934,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x8cfc9dcc ]
     model: [ 0x8f8b0adc, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xccfbb083 ]
     model: [ 0x8cf4e0e3, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:oak-b-prop
@@ -3461,9 +3953,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x6cfc9e65 ]
     model: [ 0x2fb2a6cd, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xcfcb7f4 ]
     model: [ 0x8fb37de4, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:oak-c-prop
@@ -3476,9 +3972,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0x6cfc9e0a ]
     model: [ 0xcf8b0ff4, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0xacfbb0bd ]
     model: [ 0xecf4e159, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:oak-d-prop
@@ -3491,9 +3991,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0xccfc9e22 ]
     model: [ 0x8f8b1262, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x6cfbb0cf ]
     model: [ 0xecf51490, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:oak-e-prop
@@ -3506,9 +4010,13 @@ models:
   fall:
     exemplar: [ 0xec357b46, 0xacfc9e3d ]
     model: [ 0x4f8b14be, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xec357b46, 0x8cfbb0e1 ]
     model: [ 0x8cf51521, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:oaks-a-flora
@@ -3701,9 +4209,13 @@ models:
   fall:
     exemplar: [ 0xb76f7d99, 0xe79c20b1 ]
     model: [ 0x7937b11, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xb76f7d99, 0xe79c204d ]
     model: [ 0x47922136, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:poplar-b-prop
@@ -3716,9 +4228,13 @@ models:
   fall:
     exemplar: [ 0xb76f7d99, 0x479c20e7 ]
     model: [ 0xe79375a0, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xb76f7d99, 0xa79c2067 ]
     model: [ 0xc7922088, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:poplar-c-prop
@@ -3731,9 +4247,13 @@ models:
   fall:
     exemplar: [ 0xb76f7d99, 0xa79c20f9 ]
     model: [ 0xc7937189, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xb76f7d99, 0x279c207b ]
     model: [ 0x27921ff2, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:poplar-d-prop
@@ -3746,9 +4266,13 @@ models:
   fall:
     exemplar: [ 0xb76f7d99, 0xc79c210f ]
     model: [ 0x87923f2b, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xb76f7d99, 0xa79c208d ]
     model: [ 0x27921f43, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:poplar-e-prop
@@ -3761,9 +4285,13 @@ models:
   fall:
     exemplar: [ 0xb76f7d99, 0xa79c2120 ]
     model: [ 0x67923de0, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0xb76f7d99, 0x279c209e ]
     model: [ 0xa7921e67, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:poplars-a-flora
@@ -3899,6 +4427,8 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x7e368c52 ]
     model: [ 0x40c5c523, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:poppy-b-prop
@@ -3908,6 +4438,8 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0xdcc3cd31 ]
     model: [ 0x1cc12877, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:poppy-empty-prop
@@ -3917,6 +4449,8 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x9cc3d7ad ]
     model: [ 0x7cc1347e, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:poppy-prop
@@ -3926,6 +4460,8 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x9cc3cd1a ]
     model: [ 0x1cc127fc, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:rowan-tree-a-prop
@@ -3935,12 +4471,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0x634eac67 ]
     model: [ 0x22806260, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0x34eac81 ]
     model: [ 0x2fa2949, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0xa34eac98 ]
     model: [ 0x42807c21, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:rowan-tree-b-prop
@@ -3950,12 +4492,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0xa34eacce ]
     model: [ 0xe27fccf8, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0xe34eacf9 ]
     model: [ 0xe2fa2552, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0xa34ead0f ]
     model: [ 0x42807bb1, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:rowan-tree-c-prop
@@ -3965,12 +4513,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0x634ead3c ]
     model: [ 0x828063cd, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0x234ead51 ]
     model: [ 0xa2d1425f, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x34ead65 ]
     model: [ 0xe2807af6, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:rowan-tree-d-prop
@@ -3980,12 +4534,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0xa34ead9d ]
     model: [ 0x628068ff, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0x234eadb0 ]
     model: [ 0xa2d14c26, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x34eadc5 ]
     model: [ 0xa2807a5a, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:rowan-tree-e-prop
@@ -3995,12 +4555,18 @@ models:
   summer:
     exemplar: [ 0x71b9795b, 0xa34eae23 ]
     model: [ 0x22806eb2, 0x30000 ]
+    start: 03-01
+    duration: P184D
   fall:
     exemplar: [ 0x71b9795b, 0xa34eae4d ]
     model: [ 0xc280e9f7, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0xc34eae63 ]
     model: [ 0x2807938, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:rowan-trees-a-flora
@@ -4313,6 +4879,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0x2c3727fc ]
     model: [ 0xec357b46, 0x100000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:serbien-spruce-b-prop
@@ -4325,6 +4893,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0x2c372823 ]
     model: [ 0xec357b46, 0xd0000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:serbien-spruce-c-prop
@@ -4337,6 +4907,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0xcc372814 ]
     model: [ 0xec357b46, 0xe0000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:serbien-spruce-d-prop
@@ -4349,6 +4921,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0xc372808 ]
     model: [ 0xec357b46, 0xf0000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:serbien-spruce-e-prop
@@ -4361,6 +4935,8 @@ models:
   winter:
     exemplar: [ 0xec357b46, 0x6c3727ef ]
     model: [ 0xec357b46, 0x110000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:sparaxis-a-flora
@@ -4406,6 +4982,8 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbee1e6cb ]
     model: [ 0xfd1aea, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:sparaxis-pink-prop
@@ -4415,6 +4993,8 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x1ee1e6a8 ]
     model: [ 0x80fd1b1d, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:sparaxis-prop
@@ -4424,6 +5004,8 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x9ee1e68a ]
     model: [ 0xa0fd1ba0, 0x30000 ]
+    start: 03-01
+    duration: P92D
 
 ---
 id: girafe:sparaxis-red-prop
@@ -4433,6 +5015,8 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3ee1e69b ]
     model: [ 0x20fd1aab, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:sparaxis-white-prop
@@ -4442,6 +5026,8 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x5ee1e678 ]
     model: [ 0xe0fd1b5a, 0x30000 ]
+    start: 06-01
+    duration: P92D
 
 ---
 id: girafe:subalpine-firs-a-flora
@@ -4556,9 +5142,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3e058791 ]
     model: [ 0x2094bd91, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xde0587a7 ]
     model: [ 0x94bea6, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:subalpinefir-b-prop
@@ -4568,9 +5158,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbe060e9a ]
     model: [ 0xc095454e, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7e061040 ]
     model: [ 0xa09546dd, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:subalpinefir-c-prop
@@ -4580,9 +5174,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xde05d0a6 ]
     model: [ 0xc094e685, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1e05d0ba ]
     model: [ 0x94e912, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:subalpinefir-d-prop
@@ -4592,9 +5190,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbe05d0e2 ]
     model: [ 0xc094ef23, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xde05d0f8 ]
     model: [ 0xe094f191, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:subalpinefir-e-prop
@@ -4604,9 +5206,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3e05d121 ]
     model: [ 0x2094f895, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x1e05d13a ]
     model: [ 0x2094fd6a, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:subalpinefir-f-prop
@@ -4616,9 +5222,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x1e05782f ]
     model: [ 0xc094afc9, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x9e057cff ]
     model: [ 0x94b19d, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:subalpinefir-g-prop
@@ -4628,9 +5238,13 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xde05d3ab ]
     model: [ 0x809509c2, 0x30000 ]
+    start: 03-01
+    duration: P275D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xbe05de3f ]
     model: [ 0xc0950e81, 0x30000 ]
+    start: 12-01
+    duration: P89D
 
 ---
 id: girafe:swath-b-prop
@@ -4640,6 +5254,8 @@ models:
   fall:
     exemplar: [ 0xf0c4599b, 0xdcd62688 ]
     model: [ 0xbc394384, 0x30000 ]
+    start: 09-01
+    duration: P15D
 
 ---
 id: girafe:swath-prop
@@ -4649,6 +5265,8 @@ models:
   fall:
     exemplar: [ 0xf0c4599b, 0xfcc26c91 ]
     model: [ 0xfcbfc8de, 0x30000 ]
+    start: 09-01
+    duration: P15D
 
 ---
 id: girafe:vines-a-flora
@@ -4676,12 +5294,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xfe428305 ]
     model: [ 0x611f7f10, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x5e437d74 ]
     model: [ 0xa1480bcf, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x348527d8, 0x7e408808 ]
     model: [ 0x40cea2fc, 0x30000 ]
+    start: 12-01
+    duration: P90D
 
 ---
 id: girafe:vines-b-prop
@@ -4691,12 +5315,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3e428327 ]
     model: [ 0x11f8059, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xfe437d66 ]
     model: [ 0xa1480a2b, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0xbe4240be ]
     model: [ 0xe11f3d6c, 0x30000 ]
+    start: 12-01
+    duration: P90D
 
 ---
 id: girafe:vines-c-prop
@@ -4706,12 +5336,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xde4282f3 ]
     model: [ 0x811f815b, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x3e437d4a ]
     model: [ 0x8148095e, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x9e4240ae ]
     model: [ 0x611f3d9c, 0x30000 ]
+    start: 12-01
+    duration: P90D
 
 ---
 id: girafe:vines-d-prop
@@ -4721,12 +5357,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0x3e4282e3 ]
     model: [ 0x211f82d6, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0x9dd7f9c4, 0xbe437d38 ]
     model: [ 0xc14808bd, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7e42409f ]
     model: [ 0x411f3dd4, 0x30000 ]
+    start: 12-01
+    duration: P90D
 
 ---
 id: girafe:vines-e-prop
@@ -4736,12 +5378,18 @@ models:
   summer:
     exemplar: [ 0x9dd7f9c4, 0xbe435637 ]
     model: [ 0xa147e4fb, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0x9dd7f9c4, 0x7e437d1b ]
     model: [ 0x41480843, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x9dd7f9c4, 0x7e42408f ]
     model: [ 0x811f3e05, 0x30000 ]
+    start: 12-01
+    duration: P90D
 
 ---
 id: girafe:walnut-tree-a-prop
@@ -4754,9 +5402,13 @@ models:
   fall:
     exemplar: [ 0x71b9795b, 0x4562f1e3 ]
     model: [ 0xa55746c7, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x6562eadf ]
     model: [ 0xa4dca7b7, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:walnut-tree-b-prop
@@ -4769,9 +5421,13 @@ models:
   fall:
     exemplar: [ 0x71b9795b, 0x8562f1f4 ]
     model: [ 0x5574842, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x6562eaf9 ]
     model: [ 0xe4dca85e, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:walnut-tree-c-prop
@@ -4784,9 +5440,13 @@ models:
   fall:
     exemplar: [ 0x71b9795b, 0xc562eb9c ]
     model: [ 0x455c212d, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x562eb0c ]
     model: [ 0x4dca8fc, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:walnut-tree-d-prop
@@ -4799,9 +5459,13 @@ models:
   fall:
     exemplar: [ 0x71b9795b, 0xa562ebad ]
     model: [ 0x655c22a2, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x562eb1d ]
     model: [ 0x4dca9aa, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:walnut-tree-e-prop
@@ -4814,9 +5478,13 @@ models:
   fall:
     exemplar: [ 0x71b9795b, 0x8562ebc1 ]
     model: [ 0x255c28b2, 0x30000 ]
+    start: 09-01
+    duration: P91D
   winter:
     exemplar: [ 0x71b9795b, 0x2562eb2d ]
     model: [ 0x4dcaa46, 0x30000 ]
+    start: 12-01
+    duration: P92D
 
 ---
 id: girafe:walnut-trees-a-flora
@@ -4916,9 +5584,13 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0xbcc1a9f8 ]
     model: [ 0xfcbf03d2, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0xf0c4599b, 0x1cc1b41d ]
     model: [ 0xfcbf10ee, 0x30000 ]
+    start: 09-01
+    duration: P91D
 
 ---
 id: girafe:wheat-blade-b-prop
@@ -4928,6 +5600,8 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x1cc3e820 ]
     model: [ 0x3cc141a3, 0x30000 ]
+    start: 03-01
+    duration: P46D
 
 ---
 id: girafe:wheat-blade-prop
@@ -4937,6 +5611,8 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0xdcc3e80f ]
     model: [ 0xdcc14157, 0x30000 ]
+    start: 03-01
+    duration: P46D
 
 ---
 id: girafe:wheat-c-prop
@@ -4946,6 +5622,8 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x9cc3eab1 ]
     model: [ 0x7cc1447c, 0x30000 ]
+    start: 04-15
+    duration: P47D
 
 ---
 id: girafe:wheat-d-prop
@@ -4955,6 +5633,8 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0xdcc3f2b8 ]
     model: [ 0x3cc14c30, 0x30000 ]
+    start: 04-15
+    duration: P47D
 
 ---
 id: girafe:wheat-flora
@@ -4982,9 +5662,13 @@ models:
   summer:
     exemplar: [ 0xf0c4599b, 0x3cc170ec ]
     model: [ 0xbcbec973, 0x30000 ]
+    start: 06-01
+    duration: P92D
   fall:
     exemplar: [ 0xf0c4599b, 0xbcc16a3c ]
     model: [ 0x7cbec506, 0x30000 ]
+    start: 09-01
+    duration: P91D
 
 ---
 id: orange:aesculus-00-flora
