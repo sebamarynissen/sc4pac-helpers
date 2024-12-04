@@ -1,4 +1,5 @@
 id: girafe:abies-grandis-v1-1-a-flora
+package: girafe:abies-grandis
 type: flora
 models:
   summer:
@@ -19,6 +20,7 @@ models:
 
 ---
 id: girafe:abies-grandis-v1-1-b-flora
+package: girafe:abies-grandis
 type: flora
 models:
   summer:
@@ -39,6 +41,7 @@ models:
 
 ---
 id: girafe:abies-grandis-v1-1-c-flora
+package: girafe:abies-grandis
 type: flora
 models:
   summer:
@@ -59,6 +62,7 @@ models:
 
 ---
 id: girafe:abies-grandis-v1-1-d-flora
+package: girafe:abies-grandis
 type: flora
 models:
   summer:
@@ -79,6 +83,7 @@ models:
 
 ---
 id: girafe:abies-grandis-v1-1-e-flora
+package: girafe:abies-grandis
 type: flora
 models:
   summer:
@@ -99,6 +104,7 @@ models:
 
 ---
 id: girafe:alder-a-prop
+package: girafe:alders
 type: prop
 models:
   summer:
@@ -113,6 +119,7 @@ models:
 
 ---
 id: girafe:alder-b-prop
+package: girafe:alders
 type: prop
 models:
   summer:
@@ -127,6 +134,7 @@ models:
 
 ---
 id: girafe:alder-c-prop
+package: girafe:alders
 type: prop
 models:
   summer:
@@ -141,6 +149,7 @@ models:
 
 ---
 id: girafe:alder-d-prop
+package: girafe:alders
 type: prop
 models:
   summer:
@@ -155,6 +164,7 @@ models:
 
 ---
 id: girafe:alder-e-prop
+package: girafe:alders
 type: prop
 models:
   summer:
@@ -169,6 +179,7 @@ models:
 
 ---
 id: girafe:alders-a-flora
+package: girafe:alders
 type: flora
 models:
   summer:
@@ -186,6 +197,7 @@ models:
 
 ---
 id: girafe:alders-b-flora
+package: girafe:alders
 type: flora
 models:
   summer:
@@ -203,6 +215,7 @@ models:
 
 ---
 id: girafe:alders-c-flora
+package: girafe:alders
 type: flora
 models:
   summer:
@@ -220,6 +233,7 @@ models:
 
 ---
 id: girafe:alders-d-flora
+package: girafe:alders
 type: flora
 models:
   summer:
@@ -237,6 +251,7 @@ models:
 
 ---
 id: girafe:alders-e-flora
+package: girafe:alders
 type: flora
 models:
   summer:
@@ -254,6 +269,7 @@ models:
 
 ---
 id: girafe:ash-a-prop
+package: girafe:ashes
 type: prop
 models:
   summer:
@@ -268,6 +284,7 @@ models:
 
 ---
 id: girafe:ash-b-prop
+package: girafe:ashes
 type: prop
 models:
   summer:
@@ -282,6 +299,7 @@ models:
 
 ---
 id: girafe:ash-c-prop
+package: girafe:ashes
 type: prop
 models:
   summer:
@@ -296,6 +314,7 @@ models:
 
 ---
 id: girafe:ash-d-prop
+package: girafe:ashes
 type: prop
 models:
   summer:
@@ -310,6 +329,7 @@ models:
 
 ---
 id: girafe:ash-e-prop
+package: girafe:ashes
 type: prop
 models:
   summer:
@@ -324,6 +344,7 @@ models:
 
 ---
 id: girafe:ash-f-prop
+package: girafe:ashes
 type: prop
 models:
   summer:
@@ -338,6 +359,7 @@ models:
 
 ---
 id: girafe:ash-g-prop
+package: girafe:ashes
 type: prop
 models:
   summer:
@@ -352,6 +374,7 @@ models:
 
 ---
 id: girafe:ash-h-prop
+package: girafe:ashes
 type: prop
 models:
   summer:
@@ -366,6 +389,7 @@ models:
 
 ---
 id: girafe:ashes-a-flora
+package: girafe:ashes
 type: flora
 models:
   summer:
@@ -383,6 +407,7 @@ models:
 
 ---
 id: girafe:ashes-b-flora
+package: girafe:ashes
 type: flora
 models:
   summer:
@@ -400,6 +425,7 @@ models:
 
 ---
 id: girafe:ashes-c-flora
+package: girafe:ashes
 type: flora
 models:
   summer:
@@ -417,6 +443,7 @@ models:
 
 ---
 id: girafe:ashes-d-flora
+package: girafe:ashes
 type: flora
 models:
   summer:
@@ -434,6 +461,7 @@ models:
 
 ---
 id: girafe:ashes-e-flora
+package: girafe:ashes
 type: flora
 models:
   summer:
@@ -451,6 +479,7 @@ models:
 
 ---
 id: girafe:beech-a-prop
+package: girafe:beeches
 type: prop
 models:
   summer:
@@ -465,6 +494,7 @@ models:
 
 ---
 id: girafe:beech-b-prop
+package: girafe:beeches
 type: prop
 models:
   summer:
@@ -479,6 +509,7 @@ models:
 
 ---
 id: girafe:beech-c-prop
+package: girafe:beeches
 type: prop
 models:
   summer:
@@ -493,6 +524,7 @@ models:
 
 ---
 id: girafe:beech-d-prop
+package: girafe:beeches
 type: prop
 models:
   summer:
@@ -507,6 +539,7 @@ models:
 
 ---
 id: girafe:beech-e-prop
+package: girafe:beeches
 type: prop
 models:
   summer:
@@ -521,6 +554,7 @@ models:
 
 ---
 id: girafe:beeches-a-flora
+package: girafe:beeches
 type: flora
 models:
   summer:
@@ -538,6 +572,7 @@ models:
 
 ---
 id: girafe:beeches-b-flora
+package: girafe:beeches
 type: flora
 models:
   summer:
@@ -555,6 +590,7 @@ models:
 
 ---
 id: girafe:beeches-c-flora
+package: girafe:beeches
 type: flora
 models:
   summer:
@@ -572,6 +608,7 @@ models:
 
 ---
 id: girafe:beeches-d-flora
+package: girafe:beeches
 type: flora
 models:
   summer:
@@ -589,6 +626,7 @@ models:
 
 ---
 id: girafe:beeches-e-flora
+package: girafe:beeches
 type: flora
 models:
   summer:
@@ -606,6 +644,7 @@ models:
 
 ---
 id: girafe:berries-a-flora
+package: girafe:berries
 type: flora
 models:
   summer:
@@ -623,6 +662,7 @@ models:
 
 ---
 id: girafe:berries-a-prop
+package: girafe:berries
 type: prop
 models:
   summer:
@@ -637,6 +677,7 @@ models:
 
 ---
 id: girafe:berries-b-flora
+package: girafe:berries
 type: flora
 models:
   summer:
@@ -654,6 +695,7 @@ models:
 
 ---
 id: girafe:berries-b-prop
+package: girafe:berries
 type: prop
 models:
   summer:
@@ -668,6 +710,7 @@ models:
 
 ---
 id: girafe:berries-c-flora
+package: girafe:berries
 type: flora
 models:
   summer:
@@ -685,6 +728,7 @@ models:
 
 ---
 id: girafe:berries-c-prop
+package: girafe:berries
 type: prop
 models:
   summer:
@@ -699,6 +743,7 @@ models:
 
 ---
 id: girafe:birch-a-prop
+package: girafe:birches
 type: prop
 models:
   summer:
@@ -713,6 +758,7 @@ models:
 
 ---
 id: girafe:birch-b-prop
+package: girafe:birches
 type: prop
 models:
   summer:
@@ -727,6 +773,7 @@ models:
 
 ---
 id: girafe:birch-c-prop
+package: girafe:birches
 type: prop
 models:
   summer:
@@ -741,6 +788,7 @@ models:
 
 ---
 id: girafe:birch-d-prop
+package: girafe:birches
 type: prop
 models:
   summer:
@@ -755,6 +803,7 @@ models:
 
 ---
 id: girafe:birch-e-prop
+package: girafe:birches
 type: prop
 models:
   summer:
@@ -769,6 +818,7 @@ models:
 
 ---
 id: girafe:birch-f-prop
+package: girafe:birches
 type: prop
 models:
   summer:
@@ -783,6 +833,7 @@ models:
 
 ---
 id: girafe:birches-a-flora
+package: girafe:birches
 type: flora
 models:
   summer:
@@ -800,6 +851,7 @@ models:
 
 ---
 id: girafe:birches-b-flora
+package: girafe:birches
 type: flora
 models:
   summer:
@@ -817,6 +869,7 @@ models:
 
 ---
 id: girafe:birches-c-flora
+package: girafe:birches
 type: flora
 models:
   summer:
@@ -834,6 +887,7 @@ models:
 
 ---
 id: girafe:birches-d-flora
+package: girafe:birches
 type: flora
 models:
   summer:
@@ -851,6 +905,7 @@ models:
 
 ---
 id: girafe:birches-e-flora
+package: girafe:birches
 type: flora
 models:
   summer:
@@ -868,6 +923,7 @@ models:
 
 ---
 id: girafe:bush-a-prop
+package: girafe:bushes
 type: prop
 models:
   summer:
@@ -882,6 +938,7 @@ models:
 
 ---
 id: girafe:bush-b-prop
+package: girafe:bushes
 type: prop
 models:
   summer:
@@ -896,6 +953,7 @@ models:
 
 ---
 id: girafe:bush-c-prop
+package: girafe:bushes
 type: prop
 models:
   summer:
@@ -910,6 +968,7 @@ models:
 
 ---
 id: girafe:bush-d-prop
+package: girafe:bushes
 type: prop
 models:
   summer:
@@ -924,6 +983,7 @@ models:
 
 ---
 id: girafe:bush-e-prop
+package: girafe:bushes
 type: prop
 models:
   summer:
@@ -938,6 +998,7 @@ models:
 
 ---
 id: girafe:bush-f-prop
+package: girafe:bushes
 type: prop
 models:
   summer:
@@ -952,6 +1013,7 @@ models:
 
 ---
 id: girafe:bush-g-prop
+package: girafe:bushes
 type: prop
 models:
   summer:
@@ -966,6 +1028,7 @@ models:
 
 ---
 id: girafe:bush-h-prop
+package: girafe:bushes
 type: prop
 models:
   summer:
@@ -980,6 +1043,7 @@ models:
 
 ---
 id: girafe:bushes-a-flora
+package: girafe:bushes
 type: flora
 models:
   summer:
@@ -997,6 +1061,7 @@ models:
 
 ---
 id: girafe:bushes-b-flora
+package: girafe:bushes
 type: flora
 models:
   summer:
@@ -1014,6 +1079,7 @@ models:
 
 ---
 id: girafe:bushes-c-flora
+package: girafe:bushes
 type: flora
 models:
   summer:
@@ -1030,7 +1096,143 @@ models:
     model: [ 0x9b3d9a2b, 0x30000 ]
 
 ---
+id: girafe:canary-date-palm-a-prop
+package: girafe:canary-date-palms
+type: prop
+models:
+  summer:
+    exemplar: [ 0x348527d8, 0x35b8401e ]
+    model: [ 0x853891d2, 0x30000 ]
+
+---
+id: girafe:canary-date-palm-b-prop
+package: girafe:canary-date-palms
+type: prop
+models:
+  summer:
+    exemplar: [ 0x348527d8, 0x75b8403b ]
+    model: [ 0xe53894ee, 0x30000 ]
+
+---
+id: girafe:canary-date-palm-c-prop
+package: girafe:canary-date-palms
+type: prop
+models:
+  summer:
+    exemplar: [ 0x348527d8, 0x35b84053 ]
+    model: [ 0xe5389595, 0x30000 ]
+
+---
+id: girafe:canary-date-palm-d-prop
+package: girafe:canary-date-palms
+type: prop
+models:
+  summer:
+    exemplar: [ 0x348527d8, 0x35b8406f ]
+    model: [ 0xc5389639, 0x30000 ]
+
+---
+id: girafe:canary-date-palm-e-prop
+package: girafe:canary-date-palms
+type: prop
+models:
+  summer:
+    exemplar: [ 0x348527d8, 0x75b8408e ]
+    model: [ 0x253896d5, 0x30000 ]
+
+---
+id: girafe:canary-date-palm-f-prop
+package: girafe:canary-date-palms
+type: prop
+models:
+  summer:
+    exemplar: [ 0x348527d8, 0x55b840a7 ]
+    model: [ 0x45389773, 0x30000 ]
+
+---
+id: girafe:canary-date-palm-g-prop
+package: girafe:canary-date-palms
+type: prop
+models:
+  summer:
+    exemplar: [ 0x348527d8, 0x35b840d4 ]
+    model: [ 0x2538980f, 0x30000 ]
+
+---
+id: girafe:canary-date-palm-h-prop
+package: girafe:canary-date-palms
+type: prop
+models:
+  summer:
+    exemplar: [ 0x348527d8, 0x55b840ed ]
+    model: [ 0x65389873, 0x30000 ]
+
+---
+id: girafe:canary-date-palms-a-flora
+package: girafe:canary-date-palms
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448900 ]
+    model: [ 0x853891d2, 0x30000 ]
+
+---
+id: girafe:canary-date-palms-b-flora
+package: girafe:canary-date-palms
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448901 ]
+    model: [ 0xe53894ee, 0x30000 ]
+
+---
+id: girafe:canary-date-palms-c-flora
+package: girafe:canary-date-palms
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448902 ]
+    model: [ 0xe5389595, 0x30000 ]
+
+---
+id: girafe:canary-date-palms-d-flora
+package: girafe:canary-date-palms
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448903 ]
+    model: [ 0xc5389639, 0x30000 ]
+
+---
+id: girafe:canary-date-palms-e-flora
+package: girafe:canary-date-palms
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448904 ]
+    model: [ 0x253896d5, 0x30000 ]
+
+---
+id: girafe:canary-date-palms-f-flora
+package: girafe:canary-date-palms
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448907 ]
+    model: [ 0x65389873, 0x30000 ]
+
+---
+id: girafe:canary-date-palms-flora
+package: girafe:canary-date-palms
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448908 ]
+    model: [ 0x0, 0x0 ]
+
+---
 id: girafe:cattails-a-flora
+package: girafe:cattails
 type: flora
 models:
   summer:
@@ -1048,6 +1250,7 @@ models:
 
 ---
 id: girafe:cattails-a-prop
+package: girafe:cattails
 type: prop
 models:
   summer:
@@ -1059,6 +1262,7 @@ models:
 
 ---
 id: girafe:cattails-b-flora
+package: girafe:cattails
 type: flora
 models:
   summer:
@@ -1076,6 +1280,7 @@ models:
 
 ---
 id: girafe:cattails-b-prop
+package: girafe:cattails
 type: prop
 models:
   summer:
@@ -1087,6 +1292,7 @@ models:
 
 ---
 id: girafe:cattails-c-flora
+package: girafe:cattails
 type: flora
 models:
   summer:
@@ -1104,6 +1310,7 @@ models:
 
 ---
 id: girafe:cattails-c-prop
+package: girafe:cattails
 type: prop
 models:
   summer:
@@ -1115,6 +1322,7 @@ models:
 
 ---
 id: girafe:chestnut-a-prop
+package: girafe:chestnuts
 type: prop
 models:
   summer:
@@ -1129,6 +1337,7 @@ models:
 
 ---
 id: girafe:chestnut-b-prop
+package: girafe:chestnuts
 type: prop
 models:
   summer:
@@ -1143,6 +1352,7 @@ models:
 
 ---
 id: girafe:chestnut-c-prop
+package: girafe:chestnuts
 type: prop
 models:
   summer:
@@ -1157,6 +1367,7 @@ models:
 
 ---
 id: girafe:chestnut-d-prop
+package: girafe:chestnuts
 type: prop
 models:
   summer:
@@ -1171,6 +1382,7 @@ models:
 
 ---
 id: girafe:chestnut-e-prop
+package: girafe:chestnuts
 type: prop
 models:
   summer:
@@ -1185,6 +1397,7 @@ models:
 
 ---
 id: girafe:chestnuts-a-flora
+package: girafe:chestnuts
 type: flora
 models:
   summer:
@@ -1202,6 +1415,7 @@ models:
 
 ---
 id: girafe:chestnuts-b-flora
+package: girafe:chestnuts
 type: flora
 models:
   summer:
@@ -1219,6 +1433,7 @@ models:
 
 ---
 id: girafe:chestnuts-c-flora
+package: girafe:chestnuts
 type: flora
 models:
   summer:
@@ -1236,6 +1451,7 @@ models:
 
 ---
 id: girafe:chestnuts-d-flora
+package: girafe:chestnuts
 type: flora
 models:
   summer:
@@ -1253,6 +1469,7 @@ models:
 
 ---
 id: girafe:chestnuts-e-flora
+package: girafe:chestnuts
 type: flora
 models:
   summer:
@@ -1270,6 +1487,7 @@ models:
 
 ---
 id: girafe:common-spruce-a-prop
+package: girafe:common-spruces
 type: prop
 models:
   summer:
@@ -1281,6 +1499,7 @@ models:
 
 ---
 id: girafe:common-spruce-b-prop
+package: girafe:common-spruces
 type: prop
 models:
   summer:
@@ -1292,6 +1511,7 @@ models:
 
 ---
 id: girafe:common-spruce-c-prop
+package: girafe:common-spruces
 type: prop
 models:
   summer:
@@ -1303,6 +1523,7 @@ models:
 
 ---
 id: girafe:common-spruce-d-prop
+package: girafe:common-spruces
 type: prop
 models:
   summer:
@@ -1314,6 +1535,7 @@ models:
 
 ---
 id: girafe:common-spruce-e-prop
+package: girafe:common-spruces
 type: prop
 models:
   summer:
@@ -1325,6 +1547,7 @@ models:
 
 ---
 id: girafe:common-spruce-f-prop
+package: girafe:common-spruces
 type: prop
 models:
   summer:
@@ -1336,6 +1559,7 @@ models:
 
 ---
 id: girafe:common-spruce-g-prop
+package: girafe:common-spruces
 type: prop
 models:
   summer:
@@ -1347,6 +1571,7 @@ models:
 
 ---
 id: girafe:common-spruces-a-flora
+package: girafe:common-spruces
 type: flora
 models:
   summer:
@@ -1367,6 +1592,7 @@ models:
 
 ---
 id: girafe:common-spruces-b-flora
+package: girafe:common-spruces
 type: flora
 models:
   summer:
@@ -1387,6 +1613,7 @@ models:
 
 ---
 id: girafe:common-spruces-c-flora
+package: girafe:common-spruces
 type: flora
 models:
   summer:
@@ -1407,6 +1634,7 @@ models:
 
 ---
 id: girafe:common-spruces-d-flora
+package: girafe:common-spruces
 type: flora
 models:
   summer:
@@ -1427,6 +1655,7 @@ models:
 
 ---
 id: girafe:common-spruces-e-flora
+package: girafe:common-spruces
 type: flora
 models:
   summer:
@@ -1447,6 +1676,7 @@ models:
 
 ---
 id: girafe:conifer-a-prop
+package: girafe:conifers
 type: prop
 models:
   summer:
@@ -1458,6 +1688,7 @@ models:
 
 ---
 id: girafe:conifer-b-prop
+package: girafe:conifers
 type: prop
 models:
   summer:
@@ -1469,6 +1700,7 @@ models:
 
 ---
 id: girafe:conifer-c-prop
+package: girafe:conifers
 type: prop
 models:
   summer:
@@ -1480,6 +1712,7 @@ models:
 
 ---
 id: girafe:conifer-d-prop
+package: girafe:conifers
 type: prop
 models:
   summer:
@@ -1491,6 +1724,7 @@ models:
 
 ---
 id: girafe:conifer-e-prop
+package: girafe:conifers
 type: prop
 models:
   summer:
@@ -1502,6 +1736,7 @@ models:
 
 ---
 id: girafe:conifer-f-prop
+package: girafe:conifers
 type: prop
 models:
   summer:
@@ -1513,6 +1748,7 @@ models:
 
 ---
 id: girafe:conifer-g-prop
+package: girafe:conifers
 type: prop
 models:
   summer:
@@ -1524,6 +1760,7 @@ models:
 
 ---
 id: girafe:conifer-h-prop
+package: girafe:conifers
 type: prop
 models:
   summer:
@@ -1535,6 +1772,7 @@ models:
 
 ---
 id: girafe:conifers-a-flora
+package: girafe:conifers
 type: flora
 models:
   summer:
@@ -1555,6 +1793,7 @@ models:
 
 ---
 id: girafe:conifers-b-flora
+package: girafe:conifers
 type: flora
 models:
   summer:
@@ -1575,6 +1814,7 @@ models:
 
 ---
 id: girafe:conifers-c-flora
+package: girafe:conifers
 type: flora
 models:
   summer:
@@ -1595,6 +1835,7 @@ models:
 
 ---
 id: girafe:conifers-d-flora
+package: girafe:conifers
 type: flora
 models:
   summer:
@@ -1615,6 +1856,7 @@ models:
 
 ---
 id: girafe:conifers-e-flora
+package: girafe:conifers
 type: flora
 models:
   summer:
@@ -1634,7 +1876,98 @@ models:
     model: [ 0x7b2071af, 0x30000 ]
 
 ---
+id: girafe:cypress-a-prop
+package: girafe:cypresses
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x3ee8b811 ]
+    model: [ 0x41c70a76, 0x30000 ]
+
+---
+id: girafe:cypress-b-prop
+package: girafe:cypresses
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xdee41cff ]
+    model: [ 0xe124c0eb, 0x30000 ]
+
+---
+id: girafe:cypress-c-prop
+package: girafe:cypresses
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x5ee41cf2 ]
+    model: [ 0xe124c191, 0x30000 ]
+
+---
+id: girafe:cypress-d-prop
+package: girafe:cypresses
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfee41ce2 ]
+    model: [ 0x2124c23a, 0x30000 ]
+
+---
+id: girafe:cypress-e-prop
+package: girafe:cypresses
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbee41cd0 ]
+    model: [ 0x2124c32e, 0x30000 ]
+
+---
+id: girafe:cypresses-a-flora
+package: girafe:cypresses
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448530 ]
+    model: [ 0x60af6a96, 0x30000 ]
+
+---
+id: girafe:cypresses-b-flora
+package: girafe:cypresses
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448531 ]
+    model: [ 0x60af6b71, 0x30000 ]
+
+---
+id: girafe:cypresses-c-flora
+package: girafe:cypresses
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448532 ]
+    model: [ 0x80af6fb1, 0x30000 ]
+
+---
+id: girafe:cypresses-d-flora
+package: girafe:cypresses
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448533 ]
+    model: [ 0xc0af6841, 0x30000 ]
+
+---
+id: girafe:cypresses-e-flora
+package: girafe:cypresses
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448534 ]
+    model: [ 0x40af7137, 0x30000 ]
+
+---
 id: girafe:daisy-a-flora
+package: girafe:daisy
 type: flora
 models:
   summer:
@@ -1652,6 +1985,7 @@ models:
 
 ---
 id: girafe:daisy-a-prop
+package: girafe:daisy
 type: prop
 models:
   summer:
@@ -1660,6 +1994,7 @@ models:
 
 ---
 id: girafe:daisy-b-flora
+package: girafe:daisy
 type: flora
 models:
   summer:
@@ -1677,6 +2012,7 @@ models:
 
 ---
 id: girafe:daisy-b-prop
+package: girafe:daisy
 type: prop
 models:
   summer:
@@ -1685,6 +2021,7 @@ models:
 
 ---
 id: girafe:elm-a-prop
+package: girafe:elms
 type: prop
 models:
   summer:
@@ -1699,6 +2036,7 @@ models:
 
 ---
 id: girafe:elm-b-prop
+package: girafe:elms
 type: prop
 models:
   summer:
@@ -1713,6 +2051,7 @@ models:
 
 ---
 id: girafe:elm-c-prop
+package: girafe:elms
 type: prop
 models:
   summer:
@@ -1727,6 +2066,7 @@ models:
 
 ---
 id: girafe:elm-d-prop
+package: girafe:elms
 type: prop
 models:
   summer:
@@ -1741,6 +2081,7 @@ models:
 
 ---
 id: girafe:elm-e-prop
+package: girafe:elms
 type: prop
 models:
   summer:
@@ -1755,6 +2096,7 @@ models:
 
 ---
 id: girafe:elms-a-flora
+package: girafe:elms
 type: flora
 models:
   summer:
@@ -1772,6 +2114,7 @@ models:
 
 ---
 id: girafe:elms-b-flora
+package: girafe:elms
 type: flora
 models:
   summer:
@@ -1789,6 +2132,7 @@ models:
 
 ---
 id: girafe:elms-c-flora
+package: girafe:elms
 type: flora
 models:
   summer:
@@ -1806,6 +2150,7 @@ models:
 
 ---
 id: girafe:elms-d-flora
+package: girafe:elms
 type: flora
 models:
   summer:
@@ -1823,6 +2168,7 @@ models:
 
 ---
 id: girafe:elms-e-flora
+package: girafe:elms
 type: flora
 models:
   summer:
@@ -1840,6 +2186,7 @@ models:
 
 ---
 id: girafe:feather-grass-a-flora
+package: girafe:feather-grass
 type: flora
 models:
   summer:
@@ -1857,6 +2204,7 @@ models:
 
 ---
 id: girafe:feather-grass-a-prop
+package: girafe:feather-grass
 type: prop
 models:
   summer:
@@ -1868,6 +2216,7 @@ models:
 
 ---
 id: girafe:feather-grass-b-flora
+package: girafe:feather-grass
 type: flora
 models:
   summer:
@@ -1885,6 +2234,7 @@ models:
 
 ---
 id: girafe:grand-fir-a-prop
+package: girafe:grand-firs
 type: prop
 models:
   summer:
@@ -1896,6 +2246,7 @@ models:
 
 ---
 id: girafe:grand-fir-b-prop
+package: girafe:grand-firs
 type: prop
 models:
   summer:
@@ -1907,6 +2258,7 @@ models:
 
 ---
 id: girafe:grand-fir-c-prop
+package: girafe:grand-firs
 type: prop
 models:
   summer:
@@ -1918,6 +2270,7 @@ models:
 
 ---
 id: girafe:grand-fir-d-prop
+package: girafe:grand-firs
 type: prop
 models:
   summer:
@@ -1929,6 +2282,7 @@ models:
 
 ---
 id: girafe:grand-fir-e-prop
+package: girafe:grand-firs
 type: prop
 models:
   summer:
@@ -1940,6 +2294,7 @@ models:
 
 ---
 id: girafe:grand-firs-a-flora
+package: girafe:grand-firs
 type: flora
 models:
   summer:
@@ -1960,6 +2315,7 @@ models:
 
 ---
 id: girafe:grand-firs-b-flora
+package: girafe:grand-firs
 type: flora
 models:
   summer:
@@ -1980,6 +2336,7 @@ models:
 
 ---
 id: girafe:grand-firs-c-flora
+package: girafe:grand-firs
 type: flora
 models:
   summer:
@@ -2000,6 +2357,7 @@ models:
 
 ---
 id: girafe:grand-firs-d-flora
+package: girafe:grand-firs
 type: flora
 models:
   summer:
@@ -2020,6 +2378,7 @@ models:
 
 ---
 id: girafe:grand-firs-e-flora
+package: girafe:grand-firs
 type: flora
 models:
   summer:
@@ -2040,6 +2399,7 @@ models:
 
 ---
 id: girafe:haybale-b-prop
+package: girafe:wheat
 type: prop
 models:
   fall:
@@ -2048,6 +2408,7 @@ models:
 
 ---
 id: girafe:haybale-empty-a-prop
+package: girafe:wheat
 type: prop
 models:
   fall:
@@ -2056,6 +2417,7 @@ models:
 
 ---
 id: girafe:haybale-empty-b-prop
+package: girafe:wheat
 type: prop
 models:
   fall:
@@ -2064,6 +2426,7 @@ models:
 
 ---
 id: girafe:haybale-empty-c-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -2072,6 +2435,7 @@ models:
 
 ---
 id: girafe:honey-locust-a-flora
+package: girafe:honey-locust
 type: flora
 models:
   summer:
@@ -2089,6 +2453,7 @@ models:
 
 ---
 id: girafe:honey-locust-a-prop
+package: girafe:honey-locust
 type: prop
 models:
   summer:
@@ -2103,6 +2468,7 @@ models:
 
 ---
 id: girafe:honey-locust-b-flora
+package: girafe:honey-locust
 type: flora
 models:
   summer:
@@ -2120,6 +2486,7 @@ models:
 
 ---
 id: girafe:honey-locust-b-prop
+package: girafe:honey-locust
 type: prop
 models:
   summer:
@@ -2134,6 +2501,7 @@ models:
 
 ---
 id: girafe:honey-locust-c-flora
+package: girafe:honey-locust
 type: flora
 models:
   summer:
@@ -2151,6 +2519,7 @@ models:
 
 ---
 id: girafe:honey-locust-c-prop
+package: girafe:honey-locust
 type: prop
 models:
   summer:
@@ -2165,6 +2534,7 @@ models:
 
 ---
 id: girafe:honey-locust-d-flora
+package: girafe:honey-locust
 type: flora
 models:
   summer:
@@ -2182,6 +2552,7 @@ models:
 
 ---
 id: girafe:honey-locust-d-prop
+package: girafe:honey-locust
 type: prop
 models:
   summer:
@@ -2196,6 +2567,7 @@ models:
 
 ---
 id: girafe:honey-locust-e-flora
+package: girafe:honey-locust
 type: flora
 models:
   summer:
@@ -2213,6 +2585,7 @@ models:
 
 ---
 id: girafe:honey-locust-e-prop
+package: girafe:honey-locust
 type: prop
 models:
   summer:
@@ -2227,6 +2600,7 @@ models:
 
 ---
 id: girafe:larches-a-flora
+package: girafe:larches
 type: flora
 models:
   summer:
@@ -2247,6 +2621,7 @@ models:
 
 ---
 id: girafe:larches-b-flora
+package: girafe:larches
 type: flora
 models:
   summer:
@@ -2267,6 +2642,7 @@ models:
 
 ---
 id: girafe:larches-c-flora
+package: girafe:larches
 type: flora
 models:
   summer:
@@ -2287,6 +2663,7 @@ models:
 
 ---
 id: girafe:larches-d-flora
+package: girafe:larches
 type: flora
 models:
   summer:
@@ -2307,6 +2684,7 @@ models:
 
 ---
 id: girafe:larches-e-flora
+package: girafe:larches
 type: flora
 models:
   summer:
@@ -2327,6 +2705,7 @@ models:
 
 ---
 id: girafe:linden-a-prop
+package: girafe:lindens
 type: prop
 models:
   summer:
@@ -2341,6 +2720,7 @@ models:
 
 ---
 id: girafe:linden-b-prop
+package: girafe:lindens
 type: prop
 models:
   summer:
@@ -2355,6 +2735,7 @@ models:
 
 ---
 id: girafe:linden-c-prop
+package: girafe:lindens
 type: prop
 models:
   summer:
@@ -2369,6 +2750,7 @@ models:
 
 ---
 id: girafe:linden-d-prop
+package: girafe:lindens
 type: prop
 models:
   summer:
@@ -2383,6 +2765,7 @@ models:
 
 ---
 id: girafe:linden-e-prop
+package: girafe:lindens
 type: prop
 models:
   summer:
@@ -2397,6 +2780,7 @@ models:
 
 ---
 id: girafe:linden-f-prop
+package: girafe:lindens
 type: prop
 models:
   summer:
@@ -2411,6 +2795,7 @@ models:
 
 ---
 id: girafe:lindens-a-flora
+package: girafe:lindens
 type: flora
 models:
   summer:
@@ -2428,6 +2813,7 @@ models:
 
 ---
 id: girafe:lindens-b-flora
+package: girafe:lindens
 type: flora
 models:
   summer:
@@ -2445,6 +2831,7 @@ models:
 
 ---
 id: girafe:lindens-c-flora
+package: girafe:lindens
 type: flora
 models:
   summer:
@@ -2462,6 +2849,7 @@ models:
 
 ---
 id: girafe:lindens-d-flora
+package: girafe:lindens
 type: flora
 models:
   summer:
@@ -2479,6 +2867,7 @@ models:
 
 ---
 id: girafe:lindens-e-flora
+package: girafe:lindens
 type: flora
 models:
   summer:
@@ -2496,6 +2885,7 @@ models:
 
 ---
 id: girafe:lupin-a-prop
+package: girafe:lupins
 type: prop
 models:
   summer:
@@ -2507,6 +2897,7 @@ models:
 
 ---
 id: girafe:lupin-b-prop
+package: girafe:lupins
 type: prop
 models:
   summer:
@@ -2518,6 +2909,7 @@ models:
 
 ---
 id: girafe:lupin-c-prop
+package: girafe:lupins
 type: prop
 models:
   summer:
@@ -2529,6 +2921,7 @@ models:
 
 ---
 id: girafe:lupins-a-flora
+package: girafe:lupins
 type: flora
 models:
   summer:
@@ -2546,6 +2939,7 @@ models:
 
 ---
 id: girafe:lupins-b-flora
+package: girafe:lupins
 type: flora
 models:
   summer:
@@ -2563,6 +2957,7 @@ models:
 
 ---
 id: girafe:lupins-c-flora
+package: girafe:lupins
 type: flora
 models:
   summer:
@@ -2580,6 +2975,7 @@ models:
 
 ---
 id: girafe:maple-a-prop
+package: girafe:maples-v2
 type: prop
 models:
   summer:
@@ -2594,6 +2990,7 @@ models:
 
 ---
 id: girafe:maple-b-prop
+package: girafe:maples-v2
 type: prop
 models:
   summer:
@@ -2608,6 +3005,7 @@ models:
 
 ---
 id: girafe:maple-c-prop
+package: girafe:maples-v2
 type: prop
 models:
   summer:
@@ -2622,6 +3020,7 @@ models:
 
 ---
 id: girafe:maple-d-prop
+package: girafe:maples-v2
 type: prop
 models:
   summer:
@@ -2636,6 +3035,7 @@ models:
 
 ---
 id: girafe:maple-e-prop
+package: girafe:maples-v2
 type: prop
 models:
   summer:
@@ -2650,6 +3050,7 @@ models:
 
 ---
 id: girafe:maple-f-prop
+package: girafe:maples-v2
 type: prop
 models:
   summer:
@@ -2664,6 +3065,7 @@ models:
 
 ---
 id: girafe:maple-g-prop
+package: girafe:maples-v2
 type: prop
 models:
   summer:
@@ -2678,6 +3080,7 @@ models:
 
 ---
 id: girafe:maple-h-prop
+package: girafe:maples-v2
 type: prop
 models:
   summer:
@@ -2692,6 +3095,7 @@ models:
 
 ---
 id: girafe:maples-v1-a-flora
+package: girafe:maples
 type: flora
 models:
   summer:
@@ -2709,6 +3113,7 @@ models:
 
 ---
 id: girafe:maples-v1-b-flora
+package: girafe:maples
 type: flora
 models:
   summer:
@@ -2726,6 +3131,7 @@ models:
 
 ---
 id: girafe:maples-v1-c-flora
+package: girafe:maples
 type: flora
 models:
   summer:
@@ -2743,6 +3149,7 @@ models:
 
 ---
 id: girafe:maples-v1-d-flora
+package: girafe:maples
 type: flora
 models:
   summer:
@@ -2760,6 +3167,7 @@ models:
 
 ---
 id: girafe:maples-v1-e-flora
+package: girafe:maples
 type: flora
 models:
   summer:
@@ -2777,6 +3185,7 @@ models:
 
 ---
 id: girafe:maples-v2-v1-a-flora
+package: girafe:maples-v2
 type: flora
 models:
   summer:
@@ -2791,6 +3200,7 @@ models:
 
 ---
 id: girafe:maples-v2-v1-b-flora
+package: girafe:maples-v2
 type: flora
 models:
   summer:
@@ -2805,6 +3215,7 @@ models:
 
 ---
 id: girafe:maples-v2-v1-c-flora
+package: girafe:maples-v2
 type: flora
 models:
   summer:
@@ -2819,6 +3230,7 @@ models:
 
 ---
 id: girafe:maples-v2-v1-d-flora
+package: girafe:maples-v2
 type: flora
 models:
   summer:
@@ -2833,6 +3245,7 @@ models:
 
 ---
 id: girafe:maples-v2-v1-e-flora
+package: girafe:maples-v2
 type: flora
 models:
   summer:
@@ -2847,6 +3260,7 @@ models:
 
 ---
 id: girafe:narcissus-a-flora
+package: girafe:narcissus
 type: flora
 models:
   summer:
@@ -2864,6 +3278,7 @@ models:
 
 ---
 id: girafe:narcissus-a-prop
+package: girafe:narcissus
 type: prop
 models:
   summer:
@@ -2872,6 +3287,7 @@ models:
 
 ---
 id: girafe:narcissus-b-flora
+package: girafe:narcissus
 type: flora
 models:
   summer:
@@ -2889,6 +3305,7 @@ models:
 
 ---
 id: girafe:norway-maple-a-prop
+package: girafe:norway-maples
 type: prop
 models:
   summer:
@@ -2903,6 +3320,7 @@ models:
 
 ---
 id: girafe:norway-maple-b-prop
+package: girafe:norway-maples
 type: prop
 models:
   summer:
@@ -2917,6 +3335,7 @@ models:
 
 ---
 id: girafe:norway-maple-c-prop
+package: girafe:norway-maples
 type: prop
 models:
   summer:
@@ -2931,6 +3350,7 @@ models:
 
 ---
 id: girafe:norway-maple-d-prop
+package: girafe:norway-maples
 type: prop
 models:
   summer:
@@ -2945,6 +3365,7 @@ models:
 
 ---
 id: girafe:norway-maples-v2-a-flora
+package: girafe:norway-maples
 type: flora
 models:
   summer:
@@ -2962,6 +3383,7 @@ models:
 
 ---
 id: girafe:norway-maples-v2-b-flora
+package: girafe:norway-maples
 type: flora
 models:
   summer:
@@ -2979,6 +3401,7 @@ models:
 
 ---
 id: girafe:norway-maples-v2-c-flora
+package: girafe:norway-maples
 type: flora
 models:
   summer:
@@ -2996,6 +3419,7 @@ models:
 
 ---
 id: girafe:norway-maples-v2-d-flora
+package: girafe:norway-maples
 type: flora
 models:
   summer:
@@ -3013,6 +3437,7 @@ models:
 
 ---
 id: girafe:oak-a-prop
+package: girafe:oaks
 type: prop
 models:
   summer:
@@ -3027,6 +3452,7 @@ models:
 
 ---
 id: girafe:oak-b-prop
+package: girafe:oaks
 type: prop
 models:
   summer:
@@ -3041,6 +3467,7 @@ models:
 
 ---
 id: girafe:oak-c-prop
+package: girafe:oaks
 type: prop
 models:
   summer:
@@ -3055,6 +3482,7 @@ models:
 
 ---
 id: girafe:oak-d-prop
+package: girafe:oaks
 type: prop
 models:
   summer:
@@ -3069,6 +3497,7 @@ models:
 
 ---
 id: girafe:oak-e-prop
+package: girafe:oaks
 type: prop
 models:
   summer:
@@ -3083,6 +3512,7 @@ models:
 
 ---
 id: girafe:oaks-a-flora
+package: girafe:oaks
 type: flora
 models:
   summer:
@@ -3100,6 +3530,7 @@ models:
 
 ---
 id: girafe:oaks-b-flora
+package: girafe:oaks
 type: flora
 models:
   summer:
@@ -3117,6 +3548,7 @@ models:
 
 ---
 id: girafe:oaks-c-flora
+package: girafe:oaks
 type: flora
 models:
   summer:
@@ -3134,6 +3566,7 @@ models:
 
 ---
 id: girafe:oaks-d-flora
+package: girafe:oaks
 type: flora
 models:
   summer:
@@ -3151,6 +3584,7 @@ models:
 
 ---
 id: girafe:oaks-e-flora
+package: girafe:oaks
 type: flora
 models:
   summer:
@@ -3167,7 +3601,98 @@ models:
     model: [ 0xfb1b31a0, 0x30000 ]
 
 ---
+id: girafe:parasol-pine-a-prop
+package: girafe:parasol-pines
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x9ea82a5b ]
+    model: [ 0xe13753b3, 0x30000 ]
+
+---
+id: girafe:parasol-pine-b-prop
+package: girafe:parasol-pines
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xfea82a6f ]
+    model: [ 0xe137561b, 0x30000 ]
+
+---
+id: girafe:parasol-pine-c-prop
+package: girafe:parasol-pines
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbea82a7c ]
+    model: [ 0x813759f7, 0x30000 ]
+
+---
+id: girafe:parasol-pine-d-prop
+package: girafe:parasol-pines
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0x7ea82a89 ]
+    model: [ 0x21375d47, 0x30000 ]
+
+---
+id: girafe:parasol-pine-e-prop
+package: girafe:parasol-pines
+type: prop
+models:
+  summer:
+    exemplar: [ 0x9dd7f9c4, 0xbea82a95 ]
+    model: [ 0x61375fa8, 0x30000 ]
+
+---
+id: girafe:parasol-pines-a-flora
+package: girafe:parasol-pines
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448070 ]
+    model: [ 0xbd9da899, 0x30000 ]
+
+---
+id: girafe:parasol-pines-b-flora
+package: girafe:parasol-pines
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448071 ]
+    model: [ 0xbd9db347, 0x30000 ]
+
+---
+id: girafe:parasol-pines-c-flora
+package: girafe:parasol-pines
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448072 ]
+    model: [ 0x3dc42c52, 0x30000 ]
+
+---
+id: girafe:parasol-pines-d-flora
+package: girafe:parasol-pines
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448073 ]
+    model: [ 0x7dc4d498, 0x30000 ]
+
+---
+id: girafe:parasol-pines-e-flora
+package: girafe:parasol-pines
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xaf448074 ]
+    model: [ 0x3dc4e003, 0x30000 ]
+
+---
 id: girafe:poplar-a-prop
+package: girafe:poplars
 type: prop
 models:
   summer:
@@ -3182,6 +3707,7 @@ models:
 
 ---
 id: girafe:poplar-b-prop
+package: girafe:poplars
 type: prop
 models:
   summer:
@@ -3196,6 +3722,7 @@ models:
 
 ---
 id: girafe:poplar-c-prop
+package: girafe:poplars
 type: prop
 models:
   summer:
@@ -3210,6 +3737,7 @@ models:
 
 ---
 id: girafe:poplar-d-prop
+package: girafe:poplars
 type: prop
 models:
   summer:
@@ -3224,6 +3752,7 @@ models:
 
 ---
 id: girafe:poplar-e-prop
+package: girafe:poplars
 type: prop
 models:
   summer:
@@ -3238,6 +3767,7 @@ models:
 
 ---
 id: girafe:poplars-a-flora
+package: girafe:poplars
 type: flora
 models:
   summer:
@@ -3255,6 +3785,7 @@ models:
 
 ---
 id: girafe:poplars-b-flora
+package: girafe:poplars
 type: flora
 models:
   summer:
@@ -3272,6 +3803,7 @@ models:
 
 ---
 id: girafe:poplars-c-flora
+package: girafe:poplars
 type: flora
 models:
   summer:
@@ -3289,6 +3821,7 @@ models:
 
 ---
 id: girafe:poplars-d-flora
+package: girafe:poplars
 type: flora
 models:
   summer:
@@ -3306,6 +3839,7 @@ models:
 
 ---
 id: girafe:poplars-e-flora
+package: girafe:poplars
 type: flora
 models:
   summer:
@@ -3323,6 +3857,7 @@ models:
 
 ---
 id: girafe:poppies-a-flora
+package: girafe:poppies
 type: flora
 models:
   summer:
@@ -3340,6 +3875,7 @@ models:
 
 ---
 id: girafe:poppies-b-flora
+package: girafe:poppies
 type: flora
 models:
   summer:
@@ -3357,6 +3893,7 @@ models:
 
 ---
 id: girafe:poppy-a-prop
+package: girafe:poppies
 type: prop
 models:
   summer:
@@ -3365,6 +3902,7 @@ models:
 
 ---
 id: girafe:poppy-b-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -3373,6 +3911,7 @@ models:
 
 ---
 id: girafe:poppy-empty-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -3381,6 +3920,7 @@ models:
 
 ---
 id: girafe:poppy-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -3389,6 +3929,7 @@ models:
 
 ---
 id: girafe:rowan-tree-a-prop
+package: girafe:rowan-trees
 type: prop
 models:
   summer:
@@ -3403,6 +3944,7 @@ models:
 
 ---
 id: girafe:rowan-tree-b-prop
+package: girafe:rowan-trees
 type: prop
 models:
   summer:
@@ -3417,6 +3959,7 @@ models:
 
 ---
 id: girafe:rowan-tree-c-prop
+package: girafe:rowan-trees
 type: prop
 models:
   summer:
@@ -3431,6 +3974,7 @@ models:
 
 ---
 id: girafe:rowan-tree-d-prop
+package: girafe:rowan-trees
 type: prop
 models:
   summer:
@@ -3445,6 +3989,7 @@ models:
 
 ---
 id: girafe:rowan-tree-e-prop
+package: girafe:rowan-trees
 type: prop
 models:
   summer:
@@ -3459,6 +4004,7 @@ models:
 
 ---
 id: girafe:rowan-trees-a-flora
+package: girafe:rowan-trees
 type: flora
 models:
   summer:
@@ -3476,6 +4022,7 @@ models:
 
 ---
 id: girafe:rowan-trees-b-flora
+package: girafe:rowan-trees
 type: flora
 models:
   summer:
@@ -3493,6 +4040,7 @@ models:
 
 ---
 id: girafe:rowan-trees-c-flora
+package: girafe:rowan-trees
 type: flora
 models:
   summer:
@@ -3510,6 +4058,7 @@ models:
 
 ---
 id: girafe:rowan-trees-d-flora
+package: girafe:rowan-trees
 type: flora
 models:
   summer:
@@ -3527,6 +4076,7 @@ models:
 
 ---
 id: girafe:rowan-trees-e-flora
+package: girafe:rowan-trees
 type: flora
 models:
   summer:
@@ -3544,6 +4094,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v1-v1-a-flora
+package: girafe:serbian-spruces-v1
 type: flora
 models:
   summer:
@@ -3564,6 +4115,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v1-v1-b-flora
+package: girafe:serbian-spruces-v1
 type: flora
 models:
   summer:
@@ -3584,6 +4136,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v1-v1-c-flora
+package: girafe:serbian-spruces-v1
 type: flora
 models:
   summer:
@@ -3604,6 +4157,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v1-v1-d-flora
+package: girafe:serbian-spruces-v1
 type: flora
 models:
   summer:
@@ -3624,6 +4178,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v1-v1-e-flora
+package: girafe:serbian-spruces-v1
 type: flora
 models:
   summer:
@@ -3644,6 +4199,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v2-1-a-flora
+package: girafe:serbian-spruces
 type: flora
 models:
   summer:
@@ -3664,6 +4220,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v2-1-b-flora
+package: girafe:serbian-spruces
 type: flora
 models:
   summer:
@@ -3684,6 +4241,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v2-1-c-flora
+package: girafe:serbian-spruces
 type: flora
 models:
   summer:
@@ -3704,6 +4262,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v2-1-d-flora
+package: girafe:serbian-spruces
 type: flora
 models:
   summer:
@@ -3724,6 +4283,7 @@ models:
 
 ---
 id: girafe:serbian-spruces-v2-1-e-flora
+package: girafe:serbian-spruces
 type: flora
 models:
   summer:
@@ -3744,6 +4304,7 @@ models:
 
 ---
 id: girafe:serbien-spruce-a-prop
+package: girafe:serbian-spruces
 type: prop
 models:
   summer:
@@ -3755,6 +4316,7 @@ models:
 
 ---
 id: girafe:serbien-spruce-b-prop
+package: girafe:serbian-spruces
 type: prop
 models:
   summer:
@@ -3766,6 +4328,7 @@ models:
 
 ---
 id: girafe:serbien-spruce-c-prop
+package: girafe:serbian-spruces
 type: prop
 models:
   summer:
@@ -3777,6 +4340,7 @@ models:
 
 ---
 id: girafe:serbien-spruce-d-prop
+package: girafe:serbian-spruces
 type: prop
 models:
   summer:
@@ -3788,6 +4352,7 @@ models:
 
 ---
 id: girafe:serbien-spruce-e-prop
+package: girafe:serbian-spruces
 type: prop
 models:
   summer:
@@ -3799,6 +4364,7 @@ models:
 
 ---
 id: girafe:sparaxis-a-flora
+package: girafe:sparaxis
 type: flora
 models:
   summer:
@@ -3816,6 +4382,7 @@ models:
 
 ---
 id: girafe:sparaxis-b-flora
+package: girafe:sparaxis
 type: flora
 models:
   summer:
@@ -3833,6 +4400,7 @@ models:
 
 ---
 id: girafe:sparaxis-orange-prop
+package: girafe:sparaxis
 type: prop
 models:
   summer:
@@ -3841,6 +4409,7 @@ models:
 
 ---
 id: girafe:sparaxis-pink-prop
+package: girafe:sparaxis
 type: prop
 models:
   summer:
@@ -3849,6 +4418,7 @@ models:
 
 ---
 id: girafe:sparaxis-prop
+package: girafe:sparaxis
 type: prop
 models:
   summer:
@@ -3857,6 +4427,7 @@ models:
 
 ---
 id: girafe:sparaxis-red-prop
+package: girafe:sparaxis
 type: prop
 models:
   summer:
@@ -3865,6 +4436,7 @@ models:
 
 ---
 id: girafe:sparaxis-white-prop
+package: girafe:sparaxis
 type: prop
 models:
   summer:
@@ -3873,6 +4445,7 @@ models:
 
 ---
 id: girafe:subalpine-firs-a-flora
+package: girafe:subalpine-firs
 type: flora
 models:
   summer:
@@ -3893,6 +4466,7 @@ models:
 
 ---
 id: girafe:subalpine-firs-b-flora
+package: girafe:subalpine-firs
 type: flora
 models:
   summer:
@@ -3913,6 +4487,7 @@ models:
 
 ---
 id: girafe:subalpine-firs-c-flora
+package: girafe:subalpine-firs
 type: flora
 models:
   summer:
@@ -3933,6 +4508,7 @@ models:
 
 ---
 id: girafe:subalpine-firs-d-flora
+package: girafe:subalpine-firs
 type: flora
 models:
   summer:
@@ -3953,6 +4529,7 @@ models:
 
 ---
 id: girafe:subalpine-firs-e-flora
+package: girafe:subalpine-firs
 type: flora
 models:
   summer:
@@ -3973,6 +4550,7 @@ models:
 
 ---
 id: girafe:subalpinefir-a-prop
+package: girafe:subalpine-firs
 type: prop
 models:
   summer:
@@ -3984,6 +4562,7 @@ models:
 
 ---
 id: girafe:subalpinefir-b-prop
+package: girafe:subalpine-firs
 type: prop
 models:
   summer:
@@ -3995,6 +4574,7 @@ models:
 
 ---
 id: girafe:subalpinefir-c-prop
+package: girafe:subalpine-firs
 type: prop
 models:
   summer:
@@ -4006,6 +4586,7 @@ models:
 
 ---
 id: girafe:subalpinefir-d-prop
+package: girafe:subalpine-firs
 type: prop
 models:
   summer:
@@ -4017,6 +4598,7 @@ models:
 
 ---
 id: girafe:subalpinefir-e-prop
+package: girafe:subalpine-firs
 type: prop
 models:
   summer:
@@ -4028,6 +4610,7 @@ models:
 
 ---
 id: girafe:subalpinefir-f-prop
+package: girafe:subalpine-firs
 type: prop
 models:
   summer:
@@ -4039,6 +4622,7 @@ models:
 
 ---
 id: girafe:subalpinefir-g-prop
+package: girafe:subalpine-firs
 type: prop
 models:
   summer:
@@ -4050,6 +4634,7 @@ models:
 
 ---
 id: girafe:swath-b-prop
+package: girafe:wheat
 type: prop
 models:
   fall:
@@ -4058,6 +4643,7 @@ models:
 
 ---
 id: girafe:swath-prop
+package: girafe:wheat
 type: prop
 models:
   fall:
@@ -4066,6 +4652,7 @@ models:
 
 ---
 id: girafe:vines-a-flora
+package: girafe:vines
 type: flora
 models:
   summer:
@@ -4083,6 +4670,7 @@ models:
 
 ---
 id: girafe:vines-a-prop
+package: girafe:vines
 type: prop
 models:
   summer:
@@ -4097,6 +4685,7 @@ models:
 
 ---
 id: girafe:vines-b-prop
+package: girafe:vines
 type: prop
 models:
   summer:
@@ -4111,6 +4700,7 @@ models:
 
 ---
 id: girafe:vines-c-prop
+package: girafe:vines
 type: prop
 models:
   summer:
@@ -4125,6 +4715,7 @@ models:
 
 ---
 id: girafe:vines-d-prop
+package: girafe:vines
 type: prop
 models:
   summer:
@@ -4139,6 +4730,7 @@ models:
 
 ---
 id: girafe:vines-e-prop
+package: girafe:vines
 type: prop
 models:
   summer:
@@ -4153,6 +4745,7 @@ models:
 
 ---
 id: girafe:walnut-tree-a-prop
+package: girafe:walnut-trees
 type: prop
 models:
   summer:
@@ -4167,6 +4760,7 @@ models:
 
 ---
 id: girafe:walnut-tree-b-prop
+package: girafe:walnut-trees
 type: prop
 models:
   summer:
@@ -4181,6 +4775,7 @@ models:
 
 ---
 id: girafe:walnut-tree-c-prop
+package: girafe:walnut-trees
 type: prop
 models:
   summer:
@@ -4195,6 +4790,7 @@ models:
 
 ---
 id: girafe:walnut-tree-d-prop
+package: girafe:walnut-trees
 type: prop
 models:
   summer:
@@ -4209,6 +4805,7 @@ models:
 
 ---
 id: girafe:walnut-tree-e-prop
+package: girafe:walnut-trees
 type: prop
 models:
   summer:
@@ -4223,6 +4820,7 @@ models:
 
 ---
 id: girafe:walnut-trees-a-flora
+package: girafe:walnut-trees
 type: flora
 models:
   summer:
@@ -4240,6 +4838,7 @@ models:
 
 ---
 id: girafe:walnut-trees-b-flora
+package: girafe:walnut-trees
 type: flora
 models:
   summer:
@@ -4257,6 +4856,7 @@ models:
 
 ---
 id: girafe:walnut-trees-c-flora
+package: girafe:walnut-trees
 type: flora
 models:
   summer:
@@ -4274,6 +4874,7 @@ models:
 
 ---
 id: girafe:walnut-trees-d-flora
+package: girafe:walnut-trees
 type: flora
 models:
   summer:
@@ -4291,6 +4892,7 @@ models:
 
 ---
 id: girafe:walnut-trees-e-flora
+package: girafe:walnut-trees
 type: flora
 models:
   summer:
@@ -4308,6 +4910,7 @@ models:
 
 ---
 id: girafe:wheat-b-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -4319,6 +4922,7 @@ models:
 
 ---
 id: girafe:wheat-blade-b-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -4327,6 +4931,7 @@ models:
 
 ---
 id: girafe:wheat-blade-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -4335,6 +4940,7 @@ models:
 
 ---
 id: girafe:wheat-c-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -4343,6 +4949,7 @@ models:
 
 ---
 id: girafe:wheat-d-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -4351,6 +4958,7 @@ models:
 
 ---
 id: girafe:wheat-flora
+package: girafe:wheat
 type: flora
 models:
   summer:
@@ -4368,6 +4976,7 @@ models:
 
 ---
 id: girafe:wheat-prop
+package: girafe:wheat
 type: prop
 models:
   summer:
@@ -4379,6 +4988,7 @@ models:
 
 ---
 id: orange:aesculus-00-flora
+package: orange:aesculus
 type: flora
 models:
   summer:
@@ -4396,6 +5006,7 @@ models:
 
 ---
 id: orange:aesculus-01-flora
+package: orange:aesculus
 type: flora
 models:
   summer:
@@ -4413,6 +5024,7 @@ models:
 
 ---
 id: orange:aesculus-02-flora
+package: orange:aesculus
 type: flora
 models:
   summer:
@@ -4430,6 +5042,7 @@ models:
 
 ---
 id: orange:aesculus-03-flora
+package: orange:aesculus
 type: flora
 models:
   summer:
@@ -4447,6 +5060,7 @@ models:
 
 ---
 id: orange:aesculus-04-flora
+package: orange:aesculus
 type: flora
 models:
   summer:
@@ -4464,6 +5078,7 @@ models:
 
 ---
 id: orange:aesculus-05-flora
+package: orange:aesculus
 type: flora
 models:
   summer:
@@ -4481,6 +5096,7 @@ models:
 
 ---
 id: orange:fagus-01-flora
+package: orange:fagus
 type: flora
 models:
   summer:
@@ -4498,6 +5114,7 @@ models:
 
 ---
 id: orange:fagus-02-flora
+package: orange:fagus
 type: flora
 models:
   summer:
@@ -4515,6 +5132,7 @@ models:
 
 ---
 id: orange:fagus-03-flora
+package: orange:fagus
 type: flora
 models:
   summer:
@@ -4532,6 +5150,7 @@ models:
 
 ---
 id: orange:fagus-04-flora
+package: orange:fagus
 type: flora
 models:
   summer:
@@ -4549,6 +5168,7 @@ models:
 
 ---
 id: orange:fagus-05-flora
+package: orange:fagus
 type: flora
 models:
   summer:
