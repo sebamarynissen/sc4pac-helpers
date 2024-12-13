@@ -1,3 +1,1417 @@
+id: cp:aspenlargeprop5x5x25
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x305eb1a1 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63700000 ]
+    start: 02-20
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xf05eb181 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63710000 ]
+    start: 05-20
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xf05eb15d ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63720000 ]
+    start: 09-20
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xb05eb128 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63730000 ]
+    start: 11-20
+    duration: P92D
+
+---
+id: cp:aspensmallprop4x4x18
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x305eb107 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63740000 ]
+    start: 02-16
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xf05eb0e6 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63750000 ]
+    start: 05-16
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x505eb0b6 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63760000 ]
+    start: 09-16
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x105eb075 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63770000 ]
+    start: 11-16
+    duration: P92D
+
+---
+id: cp:beech
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x765d7d93 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x683b0000 ]
+    start: 03-04
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0xb65d7d8d ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x683c0000 ]
+    start: 06-04
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0x565d7d88 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x683d0000 ]
+    start: 10-04
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x765d7d82 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x683e0000 ]
+    start: 12-04
+    duration: P90D
+
+---
+id: cp:bigjeronimaple
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xd65d1219 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68620000 ]
+    start: 03-09
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x765d1212 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68630000 ]
+    start: 06-09
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0xb65d1206 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68640000 ]
+    start: 10-09
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x165d11f7 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68650000 ]
+    start: 12-09
+    duration: P90D
+
+---
+id: cp:cherry
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xf65d7d64 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x683f0000 ]
+    start: 03-07
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x565d7d5f ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68400000 ]
+    start: 06-07
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0x565d7d56 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68410000 ]
+    start: 10-07
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x765d7d4f ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68420000 ]
+    start: 12-07
+    duration: P90D
+
+---
+id: cp:cottonwood-10x10x
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xcef68e4f ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63040000 ]
+    start: 02-25
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xeef68eaf ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63050000 ]
+    start: 05-25
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x6ef68ef5 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63060000 ]
+    start: 09-25
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x2ef68f40 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63070000 ]
+    start: 11-25
+    duration: P92D
+
+---
+id: cp:cottonwood-11x11x
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x2ef68ab5 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63000000 ]
+    start: 03-09
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0xeef68d4e ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63010000 ]
+    start: 06-09
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0xcef68dbb ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63020000 ]
+    start: 10-09
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xef68e0e ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63030000 ]
+    start: 12-09
+    duration: P90D
+
+---
+id: cp:elmprop-14x14x20
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x300c7c9d ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635d0000 ]
+    start: 03-12
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0xd00c7c73 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635e0000 ]
+    start: 06-12
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x900c7c04 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635f0000 ]
+    start: 10-12
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xd00c7a3d ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63600000 ]
+    start: 12-12
+    duration: P92D
+
+---
+id: cp:hickory
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x165c1236 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68330000 ]
+    start: 02-28
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xf65c129b ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68340000 ]
+    start: 05-28
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x165c1227 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68350000 ]
+    start: 09-28
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x365c1222 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68360000 ]
+    start: 11-28
+    duration: P92D
+
+---
+id: cp:hornbeamb
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xd65c1219 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68370000 ]
+    start: 02-19
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x765c1212 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68380000 ]
+    start: 05-19
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xb65c1206 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68390000 ]
+    start: 09-19
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x165c11f7 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x683a0000 ]
+    start: 11-19
+    duration: P92D
+
+---
+id: cp:horsechestnut
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x733be827 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66a70000 ]
+    start: 02-25
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x733be828 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66a80000 ]
+    start: 05-25
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x733be829 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66a90000 ]
+    start: 09-25
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x733be82a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66aa0000 ]
+    start: 11-25
+    duration: P92D
+
+---
+id: cp:larchprop11x11x63
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x505eb42a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63650000 ]
+    start: 03-16
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x905eb3e2 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63660000 ]
+    start: 06-16
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x705eb398 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63670000 ]
+    start: 10-16
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x705eb367 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63680000 ]
+    start: 12-16
+    duration: P92D
+
+---
+id: cp:larchprop6x6x27
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xb05eb4ac ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63610000 ]
+    start: 03-06
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x105eb490 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63620000 ]
+    start: 06-06
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xd05eb46b ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63630000 ]
+    start: 10-06
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xb05eb44c ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63640000 ]
+    start: 12-06
+    duration: P92D
+
+---
+id: cp:maple
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xf65d7d47 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68430000 ]
+    start: 03-04
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x165d7d41 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68440000 ]
+    start: 06-04
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0xd65d7d3b ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68450000 ]
+    start: 10-04
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x965d7d36 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68460000 ]
+    start: 12-04
+    duration: P90D
+
+---
+id: cp:minicottonwood
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x9394128d ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x67090000 ]
+    start: 03-25
+    duration: P211D
+  winter:
+    exemplar: [ 0xe274fb2, 0x9394128d ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x670a0000 ]
+    start: 03-25
+    duration: P211D
+
+---
+id: cp:minioak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0xf39412b5 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x670b0000 ]
+    start: 03-21
+    duration: P222D
+  winter:
+    exemplar: [ 0xe274fb2, 0xf39412b5 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x670c0000 ]
+    start: 03-21
+    duration: P222D
+
+---
+id: cp:mtree
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0xf39412be ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x672d0000 ]
+    start: 03-19
+    duration: P222D
+  winter:
+    exemplar: [ 0xe274fb2, 0xf39412be ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x672e0000 ]
+    start: 03-19
+    duration: P222D
+
+---
+id: cp:oakprop12x12x15
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x505eb2df ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63690000 ]
+    start: 03-19
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x905eb2b7 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x636a0000 ]
+    start: 06-19
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x705eb290 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x636b0000 ]
+    start: 10-19
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xd05eb239 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x636c0000 ]
+    start: 12-19
+    duration: P92D
+
+---
+id: cp:oakpropa
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x500064e8 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x64e80000 ]
+    start: 03-17
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x500064e8 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x64e90000 ]
+    start: 03-17
+    duration: P234D
+
+---
+id: cp:oakpropb
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x500064e9 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635a0000 ]
+    start: 03-15
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x500064e9 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635c0000 ]
+    start: 03-15
+    duration: P234D
+
+---
+id: cp:oakpropc
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x500064ea ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x636a0000 ]
+    start: 03-12
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x500064ea ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x64ea0000 ]
+    start: 03-12
+    duration: P234D
+
+---
+id: cp:oakpropd
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x500064ed ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x64ed0000 ]
+    start: 03-10
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x500064ed ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x64ee0000 ]
+    start: 03-10
+    duration: P234D
+
+---
+id: cp:plum
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x765fed1e ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68500000 ]
+    start: 03-07
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0xb65fed19 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68510000 ]
+    start: 06-07
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0xb65fed14 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68520000 ]
+    start: 10-07
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x365fed10 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68530000 ]
+    start: 12-07
+    duration: P90D
+
+---
+id: cp:poplar
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x165fed09 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68540000 ]
+    start: 02-25
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xf65fed05 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68550000 ]
+    start: 05-25
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x165fed00 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68560000 ]
+    start: 09-25
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xb65fecfa ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68570000 ]
+    start: 11-25
+    duration: P92D
+
+---
+id: cp:riverbirch
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x565d7d30 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68480000 ]
+    start: 03-04
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x965d7d29 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68490000 ]
+    start: 06-04
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0x965d7d23 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x684a0000 ]
+    start: 10-04
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x565d7d11 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x684b0000 ]
+    start: 12-04
+    duration: P90D
+
+---
+id: cp:seas-largeshrub
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x70a05805 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a90000 ]
+    start: 02-22
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xb0a05a01 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x637f0000 ]
+    start: 05-22
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x70a05836 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a70000 ]
+    start: 09-22
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xb0a0581e ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a80000 ]
+    start: 11-22
+    duration: P92D
+
+---
+id: cp:seas-scarletoak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x10a05856 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a60000 ]
+    start: 03-02
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x50a05a79 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x637e0000 ]
+    start: 06-02
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0x90a058ae ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a40000 ]
+    start: 10-02
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x90a05893 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a50000 ]
+    start: 12-02
+    duration: P90D
+
+---
+id: cp:seas-shrubround
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xf0a05399 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63ca0000 ]
+    start: 03-17
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x50a059be ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63810000 ]
+    start: 06-17
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0xd0a41542 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63cb0000 ]
+    start: 10-17
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xf0a05330 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63cc0000 ]
+    start: 12-17
+    duration: P90D
+
+---
+id: cp:seas-smmaple
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xb0a057e2 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63aa0000 ]
+    start: 02-28
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x30a057be ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63ab0000 ]
+    start: 05-28
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x90a0579e ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63ac0000 ]
+    start: 09-28
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x30a0577d ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63ad0000 ]
+    start: 11-28
+    duration: P92D
+
+---
+id: cp:seas-wideoak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x90a058d0 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a30000 ]
+    start: 03-14
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x30a05932 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a00000 ]
+    start: 06-14
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0x90a05915 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a10000 ]
+    start: 10-14
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x30a058f2 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63a20000 ]
+    start: 12-14
+    duration: P90D
+
+---
+id: cp:seasshrub-4x4x4
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x70a05767 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63ae0000 ]
+    start: 03-04
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x50a05751 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63af0000 ]
+    start: 06-04
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0xd0a05739 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63b00000 ]
+    start: 10-04
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xf0a0571e ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63b10000 ]
+    start: 12-04
+    duration: P90D
+
+---
+id: cp:shaded-aspen2
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x10a055f0 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63ba0000 ]
+    start: 02-21
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x30a055c0 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63bb0000 ]
+    start: 05-21
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xf0a055a1 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63bc0000 ]
+    start: 09-21
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x70a05585 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63bd0000 ]
+    start: 11-21
+    duration: P92D
+
+---
+id: cp:shaded-cottshrublg
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xb0a050c9 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63da0000 ]
+    start: 02-26
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xb0a050a0 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63db0000 ]
+    start: 05-26
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xf0a05080 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63dc0000 ]
+    start: 09-26
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x70a0505f ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63dd0000 ]
+    start: 11-26
+    duration: P92D
+
+---
+id: cp:shaded-cottshrubsm
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xf0a05044 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63de0000 ]
+    start: 03-01
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0xb0a05028 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63df0000 ]
+    start: 06-01
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0xf0a04ffb ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63e00000 ]
+    start: 10-01
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x50a04f9d ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63e10000 ]
+    start: 12-01
+    duration: P90D
+
+---
+id: cp:shaded-decid2newshrub
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x70a0517c ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63d60000 ]
+    start: 02-24
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x50a05148 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63d70000 ]
+    start: 05-24
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x50a05130 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63d80000 ]
+    start: 09-24
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x10a05102 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63d90000 ]
+    start: 11-24
+    duration: P92D
+
+---
+id: cp:shaded-minioak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x1337b757 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66790000 ]
+    start: 03-22
+    duration: P222D
+  winter:
+    exemplar: [ 0xe274fb2, 0x1337b757 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66c90000 ]
+    start: 03-22
+    duration: P222D
+
+---
+id: cp:shaded-minitreecott
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xd337b717 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66990000 ]
+    start: 02-27
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xd337b718 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66780000 ]
+    start: 05-27
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xd337b719 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x669a0000 ]
+    start: 09-27
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xd337b71a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x669b0000 ]
+    start: 11-27
+    duration: P92D
+
+---
+id: cp:shaded-minitreemaple
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xd337e717 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63da0000 ]
+    start: 02-27
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xd337e718 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63db0000 ]
+    start: 05-27
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xd337e719 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63dc0000 ]
+    start: 09-27
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xd337e71a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63dd0000 ]
+    start: 11-27
+    duration: P92D
+
+---
+id: cp:shaded-mjbpoplara
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x7337b7f8 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x667c0000 ]
+    start: 03-25
+    duration: P200D
+  winter:
+    exemplar: [ 0xe274fb2, 0x7337b7f8 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x667d0000 ]
+    start: 03-25
+    duration: P200D
+
+---
+id: cp:shaded-mjbpoplarb
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x1337b832 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x667e0000 ]
+    start: 03-29
+    duration: P200D
+  winter:
+    exemplar: [ 0xe274fb2, 0x1337b832 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x667f0000 ]
+    start: 03-29
+    duration: P200D
+
+---
+id: cp:shaded-mtree4
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xb337b8c7 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x669c0000 ]
+    start: 02-27
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0xb337b8c8 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66820000 ]
+    start: 05-27
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xb337b8c9 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x669d0000 ]
+    start: 09-27
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0xb337b8ca ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x669e0000 ]
+    start: 11-27
+    duration: P92D
+
+---
+id: cp:shaded-shrubround
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x50a05313 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63cd0000 ]
+    start: 03-13
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x30a052f1 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63ce0000 ]
+    start: 06-13
+    duration: P122D
+  fall:
+    exemplar: [ 0xe274fb2, 0x10a052db ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63cf0000 ]
+    start: 10-13
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x50a052b2 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63d00000 ]
+    start: 12-13
+    duration: P90D
+
+---
+id: cp:sprawlyshrub
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xd65e1219 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68670000 ]
+    start: 02-19
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x765e1212 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68680000 ]
+    start: 05-19
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xb65e1206 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x68690000 ]
+    start: 09-19
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x165e11f7 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x686a0000 ]
+    start: 11-19
+    duration: P92D
+
+---
+id: cp:street-cottonwoodsm
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0xf39d0187 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x654b0000 ]
+    start: 03-03
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0xf39d0187 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x655a0000 ]
+    start: 03-03
+    duration: P234D
+
+---
+id: cp:street-jdtree1a
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0xb39410e5 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66eb0000 ]
+    start: 03-08
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0xb39410e5 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66ec0000 ]
+    start: 03-08
+    duration: P234D
+
+---
+id: cp:street-jdtree2a
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x73941134 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66ef0000 ]
+    start: 03-14
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x73941134 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66f00000 ]
+    start: 03-14
+    duration: P234D
+
+---
+id: cp:street-jdtree4a
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x33941116 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66ed0000 ]
+    start: 03-05
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x33941116 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66ee0000 ]
+    start: 03-05
+    duration: P234D
+
+---
+id: cp:street-jeronitree5
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x93941269 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66fd0000 ]
+    start: 03-07
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x93941269 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66fe0000 ]
+    start: 03-07
+    duration: P234D
+
+---
+id: cp:street-jeronitree8
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0xf394123a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66fb0000 ]
+    start: 03-20
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0xf394123a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66fc0000 ]
+    start: 03-20
+    duration: P234D
+
+---
+id: cp:street-jeronitree9
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x33941214 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66f90000 ]
+    start: 03-12
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x33941214 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66fa0000 ]
+    start: 03-12
+    duration: P234D
+
+---
+id: cp:street-madrona3
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x139411b1 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66f50000 ]
+    start: 03-16
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x139411b1 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66f60000 ]
+    start: 03-16
+    duration: P234D
+
+---
+id: cp:street-oak-tree
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x30d11112 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635a0000 ]
+    start: 03-12
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x30d11112 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635c0000 ]
+    start: 03-12
+    duration: P234D
+
+---
+id: cp:street-rf2tree
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x53941178 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66f10000 ]
+    start: 03-18
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x53941178 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66f20000 ]
+    start: 03-18
+    duration: P234D
+
+---
+id: cp:street-rftreesmall
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0xd3941196 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66f30000 ]
+    start: 03-10
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0xd3941196 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x66f40000 ]
+    start: 03-10
+    duration: P234D
+
+---
+id: cp:street-scarletoak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x939d0291 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65540000 ]
+    start: 03-07
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x939d0291 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65630000 ]
+    start: 03-07
+    duration: P234D
+
+---
+id: cp:street-tree-small
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x30d11111 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x672d0000 ]
+    start: 03-16
+    duration: P222D
+  winter:
+    exemplar: [ 0xe274fb2, 0x30d11111 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x672e0000 ]
+    start: 03-16
+    duration: P222D
+
+---
+id: cp:street-valleyoak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0xd39d027a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65530000 ]
+    start: 03-12
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0xd39d027a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65600000 ]
+    start: 03-12
+    duration: P234D
+
+---
+id: cp:streetcottonwoodlg
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x733be847 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65550000 ]
+    start: 02-25
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x539d015c ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x654a0000 ]
+    start: 02-27
+    duration: P234D
+  fall:
+    exemplar: [ 0xe274fb2, 0x733be849 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65560000 ]
+    start: 09-25
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x539d015c ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65570000 ]
+    start: 02-27
+    duration: P234D
+
+---
+id: cp:streetcottonwoodsm
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x733be837 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65580000 ]
+    start: 02-25
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x733be838 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x654b0000 ]
+    start: 05-25
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x733be839 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65590000 ]
+    start: 09-25
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x733be83a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x655a0000 ]
+    start: 11-25
+    duration: P92D
+
+---
+id: cp:streetelm
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x733be857 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x655b0000 ]
+    start: 02-25
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x539d010b ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65490000 ]
+    start: 03-07
+    duration: P234D
+  fall:
+    exemplar: [ 0xe274fb2, 0x733be859 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x655c0000 ]
+    start: 09-25
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x539d010b ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x655d0000 ]
+    start: 03-07
+    duration: P234D
+
+---
+id: cp:streetscarletoak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x733be867 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65610000 ]
+    start: 02-25
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x733be868 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65540000 ]
+    start: 05-25
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x733be869 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65620000 ]
+    start: 09-25
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x733be86a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65630000 ]
+    start: 11-25
+    duration: P92D
+
+---
+id: cp:streetvalleyoak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0x733be877 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x655e0000 ]
+    start: 02-25
+    duration: P89D
+  summer:
+    exemplar: [ 0xe274fb2, 0x733be878 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65530000 ]
+    start: 05-25
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0x733be879 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x655f0000 ]
+    start: 09-25
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x733be87a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65600000 ]
+    start: 11-25
+    duration: P92D
+
+---
+id: cp:valleyoakprop15x15x22
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  spring:
+    exemplar: [ 0xe274fb2, 0xf05eb546 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x63590000 ]
+    start: 03-24
+    duration: P92D
+  summer:
+    exemplar: [ 0xe274fb2, 0x505eb52b ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635a0000 ]
+    start: 06-24
+    duration: P123D
+  fall:
+    exemplar: [ 0xe274fb2, 0xf05eb4f7 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635b0000 ]
+    start: 10-24
+    duration: P61D
+  winter:
+    exemplar: [ 0xe274fb2, 0x505eb4d9 ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x635c0000 ]
+    start: 12-24
+    duration: P92D
+
+---
+id: cp:vlaakhas-oak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  summer:
+    exemplar: [ 0xe274fb2, 0x30d1111a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x65490000 ]
+    start: 03-14
+    duration: P234D
+  winter:
+    exemplar: [ 0xe274fb2, 0x30d1111a ]
+    model: [ 0x5ad0e817, 0xe274fb2, 0x655d0000 ]
+    start: 03-14
+    duration: P234D
+
+---
 id: girafe:abies-grandis-v1-1-a-flora
 package: girafe:abies-grandis
 type: flora
