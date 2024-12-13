@@ -4,7 +4,7 @@ import generate from '../lib/generate-tree-patch.js';
 import { getId } from './build-girafe-database.js';
 
 let set = new Set();
-await generate('{girafe,orange}:*', {
+await generate(['{girafe,orange}:*', 'mgb204:girafe-mmp-*'], {
 	id: getId,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	filter(exemplar, entry) {
