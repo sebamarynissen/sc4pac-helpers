@@ -101,6 +101,17 @@ function getFloraId(exemplar, entry) {
 	let pkg = path.basename(path.dirname(entry.dbpf.file));
 	let suffix = '';
 	let [group, name, version] = pkg.split('.');
+
+	// The rsc204 props-as-mmp is all bundled together, so we have to handle it 
+	// differently.
+	if (group === 'mgb204') {
+		let name = exemplar.get('ExemplarName');
+		let id = name
+			.replace(/^Grfe_/g, '')
+			.replace(/_(seasonal|summer)_.*$/, '')
+			.replaceAll(/_/g, '-');
+		return `${group}:girafe-mmp-${id}`;
+	}
 	if (pkg.match(/(serbian|maples|abies)/)) {
 		suffix = `-v${version}`;
 	}
@@ -190,7 +201,7 @@ function hasSnow(pkg) {
 	return withSnow.some(what => name.includes(what));
 }
 
-await build('{girafe,orange}:*', {
+await build('{girafe,orange,mgb204}:*', {
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	id: getId,
 	models: getModels,

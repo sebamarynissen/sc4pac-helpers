@@ -6158,6 +6158,105 @@ models:
     duration: P91D
 
 ---
+id: mgb204:girafe-mmp-ash
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c7 ]
+    model: [ 0x5dbb04d1, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c7 ]
+    model: [ 0xbdba9d9e, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c7 ]
+    model: [ 0xddbb03f3, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-beech
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00cc ]
+    model: [ 0xc21d9097, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00cc ]
+    model: [ 0x603f65b8, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00cc ]
+    model: [ 0x21b7fa57, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-birch
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d2 ]
+    model: [ 0x813a1870, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d2 ]
+    model: [ 0xc13a30b0, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d2 ]
+    model: [ 0xa13a1c89, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-liden
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d8 ]
+    model: [ 0xe07ecd9a, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d8 ]
+    model: [ 0x40a671c1, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d8 ]
+    model: [ 0xe0a66655, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-maple
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00e0 ]
+    model: [ 0x1cf8a001, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00e0 ]
+    model: [ 0xbc11e98e, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00e0 ]
+    model: [ 0x5c12016a, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-norwaymaple
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00e4 ]
+    model: [ 0x61da9471, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00e4 ]
+    model: [ 0x21da9948, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00e4 ]
+    model: [ 0xa1da97ee, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-parasol-pine
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xffff00e9 ]
+    model: [ 0x61375fa8, 0x30000 ]
+
+---
 id: orange:aesculus-00-flora
 package: orange:aesculus
 type: flora
