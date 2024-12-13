@@ -1876,7 +1876,7 @@ models:
     model: [ 0xc0bf391d, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0xde363b6f ]
     model: [ 0xa0c569e6, 0x30000 ]
     start: 12-01
@@ -1895,7 +1895,7 @@ models:
     model: [ 0xbf3bc8, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x9e363b90 ]
     model: [ 0x20c56a8d, 0x30000 ]
     start: 12-01
@@ -1914,7 +1914,7 @@ models:
     model: [ 0x40bf40ea, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0xfe363ba4 ]
     model: [ 0xc56b6e, 0x30000 ]
     start: 12-01
@@ -1933,7 +1933,7 @@ models:
     model: [ 0x40bf4628, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x7e363bb7 ]
     model: [ 0xc0c56c8c, 0x30000 ]
     start: 12-01
@@ -1952,7 +1952,7 @@ models:
     model: [ 0xa0c17823, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x7e363bcb ]
     model: [ 0xe0c56eed, 0x30000 ]
     start: 12-01
@@ -1971,7 +1971,7 @@ models:
     model: [ 0xc0c02f45, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x7e363bde ]
     model: [ 0xc0c57121, 0x30000 ]
     start: 12-01
@@ -1990,7 +1990,7 @@ models:
     model: [ 0x20c067df, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x5e364f40 ]
     model: [ 0x20c57481, 0x30000 ]
     start: 12-01
@@ -2114,7 +2114,7 @@ models:
     model: [ 0x808d8476, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x3dfe5224 ]
     model: [ 0xa08d8a5f, 0x30000 ]
     start: 12-01
@@ -2133,7 +2133,7 @@ models:
     model: [ 0xe23711ec, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x1dfe323d ]
     model: [ 0xe23712c2, 0x30000 ]
     start: 12-01
@@ -2152,7 +2152,7 @@ models:
     model: [ 0xe2371558, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x1dfe3252 ]
     model: [ 0xe237166a, 0x30000 ]
     start: 12-01
@@ -2171,7 +2171,7 @@ models:
     model: [ 0xe2371d39, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x3dfe39a5 ]
     model: [ 0xa08d6fb6, 0x30000 ]
     start: 12-01
@@ -2190,7 +2190,7 @@ models:
     model: [ 0x82372b65, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x9dfe3270 ]
     model: [ 0x42372cb4, 0x30000 ]
     start: 12-01
@@ -2209,7 +2209,7 @@ models:
     model: [ 0xc08e353a, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x7dff00c1 ]
     model: [ 0xa08e37b3, 0x30000 ]
     start: 12-01
@@ -2228,7 +2228,7 @@ models:
     model: [ 0xe08d633a, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x7dfe3294 ]
     model: [ 0xa08d64ac, 0x30000 ]
     start: 12-01
@@ -2247,7 +2247,7 @@ models:
     model: [ 0x808d69be, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x3dfe3599 ]
     model: [ 0x208d6b3d, 0x30000 ]
     start: 12-01
@@ -2790,7 +2790,7 @@ models:
     model: [ 0xb1e1a7b, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0x4cc58c5d ]
     model: [ 0xccc03b33, 0x30000 ]
     start: 12-01
@@ -2809,7 +2809,7 @@ models:
     model: [ 0x6b1e2af6, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0x6cc58cbc ]
     model: [ 0x2cc03cf5, 0x30000 ]
     start: 12-01
@@ -2828,7 +2828,7 @@ models:
     model: [ 0x8b1e2e2f, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0xcc58cd1 ]
     model: [ 0x8cc0417e, 0x30000 ]
     start: 12-01
@@ -2847,7 +2847,7 @@ models:
     model: [ 0xcb1e3464, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0xccc58ce5 ]
     model: [ 0xecc042e1, 0x30000 ]
     start: 12-01
@@ -2866,7 +2866,7 @@ models:
     model: [ 0x4b1e3aec, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0xacc58cf7 ]
     model: [ 0x6cc0443d, 0x30000 ]
     start: 12-01
@@ -5282,7 +5282,7 @@ models:
     model: [ 0xec357b46, 0x70000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0x2c3727fc ]
     model: [ 0xec357b46, 0x100000 ]
     start: 12-01
@@ -5301,7 +5301,7 @@ models:
     model: [ 0xec357b46, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0x2c372823 ]
     model: [ 0xec357b46, 0xd0000 ]
     start: 12-01
@@ -5320,7 +5320,7 @@ models:
     model: [ 0xec357b46, 0x40000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0xcc372814 ]
     model: [ 0xec357b46, 0xe0000 ]
     start: 12-01
@@ -5339,7 +5339,7 @@ models:
     model: [ 0xec357b46, 0x50000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0xc372808 ]
     model: [ 0xec357b46, 0xf0000 ]
     start: 12-01
@@ -5358,7 +5358,7 @@ models:
     model: [ 0xec357b46, 0x60000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0xec357b46, 0x6c3727ef ]
     model: [ 0xec357b46, 0x110000 ]
     start: 12-01
@@ -5585,7 +5585,7 @@ models:
     model: [ 0x2094bd91, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0xde0587a7 ]
     model: [ 0x94bea6, 0x30000 ]
     start: 12-01
@@ -5604,7 +5604,7 @@ models:
     model: [ 0xc095454e, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x7e061040 ]
     model: [ 0xa09546dd, 0x30000 ]
     start: 12-01
@@ -5623,7 +5623,7 @@ models:
     model: [ 0xc094e685, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x1e05d0ba ]
     model: [ 0x94e912, 0x30000 ]
     start: 12-01
@@ -5642,7 +5642,7 @@ models:
     model: [ 0xc094ef23, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0xde05d0f8 ]
     model: [ 0xe094f191, 0x30000 ]
     start: 12-01
@@ -5661,7 +5661,7 @@ models:
     model: [ 0x2094f895, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x1e05d13a ]
     model: [ 0x2094fd6a, 0x30000 ]
     start: 12-01
@@ -5680,7 +5680,7 @@ models:
     model: [ 0xc094afc9, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0x9e057cff ]
     model: [ 0x94b19d, 0x30000 ]
     start: 12-01
@@ -5699,7 +5699,7 @@ models:
     model: [ 0x809509c2, 0x30000 ]
     start: 03-01
     duration: P275D
-  winter:
+  snow:
     exemplar: [ 0x9dd7f9c4, 0xbe05de3f ]
     model: [ 0xc0950e81, 0x30000 ]
     start: 12-01

@@ -28,7 +28,7 @@ function getModels(exemplar, entry) {
 const seasonRegex = /(autumn|summer|winter|evergreen|spring|seasonal)/i;
 function getPropId(exemplar, entry) {
 	let tree = exemplar
-		.singleValue(ExemplarProperty.ExemplarName)
+		.get(ExemplarProperty.ExemplarName)
 		.replace(seasonRegex, '')
 		.replace(/^Grfe_/g, '')
 		.replace(/_$/, '')
@@ -40,6 +40,7 @@ function getPropId(exemplar, entry) {
 // # getPropSeasons(exemplar, entry)
 // Returns all model TGIs that we can find in this prop exemplar. Note that 
 // Girafe's prop exemplars typically don't contain multiple seasons.
+const snowRegex = /_(grand_fir|conifer|subalpinefir|serbien_spruce|common_spruce|conifer)_/i;
 function getPropModels(exemplar, entry) {
 
 	// If the prop only has an RKT1, then it typically is an evergreen prop 
@@ -55,7 +56,17 @@ function getPropModels(exemplar, entry) {
 	if (rkt4) {
 		let model = rkt4.slice(6);
 		let season = getSeasonFromStartDate(exemplar);
+
+		// If this is a winter tree, then check if this is a snow-capped prop. 
+		// This is the case for the coniferous trees.
+		if (season === 'winter') {
+			let name = exemplar.get('ExemplarName');
+			if (snowRegex.test(name)) {
+				season = 'snow';
+			}
+		}
 		return { [season]: model };
+
 	}
 
 	// By default, nothing is found.
