@@ -7572,7 +7572,112 @@ models:
     duration: P91D
 
 ---
-id: mgb204:girafe-mmp-ash
+id: mgb204:girafe-mmp-ash-a
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c0 ]
+    model: [ 0xfdb9a26e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c0 ]
+    model: [ 0xddbab460, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c0 ]
+    model: [ 0x9dbab50e, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-ash-b
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c1 ]
+    model: [ 0x3db9a60f, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c1 ]
+    model: [ 0x9dbab221, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c1 ]
+    model: [ 0xbdbab561, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-ash-c
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c2 ]
+    model: [ 0x5db9aa2c, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c2 ]
+    model: [ 0x1dbaacdf, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c2 ]
+    model: [ 0x7dbab5dc, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-ash-d
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c3 ]
+    model: [ 0xfdb9a831, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c3 ]
+    model: [ 0xbdbaa9d0, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c3 ]
+    model: [ 0xddbafef1, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-ash-e
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c4 ]
+    model: [ 0xddb9b138, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c4 ]
+    model: [ 0x3dbb0009, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c4 ]
+    model: [ 0x3dbaff7a, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-ash-f
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c5 ]
+    model: [ 0x7db9b3cb, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c5 ]
+    model: [ 0x7dbaa3d2, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c5 ]
+    model: [ 0xfdbb019f, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-ash-g
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c6 ]
+    model: [ 0x9dba8f4a, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c6 ]
+    model: [ 0xddba9fae, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c6 ]
+    model: [ 0xfdbb036f, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-ash-h
 package: mgb204:girafe-mmp-pack
 type: flora
 models:
@@ -7587,7 +7692,67 @@ models:
     model: [ 0xddbb03f3, 0x30000 ]
 
 ---
-id: mgb204:girafe-mmp-beech
+id: mgb204:girafe-mmp-beech-a
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c8 ]
+    model: [ 0x421d8c44, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c8 ]
+    model: [ 0x203f61dc, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c8 ]
+    model: [ 0x1b7f9fd, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-beech-b
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00c9 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00c9 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00c9 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-beech-c
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00ca ]
+    model: [ 0x821d8d70, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00ca ]
+    model: [ 0x3fcf651c, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00ca ]
+    model: [ 0x41b7fb51, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-beech-d
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00cb ]
+    model: [ 0x21d8e4f, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00cb ]
+    model: [ 0xffcf5b83, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00cb ]
+    model: [ 0x61b7fbec, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-beech-e
 package: mgb204:girafe-mmp-pack
 type: flora
 models:
@@ -7602,7 +7767,82 @@ models:
     model: [ 0x21b7fa57, 0x30000 ]
 
 ---
-id: mgb204:girafe-mmp-birch
+id: mgb204:girafe-mmp-birch-a
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00cd ]
+    model: [ 0x613a0f3d, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00cd ]
+    model: [ 0xe13a29e8, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00cd ]
+    model: [ 0x613a1fab, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-birch-b
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00ce ]
+    model: [ 0xa13a105e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00ce ]
+    model: [ 0x213a2b35, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00ce ]
+    model: [ 0x413a1f40, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-birch-c
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00cf ]
+    model: [ 0x613a12cd, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00cf ]
+    model: [ 0xa13a2c40, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00cf ]
+    model: [ 0x813a1ecd, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-birch-d
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d0 ]
+    model: [ 0xa13a139e, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d0 ]
+    model: [ 0x413a2d3f, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d0 ]
+    model: [ 0xe13a1e33, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-birch-e
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d1 ]
+    model: [ 0xe13a177b, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d1 ]
+    model: [ 0x413a2e84, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d1 ]
+    model: [ 0x413a1d37, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-birch-f
 package: mgb204:girafe-mmp-pack
 type: flora
 models:
@@ -7617,7 +7857,82 @@ models:
     model: [ 0xa13a1c89, 0x30000 ]
 
 ---
-id: mgb204:girafe-mmp-liden
+id: mgb204:girafe-mmp-liden-a
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d3 ]
+    model: [ 0x9dd7f9c4, 0x460000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d3 ]
+    model: [ 0x80a66953, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d3 ]
+    model: [ 0x60a66790, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-liden-b
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d4 ]
+    model: [ 0x9dd7f9c4, 0x470000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d4 ]
+    model: [ 0x60a66a15, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d4 ]
+    model: [ 0x40a6674b, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-liden-c
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d5 ]
+    model: [ 0xe0961fc8, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d5 ]
+    model: [ 0xa0961d1f, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d5 ]
+    model: [ 0x2096263a, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-liden-d
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d6 ]
+    model: [ 0x9dd7f9c4, 0x300000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d6 ]
+    model: [ 0x80a66d6a, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d6 ]
+    model: [ 0x80a666a7, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-liden-e
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d7 ]
+    model: [ 0x607ed3dd, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d7 ]
+    model: [ 0xa66f86, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d7 ]
+    model: [ 0x407ed8ec, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-liden-f
 package: mgb204:girafe-mmp-pack
 type: flora
 models:
@@ -7632,7 +7947,112 @@ models:
     model: [ 0xe0a66655, 0x30000 ]
 
 ---
-id: mgb204:girafe-mmp-maple
+id: mgb204:girafe-mmp-maple-a
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00d9 ]
+    model: [ 0x1cf87a8d, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00d9 ]
+    model: [ 0x5cf8bcfb, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00d9 ]
+    model: [ 0xfc11fe99, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-maple-b
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00da ]
+    model: [ 0x5cf87d1b, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00da ]
+    model: [ 0x9cf8c25d, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00da ]
+    model: [ 0x1c120f26, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-maple-c
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00db ]
+    model: [ 0xdcf87f55, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00db ]
+    model: [ 0xfcf8e825, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00db ]
+    model: [ 0x7c11ff3e, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-maple-d
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00dc ]
+    model: [ 0x9cf88191, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00dc ]
+    model: [ 0x5c11f645, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00dc ]
+    model: [ 0xdc11ffa2, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-maple-e
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00dd ]
+    model: [ 0x5cf88519, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00dd ]
+    model: [ 0x7c11e47f, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00dd ]
+    model: [ 0x7c120003, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-maple-f
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00de ]
+    model: [ 0xfcf8911c, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00de ]
+    model: [ 0x3c11e251, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00de ]
+    model: [ 0x9c120072, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-maple-g
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00df ]
+    model: [ 0xbcf89376, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00df ]
+    model: [ 0xbc11e6fb, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00df ]
+    model: [ 0x7c1200ec, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-maple-h
 package: mgb204:girafe-mmp-pack
 type: flora
 models:
@@ -7647,7 +8067,52 @@ models:
     model: [ 0x5c12016a, 0x30000 ]
 
 ---
-id: mgb204:girafe-mmp-norwaymaple
+id: mgb204:girafe-mmp-norwaymaple-a
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00e1 ]
+    model: [ 0x41da70ab, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00e1 ]
+    model: [ 0x61da7576, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00e1 ]
+    model: [ 0x21da770a, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-norwaymaple-b
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00e2 ]
+    model: [ 0x61da7a44, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00e2 ]
+    model: [ 0xa1da7fd3, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00e2 ]
+    model: [ 0xa1da7d99, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-norwaymaple-c
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  summer:
+    exemplar: [ 0xe83e0437, 0xffff00e3 ]
+    model: [ 0x21da82ca, 0x30000 ]
+  fall:
+    exemplar: [ 0xe83e0437, 0xffff00e3 ]
+    model: [ 0xa1da8744, 0x30000 ]
+  winter:
+    exemplar: [ 0xe83e0437, 0xffff00e3 ]
+    model: [ 0x81da85e2, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-norwaymaple-d
 package: mgb204:girafe-mmp-pack
 type: flora
 models:
@@ -7662,7 +8127,43 @@ models:
     model: [ 0xa1da97ee, 0x30000 ]
 
 ---
-id: mgb204:girafe-mmp-parasol-pine
+id: mgb204:girafe-mmp-parasol-pine-a
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xffff00e5 ]
+    model: [ 0xe13753b3, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-parasol-pine-b
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xffff00e6 ]
+    model: [ 0xe137561b, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-parasol-pine-c
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xffff00e7 ]
+    model: [ 0x813759f7, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-parasol-pine-d
+package: mgb204:girafe-mmp-pack
+type: flora
+models:
+  evergreen:
+    exemplar: [ 0xe83e0437, 0xffff00e8 ]
+    model: [ 0x21375d47, 0x30000 ]
+
+---
+id: mgb204:girafe-mmp-parasol-pine-e
 package: mgb204:girafe-mmp-pack
 type: flora
 models:
