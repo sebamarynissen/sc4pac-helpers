@@ -9,15 +9,13 @@ const db = new TreeDatabase();
 await db.load();
 
 // Filter out only Girafe's props.
-const girafe = db.filter(({ package: pkg, type }) => {
+const cp = db.filter(({ id, type }) => {
 	if (type !== 'prop') return false;
-	if (!pkg.match(/^girafe:/)) return false;
-	if (pkg.match(/(cypresses|parasol-pines|canary-date-palms)/)) return false;
-	return true;
+	return id.match(/^cp:/);
 });
 
 const props = [];
-for (let tree of girafe) {
+for (let tree of cp) {
 	props.push(...findUniqueProps(tree));
 }
 
@@ -25,9 +23,9 @@ for (let tree of girafe) {
 let size = Math.floor(Math.sqrt(props.length))+1;
 let lot = createLot({
 	size: [size, size],
-	name: '00000000000_girafe',
-	title: 'Girafe test lot',
-	description: 'A lot containing all of Girafe\'s tree props',
+	name: '00000000000_cp',
+	title: 'CP test lot',
+	description: 'A lot containing all of Cycledoggs tree props',
 });
 let config = lot.find({
 	type: FileType.Exemplar,
@@ -56,7 +54,7 @@ for (let i = 0; i < props.length; i++) {
 
 // Now save the lot.
 lot.save(
-	path.join(process.env.SC4_PLUGINS, 'Girafe_test_lot.SC4Lot'),
+	path.join(process.env.SC4_PLUGINS, 'CP_test_lot.SC4Lot'),
 );
 
 // # findUniqueProps(tree)

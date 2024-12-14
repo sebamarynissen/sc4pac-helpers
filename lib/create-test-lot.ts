@@ -66,13 +66,13 @@ export default function createTestLot(opts: CreateTestLotOptions = {}) {
 	config.addProperty('ExemplarName', name);
 	config.addProperty('LotConfigPropertySize', size);
 	config.addProperty('LotConfigPropertyVersion', 2);
-	config.addProperty('LotConfigPropertyMaxSlopeBeforeLotFoundation', 54);
-	config.addProperty('LotConfigPropertyMaxSlopeAllowed', 24);
-	config.addProperty('LotConfigPropertyPurposeTypes', [Property.LotConfigPropertyPurposeTypes.None]);
-	config.addProperty('LotConfigPropertyZoneTypes', [Property.LotConfigPropertyZoneTypes.PloppedBuilding]);
-	config.addProperty('LotConfigPropertyWealthTypes', [Property.LotConfigPropertyWealthTypes.None]);
-	config.addProperty('LotConfigPropertyRetainingWallTypes', [0xC96D2135]);
-	config.addProperty('BuildingFoundation', 0x890B7314);
+	// config.addProperty('LotConfigPropertyMaxSlopeBeforeLotFoundation', 54);
+	// config.addProperty('LotConfigPropertyMaxSlopeAllowed', 24);
+	// config.addProperty('LotConfigPropertyPurposeTypes', [Property.LotConfigPropertyPurposeTypes.None]);
+	// config.addProperty('LotConfigPropertyZoneTypes', [Property.LotConfigPropertyZoneTypes.PloppedBuilding]);
+	// config.addProperty('LotConfigPropertyWealthTypes', [Property.LotConfigPropertyWealthTypes.None]);
+	// config.addProperty('LotConfigPropertyRetainingWallTypes', [0xC96D2135]);
+	// config.addProperty('BuildingFoundation', 0x890B7314);
 	config.addProperty('CustomLot', 1);
 	config.lotObjects.push(
 		new LotObject({
