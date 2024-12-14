@@ -6,7 +6,7 @@ import build from '../lib/build-tree-database.js';
 // # getId(exemplar, entry)
 // Exports the function to get the tree id from an exemplar. This is used when 
 // creating patches as well.
-export function getId(exemplar, entry) {
+function getId(exemplar, entry) {
 	switch (exemplar.get(ExemplarProperty.ExemplarType)) {
 		case 0x0f: return getFloraId(exemplar, entry);
 		case 0x1e: return getPropId(exemplar, entry);
@@ -106,11 +106,12 @@ function getFloraId(exemplar, entry) {
 	// differently.
 	if (group === 'mgb204') {
 		let name = exemplar.get('ExemplarName');
+		let variant = name.at(-1).toLowerCase();
 		let id = name
 			.replace(/^Grfe_/g, '')
 			.replace(/_(seasonal|summer)_.*$/, '')
 			.replaceAll(/_/g, '-');
-		return `${group}:girafe-mmp-${id}`;
+		return `${group}:girafe-mmp-${id}-${variant}`;
 	}
 	if (pkg.match(/(serbian|maples|abies)/)) {
 		suffix = `-v${version}`;
@@ -205,4 +206,5 @@ await build('{girafe,orange,mgb204}:*', {
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	id: getId,
 	models: getModels,
+	dry: true,
 });
