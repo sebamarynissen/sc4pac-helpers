@@ -3,7 +3,7 @@ import path from 'node:path';
 import generate from '../lib/generate-tree-patch.js';
 
 let set = new Set();
-await generate(['{girafe,orange}:*', 'mgb204:girafe-mmp-*'], {
+await generate(['girafe:*', 'mgb204:girafe-mmp-*'], {
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	filter(exemplar, entry) {
 		let { file } = entry.dbpf;
