@@ -22,7 +22,7 @@ await build('bsc:mega-props-cp-vol0*', {
 	filter(exemplar, entry) {
 		if (!ids.has(entry.id)) return false;
 		let name = exemplar.get('ExemplarName');
-		if (!name.match(/(fall|spring|summer|winter|semiseasonal)/i)) return false;
+		if (!name.match(/(fall|spring|summer|winter|semiseasonal|evergreen)/i)) return false;
 		return true;
 	},
 	id(exemplar) {
@@ -54,7 +54,7 @@ await build('bsc:mega-props-cp-vol0*', {
 			.toLowerCase();
 		return `cp:${id}`;
 	},
-	models(exemplar, entry) {
+	models(exemplar) {
 
 		// Find out whether the tree has a RKT1 or RKT4 set. From that we'll 
 		// determine the model to use.
@@ -64,11 +64,6 @@ await build('bsc:mega-props-cp-vol0*', {
 		if (rkt4 && rkt4.length === 16) {
 			let winter = rkt4.slice(5, 8);
 			let summer = rkt4.slice(13, 16);
-			console.log(
-				exemplar.get('ExemplarName'),
-				winter.slice(1).map(x => x.toString(16)),
-				summer.slice(1).map(x => x.toString(16)),
-			);
 			return { winter, summer };
 		}
 
@@ -84,9 +79,11 @@ await build('bsc:mega-props-cp-vol0*', {
 			return { winter: rkt };
 		} else if (name.match(/spring/i)) {
 			return { spring: rkt };
-		};
+		} else if (name.match(/evergreen/i)) {
+			return { evergreen: rkt };
+		}
 		console.warn(`Could not determine season for ${name}`);
 
 	},
-	// dry: true,
+	dry: true,
 });
