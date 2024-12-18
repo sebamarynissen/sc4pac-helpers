@@ -2,6 +2,9 @@
   "name": "@sebamarynissen/sc4pac-helpers",
   "version": "1.0.0",
   "main": "generate.js",
+  "exports": {
+    "./*": "./lib/*"
+  },
   "imports": {
     "#lib/*": "./lib/*"
   },
@@ -20,20 +23,20 @@
     "@whisthub/eslint-config": "^3.1.0",
     "chai": "^5.1.2",
     "eslint": "^9.14.0",
-    "jsdom": "^25.0.1",
-    "mocha": "^10.8.2",
-    "yaml": "^2.6.1"
+    "mocha": "^10.8.2"
   },
   "dependencies": {
     "@inquirer/prompts": "^7.1.0",
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
     "glob": "^11.0.0",
+    "jsdom": "^25.0.1",
     "ora": "^8.1.1",
     "sc4": "^0.1.1",
     "sort-keys": "^5.1.0",
     "tsx": "^4.19.2",
-    "turndown": "^7.2.0"
+    "turndown": "^7.2.0",
+    "yaml": "^2.6.1"
   },
   "mocha": {
     "import": "tsx"
