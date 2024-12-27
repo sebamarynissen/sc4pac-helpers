@@ -116,7 +116,7 @@ function patch(dbpf, target, prop, value) {
 	cohort.addProperty(prop, value);
 
 	// Properly set the simulator start date, for now.
-	cohort.addProperty(0xCA7515CC, [0x01, 0x1], 'Byte');
+	cohort.addProperty(0xCA7515CC, [0x01, 0x1], Uint8Array);
 
 	// Create an empty dbpf and add the cohort to it, assigning it a random 
 	// instance id by default.

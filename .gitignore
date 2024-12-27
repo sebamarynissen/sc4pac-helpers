@@ -7,3 +7,6 @@ packages
 sc4pac
 zasco
 sc4pac-plugins.json
+
+*.sublime-project
+*.sublime-workspace
