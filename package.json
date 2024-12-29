@@ -11,7 +11,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli": "node ./lib/cli.js",
-    "track": "node ./bin/track.js",
     "build": "\".\\dist\\bin\\sc4pac.bat\" channel build -o dist/channel sc4pac/src",
     "zasco": "\".\\dist\\bin\\sc4pac.bat\" channel build -o dist/zasco zasco/src"
   },
