@@ -4,8 +4,7 @@ import { parseAllDocuments } from 'yaml';
 import path from 'node:path';
 import fs from 'node:fs';
 
-const folder = path.resolve(import.meta.dirname, '../sc4pac/src/yaml/sm2');
-console.log(folder);
+const folder = path.resolve(import.meta.dirname, '../../simtropolis-channel/src/yaml/vip');
 const glob = new Glob('**/*.yaml', {
 	cwd: folder,
 	absolute: true,
@@ -22,4 +21,8 @@ for (let file of glob) {
 	}
 }
 arr.sort();
-console.log(JSON.stringify(arr, null, 2));
+console.log('[');
+for (let pkg of arr) {
+	console.log(`    "${pkg}",`);
+}
+console.log(']');
