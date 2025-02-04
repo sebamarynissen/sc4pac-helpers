@@ -8698,3 +8698,993 @@ models:
   - season: evergreen
     exemplar: [ 0xe83e0437, 0x78da2019 ]
     model: [ 0x7bd85213, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0x1d2c17b6-0x1d983744
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: evergreen
+    exemplar: [ 0x1d2c17b6, 0x1d983744 ]
+    model: [ 0x853891d2, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0x62f9c7ee-0x4d5fb767
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0x62f9c7ee, 0x4d5fb767 ]
+    model: [ 0x5db9aa2c, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0x62f9c7ee, 0x4d5fb767 ]
+    model: [ 0x1dbaacdf, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0x62f9c7ee, 0x4d5fb767 ]
+    model: [ 0x7dbab5dc, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0x62f9c7ee, 0x4d5fb767 ]
+    model: [ 0x1db9ac86, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0x7e603b96-0x89371673
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0x7e603b96, 0x89371673 ]
+    model: [ 0xe07ecd9a, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0x7e603b96, 0x89371673 ]
+    model: [ 0x40a671c1, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0x7e603b96, 0x89371673 ]
+    model: [ 0xe0a66655, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0x7e603b96, 0x89371673 ]
+    model: [ 0xa07ecec7, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0x8ce0697c-0xaa4df38d
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: evergreen
+    exemplar: [ 0x8ce0697c, 0xaa4df38d ]
+    model: [ 0x253896d5, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xbf1e8bb5-0x394e1bc4
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xbf1e8bb5, 0x394e1bc4 ]
+    model: [ 0x7db9b3cb, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xbf1e8bb5, 0x394e1bc4 ]
+    model: [ 0x7dbaa3d2, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xbf1e8bb5, 0x394e1bc4 ]
+    model: [ 0xfdbb019f, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xbf1e8bb5, 0x394e1bc4 ]
+    model: [ 0x9db9b6d4, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x16490000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x16490000 ]
+    model: [ 0x421d8c44, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x16490000 ]
+    model: [ 0x203f61dc, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x16490000 ]
+    model: [ 0x1b7f9fd, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x16490000 ]
+    model: [ 0x421d8c44, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x164a0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x164a0000 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x164a0000 ]
+    model: [ 0x5fcf6721, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x164a0000 ]
+    model: [ 0xc1b7faf6, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x164a0000 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x164b0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x164b0000 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x164b0000 ]
+    model: [ 0x3fcf651c, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x164b0000 ]
+    model: [ 0x41b7fb51, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x164b0000 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x16660000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x16660000 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x16660000 ]
+    model: [ 0x7bd95210, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x16660000 ]
+    model: [ 0xdbd95229, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x16660000 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x16670000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x16670000 ]
+    model: [ 0x9dd7f9c4, 0x460000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x16670000 ]
+    model: [ 0x80a66953, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x16670000 ]
+    model: [ 0x60a66790, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x16670000 ]
+    model: [ 0x9dd7f9c4, 0x450000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x16680000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x16680000 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x16680000 ]
+    model: [ 0x7bd95210, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x16680000 ]
+    model: [ 0xdbd95229, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x16680000 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x16690000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x16690000 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x16690000 ]
+    model: [ 0x3fcf651c, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x16690000 ]
+    model: [ 0x41b7fb51, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x16690000 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x166a0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x166a0000 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x166a0000 ]
+    model: [ 0x5fcf6721, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x166a0000 ]
+    model: [ 0xc1b7faf6, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x166a0000 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x29f70000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x29f70000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x29f70000 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x29f70000 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x29f70000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a0f0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a0f0000 ]
+    model: [ 0x253896d5, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a100000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2a100000 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2a100000 ]
+    model: [ 0xbbd91268, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2a100000 ]
+    model: [ 0xdbd91284, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a100000 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a110000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2a110000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2a110000 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2a110000 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a110000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a120000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2a120000 ]
+    model: [ 0x22806eb2, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2a120000 ]
+    model: [ 0xc280e9f7, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2a120000 ]
+    model: [ 0x2807938, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a120000 ]
+    model: [ 0x22806eb2, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a130000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2a130000 ]
+    model: [ 0x628068ff, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2a130000 ]
+    model: [ 0xa2d14c26, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2a130000 ]
+    model: [ 0xa2807a5a, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a130000 ]
+    model: [ 0x628068ff, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a140000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2a140000 ]
+    model: [ 0x5db9aa2c, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2a140000 ]
+    model: [ 0x1dbaacdf, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2a140000 ]
+    model: [ 0x7dbab5dc, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a140000 ]
+    model: [ 0x1db9ac86, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a150000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2a150000 ]
+    model: [ 0xe07ecd9a, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2a150000 ]
+    model: [ 0x40a671c1, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2a150000 ]
+    model: [ 0xe0a66655, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a150000 ]
+    model: [ 0xa07ecec7, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a160000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2a160000 ]
+    model: [ 0x7db9b3cb, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2a160000 ]
+    model: [ 0x7dbaa3d2, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2a160000 ]
+    model: [ 0xfdbb019f, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a160000 ]
+    model: [ 0x9db9b6d4, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a170000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2a170000 ]
+    model: [ 0x5bd95aea, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2a170000 ]
+    model: [ 0xfbd95afe, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2a170000 ]
+    model: [ 0xdbd95ae0, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a170000 ]
+    model: [ 0x5bd95aea, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2a180000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2a180000 ]
+    model: [ 0x853891d2, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2abe0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2abe0000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2abe0000 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2abe0000 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2abe0000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac00000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac00000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac00000 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac00000 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac00000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac10000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac10000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac10000 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac10000 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac10000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac20000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac20000 ]
+    model: [ 0x421d8c44, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac20000 ]
+    model: [ 0x203f61dc, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac20000 ]
+    model: [ 0x1b7f9fd, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac20000 ]
+    model: [ 0x421d8c44, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac30000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac30000 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac30000 ]
+    model: [ 0xbbd91268, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac30000 ]
+    model: [ 0xdbd91284, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac30000 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac40000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac40000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac40000 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac40000 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac40000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac50000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac50000 ]
+    model: [ 0x253896d5, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac60000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac60000 ]
+    model: [ 0x22806eb2, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac60000 ]
+    model: [ 0xc280e9f7, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac60000 ]
+    model: [ 0x2807938, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac60000 ]
+    model: [ 0x22806eb2, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac70000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac70000 ]
+    model: [ 0x628068ff, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac70000 ]
+    model: [ 0xa2d14c26, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac70000 ]
+    model: [ 0xa2807a5a, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac70000 ]
+    model: [ 0x628068ff, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac80000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac80000 ]
+    model: [ 0x5bd95aea, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac80000 ]
+    model: [ 0xfbd95afe, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac80000 ]
+    model: [ 0xdbd95ae0, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac80000 ]
+    model: [ 0x5bd95aea, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ac90000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ac90000 ]
+    model: [ 0xe07ecd9a, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ac90000 ]
+    model: [ 0x40a671c1, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ac90000 ]
+    model: [ 0xe0a66655, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ac90000 ]
+    model: [ 0xa07ecec7, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2aca0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2aca0000 ]
+    model: [ 0x853891d2, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2acb0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2acb0000 ]
+    model: [ 0x7db9b3cb, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2acb0000 ]
+    model: [ 0x7dbaa3d2, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2acb0000 ]
+    model: [ 0xfdbb019f, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2acb0000 ]
+    model: [ 0x9db9b6d4, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2acc0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2acc0000 ]
+    model: [ 0x5db9aa2c, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2acc0000 ]
+    model: [ 0x1dbaacdf, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2acc0000 ]
+    model: [ 0x7dbab5dc, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2acc0000 ]
+    model: [ 0x1db9ac86, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2acd0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2acd0000 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2acd0000 ]
+    model: [ 0x3fcf651c, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2acd0000 ]
+    model: [ 0x41b7fb51, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2acd0000 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ace0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ace0000 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ace0000 ]
+    model: [ 0x5fcf6721, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ace0000 ]
+    model: [ 0xc1b7faf6, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ace0000 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2acf0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2acf0000 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2acf0000 ]
+    model: [ 0x3fcf651c, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2acf0000 ]
+    model: [ 0x41b7fb51, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2acf0000 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ad00000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ad00000 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ad00000 ]
+    model: [ 0x5fcf6721, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ad00000 ]
+    model: [ 0xc1b7faf6, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ad00000 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ad10000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ad10000 ]
+    model: [ 0x9dd7f9c4, 0x460000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ad10000 ]
+    model: [ 0x80a66953, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ad10000 ]
+    model: [ 0x60a66790, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ad10000 ]
+    model: [ 0x9dd7f9c4, 0x450000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ad20000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ad20000 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ad20000 ]
+    model: [ 0x7bd95210, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ad20000 ]
+    model: [ 0xdbd95229, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ad20000 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2ad30000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2ad30000 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2ad30000 ]
+    model: [ 0x7bd95210, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2ad30000 ]
+    model: [ 0xdbd95229, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2ad30000 ]
+    model: [ 0xfbd9521d, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xc977c536-0x2b1a0000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xc977c536, 0x2b1a0000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xc977c536, 0x2b1a0000 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xc977c536, 0x2b1a0000 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xc977c536, 0x2b1a0000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xda36df60-0xda3159ff
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xda36df60, 0xda3159ff ]
+    model: [ 0x22806eb2, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xda36df60, 0xda3159ff ]
+    model: [ 0xc280e9f7, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xda36df60, 0xda3159ff ]
+    model: [ 0x2807938, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xda36df60, 0xda3159ff ]
+    model: [ 0x22806eb2, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe448f8e6-0x156a22b6
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xe448f8e6, 0x156a22b6 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xe448f8e6, 0x156a22b6 ]
+    model: [ 0x3fcf651c, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xe448f8e6, 0x156a22b6 ]
+    model: [ 0x41b7fb51, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xe448f8e6, 0x156a22b6 ]
+    model: [ 0x821d8d70, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16600000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: summer
+    exemplar: [ 0xe83e0437, 0x16600000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xe83e0437, 0x16600000 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xe83e0437, 0x16600000 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16600000 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16600001
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: summer
+    exemplar: [ 0xe83e0437, 0x16600001 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xe83e0437, 0x16600001 ]
+    model: [ 0x5fcf6721, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xe83e0437, 0x16600001 ]
+    model: [ 0xc1b7faf6, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16600001 ]
+    model: [ 0xa21d8cda, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16700000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: summer
+    exemplar: [ 0xe83e0437, 0x16700000 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xe83e0437, 0x16700000 ]
+    model: [ 0xbbd91268, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xe83e0437, 0x16700000 ]
+    model: [ 0xdbd91284, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16700000 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16700001
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: summer
+    exemplar: [ 0xe83e0437, 0x16700001 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xe83e0437, 0x16700001 ]
+    model: [ 0xbbd91268, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xe83e0437, 0x16700001 ]
+    model: [ 0xdbd91284, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16700001 ]
+    model: [ 0x1bd914e7, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16800000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: summer
+    exemplar: [ 0xe83e0437, 0x16800000 ]
+    model: [ 0x22806eb2, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xe83e0437, 0x16800000 ]
+    model: [ 0xc280e9f7, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xe83e0437, 0x16800000 ]
+    model: [ 0x2807938, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16800000 ]
+    model: [ 0x22806eb2, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16800001
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: summer
+    exemplar: [ 0xe83e0437, 0x16800001 ]
+    model: [ 0x22806eb2, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xe83e0437, 0x16800001 ]
+    model: [ 0xc280e9f7, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xe83e0437, 0x16800001 ]
+    model: [ 0x2807938, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16800001 ]
+    model: [ 0x22806eb2, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16900000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: summer
+    exemplar: [ 0xe83e0437, 0x16900000 ]
+    model: [ 0x628068ff, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xe83e0437, 0x16900000 ]
+    model: [ 0xa2d14c26, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xe83e0437, 0x16900000 ]
+    model: [ 0xa2807a5a, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16900000 ]
+    model: [ 0x628068ff, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16900001
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: summer
+    exemplar: [ 0xe83e0437, 0x16900001 ]
+    model: [ 0x628068ff, 0x30000 ]
+  - season: fall
+    exemplar: [ 0xe83e0437, 0x16900001 ]
+    model: [ 0xa2d14c26, 0x30000 ]
+  - season: winter
+    exemplar: [ 0xe83e0437, 0x16900001 ]
+    model: [ 0xa2807a5a, 0x30000 ]
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16900001 ]
+    model: [ 0x628068ff, 0x30000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16a00000
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16a00000 ]
+    model: [ 0x253896d5, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xe83e0437-0x16a00001
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: flora
+models:
+  - season: evergreen
+    exemplar: [ 0xe83e0437, 0x16a00001 ]
+    model: [ 0x253896d5, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-tree-hd-replacement-mod-0x6534284a-0xed18d52e-0x98184c27
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    exemplar: [ 0xed18d52e, 0x98184c27 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
+  - season: fall
+    exemplar: [ 0xed18d52e, 0x98184c27 ]
+    model: [ 0x5fcf6721, 0x10030000 ]
+  - season: winter
+    exemplar: [ 0xed18d52e, 0x98184c27 ]
+    model: [ 0xc1b7faf6, 0x10030000 ]
+  - season: evergreen
+    exemplar: [ 0xed18d52e, 0x98184c27 ]
+    model: [ 0xa21d8cda, 0x10030000 ]
