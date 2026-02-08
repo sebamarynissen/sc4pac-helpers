@@ -59,15 +59,10 @@ models:
     duration: P92D
 
 ---
-id: cp:beech
+id: cp:beech-01
 package: bsc:mega-props-cp-vol02
 type: prop
 models:
-  - season: spring
-    exemplar: [ 0xe274fb2, 0x765d7d93 ]
-    model: [ 0xe274fb2, 0x683b0000 ]
-    start: 03-04
-    duration: P92D
   - season: spring
     exemplar: [ 0xe274fb2, 0x965c124c ]
     model: [ 0xe274fb2, 0x682f0000 ]
@@ -78,16 +73,6 @@ models:
     model: [ 0xe274fb2, 0x68300000 ]
     start: 06-04
     duration: P122D
-  - season: summer
-    exemplar: [ 0xe274fb2, 0xb65d7d8d ]
-    model: [ 0xe274fb2, 0x683c0000 ]
-    start: 06-04
-    duration: P122D
-  - season: fall
-    exemplar: [ 0xe274fb2, 0x565d7d88 ]
-    model: [ 0xe274fb2, 0x683d0000 ]
-    start: 10-04
-    duration: P61D
   - season: fall
     exemplar: [ 0xe274fb2, 0xf65c1240 ]
     model: [ 0xe274fb2, 0x68310000 ]
@@ -98,6 +83,27 @@ models:
     model: [ 0xe274fb2, 0x68320000 ]
     start: 12-04
     duration: P90D
+
+---
+id: cp:beech-03
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    exemplar: [ 0xe274fb2, 0x765d7d93 ]
+    model: [ 0xe274fb2, 0x683b0000 ]
+    start: 03-04
+    duration: P92D
+  - season: summer
+    exemplar: [ 0xe274fb2, 0xb65d7d8d ]
+    model: [ 0xe274fb2, 0x683c0000 ]
+    start: 06-04
+    duration: P122D
+  - season: fall
+    exemplar: [ 0xe274fb2, 0x565d7d88 ]
+    model: [ 0xe274fb2, 0x683d0000 ]
+    start: 10-04
+    duration: P61D
   - season: winter
     exemplar: [ 0xe274fb2, 0x765d7d82 ]
     model: [ 0xe274fb2, 0x683e0000 ]
