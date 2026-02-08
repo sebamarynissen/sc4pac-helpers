@@ -1337,11 +1337,6 @@ models:
     start: 02-25
     duration: P89D
   - season: summer
-    exemplar: [ 0xe274fb2, 0x539d010b ]
-    model: [ 0xe274fb2, 0x65490000 ]
-    start: 03-07
-    duration: P234D
-  - season: summer
     exemplar: [ 0xe274fb2, 0x733be858 ]
     model: [ 0xe274fb2, 0x65490000 ]
     start: 05-25
@@ -1351,11 +1346,6 @@ models:
     model: [ 0xe274fb2, 0x655c0000 ]
     start: 09-25
     duration: P61D
-  - season: winter
-    exemplar: [ 0xe274fb2, 0x539d010b ]
-    model: [ 0xe274fb2, 0x655d0000 ]
-    start: 03-07
-    duration: P234D
   - season: winter
     exemplar: [ 0xe274fb2, 0x733be85a ]
     model: [ 0xe274fb2, 0x655d0000 ]
