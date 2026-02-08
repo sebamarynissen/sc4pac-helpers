@@ -42,7 +42,7 @@ const replacements = {
 	'cp:riverbirch': 'girafe:beech-e-prop',
 	'cp:plum': 'girafe:alder-e-prop',
 	'cp:maple': 'girafe:maple-h-prop',
-	'cp:seas-scarletoak': 'girafe:oak-e-prop',
+	'cp:scarletoak': 'girafe:oak-e-prop',
 	'cp:cherry': 'girafe:honey-locust-b-prop',
 	'cp:horsechestnut': 'girafe:chestnut-b-prop',
 	'cp:cottonwood-11x11x': 'girafe:poplar-d-prop',

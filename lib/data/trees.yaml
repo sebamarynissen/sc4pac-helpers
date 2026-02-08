@@ -639,7 +639,7 @@ models:
     duration: P92D
 
 ---
-id: cp:seas-scarletoak
+id: cp:scarletoak
 package: bsc:mega-props-cp-vol01
 type: prop
 models:
