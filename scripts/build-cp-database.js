@@ -5,13 +5,17 @@ import build from '#lib/build-tree-database.js';
 await build('bsc:mega-props-cp-vol0*', {
 	filter(exemplar, entry) {
 		let name = exemplar.get('ExemplarName');
+		if (name.match(/ /)) return false;
 		if (name.match(/Vehicle/)) return false;
-		if (name.match(/(fall|spring|summer|winter|semiseasonal|evergreen)/i)) return true;
+		if (name.match(/(fall|spring|summer|winter|semiseasonal|evergreen)/i)) {
+			console.log(name);
+			return true;
+		}
 		return false;
 	},
 	id(exemplar) {
 		let name = exemplar.get('ExemplarName');
-		let regex = /(summer|spring|fall|winter)/gi;
+		let regex = /(summer|spring|fall|winter|evergreen)/gi;
 		let match = name.match(regex);
 		if (!match) {
 			let id = name
@@ -27,14 +31,16 @@ await build('bsc:mega-props-cp-vol0*', {
 				.replace(/([a-z0-9])([A-Z])/g, '$1-$2')
 				.replace(/([A-Z]+)([A-Z][a-z])/g, '$1-$2')
 				.toLowerCase();
-			return `cp:semi-${id}`;
+			return `cp:${id}`;
 		}
 		let id = name
 			.replace(/^CP[_ ]/, '')
 			.replace(/^CP([A-Z])/, '$1')
-			.replace(regex, '')
+			.replace(/(summer|spring|fall|winter)/i, '')
+			.replace(/Evergreen/, '')
 			.replace(/^seasonal/i, '')
 			.replace(/^seas/i, '')
+			.replace(/Prop/, '')
 			.replaceAll(/_/g, '-')
 			.replace(/^-/, '')
 			.replace(/-$/, '')
