@@ -1,29 +1,13 @@
 // # build-cp-database.js
-import path from 'node:path';
 import build from '#lib/build-tree-database.js';
-import { DBPF } from 'sc4/core';
-import { FileScanner } from 'sc4/plugins';
-
-// First of all, we'll use the "endless summer" package to figure out all the 
-// tgis of the cycledogg trees, as it's hard to do that from the prop packs alone.
-const glob = new FileScanner('*', {
-	cwd: path.resolve(import.meta.dirname, '../packages/Endless summer'),
-});
-let ids = new Set();
-for (let file of glob) {
-	let dbpf = new DBPF(file);
-	for (let entry of dbpf.exemplars) {
-		ids.add(entry.id);
-	}
-}
 
 // Now build the tree database.
 await build('bsc:mega-props-cp-vol0*', {
 	filter(exemplar, entry) {
-		if (!ids.has(entry.id)) return false;
 		let name = exemplar.get('ExemplarName');
-		if (!name.match(/(fall|spring|summer|winter|semiseasonal|evergreen)/i)) return false;
-		return true;
+		if (name.match(/Vehicle/)) return false;
+		if (name.match(/(fall|spring|summer|winter|semiseasonal|evergreen)/i)) return true;
+		return false;
 	},
 	id(exemplar) {
 		let name = exemplar.get('ExemplarName');
@@ -40,18 +24,25 @@ await build('bsc:mega-props-cp-vol0*', {
 				.replaceAll(/_/g, '-')
 				.replaceAll(/ +/g, ' ')
 				.replaceAll(/ /g, '-')
+				.replace(/([a-z0-9])([A-Z])/g, '$1-$2')
+				.replace(/([A-Z]+)([A-Z][a-z])/g, '$1-$2')
 				.toLowerCase();
-			return `cp:${id}`;
+			return `cp:semi-${id}`;
 		}
 		let id = name
 			.replace(/^CP[_ ]/, '')
 			.replace(/^CP([A-Z])/, '$1')
 			.replace(regex, '')
 			.replace(/^seasonal/i, '')
-			.replace(/(\d{2})?_$/, '')
+			.replace(/^seas/i, '')
 			.replaceAll(/_/g, '-')
+			.replace(/^-/, '')
 			.replace(/-$/, '')
-			.toLowerCase();
+			// To kebab case
+			.replace(/([a-z0-9])([A-Z])/g, '$1-$2')
+			.replace(/([A-Z]+)([A-Z][a-z])/g, '$1-$2')
+			.toLowerCase()
+			.replaceAll(/--+/g, '-');
 		return `cp:${id}`;
 	},
 	models(exemplar) {
