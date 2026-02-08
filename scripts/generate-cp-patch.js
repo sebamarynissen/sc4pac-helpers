@@ -1,8 +1,6 @@
 // # generate-girafe-patch.js
-import path from 'node:path';
 import generate from '../lib/generate-tree-patch.js';
 
-await generate('*', {
-	cwd: path.resolve(import.meta.dirname, '../packages/Endless summer'),
+await generate('bsc:mega-props-cp-vol0*', {
 	name: 'everseasonal_cycledogg',
 });
