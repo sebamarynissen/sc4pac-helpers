@@ -53,7 +53,15 @@ const evergreens = [
 	'girafe:parasol-pines',
 ];
 
-await build('girafe:larches', {
+await build([
+	// abies-grandis need to come *after* grand firs because abies-grandis is a 
+	// newer iteration and hence the trees should be added to the newer 
+	// grand-firs family as legacy trees.
+	'girafe:grand-firs',
+	'girafe:abies-grandis',
+	// All the rest now.
+	// 'girafe:*',
+], {
 	dry: true,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	filter({ exemplar, pkg }) {
@@ -79,7 +87,16 @@ await build('girafe:larches', {
 		// If models are explicitly tagged with a season - which is the case 
 		// for most props - then it's easy to figure out the season.
 		if (match(names, /(fall|autumn)/)) return 'fall';
-		if (match(names, /summer/)) return 'summer';
+		if (match(names, /summer/)) {
+
+			// In the abies-grandis package, we return a pseudo-season called 
+			// "summer" so that when we create a patch, the newer variants will 
+			// be used automatically.
+			if (pkg === 'girafe:abies-grandis') {
+				return 'summer-v1';
+			}
+			return 'summer';
+		}
 		if (match(names, /winter/)) {
 
 			// If this is a coniferous tree, then being tagged with "winter" 
@@ -93,7 +110,13 @@ await build('girafe:larches', {
 
 		}
 		if (match(names, /spring/)) return 'spring';
-		if (match(names, /evergreen/)) return 'evergreen';
+		if (match(names, /evergreen/)) {
+			if (flora.length > 0) {
+				return 'summer';
+			} else {
+				return 'evergreen';
+			}
+		}
 
 		// If no season can be detected explicitly, we're dealing with a Flora 
 		// item that is not available as a prop (in which case it would be 
@@ -126,7 +149,7 @@ await build('girafe:larches', {
 		// all the names are the same. If that's the case, we can be sure that 
 		// our id generation function is solid.
 		const ids = names.map(name => {
-			return name
+			let id = name
 				.replace(/^Gi?ra?fe_/, '')
 				.replace(/_(summer|winter|fall|autumn|spring|evergreen|seasonal)/, '')
 				.replace('_empty', '')
@@ -134,6 +157,16 @@ await build('girafe:larches', {
 				.replaceAll(/_+/g, '-')
 				.replace('serbian-spruces', 'serbian-spruce')
 				.replace(/(serbian-spruce-[abcde])2/, '$1');
+
+			// The girafe:grand-firs package uses the same winter models (a hard clone)
+			// as the abies-grandis package, and hence the names aren't updated. This
+			// is something we should do manually hence.
+			if (['girafe:grand-firs', 'girafe:abies-grandis'].includes(pkg)) {
+				id = id
+					.replace('abies-grandis', 'grand-firs')
+					.replace(/(-[abcde])2/, '$1');
+			}
+			return id;
 		});
 		const unique = new Set(ids);
 		if (unique.size > 1) {
