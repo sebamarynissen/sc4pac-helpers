@@ -53,7 +53,7 @@ const evergreens = [
 	'girafe:parasol-pines',
 ];
 
-await build('girafe:*', {
+await build('girafe:larches', {
 	dry: true,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	filter({ exemplar, pkg }) {
@@ -74,7 +74,7 @@ await build('girafe:*', {
 		return true;
 
 	},
-	seasons({ pkg, model, names, flora, props }) {
+	seasons({ pkg, model, names, entries, flora, props }) {
 
 		// If models are explicitly tagged with a season - which is the case 
 		// for most props - then it's easy to figure out the season.
@@ -101,7 +101,12 @@ await build('girafe:*', {
 		// determine the what season this model is based on the flora exemplar.
 		// const flora = exemplars.find(ex => ex.get('ExemplarType') === 0x0f);
 		if (flora.length > 0) {
-			const seasons = getSeasonsForModelFromFlora(model, flora[0], pkg);
+			const seasons = getSeasonsForModelFromFlora({
+				model,
+				entry: entries[0],
+				exemplar: flora[0],
+				pkg,
+			});
 			return seasons;
 		}
 
@@ -151,12 +156,12 @@ function match(arr, regex) {
 
 // Helper function that inspects an RKT4 from a flora exemplar to figure out 
 // the seasonal models used.
-function getSeasonsForModelFromFlora(model, exemplar, pkg) {
+function getSeasonsForModelFromFlora({ model, exemplar, pkg, entry }) {
 	const rkt4 = exemplar.get('ResourceKeyType4');
 	if (rkt4) {
 		const models = [];
 		for (let i = 0; i < rkt4.length; i += 8) {
-			let season = getSequence(pkg)[rkt4[i]];
+			let season = getSequence(pkg, entry.dbpf.file)[rkt4[i]];
 			let model = rkt4.slice(i+6, i+8);
 			models.push({
 				key: hash(model),
@@ -174,8 +179,14 @@ function getSeasonsForModelFromFlora(model, exemplar, pkg) {
 // Helper function that returns the sequence for seasonal flora per package. 
 // Most of the time, the sequence is fall -> winter -> summer for trees, but 
 // for certain flowers this can be spring -> summer -> winter as well.
-function getSequence(pkg) {
-	if (hasSpring.includes(pkg)) {
+function getSequence(pkg, file) {
+	if (pkg === 'girafe:larches') {
+		if (file.endsWith('_S.dat')) {
+			return ['fall', 'snow', 'summer'];
+		} else {
+			return ['fall', 'winter', 'summer'];
+		}
+	} else if (hasSpring.includes(pkg)) {
 		return ['spring', 'summer', 'fall'];
 	} else if (withSnow.includes(pkg)) {
 		return ['fall', 'snow', 'summer'];
