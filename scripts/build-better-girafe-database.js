@@ -126,14 +126,20 @@ await build('girafe:*', {
 				.replace(/_(summer|winter|fall|autumn|spring|evergreen|seasonal)/, '')
 				.replace('_empty', '')
 				.toLowerCase()
-				.replaceAll(/_+/g, '-');
+				.replaceAll(/_+/g, '-')
+				.replace('serbian-spruces', 'serbian-spruce')
+				.replace(/(serbian-spruce-[abcde])2/, '$1');
 		});
 		const unique = new Set(ids);
 		if (unique.size > 1) {
+			console.log([...unique], names);
 			this.croak(`ID function does not result in a unique value for ${names}!`);
 		}
 		const type = flora.length > 0 ? 'flora' : 'prop';
-		const [id] = unique;
+		let [id] = unique;
+		if (pkg === 'girafe:serbian-spruces-v1') {
+			id = id.split('-').toSpliced(-1, 0, 'v1').join('-');
+		}
 		const [author] = pkg.split(':');
 		return `${author}:${id}-${type}`;
 	},
