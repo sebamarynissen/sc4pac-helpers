@@ -60,7 +60,7 @@ await build([
 	'girafe:grand-firs',
 	'girafe:abies-grandis',
 	// All the rest now.
-	// 'girafe:*',
+	'girafe:*',
 ], {
 	dry: true,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
