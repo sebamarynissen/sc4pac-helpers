@@ -3250,129 +3250,129 @@ id: orange:aesculus-0
 package: orange:aesculus
 type: flora
 models:
+  - season: summer
+    model: [ 0x7bd15486, 0x30000 ]
   - season: fall
     model: [ 0x1bd15475, 0x30000 ]
   - season: winter
     model: [ 0xdbd15499, 0x30000 ]
-  - season: summer
-    model: [ 0x7bd15486, 0x30000 ]
 
 ---
 id: orange:aesculus-1
 package: orange:aesculus
 type: flora
 models:
+  - season: summer
+    model: [ 0xdbd15dd3, 0x30000 ]
   - season: fall
     model: [ 0xfbd15db8, 0x30000 ]
   - season: winter
     model: [ 0x1bd15dc5, 0x30000 ]
-  - season: summer
-    model: [ 0xdbd15dd3, 0x30000 ]
 
 ---
 id: orange:aesculus-2
 package: orange:aesculus
 type: flora
 models:
+  - season: summer
+    model: [ 0xfbd1643f, 0x30000 ]
   - season: fall
     model: [ 0x9bd16428, 0x30000 ]
   - season: winter
     model: [ 0x3bd16728, 0x30000 ]
-  - season: summer
-    model: [ 0xfbd1643f, 0x30000 ]
 
 ---
 id: orange:aesculus-3
 package: orange:aesculus
 type: flora
 models:
+  - season: summer
+    model: [ 0xfbd07936, 0x30000 ]
   - season: fall
     model: [ 0x1bd07928, 0x30000 ]
   - season: winter
     model: [ 0xdbd0791a, 0x30000 ]
-  - season: summer
-    model: [ 0xfbd07936, 0x30000 ]
 
 ---
 id: orange:aesculus-4
 package: orange:aesculus
 type: flora
 models:
+  - season: summer
+    model: [ 0xbbd0f803, 0x30000 ]
   - season: fall
     model: [ 0x3bd0f810, 0x30000 ]
   - season: winter
     model: [ 0x3bd0f85f, 0x30000 ]
-  - season: summer
-    model: [ 0xbbd0f803, 0x30000 ]
 
 ---
 id: orange:aesculus-5
 package: orange:aesculus
 type: flora
 models:
+  - season: summer
+    model: [ 0xbbd11d02, 0x30000 ]
   - season: fall
     model: [ 0x9bd11cf2, 0x30000 ]
   - season: winter
     model: [ 0xbbd11d0f, 0x30000 ]
-  - season: summer
-    model: [ 0xbbd11d02, 0x30000 ]
 
 ---
 id: orange:fagus-1
 package: orange:fagus
 type: flora
 models:
+  - season: summer
+    model: [ 0x5bd95aea, 0x30000 ]
   - season: fall
     model: [ 0xfbd95afe, 0x30000 ]
   - season: winter
     model: [ 0xdbd95ae0, 0x30000 ]
-  - season: summer
-    model: [ 0x5bd95aea, 0x30000 ]
 
 ---
 id: orange:fagus-2
 package: orange:fagus
 type: flora
 models:
+  - season: summer
+    model: [ 0xfbd9521d, 0x30000 ]
   - season: fall
     model: [ 0x7bd95210, 0x30000 ]
   - season: winter
     model: [ 0xdbd95229, 0x30000 ]
-  - season: summer
-    model: [ 0xfbd9521d, 0x30000 ]
 
 ---
 id: orange:fagus-3
 package: orange:fagus
 type: flora
 models:
+  - season: summer
+    model: [ 0x1bd914e7, 0x30000 ]
   - season: fall
     model: [ 0xbbd91268, 0x30000 ]
   - season: winter
     model: [ 0xdbd91284, 0x30000 ]
-  - season: summer
-    model: [ 0x1bd914e7, 0x30000 ]
 
 ---
 id: orange:fagus-4
 package: orange:fagus
 type: flora
 models:
+  - season: summer
+    model: [ 0x1bd8643a, 0x30000 ]
   - season: fall
     model: [ 0xdbd86446, 0x30000 ]
   - season: winter
     model: [ 0x7bd8642b, 0x30000 ]
-  - season: summer
-    model: [ 0x1bd8643a, 0x30000 ]
 
 ---
 id: orange:fagus-5
 package: orange:fagus
 type: flora
 models:
+  - season: summer
+    model: [ 0x7bd85213, 0x30000 ]
   - season: fall
     model: [ 0xfbd85222, 0x30000 ]
   - season: winter
     model: [ 0x7bd85205, 0x30000 ]
-  - season: summer
-    model: [ 0x7bd85213, 0x30000 ]
