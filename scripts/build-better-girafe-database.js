@@ -42,7 +42,8 @@ const excludeProps = [
 	'girafe:sparaxis',
 ];
 
-await build('girafe:*', {
+await build('girafe:conifers', {
+	dry: true,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	filter({ exemplar, pkg }) {
 
