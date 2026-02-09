@@ -15,6 +15,9 @@ const withSnow = [
 	'girafe:subalpine-firs',
 ];
 
+// Certain packages require the seasonal flora to be planted on March 1st 
+// instead of September 1st. This means that the season sequence is
+// spring/summer/fall instead of fall/winter/summer.
 const hasSpring = [
 	'girafe:wheat',
 	'girafe:lupins',
@@ -42,10 +45,23 @@ const excludeProps = [
 	'girafe:sparaxis',
 ];
 
-await build('girafe:conifers', {
+// Some of Girafe's flora are evergreen only trees. We can ignore them, no need 
+// to add them to the database.
+const evergreens = [
+	'girafe:canary-date-palms',
+	'girafe:cypresses',
+	'girafe:parasol-pines',
+];
+
+await build('girafe:*', {
 	dry: true,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	filter({ exemplar, pkg }) {
+
+		// Exclude evergreen trees.
+		if (evergreens.includes(pkg)) {
+			return false;
+		}
 
 		// Exclude all props from the girafe:wheat package, as we're not sure 
 		// how they work. We might add them manually later on to the database.
@@ -105,7 +121,6 @@ await build('girafe:conifers', {
 		// all the names are the same. If that's the case, we can be sure that 
 		// our id generation function is solid.
 		const ids = names.map(name => {
-			if (name.match(/haybale/i)) return 'haybale';
 			return name
 				.replace(/^Gi?ra?fe_/, '')
 				.replace(/_(summer|winter|fall|autumn|spring|evergreen|seasonal)/, '')
