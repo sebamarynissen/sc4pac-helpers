@@ -53,15 +53,12 @@ const evergreens = [
 	'girafe:parasol-pines',
 ];
 
+// IMPORTANT! girafe:grand-firs and girafe:abies-grandis can't be generated
+// in the same pass because they share a tree. If both are included in the same 
+// pass, then they will get mixed!
 await build([
-	// abies-grandis need to come *after* grand firs because abies-grandis is a 
-	// newer iteration and hence the trees should be added to the newer 
-	// grand-firs family as legacy trees.
-	// 'girafe:grand-firs',
-	// 'girafe:abies-grandis',
-	// All the rest now.
-	// 'girafe:*',
-	// 'orange:*',
+	'girafe:abies-grandis',
+	'girafe:grand-firs',
 ], {
 	dry: true,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
@@ -88,16 +85,7 @@ await build([
 		// If models are explicitly tagged with a season - which is the case 
 		// for most props - then it's easy to figure out the season.
 		if (match(names, /(fall|autumn)/)) return 'fall';
-		if (match(names, /summer/)) {
-
-			// In the abies-grandis package, we return a pseudo-season called 
-			// "summer" so that when we create a patch, the newer variants will 
-			// be used automatically.
-			if (pkg === 'girafe:abies-grandis') {
-				return 'summer-v1';
-			}
-			return 'summer';
-		}
+		if (match(names, /summer/)) return 'summer';
 		if (match(names, /winter/)) {
 
 			// If this is a coniferous tree, then being tagged with "winter" 
@@ -171,7 +159,7 @@ await build([
 			// The girafe:grand-firs package uses the same winter models (a 
 			// hard clone as the abies-grandis package, and hence the names 
 			// aren't updated. This is something we should do manually hence.
-			if (['girafe:grand-firs', 'girafe:abies-grandis'].includes(pkg)) {
+			if (['girafe:grand-firs'].includes(pkg)) {
 				id = id
 					.replace('abies-grandis', 'grand-firs')
 					.replace(/(-[abcde])2/, '$1');
