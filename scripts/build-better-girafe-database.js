@@ -1,5 +1,6 @@
 // # build-better-girafe-database.js
 import path from 'node:path';
+import { hex } from 'sc4/utils';
 import build from '../lib/build-better-tree-database.js';
 
 const withSnow = [
@@ -41,7 +42,7 @@ const excludeProps = [
 	'girafe:sparaxis',
 ];
 
-await build('girafe:daisy', {
+await build('girafe:*', {
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
 	filter({ exemplar, pkg }) {
 
