@@ -57,10 +57,11 @@ await build([
 	// abies-grandis need to come *after* grand firs because abies-grandis is a 
 	// newer iteration and hence the trees should be added to the newer 
 	// grand-firs family as legacy trees.
-	'girafe:grand-firs',
-	'girafe:abies-grandis',
+	// 'girafe:grand-firs',
+	// 'girafe:abies-grandis',
 	// All the rest now.
-	'girafe:*',
+	// 'girafe:*',
+	// 'orange:*',
 ], {
 	dry: true,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
@@ -122,7 +123,6 @@ await build([
 		// item that is not available as a prop (in which case it would be 
 		// labeled with the appropriate season). In this case, we hence need to 
 		// determine the what season this model is based on the flora exemplar.
-		// const flora = exemplars.find(ex => ex.get('ExemplarType') === 0x0f);
 		if (flora.length > 0) {
 			const seasons = getSeasonsForModelFromFlora({
 				model,
@@ -143,6 +143,16 @@ await build([
 
 	},
 	family({ pkg, names, flora }) {
+
+		// If we're dealing with Orange's packages, use the following id 
+		// function.
+		if (pkg.startsWith('orange:')) {
+			const [name] = names;
+			const nr = +name.split('_').at(-1);
+			const [author, id] = pkg.split(':');
+			return `${author}:${id}-${nr}`;
+		}
+
 		// Determining the family id is the hardest part. We need to make sure 
 		// that every model only ever appears in 1 family! Therefore we 
 		// generate an id for *each* exemplar name, and then we check whether 
@@ -158,9 +168,9 @@ await build([
 				.replace('serbian-spruces', 'serbian-spruce')
 				.replace(/(serbian-spruce-[abcde])2/, '$1');
 
-			// The girafe:grand-firs package uses the same winter models (a hard clone)
-			// as the abies-grandis package, and hence the names aren't updated. This
-			// is something we should do manually hence.
+			// The girafe:grand-firs package uses the same winter models (a 
+			// hard clone as the abies-grandis package, and hence the names 
+			// aren't updated. This is something we should do manually hence.
 			if (['girafe:grand-firs', 'girafe:abies-grandis'].includes(pkg)) {
 				id = id
 					.replace('abies-grandis', 'grand-firs')
