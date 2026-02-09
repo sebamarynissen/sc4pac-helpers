@@ -9,4 +9,9 @@ export default [
 			"quotes": "off",
 		},
 	},
+	{
+		rules: {
+			"operator-linebreak": ["error", "before"],
+		},
+	},
 ];
