@@ -1288,6 +1288,10 @@ models:
     model: [ 0x32db52b, 0x30000 ]
   - season: summer
     model: [ 0x23305483, 0x30000 ]
+  - season: fall
+    model: [0x0, 0x0]
+  - season: winter
+    model: [0x0, 0x0]
 
 ---
 id: girafe:daisy-a-prop
@@ -1308,6 +1312,10 @@ models:
     model: [ 0x232db58d, 0x30000 ]
   - season: summer
     model: [ 0x43305503, 0x30000 ]
+  - season: fall
+    model: [0x0, 0x0]
+  - season: winter
+    model: [0x0, 0x0]
 
 ---
 id: girafe:daisy-b-prop
@@ -2218,6 +2226,10 @@ models:
     model: [ 0xa0c8406d, 0x30000 ]
   - season: summer
     model: [ 0xc0c8160e, 0x30000 ]
+  - season: fall
+    model: [0x0, 0x0]
+  - season: winter
+    model: [0x0, 0x0]
 
 ---
 id: girafe:narcissus-a-prop
@@ -2240,6 +2252,10 @@ models:
     model: [ 0xe0c83f69, 0x30000 ]
   - season: summer
     model: [ 0x80c80fa9, 0x30000 ]
+  - season: fall
+    model: [0x0, 0x0]
+  - season: winter
+    model: [0x0, 0x0]
 
 ---
 id: girafe:norway-maple-a-flora
@@ -2714,6 +2730,10 @@ models:
     model: [ 0xc0c5c193, 0x30000 ]
   - season: summer
     model: [ 0xa0c5aaa7, 0x30000 ]
+  - season: fall
+    model: [0x0, 0x0]
+  - season: winter
+    model: [0x0, 0x0]
 
 ---
 id: girafe:poppies-b-flora
@@ -2724,6 +2744,10 @@ models:
     model: [ 0x80c5c1e3, 0x30000 ]
   - season: summer
     model: [ 0x20c5ac19, 0x30000 ]
+  - season: fall
+    model: [0x0, 0x0]
+  - season: winter
+    model: [0x0, 0x0]
 
 ---
 id: girafe:poppy-a-prop
@@ -3006,6 +3030,10 @@ models:
     model: [ 0x20fcea95, 0x30000 ]
   - season: summer
     model: [ 0x40fce789, 0x30000 ]
+  - season: fall
+    model: [0x0, 0x0]
+  - season: winter
+    model: [0x0, 0x0]
 
 ---
 id: girafe:sparaxis-b-flora
@@ -3016,6 +3044,10 @@ models:
     model: [ 0x20fcea10, 0x30000 ]
   - season: summer
     model: [ 0x80fce825, 0x30000 ]
+  - season: fall
+    model: [0x0, 0x0]
+  - season: winter
+    model: [0x0, 0x0]
 
 ---
 id: girafe:subalpine-fir-a-flora
