@@ -123,3 +123,16 @@ for (let entry of dbpf.findAll({ type: FileType.S3D })) {
 for (const { dbpf, fullPath } of patches) {
 	await dbpf.save(fullPath);
 }
+
+// Generate a patch for 11241036:vip-trees-as-props as well. In this case, we 
+// only need to handle the Aesculus and Fagus, as those are the only seasonal 
+// ones.
+// Note: there are a lot more seasonal props in this pack, but for this, we 
+// first have to add vip's seasonal props (from the agri pack) to the tree 
+// database. After that, they should be handled automatically as well.
+await generate('11241036:vip-trees-as-props', {
+	filter({ exemplar }) {
+		const name = exemplar.get('ExemplarName');
+		return name.match(/Aesculus|Fagus/);
+	},
+});
