@@ -19,16 +19,13 @@ const excludeProps = [
 	'girafe:sparaxis',
 ];
 
-const patches = await generate([
+const cwd = path.resolve(import.meta.dirname, '../packages/Girafe');
+await generate([
 	'girafe:*',
 	'orange:*',
-	// 'girafe:*',
-	// 'orange:*',
-	// 'mgb204:girafe-mmp-*',
-	// 't-wrecks:maxis-tree-hd-replacement-mod',
 ], {
-	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
-	filter({ exemplar, entry, pkg, type }) {
+	cwd,
+	filter({ entry, pkg, type }) {
 		let { file } = entry.dbpf;
 
 		// If this is a winter coniferous tree, then we leave it untouched as 
@@ -41,6 +38,21 @@ const patches = await generate([
 		// For sparaxis and wheat, we exclude patching the props.
 		// For the girafe:sparaxis package, we exclude patching the props.
 		if (type === 'prop' && excludeProps.includes(pkg)) {
+			return false;
+		}
+		return true;
+	},
+	labels: true,
+});
+
+// Handle mgb204:mmp-pack-vol2 which adds some of Girafes props as flora as well.
+await generate('mgb204:mmp-pack-vol2', {
+	cwd,
+	filter({ exemplar }) {
+
+		// Exclude some evergreen trees.
+		const name = exemplar.get('ExemplarName');
+		if (name.match(/parasol_pine/)) {
 			return false;
 		}
 		return true;
