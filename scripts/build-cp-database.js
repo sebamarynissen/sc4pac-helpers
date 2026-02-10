@@ -17,7 +17,6 @@ await build('bsc:mega-props-cp-vol0*', {
 	dry: true,
 	filter({ exemplar }) {
 		const name = exemplar.get('ExemplarName');
-		if (name.match(/ /)) return false;
 		if (name.match(/Vehicle/)) return false;
 		if (exclude.has(name)) return false;
 
@@ -26,6 +25,7 @@ await build('bsc:mega-props-cp-vol0*', {
 		if (name.match(/mjb(Shrub|Flower)/)) return false;
 		if (name.match(/saguaro/i)) return false;
 		if (name.match(/^SummerOnly/)) return false;
+		if (!exemplar.get('ResourceKeyType4')) return false;
 		if (name.match(/(fall|spring|summer|winter|semiseasonal|evergreen)/i)) {
 			return true;
 		}
@@ -73,6 +73,7 @@ await build('bsc:mega-props-cp-vol0*', {
 		const ids = names
 			.map(name => {
 				const id = name
+					.replaceAll(/ +/g, '_')
 					.replace(/^CP([A-Z])/, 'CP_$1')
 					.replace(/Prop/, '')
 					.replace(/_(Fall|Spring|Summer|Winter|Semiseasonal|Evergreen)/i, '')
@@ -95,9 +96,13 @@ await build('bsc:mega-props-cp-vol0*', {
 					.replace('shaded-mini-tree-maple', 'shaded-cott-shrub-lg')
 					.replace('cottonwood-lg-11x11x32', 'cottonwood-11x11x32')
 					.replace('valley-oak-15x15x22', 'oak-b')
+					.replace('street-oak-tree', 'oak-b')
+					.replace('vlaakhas-oak', 'street-elm')
 					.replace('oak-12x12x15', 'oak-c')
 					.replace('cottonwood-10x10x27', 'cottonwood-sm')
 					.replace('shaded-maple-shaded9a-51', 'shaded-maple9a-51')
+					.replace(/^mtree/, 'street-tree-small')
+					.replace('shaded-red-oak-shrub6-171', 'shaded-oak-shrub6-171')
 					.replace(/-+$/, '');
 				return id;
 			});

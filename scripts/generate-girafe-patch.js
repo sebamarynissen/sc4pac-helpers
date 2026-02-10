@@ -131,8 +131,39 @@ for (const { dbpf, fullPath } of patches) {
 // first have to add vip's seasonal props (from the agri pack) to the tree 
 // database. After that, they should be handled automatically as well.
 await generate('11241036:vip-trees-as-props', {
+	...opts,
 	filter({ exemplar }) {
 		const name = exemplar.get('ExemplarName');
 		return name.match(/Aesculus|Fagus/);
+	},
+});
+
+// Generate a patch for cycledogg's trees as well.
+const exclude = new Set([
+	'CPDecid2NewFlat10x10x10_evergreen',
+	'CP_PlanterBed8x4_SHADED_Ortho_Brick_E_ShrubEvergreen',
+	'CP_PlanterBed4x4_SHADED_Diag_Brick_E_ShrubEvergreen',
+	'CP_PlanterBed4x4_SHADED_Diag_Conc_E_ShrubEvergreen',
+	'CP_SHADED_SparseDeciduousTree_Summer',
+	'CP_SHADED_TreeForked_Summer',
+	'CP_SHADED_TreeWeeping_Summer',
+]);
+await generate('bsc:mega-props-cp-vol0*', {
+	...opts,
+	filter({ exemplar }) {
+		const name = exemplar.get('ExemplarName');
+		if (name.match(/Vehicle/)) return false;
+		if (exclude.has(name)) return false;
+
+		// Some flowers that use shared models (probably for spring) need to be 
+		// excluded.
+		if (name.match(/mjb(Shrub|Flower)/)) return false;
+		if (name.match(/saguaro/i)) return false;
+		if (name.match(/^SummerOnly/)) return false;
+		if (!exemplar.get('ResourceKeyType4')) return false;
+		if (name.match(/(fall|spring|summer|winter|semiseasonal|evergreen)/i)) {
+			return true;
+		}
+		return false;
 	},
 });
