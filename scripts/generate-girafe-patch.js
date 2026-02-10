@@ -45,7 +45,6 @@ const patches = await generate([
 		}
 		return true;
 	},
-	seasons: ['fall'],
 	labels: true,
 });
 
