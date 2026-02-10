@@ -14,7 +14,7 @@ fs.rmSync(String.raw`C:\Users\sebam\Documents\SimCity 4\Plugins\849-my-overrides
 const cwd = path.resolve(import.meta.dirname, '../packages/Girafe');
 const opts = {
 	cwd,
-	seasons: ['summer'],
+	// seasons: ['summer'],
 	// labels: true,
 };
 
@@ -106,9 +106,11 @@ for (let entry of dbpf.findAll({ type: FileType.S3D })) {
 	// If the family was not found, we're dealing with a non-seasonal tree (
 	// i.e. the palms).
 	if (!family) continue;
-	for (let season of opts.seasons) {
+	const { seasons = ['summer', 'fall', 'winter', 'snow', 'spring'] } = opts;
+	for (let season of seasons) {
 		const [newGroup] = db.findSeasonModelFromFamily(family, season);
-		// If the group hasn't changed, no need to do anything. This is the case for summer and spring normally, and for the palms.
+		// If the group hasn't changed, no need to do anything. This is the 
+		// case for summer and spring normally, and for the palms.
 		if (group === newGroup) continue;
 		const { dbpf } = patches.find(patch => patch.season === season);
 		dbpf.add({
