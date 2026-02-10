@@ -2466,6 +2466,126 @@ models:
     model: [ 0x8cf51521, 0x30000 ]
 
 ---
+id: girafe:plane-tree-a-flora
+package: girafe:plane-trees
+type: flora
+models:
+  - season: summer
+    model: [ 0xf3d1101f, 0x30000 ]
+  - season: fall
+    model: [ 0x73d1125b, 0x30000 ]
+  - season: winter
+    model: [ 0xb3d11ec5, 0x30000 ]
+
+---
+id: girafe:plane-tree-a-prop
+package: girafe:plane-trees
+type: prop
+models:
+  - season: summer
+    model: [ 0xf3d1101f, 0x30000 ]
+  - season: fall
+    model: [ 0x73d1125b, 0x30000 ]
+  - season: winter
+    model: [ 0xb3d11ec5, 0x30000 ]
+
+---
+id: girafe:plane-tree-b-flora
+package: girafe:plane-trees
+type: flora
+models:
+  - season: summer
+    model: [ 0x73d11f1d, 0x30000 ]
+  - season: fall
+    model: [ 0xf3d11fd1, 0x30000 ]
+  - season: winter
+    model: [ 0xb3d12079, 0x30000 ]
+
+---
+id: girafe:plane-tree-b-prop
+package: girafe:plane-trees
+type: prop
+models:
+  - season: summer
+    model: [ 0x73d11f1d, 0x30000 ]
+  - season: fall
+    model: [ 0xf3d11fd1, 0x30000 ]
+  - season: winter
+    model: [ 0xb3d12079, 0x30000 ]
+
+---
+id: girafe:plane-tree-c-flora
+package: girafe:plane-trees
+type: flora
+models:
+  - season: summer
+    model: [ 0x93d12313, 0x30000 ]
+  - season: fall
+    model: [ 0x93d123c9, 0x30000 ]
+  - season: winter
+    model: [ 0x93d1244e, 0x30000 ]
+
+---
+id: girafe:plane-tree-c-prop
+package: girafe:plane-trees
+type: prop
+models:
+  - season: summer
+    model: [ 0x93d12313, 0x30000 ]
+  - season: fall
+    model: [ 0x93d123c9, 0x30000 ]
+  - season: winter
+    model: [ 0x93d1244e, 0x30000 ]
+
+---
+id: girafe:plane-tree-d-flora
+package: girafe:plane-trees
+type: flora
+models:
+  - season: summer
+    model: [ 0x73d124c6, 0x30000 ]
+  - season: fall
+    model: [ 0xf3d125d4, 0x30000 ]
+  - season: winter
+    model: [ 0xb3d1269b, 0x30000 ]
+
+---
+id: girafe:plane-tree-d-prop
+package: girafe:plane-trees
+type: prop
+models:
+  - season: summer
+    model: [ 0x73d124c6, 0x30000 ]
+  - season: fall
+    model: [ 0xf3d125d4, 0x30000 ]
+  - season: winter
+    model: [ 0xb3d1269b, 0x30000 ]
+
+---
+id: girafe:plane-tree-e-flora
+package: girafe:plane-trees
+type: flora
+models:
+  - season: summer
+    model: [ 0x73d1314b, 0x30000 ]
+  - season: fall
+    model: [ 0x93d13281, 0x30000 ]
+  - season: winter
+    model: [ 0x33d135c2, 0x30000 ]
+
+---
+id: girafe:plane-tree-e-prop
+package: girafe:plane-trees
+type: prop
+models:
+  - season: summer
+    model: [ 0x73d1314b, 0x30000 ]
+  - season: fall
+    model: [ 0x93d13281, 0x30000 ]
+  - season: winter
+    model: [ 0x33d135c2, 0x30000 ]
+
+---
 id: girafe:poplar-a-flora
 package: girafe:poplars
 type: flora

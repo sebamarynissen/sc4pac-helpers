@@ -57,8 +57,9 @@ const evergreens = [
 // in the same pass because they share a tree. If both are included in the same 
 // pass, then they will get mixed!
 await build([
-	'girafe:abies-grandis',
-	'girafe:grand-firs',
+	'girafe:plane-trees',
+	// 'girafe:abies-grandis',
+	// 'girafe:grand-firs',
 ], {
 	dry: true,
 	cwd: path.resolve(import.meta.dirname, '../packages/Girafe'),
@@ -163,6 +164,9 @@ await build([
 				id = id
 					.replace('abies-grandis', 'grand-firs')
 					.replace(/(-[abcde])2/, '$1');
+			}
+			if (pkg === 'girafe:plane-trees') {
+				id = id.replace('plane-trees-', 'plane-tree-');
 			}
 			return id;
 		});
