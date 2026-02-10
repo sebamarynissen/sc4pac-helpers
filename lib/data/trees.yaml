@@ -1900,7 +1900,11 @@ type: prop
 models:
   - season: spring
     model: [ 0xe274fb2, 0x72dd0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72dd0000 ]
   - season: fall
+    model: [ 0xe274fb2, 0x72de0000 ]
+  - season: winter
     model: [ 0xe274fb2, 0x72de0000 ]
 
 ---
@@ -1910,7 +1914,11 @@ type: prop
 models:
   - season: spring
     model: [ 0xe274fb2, 0x72e00000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72e00000 ]
   - season: fall
+    model: [ 0xe274fb2, 0x72e10000 ]
+  - season: winter
     model: [ 0xe274fb2, 0x72e10000 ]
 
 ---
@@ -1920,7 +1928,11 @@ type: prop
 models:
   - season: spring
     model: [ 0xe274fb2, 0x72e40000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72e40000 ]
   - season: fall
+    model: [ 0xe274fb2, 0x72e50000 ]
+  - season: winter
     model: [ 0xe274fb2, 0x72e50000 ]
 
 ---
