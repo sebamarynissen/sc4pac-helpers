@@ -1,3 +1,1959 @@
+id: cp:aspen-large-5x5x25
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63700000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63710000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63720000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63730000 ]
+
+---
+id: cp:aspen-small-4x4x18
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63740000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63750000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63760000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63770000 ]
+
+---
+id: cp:cottonwood-11x11x32
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63000000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63010000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63020000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63030000 ]
+
+---
+id: cp:cottonwood-sm
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63040000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63050000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63060000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63070000 ]
+
+---
+id: cp:elm-14x14x20
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x635d0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x635e0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x635f0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63600000 ]
+
+---
+id: cp:horse-chestnut
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x66a70000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x66a80000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x66a90000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66aa0000 ]
+
+---
+id: cp:larch-11x11x63
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63650000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63660000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63670000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63680000 ]
+
+---
+id: cp:larch-6x6x27
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63610000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63620000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63630000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63640000 ]
+
+---
+id: cp:large-shrub
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63a90000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x637f0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63a70000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63a80000 ]
+
+---
+id: cp:mini-cottonwood
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x67090000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x670a0000 ]
+
+---
+id: cp:mini-oak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x670b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x670c0000 ]
+
+---
+id: cp:mtree
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x672d0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x672e0000 ]
+
+---
+id: cp:oak-a
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x64e80000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x64e90000 ]
+
+---
+id: cp:oak-b
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63590000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x635a0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x635b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x635c0000 ]
+
+---
+id: cp:oak-c
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63690000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x636a0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x636b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x636c0000 ]
+  - season: late-fall
+    model: [ 0xe274fb2, 0x64ea0000 ]
+
+---
+id: cp:oak-d
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x64ed0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x64ee0000 ]
+
+---
+id: cp:scarlet-oak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63a60000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x637e0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63a40000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63a50000 ]
+
+---
+id: cp:seas-shrub-4x4x4
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63ae0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63af0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63b00000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63b10000 ]
+
+---
+id: cp:shaded-aspen2
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63ba0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63bb0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63bc0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63bd0000 ]
+
+---
+id: cp:shaded-cott-shrub-lg
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63da0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63db0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63dc0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63dd0000 ]
+
+---
+id: cp:shaded-cott-shrub-sm
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63de0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63df0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63e00000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63e10000 ]
+
+---
+id: cp:shaded-decid2-new-shrub
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63d60000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63d70000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63d80000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63d90000 ]
+
+---
+id: cp:shaded-mini-oak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66790000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66c90000 ]
+
+---
+id: cp:shaded-mini-tree-cott
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x66990000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x66780000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x669a0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x669b0000 ]
+
+---
+id: cp:shaded-mjb-poplar-a
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x667c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x667d0000 ]
+
+---
+id: cp:shaded-mjb-poplar-b
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x667e0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x667f0000 ]
+
+---
+id: cp:shaded-mtree4
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x669c0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x66820000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x669d0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x669e0000 ]
+
+---
+id: cp:shaded-shrub-round
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63cd0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63ce0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63cf0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63d00000 ]
+
+---
+id: cp:shrub-round
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63ca0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63810000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63cb0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63cc0000 ]
+
+---
+id: cp:sm-maple
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63aa0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63ab0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63ac0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63ad0000 ]
+
+---
+id: cp:street-cottonwood-lg
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x65550000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x654a0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x65560000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x65570000 ]
+
+---
+id: cp:street-cottonwood-sm
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x65580000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x654b0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x65590000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x655a0000 ]
+
+---
+id: cp:street-elm
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x655b0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x65490000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x655c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x655d0000 ]
+
+---
+id: cp:street-jdtree1a
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66eb0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66ec0000 ]
+
+---
+id: cp:street-jdtree2a
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66ef0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66f00000 ]
+
+---
+id: cp:street-jdtree4a
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66ed0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66ee0000 ]
+
+---
+id: cp:street-jeroni-tree5
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66fd0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66fe0000 ]
+
+---
+id: cp:street-jeroni-tree8
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66fb0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66fc0000 ]
+
+---
+id: cp:street-jeroni-tree9
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66f90000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66fa0000 ]
+
+---
+id: cp:street-madrona3
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66f50000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66f60000 ]
+
+---
+id: cp:street-oak1
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x654c0000 ]
+
+---
+id: cp:street-oak2
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x65520000 ]
+
+---
+id: cp:street-rf2-tree
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66f10000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66f20000 ]
+
+---
+id: cp:street-rftree-small
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x66f30000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x66f40000 ]
+
+---
+id: cp:street-scarlet-oak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x65610000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x65540000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x65620000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x65630000 ]
+
+---
+id: cp:street-valley-oak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x655e0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x65530000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x655f0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x65600000 ]
+
+---
+id: cp:wide-oak
+package: bsc:mega-props-cp-vol01
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x63a30000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x63a00000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x63a10000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x63a20000 ]
+
+---
+id: cp:alder1-12
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x71850000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x71860000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x71870000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71880000 ]
+
+---
+id: cp:alpine-shrub
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x71960000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x71970000 ]
+
+---
+id: cp:angelica-do-brejo1-12
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x71800000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71810000 ]
+
+---
+id: cp:apple1-10
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x736d0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x736c0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x736a0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x736b0000 ]
+
+---
+id: cp:apple1-14
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x739e0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x739d0000 ]
+
+---
+id: cp:apple1-14-
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x739f0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x739c0000 ]
+
+---
+id: cp:arrowwood4-12
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70160000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70170000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70180000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70190000 ]
+
+---
+id: cp:ash
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68960000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68970000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68980000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x68990000 ]
+
+---
+id: cp:aspen1-17
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70290000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x702a0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x702b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x702c0000 ]
+
+---
+id: cp:aspen7-111
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x726e0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x726f0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72700000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72710000 ]
+
+---
+id: cp:azalea2-9
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72720000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72730000 ]
+
+---
+id: cp:bayberry1-7
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70500000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70510000 ]
+
+---
+id: cp:beech01
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x682f0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68300000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68310000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x68320000 ]
+
+---
+id: cp:beech03
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x683b0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x683c0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x683d0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x683e0000 ]
+
+---
+id: cp:big-jeroni-maple
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68620000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68630000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68640000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x68650000 ]
+
+---
+id: cp:black-willow1-81
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x71690000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x716a0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x716b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x716c0000 ]
+
+---
+id: cp:blueberry1-51
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72830000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72840000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72850000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72860000 ]
+
+---
+id: cp:brittlebrush1
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x71940000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71950000 ]
+
+---
+id: cp:buttonbush1-16
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x71650000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x71660000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x71670000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71680000 ]
+
+---
+id: cp:buttonbush3-17
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x74310000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x74300000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x74320000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x74330000 ]
+
+---
+id: cp:cattail1-5
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70370000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70380000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70390000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x703a0000 ]
+
+---
+id: cp:cherry04
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x683f0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68400000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68410000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x68420000 ]
+
+---
+id: cp:cord-grass
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x71710000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71720000 ]
+
+---
+id: cp:dogwood-shrub3-6
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x700a0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x700b0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x700c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x700d0000 ]
+
+---
+id: cp:dogwood-tree2-19
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70060000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70070000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70080000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70090000 ]
+
+---
+id: cp:dogwood2-41
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x725f0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72600000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72610000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72620000 ]
+
+---
+id: cp:dogwood3-61
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72630000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72640000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72650000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72660000 ]
+
+---
+id: cp:dogwood4-141
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72670000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72680000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72690000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x726a0000 ]
+
+---
+id: cp:eng-oak6j
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x692c0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x692d0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x692e0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x692f0000 ]
+
+---
+id: cp:ennedi-cactus
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x71910000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71920000 ]
+
+---
+id: cp:gooseberry1-131
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x71750000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x71760000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x71770000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71780000 ]
+
+---
+id: cp:gooseberry3-14
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x74280000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x74290000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x742a0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x742b0000 ]
+
+---
+id: cp:ground-poplar5
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70250000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70260000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70270000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70280000 ]
+
+---
+id: cp:hackberry1-11
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x703b0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x703c0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x703d0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x703e0000 ]
+
+---
+id: cp:hickory09
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68330000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68340000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68350000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x68360000 ]
+
+---
+id: cp:hickory1-2
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x73f90000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x73fa0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x73fb0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x73fc0000 ]
+
+---
+id: cp:hippowalla
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x71790000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x717a0000 ]
+
+---
+id: cp:hornbeam-b03
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68370000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68380000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68390000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x683a0000 ]
+
+---
+id: cp:locust-3-131
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x691e0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x691f0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x69200000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x69210000 ]
+
+---
+id: cp:magnolia1-16
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x717c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x717d0000 ]
+
+---
+id: cp:maple05
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68430000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68440000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68450000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x68460000 ]
+
+---
+id: cp:maple9-121
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72ab0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72ac0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72ad0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72ae0000 ]
+
+---
+id: cp:maple9-141
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72a70000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72a80000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72a90000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72aa0000 ]
+
+---
+id: cp:maple9-161
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72af0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72b00000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72b10000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72b20000 ]
+
+---
+id: cp:mesquite1-l
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x69390000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x693a0000 ]
+
+---
+id: cp:mesquite6f
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x704d0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x704e0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x704f0000 ]
+
+---
+id: cp:ocotillo3a
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x693d0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x693e0000 ]
+
+---
+id: cp:olive1-1
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x72450000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x724d0000 ]
+
+---
+id: cp:olive2-12
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x72470000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x724e0000 ]
+
+---
+id: cp:olive2-5
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x72490000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x724f0000 ]
+
+---
+id: cp:olive3-15
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x724a0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72500000 ]
+
+---
+id: cp:olive3-23
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x724b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72510000 ]
+
+---
+id: cp:olive3-4
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x724c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72520000 ]
+
+---
+id: cp:organ-pipe-cactus
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x718f0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71900000 ]
+
+---
+id: cp:palo-verde6a
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x718d0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x718e0000 ]
+
+---
+id: cp:plum10
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68500000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68510000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68520000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x68530000 ]
+
+---
+id: cp:poplar11
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68540000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68550000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68560000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x68570000 ]
+
+---
+id: cp:pygmy-nut1-111
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x727a0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x727b0000 ]
+
+---
+id: cp:pygmy-nut1-13
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x717e0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x717f0000 ]
+
+---
+id: cp:pygmy-nut1-151
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x727c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x727d0000 ]
+
+---
+id: cp:red-oak3-111
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72570000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72580000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72590000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x725a0000 ]
+
+---
+id: cp:red-oak3-71
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x725b0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x725c0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x725d0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x725e0000 ]
+
+---
+id: cp:red-oak3-9
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x701a0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x701b0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x701c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x701d0000 ]
+
+---
+id: cp:rhododendron
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x69360000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x69370000 ]
+
+---
+id: cp:river-birch08
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68480000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68490000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x684a0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x684b0000 ]
+
+---
+id: cp:serviceberry8b
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70430000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70440000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70450000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70460000 ]
+
+---
+id: cp:shaded-alder3-121
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72c80000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72c90000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72ca0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72cb0000 ]
+
+---
+id: cp:shaded-buttonbush2-91
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x73120000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x73130000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x73140000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x73150000 ]
+
+---
+id: cp:shaded-bwillow5-5
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72c50000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72c60000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72c70000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72d20000 ]
+
+---
+id: cp:shaded-dogwood-tree3-131
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72fa0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72fb0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72fc0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72fd0000 ]
+
+---
+id: cp:shaded-dogwood2-11
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72c10000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72c20000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72c30000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72c40000 ]
+
+---
+id: cp:shaded-gooseberry2-91
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x730e0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x730f0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x73100000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x73110000 ]
+
+---
+id: cp:shaded-ground-poplar2-12
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x74090000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x740a0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x740b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x740c0000 ]
+
+---
+id: cp:shaded-maple9a-10
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x74050000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x74060000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x74070000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x74080000 ]
+
+---
+id: cp:shaded-maple9a-51
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72fe0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72ff0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x73000000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x73010000 ]
+
+---
+id: cp:shaded-red-oak-shrub6-171
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x73020000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x73030000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x73040000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x73050000 ]
+
+---
+id: cp:shaded-serviceberry6a2
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72cc0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72cd0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72ce0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72cf0000 ]
+
+---
+id: cp:shaded-stewartia1-21
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x730a0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x730b0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x730c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x730d0000 ]
+
+---
+id: cp:shaded-sumac1-11
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72f60000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72f70000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72f80000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72f90000 ]
+
+---
+id: cp:shaded-sweetgum3-11
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x73060000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x73070000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x73080000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x73090000 ]
+
+---
+id: cp:shaded-sycamore1-31
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72f20000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72f30000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72f40000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72f50000 ]
+
+---
+id: cp:shrub-q3-13
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70210000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70220000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70230000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70240000 ]
+
+---
+id: cp:sprawly-shrub
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x68670000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x68680000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x68690000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x686a0000 ]
+
+---
+id: cp:stewartia1-14
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70520000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70560000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70650000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70660000 ]
+
+---
+id: cp:street-bad-maple3-14
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x700e0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x700f0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70100000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70110000 ]
+
+---
+id: cp:street-broom-tree2-171
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70120000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70130000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70140000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70150000 ]
+
+---
+id: cp:street-cwillow
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x703f0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70400000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70410000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70420000 ]
+
+---
+id: cp:street-hickory1-10
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x73fd0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x73fe0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x73ff0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x74000000 ]
+
+---
+id: cp:street-hickory1-19
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x702d0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x702e0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x702f0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70300000 ]
+
+---
+id: cp:street-hickory1-8
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x74160000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x74170000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x74180000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x74190000 ]
+
+---
+id: cp:street-locust4-19
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70310000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70320000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70330000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70340000 ]
+
+---
+id: cp:street-locust5-12
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x74120000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x74130000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x74140000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x74150000 ]
+
+---
+id: cp:street-western-larch
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x709b0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x709c0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x709d0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x709e0000 ]
+
+---
+id: cp:sumac1-6
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x742c0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x742d0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x742e0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x742f0000 ]
+
+---
+id: cp:sumac1-91
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x716d0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x716e0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x716f0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x71700000 ]
+
+---
+id: cp:sweetgum1-1
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x705d0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x705e0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x705f0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70600000 ]
+
+---
+id: cp:sweetgum3-191
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72b30000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72b40000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72b50000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x72b60000 ]
+
+---
+id: cp:sycamore1-1
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70610000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70620000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x70630000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x70640000 ]
+
+---
+id: cp:tamarack2-7
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x69280000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x69290000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x692a0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x692b0000 ]
+
+---
+id: cp:tiger-fern1-10
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: summer
+    model: [ 0xe274fb2, 0x718b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x718c0000 ]
+
+---
+id: cp:tupelo2-12
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x71990000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x719a0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x719b0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x719c0000 ]
+
+---
+id: cp:vib1
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x69300000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x69310000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x69320000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x69330000 ]
+
+---
+id: cp:wheat-a
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72dd0000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72de0000 ]
+
+---
+id: cp:wheat-b
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72e00000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72e10000 ]
+
+---
+id: cp:wheat-c
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72e40000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72e50000 ]
+
+---
+id: cp:wild-azalea1-8
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x70980000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x70990000 ]
+
+---
+id: cp:woods-shrub1-111
+package: bsc:mega-props-cp-vol02
+type: prop
+models:
+  - season: spring
+    model: [ 0xe274fb2, 0x72870000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x72880000 ]
+  - season: fall
+    model: [ 0xe274fb2, 0x72890000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x728a0000 ]
+
+---
 id: girafe:abies-grandis-a-flora
 package: girafe:abies-grandis
 type: flora
