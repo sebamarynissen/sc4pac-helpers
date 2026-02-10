@@ -3538,3 +3538,73 @@ models:
     model: [ 0xfbd85222, 0x30000 ]
   - season: winter
     model: [ 0x7bd85205, 0x30000 ]
+
+---
+id: t-wrecks:maxis-hd-replacement-ash-c-prop
+package: t-wrecks:maxis-tree-hd-replacement-mod
+models:
+  - season: summer
+    model: [ 0x1db9ac86, 0x10030000 ]
+  - season: fall
+    model: [ 0x1dbaacdf, 0x10030000 ]
+  - season: winter
+    model: [ 0x7dbab5dc, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-hd-replacement-ash-f-prop
+package: t-wrecks:maxis-tree-hd-replacement-mod
+models:
+  - season: summer
+    model: [ 0x9db9b6d4, 0x10030000 ]
+  - season: fall
+    model: [ 0x7dbaa3d2, 0x10030000 ]
+  - season: winter
+    model: [ 0xfdbb019f, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-hd-replacement-beech-b-prop
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    model: [ 0xa21d8cda, 0x10030000 ]
+  - season: fall
+    model: [ 0x5fcf6721, 0x10030000 ]
+  - season: winter
+    model: [ 0xc1b7faf6, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-hd-replacement-beech-c-prop
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    model: [ 0x821d8d70, 0x10030000 ]
+  - season: fall
+    model: [ 0x3fcf651c, 0x10030000 ]
+  - season: winter
+    model: [ 0x41b7fb51, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-hd-replacement-rowan-tree-e-prop
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    model: [ 0x22806eb2, 0x10030000 ]
+  - season: fall
+    model: [ 0xc280e9f7, 0x10030000 ]
+  - season: winter
+    model: [ 0x2807938, 0x10030000 ]
+
+---
+id: t-wrecks:maxis-hd-replacement-linden-f-prop
+package: t-wrecks:maxis-tree-hd-replacement-mod
+type: prop
+models:
+  - season: summer
+    model: [ 0xa07ecec7, 0x10030000 ]
+  - season: fall
+    model: [ 0x40a671c1, 0x10030000 ]
+  - season: winter
+    model: [ 0xe0a66655, 0x10030000 ]
