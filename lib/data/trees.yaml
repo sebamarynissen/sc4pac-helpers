@@ -2002,8 +2002,10 @@ type: flora
 models:
   - season: summer
     model: [ 0xd9f00412, 0x130000 ]
-  - season: evergreen
+  - season: fall
     model: [ 0xd9f00412, 0x110000 ]
+  - season: winter
+    model: [ 0xd9f00412, 0x120000 ]
 
 ---
 id: girafe:maple-a-prop
@@ -2038,8 +2040,10 @@ type: flora
 models:
   - season: summer
     model: [ 0xb9f008ba, 0x130000 ]
-  - season: evergreen
+  - season: fall
     model: [ 0xb9f008ba, 0x110000 ]
+  - season: winter
+    model: [ 0xb9f008ba, 0x120000 ]
 
 ---
 id: girafe:maple-b-prop
@@ -2074,8 +2078,10 @@ type: flora
 models:
   - season: summer
     model: [ 0x19f00eaa, 0x130000 ]
-  - season: evergreen
+  - season: fall
     model: [ 0x19f00eaa, 0x110000 ]
+  - season: winter
+    model: [ 0x19f00eaa, 0x120000 ]
 
 ---
 id: girafe:maple-c-prop
@@ -2110,8 +2116,10 @@ type: flora
 models:
   - season: summer
     model: [ 0xf9effc6a, 0x130000 ]
-  - season: evergreen
+  - season: fall
     model: [ 0xf9effc6a, 0x110000 ]
+  - season: winter
+    model: [ 0xf9effc6a, 0x120000 ]
 
 ---
 id: girafe:maple-d-prop
@@ -2146,8 +2154,10 @@ type: flora
 models:
   - season: summer
     model: [ 0xf9f01459, 0x130000 ]
-  - season: evergreen
+  - season: fall
     model: [ 0xf9f01459, 0x110000 ]
+  - season: winter
+    model: [ 0xf9f01459, 0x120000 ]
 
 ---
 id: girafe:maple-e-prop
