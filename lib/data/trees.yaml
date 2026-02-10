@@ -630,20 +630,14 @@ id: cp:apple1-14
 package: bsc:mega-props-cp-vol02
 type: prop
 models:
-  - season: summer
-    model: [ 0xe274fb2, 0x739e0000 ]
-  - season: winter
-    model: [ 0xe274fb2, 0x739d0000 ]
-
----
-id: cp:apple1-14-
-package: bsc:mega-props-cp-vol02
-type: prop
-models:
   - season: spring
     model: [ 0xe274fb2, 0x739f0000 ]
+  - season: summer
+    model: [ 0xe274fb2, 0x739e0000 ]
   - season: fall
     model: [ 0xe274fb2, 0x739c0000 ]
+  - season: winter
+    model: [ 0xe274fb2, 0x739d0000 ]
 
 ---
 id: cp:arrowwood4-12

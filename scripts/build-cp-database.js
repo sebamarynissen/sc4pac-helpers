@@ -97,7 +97,8 @@ await build('bsc:mega-props-cp-vol0*', {
 					.replace('valley-oak-15x15x22', 'oak-b')
 					.replace('oak-12x12x15', 'oak-c')
 					.replace('cottonwood-10x10x27', 'cottonwood-sm')
-					.replace('shaded-maple-shaded9a-51', 'shaded-maple9a-51');
+					.replace('shaded-maple-shaded9a-51', 'shaded-maple9a-51')
+					.replace(/-+$/, '');
 				return id;
 			});
 		const unique = new Set(ids);
