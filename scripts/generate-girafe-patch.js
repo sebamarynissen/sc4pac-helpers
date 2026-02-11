@@ -197,3 +197,10 @@ await generate('bsc:mega-props-cp-vol0*', {
 		return false;
 	},
 });
+
+// Generate a patch for the CETC as well. Note that we need to generate a patch 
+// for both the seasonal as evergreen variants, but for the vergreen variants 
+// we only need 1.
+await generate('11241036:central-european-tree-controller', {
+	...opts,
+});
