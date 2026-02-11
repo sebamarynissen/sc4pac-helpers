@@ -5732,3 +5732,551 @@ models:
     model: [ 0x40a671c1, 0x10030000 ]
   - season: winter
     model: [ 0xe0a66655, 0x10030000 ]
+
+---
+id: vip:or-corylus01
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x19ad637c, 0x30000 ]
+  - season: summer
+    model: [ 0x59ad6059, 0x30000 ]
+  - season: fall
+    model: [ 0xb9ad6901, 0x30000 ]
+  - season: winter
+    model: [ 0x39ad6d72, 0x30000 ]
+
+---
+id: vip:or-narcissus01
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x1ac8d152, 0x30000 ]
+  - season: summer
+    model: [ 0x7ac8d2aa, 0x30000 ]
+  - season: winter
+    model: [ 0x0, 0x0 ]
+
+---
+id: vip:or-narcissus02
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0xfac8c21d, 0x30000 ]
+  - season: summer
+    model: [ 0x5ac8c3c4, 0x30000 ]
+  - season: winter
+    model: [ 0x0, 0x0 ]
+
+---
+id: vip:or-narcissus03
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x9ac8d3c6, 0x30000 ]
+  - season: summer
+    model: [ 0xfac8d47a, 0x30000 ]
+  - season: winter
+    model: [ 0x0, 0x0 ]
+
+---
+id: vip:or-narcissus04
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0xbac8c470, 0x30000 ]
+  - season: summer
+    model: [ 0x5ac8c642, 0x30000 ]
+  - season: winter
+    model: [ 0x0, 0x0 ]
+
+---
+id: vip:or-narcissus05
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0xfac8cc15, 0x30000 ]
+  - season: summer
+    model: [ 0x1ac8d0df, 0x30000 ]
+  - season: winter
+    model: [ 0x0, 0x0 ]
+
+---
+id: vip:or-populus01
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0xdac2413b, 0x30000 ]
+  - season: summer
+    model: [ 0xbac23b47, 0x30000 ]
+  - season: fall
+    model: [ 0x5ac240f2, 0x30000 ]
+  - season: winter
+    model: [ 0x9ac2463e, 0x30000 ]
+
+---
+id: vip:or-populus02
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0xfabf9e4f, 0x30000 ]
+  - season: summer
+    model: [ 0x7abf9de9, 0x30000 ]
+  - season: fall
+    model: [ 0xdabf9f5e, 0x30000 ]
+  - season: winter
+    model: [ 0xdabfa08e, 0x30000 ]
+
+---
+id: vip:or-populus03
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x1ac19af3, 0x30000 ]
+  - season: summer
+    model: [ 0x3ac1984a, 0x30000 ]
+  - season: fall
+    model: [ 0xfac1e8c9, 0x30000 ]
+  - season: winter
+    model: [ 0xfac1fb21, 0x30000 ]
+
+---
+id: vip:or-populus04
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x7ac19d68, 0x30000 ]
+  - season: summer
+    model: [ 0x7ac19c28, 0x30000 ]
+  - season: fall
+    model: [ 0xfac1e887, 0x30000 ]
+  - season: winter
+    model: [ 0x7ac1ea9c, 0x30000 ]
+
+---
+id: vip:or-vip-corylus01
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x19ad637c, 0x30000 ]
+  - season: fall
+    model: [ 0xb9ad6901, 0x30000 ]
+  - season: winter
+    model: [ 0x39ad6d72, 0x30000 ]
+
+---
+id: vip:or-vip-populus01
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0xbac23b47, 0x30000 ]
+  - season: fall
+    model: [ 0x5ac240f2, 0x30000 ]
+  - season: winter
+    model: [ 0x9ac2463e, 0x30000 ]
+
+---
+id: vip:or-vip-populus02
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x7abf9de9, 0x30000 ]
+  - season: fall
+    model: [ 0xdabf9f5e, 0x30000 ]
+  - season: winter
+    model: [ 0xdabfa08e, 0x30000 ]
+
+---
+id: vip:or-vip-populus03
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x3ac1984a, 0x30000 ]
+  - season: fall
+    model: [ 0xfac1e8c9, 0x30000 ]
+  - season: winter
+    model: [ 0xfac1fb21, 0x30000 ]
+
+---
+id: vip:or-vip-populus04
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x7ac19c28, 0x30000 ]
+  - season: fall
+    model: [ 0xfac1e887, 0x30000 ]
+  - season: winter
+    model: [ 0x7ac1ea9c, 0x30000 ]
+
+---
+id: vip:r6-vip-iris-des-marais01
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0xbb174aa9, 0x30000 ]
+  - season: fall
+    model: [ 0xbb174aa9, 0x30000 ]
+  - season: winter
+    model: [ 0x9b174f15, 0x30000 ]
+
+---
+id: vip:r6-vip-iris-des-marais02
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x7b175f5d, 0x30000 ]
+  - season: fall
+    model: [ 0x7b175f5d, 0x30000 ]
+  - season: winter
+    model: [ 0x7b175eed, 0x30000 ]
+
+---
+id: vip:r6-vip-iris-des-marais03
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x3b174e27, 0x30000 ]
+  - season: fall
+    model: [ 0x3b174e27, 0x30000 ]
+  - season: winter
+    model: [ 0x5b174ff1, 0x30000 ]
+
+---
+id: vip:vv-fern-001
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0x38899245, 0x30000 ]
+  - season: winter
+    model: [ 0xfa62c02b, 0x30000 ]
+
+---
+id: vip:vv-fern-002
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0x98899277, 0x30000 ]
+  - season: winter
+    model: [ 0xda62c059, 0x30000 ]
+
+---
+id: vip:vv-fern-003
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0x188992d5, 0x30000 ]
+  - season: winter
+    model: [ 0xda62c08c, 0x30000 ]
+
+---
+id: vip:vv-fern-004
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0x988993a1, 0x30000 ]
+  - season: winter
+    model: [ 0x5a62c0d4, 0x30000 ]
+
+---
+id: vip:vv-fern-005
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0xfbb96da2, 0x30000 ]
+  - season: winter
+    model: [ 0x7a62be49, 0x30000 ]
+
+---
+id: vip:vv-fern-006
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0xfa6058ce, 0x30000 ]
+  - season: winter
+    model: [ 0xfa62c143, 0x30000 ]
+
+---
+id: vip:vv-genets-001
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0x78d109af, 0x30000 ]
+  - season: winter
+    model: [ 0xfb90f21c, 0x30000 ]
+
+---
+id: vip:vv-genets-002
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0x38d10a89, 0x30000 ]
+  - season: winter
+    model: [ 0xba6d639f, 0x30000 ]
+
+---
+id: vip:vv-genets-003
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0x5a6d6f3b, 0x30000 ]
+  - season: winter
+    model: [ 0xfa6d718a, 0x30000 ]
+
+---
+id: vip:vv-ploppable-genet01
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x78d109af, 0x30000 ]
+  - season: fall
+    model: [ 0xfb90f21c, 0x30000 ]
+  - season: winter
+    model: [ 0xfb90f21c, 0x30000 ]
+
+---
+id: vip:vv-ploppable-genet02
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x38d10a89, 0x30000 ]
+  - season: fall
+    model: [ 0xba6d639f, 0x30000 ]
+  - season: winter
+    model: [ 0xba6d639f, 0x30000 ]
+
+---
+id: vip:vv-ploppable-genet03
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x5a6d6f3b, 0x30000 ]
+  - season: fall
+    model: [ 0xfa6d718a, 0x30000 ]
+  - season: winter
+    model: [ 0xfa6d718a, 0x30000 ]
+
+---
+id: vip:vv-tree-001
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0xf979929a, 0x30000 ]
+  - season: summer
+    model: [ 0x99794909, 0x30000 ]
+  - season: fall
+    model: [ 0xd979699c, 0x30000 ]
+  - season: winter
+    model: [ 0xd9799604, 0x30000 ]
+  - season: snow
+    model: [ 0xdb3efa4b, 0x30000 ]
+
+---
+id: vip:vv-tree-002
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x9977155a, 0x30000 ]
+  - season: summer
+    model: [ 0x5978136f, 0x30000 ]
+  - season: fall
+    model: [ 0xd97af5d5, 0x30000 ]
+  - season: winter
+    model: [ 0x39782f1b, 0x30000 ]
+  - season: snow
+    model: [ 0x1b3f1a62, 0x30000 ]
+
+---
+id: vip:vv-tree-003
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x997857b4, 0x30000 ]
+  - season: summer
+    model: [ 0x79787d84, 0x30000 ]
+  - season: fall
+    model: [ 0xd97852b1, 0x30000 ]
+  - season: winter
+    model: [ 0x19789865, 0x30000 ]
+  - season: snow
+    model: [ 0xbb3f0f3e, 0x30000 ]
+
+---
+id: vip:vv-tree-004
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x38513cdf, 0x30000 ]
+  - season: summer
+    model: [ 0x59734b07, 0x30000 ]
+  - season: fall
+    model: [ 0x79745a73, 0x30000 ]
+  - season: winter
+    model: [ 0xf9745833, 0x30000 ]
+  - season: snow
+    model: [ 0x3b3f2a22, 0x30000 ]
+
+---
+id: vip:vv-tree-005
+package: vip:rural-pack
+type: prop
+models:
+  - season: summer
+    model: [ 0xf975baa0, 0x30000 ]
+  - season: fall
+    model: [ 0x3975c1ce, 0x30000 ]
+  - season: winter
+    model: [ 0xd975d7d4, 0x30000 ]
+  - season: snow
+    model: [ 0xbb8f9fd5, 0x30000 ]
+
+---
+id: vip:vv-tree-006
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0x78c76f36, 0x30000 ]
+  - season: summer
+    model: [ 0xf8c74a82, 0x30000 ]
+  - season: fall
+    model: [ 0xf8c77245, 0x30000 ]
+  - season: winter
+    model: [ 0xb8c77e21, 0x30000 ]
+  - season: snow
+    model: [ 0xdb8fab97, 0x30000 ]
+
+---
+id: vip:vv-tree-007
+package: vip:rural-pack
+type: prop
+models:
+  - season: spring
+    model: [ 0xba1be0d6, 0x30000 ]
+  - season: summer
+    model: [ 0xfa1be3be, 0x30000 ]
+  - season: fall
+    model: [ 0x1a1bd9c1, 0x30000 ]
+  - season: winter
+    model: [ 0xda1be726, 0x30000 ]
+  - season: snow
+    model: [ 0x7a38cedd, 0x30000 ]
+
+---
+id: vip:vv-tree-01
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0xf8c74a82, 0x30000 ]
+  - season: fall
+    model: [ 0xf8c77245, 0x30000 ]
+  - season: winter
+    model: [ 0xb8c77e21, 0x30000 ]
+
+---
+id: vip:vv-tree-02
+package: vip:rural-pack
+type: flora
+models:
+  - season: spring
+    model: [ 0x9977155a, 0x30000 ]
+  - season: summer
+    model: [ 0x5978136f, 0x30000 ]
+  - season: fall
+    model: [ 0xd97af5d5, 0x30000 ]
+  - season: winter
+    model: [ 0x39782f1b, 0x30000 ]
+
+---
+id: vip:vv-tree-03
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x99794909, 0x30000 ]
+  - season: fall
+    model: [ 0xd979699c, 0x30000 ]
+  - season: winter
+    model: [ 0xd9799604, 0x30000 ]
+
+---
+id: vip:vv-tree-04
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0xfa1be3be, 0x30000 ]
+  - season: fall
+    model: [ 0x1a1bd9c1, 0x30000 ]
+  - season: winter
+    model: [ 0xda1be726, 0x30000 ]
+
+---
+id: vip:vv-tree-05
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x59734b07, 0x30000 ]
+  - season: fall
+    model: [ 0x79745a73, 0x30000 ]
+  - season: winter
+    model: [ 0xf9745833, 0x30000 ]
+
+---
+id: vip:vv-tree-06
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0x79787d84, 0x30000 ]
+  - season: fall
+    model: [ 0xd97852b1, 0x30000 ]
+  - season: winter
+    model: [ 0x19789865, 0x30000 ]
+
+---
+id: vip:vv-tree-07
+package: vip:rural-pack
+type: flora
+models:
+  - season: summer
+    model: [ 0xf975baa0, 0x30000 ]
+  - season: fall
+    model: [ 0x3975c1ce, 0x30000 ]
+  - season: winter
+    model: [ 0xd975d7d4, 0x30000 ]

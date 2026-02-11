@@ -124,6 +124,38 @@ for (const { dbpf, fullPath } of patches) {
 	await dbpf.save(fullPath);
 }
 
+// Generate a patch for the rural pack
+await generate('vip:rural-pack', {
+	...opts,
+	filter({ exemplar }) {
+		const type = exemplar.get('ExemplarType');
+		const name = exemplar.get('ExemplarName');
+		if (name.includes('Tree')) return true;
+		if (name.match(/_(winter|hivers?|spring|summer|fall|autumn|ete)/i)) {
+			return true;
+		}
+
+		// Some flora is seasonal, but isn't tagged as such.
+		if (type === 0x0f) {
+			if (name.match(/^VIP_RP-FL_Or_Narcissus\d+/)) return true;
+			if (name.match(/^VV_TSC_ploppable_Fougere\d+/)) return true;
+			if (name.match(/^R6_VIP_Iris des Marais\d+/)) return true;
+			if (name.match(/^Or_VIP_Populus\d+/)) return true;
+			if (name.match(/^Or_VIP_Corylus\d+/)) return true;
+			if (name.match(/^VV_VIP_ploppable_Genet\d+/)) return true;
+		}
+		return false;
+	},
+	choose(families, { exemplar }) {
+		const name = exemplar.get('ExemplarName');
+		const match = name.match(/_Narcissus(\d+)/);
+		if (match) {
+			const nr = match[1];
+			return families.find(({ id }) => id.includes(`narcissus${nr}`));
+		}
+	},
+});
+
 // Generate a patch for 11241036:vip-trees-as-props as well. In this case, we 
 // only need to handle the Aesculus and Fagus, as those are the only seasonal 
 // ones.
