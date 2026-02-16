@@ -14,8 +14,6 @@ fs.rmSync(String.raw`C:\Users\sebam\Documents\SimCity 4\Plugins\849-my-overrides
 const cwd = path.resolve(import.meta.dirname, '../packages/Girafe');
 const opts = {
 	cwd,
-	// seasons: ['summer'],
-	// labels: true,
 };
 
 const db = new TreeDatabase();
@@ -58,7 +56,6 @@ await generate([
 		}
 		return true;
 	},
-	labels: true,
 });
 
 // Handle mgb204:mmp-pack-vol2 which adds some of Girafes props as flora as 
@@ -74,7 +71,6 @@ await generate('mgb204:mmp-pack-vol2', {
 		}
 		return true;
 	},
-	labels: true,
 });
 
 // Handle t-wrecks:maxis-tree-hd-replacement-mod. Note that this one is a bit 
